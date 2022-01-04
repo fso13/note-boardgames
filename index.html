@@ -56,12 +56,12 @@
         newElement2.className = "fancybox";
 
         s = "";
-        for (let i = 0; i <= 800; ++i) {
-            s += '<img width="90%" style="max-height: 100px" href="https://raw.githubusercontent.com/fso13/note-boardgames/master/img/' + notes[c].id + "/img_" + i + ".png\"><br />";
+        for (var f in notes[c].files) {
+            s += '<div style="width:50%; padding: 10px; float: left;"><img width="90%" src="'+notes[c].files[f]+'"></div>';
         }
 
         newElement2.innerHTML = "<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n" +
-            "    <div class=\"modal-dialog\" role=\"document\">\n" +
+            "    <div class=\"modal-dialog modal-lg\" role=\"document\">\n" +
             "        <div class=\"modal-content\">\n" +
             "            <div class=\"modal-header\">\n" +
             "                <h5 class=\"modal-title\" id=\"exampleModalLabel\">" + notes[c].title + "</h5>\n" +
@@ -69,7 +69,7 @@
             "                    <span aria-hidden=\"true\">&times;</span>\n" +
             "                </button>\n" +
             "            </div>\n" +
-            "            <div class=\"modal-body\">\n" + s + notes[c].content +
+            "            <div class=\"modal-body\">\n" + "<div  style=\"float: left;\">"+ notes[c].content +"</div>"+"<div>"+s +"</div>"+
             "            </div>\n" +
             "            <div class=\"modal-footer\">\n" +
             "            </div>\n" +
