@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script data-ad-client="ca-pub-2005414424825102" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-13ZXZEL9Y2"></script>
+
+    <script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.12/dist/css/bootstrap-select.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.12/dist/js/bootstrap-select.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
+    <script src="js/note.js"></script>
+    <style>
+
+        .note {
+            border: 1px solid;
+            border-radius: 8px;
+            width: 240px;
+            padding: 2px 4px;
+            overflow-x: auto;
+            margin: 16px;
+            display: block;
+            position: absolute;
+            box-shadow: 3px 3px 3px darkgrey;
+        }
+    </style>
+
+</head>
+
+<body translate="no">
+
+
+<script>
+    for (var c in notes) {
+        var newElement = document.createElement('div');
+        newElement.id = notes[c].id;
+        newElement.className = "fancybox";
+
+        newElement.innerHTML = "<div data-toggle=\"modal\" data-target=\"#exampleModal\" class='note'><p class=\"font-weight-bold\">" + notes[c].title + "</p>\n" +
+            "    <p class=\"font-weight-light\">" + notes[c].content + "</p></div>";
+        newElement.addEventListener("click", () => $("#1").fancybox())
+        document.body.appendChild(newElement);
+
+
+        var newElement2 = document.createElement('div');
+        newElement2.id = notes[c].id;
+        newElement2.className = "fancybox";
+
+        s = "";
+        for (let i = 0; i <= 800; ++i) {
+            s += '<img width="90%" style="max-height: 100px" href="localhost:63342/note-boardgames/img/' + notes[c].id + "/img_" + i + ".png\"><br />";
+        }
+
+        newElement2.innerHTML = "<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n" +
+            "    <div class=\"modal-dialog\" role=\"document\">\n" +
+            "        <div class=\"modal-content\">\n" +
+            "            <div class=\"modal-header\">\n" +
+            "                <h5 class=\"modal-title\" id=\"exampleModalLabel\">" + notes[c].title + "</h5>\n" +
+            "                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n" +
+            "                    <span aria-hidden=\"true\">&times;</span>\n" +
+            "                </button>\n" +
+            "            </div>\n" +
+            "            <div class=\"modal-body\">\n" + s + notes[c].content +
+            "            </div>\n" +
+            "            <div class=\"modal-footer\">\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "    </div>\n" +
+            "</div>";
+        document.body.appendChild(newElement2);
+    }
+
+</script>
+</body>
+</html>
