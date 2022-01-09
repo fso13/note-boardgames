@@ -47,11 +47,43 @@
 </head>
 
 <body translate="no">
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <img src="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg?size=100x100&quality=96&crop=20,20,503,503&ava=1"
+                         alt="hugenerd" width="100" height="100" class="rounded-circle">
 
+                    <span class="fs-5 d-none d-sm-inline">Бардовский университет</span>
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span
+                                class="ms-1 d-none d-sm-inline">Стартовая страница</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#submenu3" data-bs-toggle="collapse"
+                           class="nav-link px-0 align-middle dropdown-toggle">
+                            <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Теги</span> </a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="contentSlider" class="col py-3">
+
+        </div>
+    </div>
+</div>
 <script>
     var main = document.createElement("div");
     main.className = "bg-secondary";
-    document.body.appendChild(main);
+    document.getElementById("contentSlider").appendChild(main);
+    const setTags = new Set();
 
     for (var c in notes) {
         var newElement2 = document.createElement('div');
@@ -64,7 +96,8 @@
 
         tags = "";
         for (var tag in notes[c].tags) {
-            tags += '<a href="#'+notes[c].tags[tag]+'" class="text-decoration-none font-weight-light" className="link-primary">' + notes[c].tags[tag] + '</a><br>';
+            setTags.add(notes[c].tags[tag]);
+            tags += '<a href="#' + notes[c].tags[tag] + '" class="text-decoration-none font-weight-light" className="link-primary">' + notes[c].tags[tag] + '</a><br>';
         }
 
         newElement2.innerHTML = "<div  class=\"modal fade\" id=\"exampleModal" + notes[c].id + "\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n" +
@@ -78,19 +111,32 @@
             "            </div>\n" +
             "            <div class=\"modal-body\">\n" + "<div  style=\"padding: 10px; float: left;\">" + notes[c].content + "</div>" + "<div>" + files + "</div>" +
             "            </div>\n" +
-            "            <div class=\"modal-footer\">\n" +tags+
+            "            <div class=\"modal-footer\">\n" + tags +
             "            </div>\n" +
             "        </div>\n" +
             "    </div>\n" +
             "</div>";
 
+        var imgs = "";
+
+        notes[c].files.forEach(function (item) {
+            imgs += '<div style="padding: 5px;height:45%; width:45%; display: block;float: left">' +
+                '<img width="100%" loading="lazy" src="' + item + '">' +
+                '</div>';
+
+        });
+
         var newElement = document.createElement('div');
         newElement.id = notes[c].id;
         newElement.className = "note";
         newElement.style = style = 'padding: 10px; float: left;';
-        newElement.innerHTML = "<div data-toggle=\"modal\" data-target=\"#exampleModal" + notes[c].id + "\"><p class=\"font-weight-bold\">" + notes[c].title + "</p>\n" +
-            "    <hr><p class=\"font-weight-normal\">" + notes[c].content + "</p>" +
-            '<hr><div>'+tags+'</div>'+
+        newElement.innerHTML = "<div data-toggle=\"modal\" data-target=\"#exampleModal" + notes[c].id + "\">" +
+            "<p class=\"font-weight-bold\">" + notes[c].title + "</p>" +
+            "<div class=\"font-weight-normal\">" + imgs +
+            "</div>" +
+            "<hr>" +
+            "<div class=\"font-weight-normal\">" + notes[c].content + "</div>" +
+            '<div>' + tags + '</div>' +
             "</div>";
         newElement.addEventListener("click", () => newElement2.fancybox());
         main.appendChild(newElement);
@@ -98,7 +144,14 @@
 
         document.body.appendChild(newElement2);
     }
+    console.log(setTags);
 
+    setTags.forEach(function (item) {
+        console.log(item);
+        var submenu = document.createElement("li");
+        submenu.innerHTML = '<a href="#' + item + '" class"nav-link px-0"> <span class=" text-decoration-none font-weight-light d-none d-sm-inline">' + item + '</a>';
+        document.getElementById("submenu3").appendChild(submenu);
+    });
 </script>
 </body>
 </html>

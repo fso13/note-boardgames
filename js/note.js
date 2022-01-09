@@ -6,7 +6,7 @@ var notes = [
             "Круто что одна коробка до 4-ех человек.</br>" +
             "Вечер ктулху продолжился новый сценарием Особняков.</br>" +
             "Сыщики смогли защитить семью пожруги, и заточить монстра.",
-        tags: ["Особняки безумия", "Миры Ктулху", "Игротеки"],
+        tags: ["Особняки безумия", "Миры Ктулху"],
         files: ["https://github.com/fso13/note-boardgames/raw/master/img/100/AXTeAj0VzzI.jpg",
             "https://github.com/fso13/note-boardgames/raw/master/img/100/FZHYtHKhWec.jpg",
             "https://github.com/fso13/note-boardgames/raw/master/img/100/gDoMzSik7ro.jpg",
@@ -21,7 +21,7 @@ var notes = [
             "Ну а замки каркасона, строились по четкому плану градостроителей</br>" +
             "</br>" +
             "А еще появилась монополия)",
-        tags: ["Поселенцы", "Каркасон", "Монополия", "Игротеки"],
+        tags: ["Поселенцы", "Каркасон", "Монополия"],
         files: ["https://github.com/fso13/note-boardgames/raw/master/img/1/img_0.png",
             "https://github.com/fso13/note-boardgames/raw/master/img/1/img_1.png",
             "https://github.com/fso13/note-boardgames/raw/master/img/1/img_2.png",
