@@ -32,12 +32,10 @@
 
         .grid {
             background-color: #ffffff;
-
-
             display: grid;
             grid-gap: 10px;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            grid-auto-rows: 20px;
+            grid-auto-rows: 10px;
         }
 
         /* Non-grid specific CSS */
@@ -52,19 +50,16 @@
 
         .item {
             background-color: #ffffff;
-
         }
 
         .content {
             border: 1px solid;
             border-radius: 8px;
             width: 280px;
-            /*position: absolute;*/
             padding: 10px;
             margin: 5px;
             box-shadow: 3px 3px 3px darkgrey;
             background-color: #ffffff;
-
         }
 
     </style>
@@ -76,7 +71,7 @@
     <div class="row flex-nowrap">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <a href="/note-boardgames/index.html" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                     <img src="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg?size=100x100&quality=96&crop=20,20,503,503&ava=1"
                          alt="hugenerd" width="100" height="100" class="rounded-circle">
 
@@ -84,7 +79,7 @@
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li class="nav-item">
-                        <a href="#" class="nav-link align-middle px-0">
+                        <a href="/note-boardgames/index.html" class="nav-link align-middle px-0">
                             <i class="fs-4 bi-house"></i> <span
                                 class="ms-1 d-none d-sm-inline">Стартовая страница</span>
                         </a>
@@ -136,37 +131,44 @@
 </script>
 
 <script>
+
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    var hash = url.searchParams.get("filter");
+
     var main = document.createElement("div");
     main.className = " grid";
     main.style = ''
     document.getElementById("contentSlider").appendChild(main);
     const setTags = new Set();
 
-    for (var c in notes) {
+    notes.filter(n => hash === null || n.tags.includes(decodeURI(hash))).forEach(function (note) {
+        console.log(note.id)
+
         var newElement2 = document.createElement('div');
-        newElement2.id = 'm_' + notes[c].id;
+        newElement2.id = 'm_' + note.id;
 
         files = "";
-        for (var file in notes[c].files) {
-            files += '<div style="width:50%; padding: 10px; float: left;"><img width="90%" loading="lazy" src="' + notes[c].files[file] + '"></div>';
+        for (var file in note.files) {
+            files += '<div style="width:50%; padding: 10px; float: left;"><img width="90%" loading="lazy" src="' + note.files[file] + '"></div>';
         }
 
         tags = "";
-        for (var tag in notes[c].tags) {
-            setTags.add(notes[c].tags[tag]);
-            tags += '<a href="#' + notes[c].tags[tag] + '" class="text-decoration-none font-weight-light" className="link-primary">' + notes[c].tags[tag] + '</a><br>';
+        for (var tag in note.tags) {
+            setTags.add(note.tags[tag]);
+            tags += '<a href="?filter=' + encodeURIComponent(note.tags[tag]) + '" class="text-decoration-none font-weight-light" className="link-primary">' + note.tags[tag] + '</a><br>';
         }
 
-        newElement2.innerHTML = "<div  class=\"modal fade\" id=\"exampleModal" + notes[c].id + "\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n" +
+        newElement2.innerHTML = "<div  class=\"modal fade\" id=\"exampleModal" + note.id + "\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n" +
             "    <div class=\"modal-dialog modal-lg\" role=\"document\">\n" +
             "        <div class=\"modal-content\">\n" +
             "            <div class=\"modal-header\">\n" +
-            "                <h5 class=\"modal-title\" id=\"exampleModalLabel\">" + notes[c].title + "</h5>\n" +
+            "                <h5 class=\"modal-title\" id=\"exampleModalLabel\">" + note.title + "</h5>\n" +
             "                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n" +
             "                    <span aria-hidden=\"true\">&times;</span>\n" +
             "                </button>\n" +
             "            </div>\n" +
-            "            <div class=\"modal-body\">\n" + "<div  style=\"padding: 10px; float: left;\">" + notes[c].content + "</div>" + "<div>" + files + "</div>" +
+            "            <div class=\"modal-body\">\n" + "<div  style=\"padding: 10px; float: left;\">" + note.content + "</div>" + "<div>" + files + "</div>" +
             "            </div>\n" +
             "            <div class=\"modal-footer\">\n" + tags +
             "            </div>\n" +
@@ -175,7 +177,7 @@
             "</div>";
 
         var imgs = "";
-        notes[c].files.forEach(function (item) {
+        note.files.forEach(function (item) {
             imgs += '<div style="margin:5px;height:110px; width:110px; display: block;float: left">' +
                 '<img width="105px" height="105px" loading="lazy"  src="' + item + '">' +
                 '</div>';
@@ -183,15 +185,15 @@
         });
 
         var newElement = document.createElement('div');
-        newElement.id = c;
+        newElement.id = note.id;
         newElement.className = "item";
 
 
-        newElement.innerHTML = "<div class='content'><div data-toggle=\"modal\" data-target=\"#exampleModal" + notes[c].id + "\">" +
-            "<p class=\"font-weight-bold\">" + notes[c].title + "</p>" +
+        newElement.innerHTML = "<div class='content'><div data-toggle=\"modal\" data-target=\"#exampleModal" + note.id + "\">" +
+            "<p class=\"font-weight-bold\">" + note.title + "</p>" +
             "<hr><div style='height: 100%;Display: flex'><div style='float: left'>" + imgs + '</div>' +
             "</div>" +
-            "<div class=\"font-weight-normal\" style='margin-top:10px;Display: flex'>" + notes[c].content + "</div>" +
+            "<div class=\"font-weight-normal\" style='margin-top:10px;Display: flex'>" + note.content + "</div>" +
             '<hr><div>' + tags + '</div>' +
             "</div></div>";
         newElement.addEventListener("click", () => newElement2.fancybox());
@@ -200,11 +202,13 @@
 
 
         document.body.appendChild(newElement2);
-    }
+
+    });
+
 
     setTags.forEach(function (item) {
         var submenu = document.createElement("li");
-        submenu.innerHTML = '<a href="#' + item + '" class"nav-link px-0"> <span class=" text-decoration-none font-weight-light d-none d-sm-inline">' + item + '</a>';
+        submenu.innerHTML = '<a href="?filter=' + encodeURIComponent(item) + '" class"nav-link px-0"> <span class=" text-decoration-none font-weight-light d-none d-sm-inline">' + item + '</a>';
         document.getElementById("submenu3").appendChild(submenu);
     });
 </script>
