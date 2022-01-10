@@ -7,7 +7,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-13ZXZEL9Y2"></script>
-
     <script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -31,15 +30,41 @@
     <script src="js/note.js"></script>
     <style>
 
-        .note {
+        .grid {
+            background-color: #ffffff;
+
+
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            grid-auto-rows: 20px;
+        }
+
+        /* Non-grid specific CSS */
+        body {
+            margin: 10px;
+            background-color: #ffffff;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 1.15em;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .item {
+            background-color: #ffffff;
+
+        }
+
+        .content {
             border: 1px solid;
             border-radius: 8px;
             width: 280px;
-            padding: 2px 4px;
-            overflow-x: auto;
-            margin: 16px;
-            display: block;
+            /*position: absolute;*/
+            padding: 10px;
+            margin: 5px;
             box-shadow: 3px 3px 3px darkgrey;
+            background-color: #ffffff;
+
         }
 
     </style>
@@ -74,14 +99,46 @@
                 </ul>
             </div>
         </div>
-        <div id="contentSlider" class="col py-3">
+        <div style="" id="contentSlider" class="col py-3">
 
         </div>
     </div>
 </div>
+
+<script>
+    function resizeGridItem(item) {
+        grid = document.getElementsByClassName("grid")[0];
+        rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+        rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
+        rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height + rowGap) / (rowHeight + rowGap));
+        item.style.gridRowEnd = "span " + rowSpan;
+    }
+
+    function resizeAllGridItems() {
+        allItems = document.getElementsByClassName("item");
+        for (x = 0; x < allItems.length; x++) {
+            resizeGridItem(allItems[x]);
+        }
+    }
+
+    function resizeInstance(instance) {
+        item = instance.elements[0];
+        resizeGridItem(item);
+    }
+
+    window.onload = resizeAllGridItems();
+    window.addEventListener("resize", resizeAllGridItems);
+
+    allItems = document.getElementsByClassName("item");
+    for (x = 0; x < allItems.length; x++) {
+        imagesLoaded(allItems[x], resizeInstance);
+    }
+</script>
+
 <script>
     var main = document.createElement("div");
-    main.className = "bg-secondary";
+    main.className = " grid";
+    main.style = ''
     document.getElementById("contentSlider").appendChild(main);
     const setTags = new Set();
 
@@ -118,40 +175,40 @@
             "</div>";
 
         var imgs = "";
-
         notes[c].files.forEach(function (item) {
-            imgs += '<div style="padding: 5px;height:45%; width:45%; display: block;float: left">' +
-                '<img width="100%" loading="lazy" src="' + item + '">' +
+            imgs += '<div style="margin:5px;height:110px; width:110px; display: block;float: left">' +
+                '<img width="105px" height="105px" loading="lazy"  src="' + item + '">' +
                 '</div>';
 
         });
 
         var newElement = document.createElement('div');
-        newElement.id = notes[c].id;
-        newElement.className = "note";
-        newElement.style = style = 'padding: 10px; float: left;';
-        newElement.innerHTML = "<div data-toggle=\"modal\" data-target=\"#exampleModal" + notes[c].id + "\">" +
+        newElement.id = c;
+        newElement.className = "item";
+
+
+        newElement.innerHTML = "<div class='content'><div data-toggle=\"modal\" data-target=\"#exampleModal" + notes[c].id + "\">" +
             "<p class=\"font-weight-bold\">" + notes[c].title + "</p>" +
-            "<div class=\"font-weight-normal\">" + imgs +
+            "<hr><div style='height: 100%;Display: flex'><div style='float: left'>" + imgs + '</div>' +
             "</div>" +
-            "<hr>" +
-            "<div class=\"font-weight-normal\">" + notes[c].content + "</div>" +
+            "<div class=\"font-weight-normal\" style='margin-top:10px;Display: flex'>" + notes[c].content + "</div>" +
             '<hr><div>' + tags + '</div>' +
-            "</div>";
+            "</div></div>";
         newElement.addEventListener("click", () => newElement2.fancybox());
         main.appendChild(newElement);
+        resizeGridItem(newElement);
 
 
         document.body.appendChild(newElement2);
     }
-    console.log(setTags);
 
     setTags.forEach(function (item) {
-        console.log(item);
         var submenu = document.createElement("li");
         submenu.innerHTML = '<a href="#' + item + '" class"nav-link px-0"> <span class=" text-decoration-none font-weight-light d-none d-sm-inline">' + item + '</a>';
         document.getElementById("submenu3").appendChild(submenu);
     });
 </script>
+
+
 </body>
 </html>
