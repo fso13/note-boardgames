@@ -121,6 +121,18 @@
         resizeGridItem(item);
     }
 
+    function copyToClipboard(id, el) {
+        text = document.getElementById(id).href;
+        navigator.clipboard.writeText(text).then(function () {
+            alert("Ссылка скопированна в буффер");
+        }, function (err) {
+            console.error('Async: Could not copy text: ', err);
+        });
+
+        console.log(document.getElementById(id).href);
+    }
+
+
     window.onload = resizeAllGridItems();
     window.addEventListener("resize", resizeAllGridItems);
 
@@ -131,7 +143,6 @@
 </script>
 
 <script>
-
     var url_string = window.location.href;
     var url = new URL(url_string);
     var hash = url.searchParams.get("filter");
@@ -170,7 +181,14 @@
             "            </div>\n" +
             "            <div class=\"modal-body\">\n" + "<div  style=\"padding: 10px; float: left;\">" + note.content + "</div>" + "<div>" + files + "</div>" +
             "            </div>\n" +
-            "            <div class=\"modal-footer\">\n" + tags +
+            "            <div class=\"modal-footer\">\n" +
+            '<a id="a_' + note.id + '" href="#data_' + note.id + '" hidden="hidden"></a>' +
+            '<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="a_' + note.id + '">' +
+            '  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">\n' +
+            '   <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>\n' +
+            '  </svg>' +
+            '</button>' +
+            tags +
             "            </div>\n" +
             "        </div>\n" +
             "    </div>\n" +
@@ -189,14 +207,13 @@
         newElement.className = "item";
 
 
-        newElement.innerHTML = "<div class='content'><div data-toggle=\"modal\" data-target=\"#exampleModal" + note.id + "\">" +
+        newElement.innerHTML = "<div class='content'><div id=\"data_" + note.id + "\" data-toggle=\"modal\" data-target=\"#exampleModal" + note.id + "\">" +
             "<p class=\"font-weight-bold\">" + note.title + "</p>" +
             "<hr><div style='height: 100%;Display: flex'><div style='float: left'>" + imgs + '</div>' +
             "</div>" +
             "<div class=\"font-weight-normal\" style='margin-top:10px;Display: flex'>" + note.content + "</div>" +
             '<hr><div>' + tags + '</div>' +
             "</div></div>";
-        newElement.addEventListener("click", () => newElement2.fancybox());
         main.appendChild(newElement);
         resizeGridItem(newElement);
 
@@ -213,6 +230,25 @@
     });
 </script>
 
+<script>
+    $(document).ready(function () {
 
+        $('.js-tooltip').tooltip();
+
+        // Copy to clipboard
+        // Grab any text in the attribute 'data-copy' and pass it to the
+        // copy function
+        $('.js-copy').click(function () {
+            var text = $(this).attr('data-copy');
+            var el = $(this);
+            copyToClipboard(text, el);
+        });
+
+
+        if (window.location.hash !== null) {
+            document.getElementById(window.location.hash.replace('#', '')).click();
+        }
+    });
+</script>
 </body>
 </html>
