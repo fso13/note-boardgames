@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta property="og:url" content="https://fso13.github.io/note-boardgames/"/>
-    <meta property="og:image" content="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg"/>
+    <meta property="og:image" content="https://sun9-63.userapi.com/impf/c830708/v830708043/17e4dd/Ct4z70FTyNg.jpg?size=550x550&quality=96&sign=21403d15f3f6ce7b9583f03ac15e4727&type=album"/>
     <meta property="og:image:alt" content="Бардовский университет"/>
-    <meta property="og:image:width" content="1200"/>
-    <meta property="og:image:height" content="600"/>
-    <meta property="og:site_name" content="Игротеки"/>
-    <meta property="og:type" content="object"/>
-    <meta property="og:title" content="Игротеки"/>
-    <meta property="og:description" content="Список партий"/>
+    <meta property="og:image:width" content="550"/>
+    <meta property="og:image:height" content="550"/>
+    <meta property="og:site_name" content="Бардовский университет"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Бардовский университет"/>
+    <meta property="og:description" content="Бардовский университет"/>
 
     <script data-ad-client="ca-pub-2005414424825102" async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -77,6 +77,21 @@
 </head>
 
 <body translate="no">
+<script>
+    if (window.location.hash) {
+        var id = window.location.hash.replace(/^\D+/g, '');
+        console.log("'" +window.location.hash+"'");
+        console.log("fsfdsfsdf");
+        var note = notes.filter(n => n.id == id)[0];
+        var url = note.files[0];
+        var desc = note.content;``
+        document.querySelector('meta[property="og:image"]').setAttribute("content", url);
+        document.querySelector('meta[property="og:url"]').setAttribute("content", window.location);
+        document.querySelector('meta[property="og:description"]').setAttribute("content", desc);
+        document.querySelector('meta[property="og:title"]').setAttribute("content", note.title + "\n" +desc);
+        document.querySelector('meta[property="og:site_name"]').setAttribute("content", note.title + "\n" +desc);
+    }
+</script>
 <div class="container-fluid">
     <div class="row flex-nowrap">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
@@ -139,7 +154,6 @@
             console.error('Async: Could not copy text: ', err);
         });
 
-        console.log(document.getElementById(id).href);
     }
 
 
@@ -164,7 +178,6 @@
     const setTags = new Set();
 
     notes.filter(n => hash === null || n.tags.includes(decodeURI(hash))).forEach(function (note) {
-        console.log(note.id)
 
         var newElement2 = document.createElement('div');
         newElement2.id = 'm_' + note.id;
@@ -256,15 +269,6 @@
 
 
         if (window.location.hash !== null) {
-            var id = window.location.hash.replace(/^\D+/g, '');
-            console.log(id);
-            var note = notes.filter(n => n.id == id)[0];
-            var url = note.files[0];
-            var desc = note.content;
-            document.querySelector('meta[property="og:image"]').setAttribute("content", url);
-            document.querySelector('meta[property="og:url"]').setAttribute("content", window.location);
-            document.querySelector('meta[property="og:description"]').setAttribute("content", desc);
-            document.querySelector('meta[property="og:title"]').setAttribute("content", note.title);
             document.getElementById(window.location.hash.replace('#', '')).click();
         }
     });
