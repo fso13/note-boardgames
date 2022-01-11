@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta property="vk:image"
+          content="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg?size=100x100&quality=96&crop=20,20,503,503&ava=1"/>
+    <meta property="og:url" content="https://fso13.github.io/note-boardgames/"/>
+    <meta property="og:image" content="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg"/>
+    <meta property="og:image:width" content="630"/>
+    <meta property="og:image:height" content="630"/>
+
     <script data-ad-client="ca-pub-2005414424825102" async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -246,6 +253,11 @@
 
 
         if (window.location.hash !== null) {
+            var id = window.location.hash.replace( /^\D+/g, '');
+            console.log(id);
+            var url = notes.filter(n => n.id == id )[0].files[0];
+            document.querySelector('meta[property="og:image"]').setAttribute("content", url);
+            document.querySelector('meta[property="og:url"]').setAttribute("content", window.location);
             document.getElementById(window.location.hash.replace('#', '')).click();
         }
     });
