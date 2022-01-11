@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta property="vk:image"
-          content="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg?size=100x100&quality=96&crop=20,20,503,503&ava=1"/>
     <meta property="og:url" content="https://fso13.github.io/note-boardgames/"/>
     <meta property="og:image" content="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg"/>
-    <meta property="og:image:width" content="630"/>
-    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:alt" content="Бардовский университет"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="600"/>
+    <meta property="og:site_name" content="Игротеки"/>
+    <meta property="og:type" content="object"/>
+    <meta property="og:title" content="Игротеки"/>
+    <meta property="og:description" content="Список партий"/>
 
     <script data-ad-client="ca-pub-2005414424825102" async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -253,11 +256,15 @@
 
 
         if (window.location.hash !== null) {
-            var id = window.location.hash.replace( /^\D+/g, '');
+            var id = window.location.hash.replace(/^\D+/g, '');
             console.log(id);
-            var url = notes.filter(n => n.id == id )[0].files[0];
+            var note = notes.filter(n => n.id == id)[0];
+            var url = note.files[0];
+            var desc = note.content;
             document.querySelector('meta[property="og:image"]').setAttribute("content", url);
             document.querySelector('meta[property="og:url"]').setAttribute("content", window.location);
+            document.querySelector('meta[property="og:description"]').setAttribute("content", desc);
+            document.querySelector('meta[property="og:title"]').setAttribute("content", note.title);
             document.getElementById(window.location.hash.replace('#', '')).click();
         }
     });
