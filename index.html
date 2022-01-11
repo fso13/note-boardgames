@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta property="og:url" content="https://fso13.github.io/note-boardgames/"/>
     <meta property="og:image" content="https://sun9-63.userapi.com/impf/c830708/v830708043/17e4dd/Ct4z70FTyNg.jpg?size=550x550&quality=96&sign=21403d15f3f6ce7b9583f03ac15e4727&type=album"/>
     <meta property="og:image:alt" content="Бардовский университет"/>
@@ -11,6 +12,23 @@
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Бардовский университет"/>
     <meta property="og:description" content="Бардовский университет"/>
+
+    <script>
+        if (window.location.hash) {
+            var id = window.location.hash.replace(/^\D+/g, '');
+            console.log("'" + window.location.hash + "'");
+            console.log("fsfdsfsdf");
+            var note = notes.filter(n => n.id == id)[0];
+            var url = note.files[0];
+            var desc = note.title + "\n" + note.content;
+            document.querySelector('meta[property="og:image"]').setAttribute("content", url);
+            document.querySelector('meta[property="og:url"]').setAttribute("content", window.location);
+            document.querySelector('meta[property="og:description"]').setAttribute("content", desc);
+            document.querySelector('meta[property="og:title"]').setAttribute("content", desc);
+            document.querySelector('meta[property="og:site_name"]').setAttribute("content", desc);
+            document.querySelector('meta[property="og:image:alt"]').setAttribute("content", desc);
+        }
+    </script>
 
     <script data-ad-client="ca-pub-2005414424825102" async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -80,16 +98,17 @@
 <script>
     if (window.location.hash) {
         var id = window.location.hash.replace(/^\D+/g, '');
-        console.log("'" +window.location.hash+"'");
+        console.log("'" + window.location.hash + "'");
         console.log("fsfdsfsdf");
         var note = notes.filter(n => n.id == id)[0];
         var url = note.files[0];
-        var desc = note.content;``
+        var desc = note.content;
+        ``
         document.querySelector('meta[property="og:image"]').setAttribute("content", url);
         document.querySelector('meta[property="og:url"]').setAttribute("content", window.location);
         document.querySelector('meta[property="og:description"]').setAttribute("content", desc);
-        document.querySelector('meta[property="og:title"]').setAttribute("content", note.title + "\n" +desc);
-        document.querySelector('meta[property="og:site_name"]').setAttribute("content", note.title + "\n" +desc);
+        document.querySelector('meta[property="og:title"]').setAttribute("content", note.title + "\n" + desc);
+        document.querySelector('meta[property="og:site_name"]').setAttribute("content", note.title + "\n" + desc);
     }
 </script>
 <div class="container-fluid">
