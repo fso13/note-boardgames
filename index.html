@@ -51,6 +51,12 @@
 
     <script src="js/note.js"></script>
     <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+            font-size: 18px;
+        }
 
         .grid {
             background-color: #ffffff;
@@ -58,16 +64,6 @@
             grid-gap: 10px;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             grid-auto-rows: 10px;
-        }
-
-        /* Non-grid specific CSS */
-        body {
-            margin: 10px;
-            background-color: #ffffff;
-            font-family: 'Open Sans Condensed', sans-serif;
-            font-size: 1.15em;
-            text-rendering: optimizeLegibility;
-            -webkit-font-smoothing: antialiased;
         }
 
         .item {
@@ -193,7 +189,7 @@
     main.className = " grid";
     main.style = ''
     document.getElementById("contentSlider").appendChild(main);
-    const setTags = new Set();
+    const mapTags = new Map();
 
     notes.filter(n => hash === null || n.tags.includes(decodeURI(hash))).forEach(function (note) {
 
@@ -207,7 +203,11 @@
 
         tags = "";
         for (var tag in note.tags) {
-            setTags.add(note.tags[tag]);
+            if (mapTags.has(note.tags[tag])) {
+                mapTags.set(note.tags[tag], mapTags.get(note.tags[tag]) + 1);
+            } else {
+                mapTags.set(note.tags[tag], 1);
+            }
             tags += '<a href="?filter=' + encodeURIComponent(note.tags[tag]) + '" class="text-decoration-none font-weight-light" className="link-primary">' + note.tags[tag] + '</a><br>';
         }
 
@@ -263,10 +263,10 @@
 
     });
 
-
-    setTags.forEach(function (item) {
+    sortMapTags = new Map([...mapTags.entries()].sort((a, b) => b[1] - a[1]));
+    sortMapTags.forEach(function (value, key) {
         var submenu = document.createElement("li");
-        submenu.innerHTML = '<a href="?filter=' + encodeURIComponent(item) + '" class"nav-link px-0"> <span class=" text-decoration-none font-weight-light d-none d-sm-inline">' + item + '</a>';
+        submenu.innerHTML = '<a href="?filter=' + encodeURIComponent(key) + '" class"nav-link px-0"> <span class=" text-decoration-none font-weight-light d-none d-sm-inline">' + key + '(' + value + ')' + '</a>';
         document.getElementById("submenu3").appendChild(submenu);
     });
 </script>

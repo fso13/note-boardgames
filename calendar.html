@@ -33,14 +33,46 @@
     </style>
 </head>
 <body>
-<div id='calendar'></div>
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <a href="/note-boardgames/index.html" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <img src="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg?size=100x100&quality=96&crop=20,20,503,503&ava=1"
+                         alt="hugenerd" width="100" height="100" class="rounded-circle">
+
+                    <span class="fs-5 d-none d-sm-inline">Бардовский университет</span>
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a href="/note-boardgames/index.html" class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span
+                                class="ms-1 d-none d-sm-inline">Стартовая страница</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/note-boardgames/calendar.html" class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span
+                                class="ms-1 d-none d-sm-inline">Календарь игр</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="" id="contentSlider" class="col py-3">
+            <div id='calendar'></div>
+        </div>
+    </div>
+</div>
+
 <script>
     document.addEventListener('DOMContentLoaded', function () {
 
         const allTags = notes.reduce((acc, note) => {
             const noteTags = note.tags.map((tag) => ({
                 title: tag,
-                description: note.content.replaceAll("</br>",''),
+                description: note.content.replaceAll("</br>", ''),
                 start: note.title.split('.').reverse().join('-'),
                 allDay: true,
                 editable: false
@@ -63,15 +95,15 @@
                 right: "dayGridMonth,timeGridWeek,timeGridDay,listYear"
             },
             views: {
-                dayGridMonth: { buttonText: "Месяц" },
-                timeGridWeek: { buttonText: "Неделя" },
-                timeGridDay: { buttonText: "День" },
-                listYear: { buttonText: "Игра за год" }
+                dayGridMonth: {buttonText: "Месяц"},
+                timeGridWeek: {buttonText: "Неделя"},
+                timeGridDay: {buttonText: "День"},
+                listYear: {buttonText: "Игра за год"}
             },
             navLinks: true,
             eventContent: function (arg) {
                 return {
-                    html:  '<div data-bs-toggle="tooltip" data-bs-html="true" title="'+arg.event.extendedProps.description+'">' + arg.event.title+ '</div>'
+                    html: '<div data-bs-toggle="tooltip" data-bs-html="true" title="' + arg.event.extendedProps.description + '">' + arg.event.title + '</div>'
                 }
             },
             editable: true,
