@@ -184,7 +184,11 @@
     document.getElementById("contentSlider").appendChild(main);
     const mapTags = new Map();
 
-    games.filter(n => hash === null || n.tags.includes(decodeURI(hash))).forEach(function (game) {
+    games.sort(function (a, b){
+        var textA = a.game.title.toUpperCase();
+        var textB = b.game.title.toUpperCase();
+        return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+    }).filter(n => hash === null || n.tags.includes(decodeURI(hash))).forEach(function (game) {
 
         var newElement2 = document.createElement('div');
         newElement2.id = 'm_' + game.game.id;
