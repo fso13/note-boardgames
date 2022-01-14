@@ -49,7 +49,7 @@
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
 
-    <script src="js/note.js"></script>
+    <script src="js/games.js"></script>
     <style>
         html, body {
             margin: 0;
@@ -79,27 +79,19 @@
             box-shadow: 3px 3px 3px darkgrey;
             background-color: #ffffff;
         }
+
+        .truncate-text {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
     </style>
 
 </head>
 
 <body translate="no">
-<script>
-    if (window.location.hash) {
-        var id = window.location.hash.replace(/^\D+/g, '');
-        console.log("'" + window.location.hash + "'");
-        console.log("fsfdsfsdf");
-        var note = notes.filter(n => n.id == id)[0];
-        var url = note.files[0];
-        var desc = note.content;
-        ``
-        document.querySelector('meta[property="og:image"]').setAttribute("content", url);
-        document.querySelector('meta[property="og:url"]').setAttribute("content", window.location);
-        document.querySelector('meta[property="og:description"]').setAttribute("content", desc);
-        document.querySelector('meta[property="og:title"]').setAttribute("content", note.title + "\n" + desc);
-        document.querySelector('meta[property="og:site_name"]').setAttribute("content", note.title + "\n" + desc);
-    }
-</script>
+
 <div class="container-fluid">
     <div class="row flex-nowrap">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
@@ -111,7 +103,7 @@
                     <span class="fs-5 d-none d-sm-inline">Бардовский университет</span>
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class="nav-item">
+                                        <li class="nav-item">
                         <a href="/note-boardgames/index.html" class="nav-link align-middle px-0">
                             <i class="fs-4 bi-house"></i> <span
                                 class="ms-1 d-none d-sm-inline">Стартовая страница</span>
@@ -166,16 +158,6 @@
         resizeGridItem(item);
     }
 
-    function copyToClipboard(id, el) {
-        text = document.getElementById(id).href;
-        navigator.clipboard.writeText(text).then(function () {
-            alert("Ссылка скопированна в буффер");
-        }, function (err) {
-            console.error('Async: Could not copy text: ', err);
-        });
-
-    }
-
 
     window.onload = resizeAllGridItems();
     window.addEventListener("resize", resizeAllGridItems);
@@ -197,99 +179,70 @@
     document.getElementById("contentSlider").appendChild(main);
     const mapTags = new Map();
 
-    notes.filter(n => hash === null || n.tags.includes(decodeURI(hash))).forEach(function (note) {
+    games.filter(n => hash === null || n.tags.includes(decodeURI(hash))).forEach(function (game) {
 
         var newElement2 = document.createElement('div');
-        newElement2.id = 'm_' + note.id;
+        newElement2.id = 'm_' + game.game.id;
 
-        files = "";
-        for (var file in note.files) {
-            files += '<div style="width:50%; padding: 10px; float: left;"><img width="90%" loading="lazy" src="' + note.files[file] + '"></div>';
-        }
+        files ='<div style="width:95%; padding: 10px;"><img width="90%" loading="lazy" src="' + game.game.photoUrl + '"></div>';
 
-        tags = "";
-        for (var tag in note.tags) {
-            if (mapTags.has(note.tags[tag])) {
-                mapTags.set(note.tags[tag], mapTags.get(note.tags[tag]) + 1);
-            } else {
-                mapTags.set(note.tags[tag], 1);
-            }
-            tags += '<a href="?filter=' + encodeURIComponent(note.tags[tag]) + '" class="text-decoration-none font-weight-light" className="link-primary">' + note.tags[tag] + '</a><br>';
-        }
-
-        newElement2.innerHTML = "<div  class=\"modal fade\" id=\"exampleModal" + note.id + "\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n" +
+        newElement2.innerHTML = "<div  class=\"modal fade\" id=\"exampleModal" + game.game.id + "\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n" +
             "    <div class=\"modal-dialog modal-lg\" role=\"document\">\n" +
             "        <div class=\"modal-content\">\n" +
             "            <div class=\"modal-header\">\n" +
-            "                <h5 class=\"modal-title\" id=\"exampleModalLabel\">" + note.title + "</h5>\n" +
+            "                <h5 class=\"modal-title\" id=\"exampleModalLabel\">" + game.game.title + "</h5>\n" +
             "                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n" +
             "                    <span aria-hidden=\"true\">&times;</span>\n" +
             "                </button>\n" +
             "            </div>\n" +
-            "            <div class=\"modal-body\">\n" + "<div  style=\"padding: 10px; float: left;\">" + note.content + "</div>" + "<div>" + files + "</div>" +
+            "            <div class=\"modal-body\">\n" + "<div  style=\"padding: 10px; float: left;\">" + game.game.description + "</div>" + "<div>" + files + "</div>" +
             "            </div>\n" +
             "            <div class=\"modal-footer\">\n" +
-            '<a id="a_' + note.id + '" href="#data_' + note.id + '" hidden="hidden"></a>' +
-            '<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="a_' + note.id + '">' +
+            '<a id="a_' + game.game.id + '" href="#data_' + game.game.id + '" hidden="hidden"></a>' +
+            '<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="a_' + game.game.id + '">' +
             '  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">\n' +
             '   <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>\n' +
             '  </svg>' +
             '</button>' +
-            tags +
             "            </div>\n" +
             "        </div>\n" +
             "    </div>\n" +
             "</div>";
 
-        var imgs = "";
-        note.files.forEach(function (item) {
-            imgs += '<div style="margin:5px;height:110px; width:110px; display: block;float: left">' +
-                '<img width="105px" height="105px" loading="lazy"  src="' + item + '">' +
+        var imgs ='<div style="margin:5px;height:240px; width:240px; ">' +
+                '<img width="240px" height="240px" loading="lazy"  src="' + game.game.photoUrl + '">' +
                 '</div>';
 
-        });
 
         var newElement = document.createElement('div');
-        newElement.id = note.id;
+        newElement.id = game.game.id;
         newElement.className = "item";
 
 
-        newElement.innerHTML = "<div class='content'><div id=\"data_" + note.id + "\" data-toggle=\"modal\" data-target=\"#exampleModal" + note.id + "\">" +
-            "<p class=\"font-weight-bold\">" + note.title + "</p>" +
-            "<hr><div style='height: 100%;Display: flex'><div style='float: left'>" + imgs + '</div>' +
+        var d = '';
+        if(game.game.descriptionShort){
+            d= game.game.descriptionShort;
+        }else {
+            d = game.game.description;
+        }
+        newElement.innerHTML = "<div class='content'><div id=\"data_" + game.game.id + "\" data-toggle=\"modal\" data-target=\"#exampleModal" + game.game.id + "\">" +
+            "<p class=\"font-weight-bold\">" + game.game.title + "</p>" +
+            "<hr><div style='height: 100%;Display: flex'><div style=''>" + imgs + '</div>' +
             "</div>" +
-            "<div class=\"font-weight-normal\" style='margin-top:10px;Display: flex'>" + note.content + "</div>" +
-            '<hr><div>' + tags + '</div>' +
+            "<div class=\"font-weight-normal truncate-text js-tooltip\" data-html=\"true\" title=\""+ d +"\" data-toggle=\"tooltip\"  style='margin-top:10px;'>" + d + "</div>" +
+            '<hr><div> от ' + game.game.playersMin + ' до '+ game.game.playersMax + ' игроков</div>' +
             "</div></div>";
         main.appendChild(newElement);
         resizeGridItem(newElement);
 
-
         document.body.appendChild(newElement2);
 
-    });
-
-    sortMapTags = new Map([...mapTags.entries()].sort((a, b) => b[1] - a[1]));
-    sortMapTags.forEach(function (value, key) {
-        var submenu = document.createElement("li");
-        submenu.innerHTML = '<a href="?filter=' + encodeURIComponent(key) + '" class"nav-link px-0"> <span class=" text-decoration-none font-weight-light d-none d-sm-inline">' + key + '(' + value + ')' + '</a>';
-        document.getElementById("submenu3").appendChild(submenu);
     });
 </script>
 
 <script>
     $(document).ready(function () {
-        $('.js-tooltip').tooltip();
-
-        // Copy to clipboard
-        // Grab any text in the attribute 'data-copy' and pass it to the
-        // copy function
-        $('.js-copy').click(function () {
-            var text = $(this).attr('data-copy');
-            var el = $(this);
-            copyToClipboard(text, el);
-        });
-
+        $('.js-tooltip').tooltip({html:true});
 
         if (window.location.hash !== null) {
             document.getElementById(window.location.hash.replace('#', '')).click();
