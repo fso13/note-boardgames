@@ -38,6 +38,15 @@ var notes = [
             "https://github.com/fso13/note-boardgames/raw/master/img/16/img_2.png"]
     },
     {
+        id: -15,
+        title: "13.11.2021",
+        content: "Сыщики попробовали остановить монстра, заточив его в доме.</br>" +
+            "А потом двинулись строить свой город мечты.",
+        tags: ["Особняки безумия", "Мачи Коро"],
+        files: ["https://github.com/fso13/note-boardgames/raw/master/img/-15/img.png"
+        ]
+    },
+    {
         id: 15,
         title: "29.10.2021",
         content: "Опробовали доп с титанами. Боевики стало намного больше. Осталось в командный режим сыграть.</br>" +
@@ -115,6 +124,17 @@ var notes = [
             "https://github.com/fso13/note-boardgames/raw/master/img/8/img_4.png"]
     },
     {
+        id: -8,
+        title: "16.07.2021",
+        content: "Классика, но с мостами. </br>" +
+            "А потом крылья, три партии пролетели незаметно. Очень красочно и интересно.",
+        tags: ["Каркасон","Крылья"],
+        files: [
+            "https://github.com/fso13/note-boardgames/raw/master/img/-8/img.png",
+            "https://github.com/fso13/note-boardgames/raw/master/img/-8/img_1.png",
+            "https://github.com/fso13/note-boardgames/raw/master/img/-8/img_2.png"]
+    },
+    {
         id: 7,
         title: "11.06.2021",
         content: "Три героя спустились в подземелье, и зачистили его до такой степени, что в конце начали убивать друг друга ради победы.</br>" +
@@ -159,7 +179,15 @@ var notes = [
             "https://github.com/fso13/note-boardgames/raw/master/img/4/img_3.png",
             "https://github.com/fso13/note-boardgames/raw/master/img/4/img_4.png"]
     },
-
+    {
+        id: -4,
+        title: "09.04.2021",
+        content: "Следите, где устраиваете привал.",
+        tags: ["D&D"],
+        files: [
+            "https://github.com/fso13/note-boardgames/raw/master/img/-4/img.png",
+            "https://github.com/fso13/note-boardgames/raw/master/img/-4/img_1.png"]
+    },
     {
         id: 3,
         title: "26.03.2021",
@@ -186,6 +214,16 @@ var notes = [
             "https://github.com/fso13/note-boardgames/raw/master/img/2/img_4.png"]
     },
     {
+        id: -2,
+        title: "22.01.2021",
+        content: "Египет вырвался вперед, благодаря пирамидам и сфинксам. </br>" +
+            "А в алхимики удалось победить, только благодаря опровержению. И то, первое, второе и третья места с разницей по одному очку.",
+        tags: ["Поселенцы", "Алхимики"],
+        files: ["https://github.com/fso13/note-boardgames/raw/master/img/-2/img_0.png",
+            "https://github.com/fso13/note-boardgames/raw/master/img/-2/img_1.png",
+            "https://github.com/fso13/note-boardgames/raw/master/img/-2/img_2.png"]
+    },
+    {
         id: 1,
         title: "15.01.2021",
         content: "Римляне слабаки, зато Варвары в последнем раунде вырвались вперёд, и завоевали победу.</br>" +
@@ -202,9 +240,11 @@ var notes = [
     },
     {
         id: 0,
-        title: "08.01.2021",
-        content: 'Дам второй шанс этой игре.</br> Тем более по скидке)',
-        tags: ["Поселенцы"],
+        title: "06.01.2021",
+        content: 'Наконец-то дошли руки до маленького мира. Полгода лежал на полке.</br>' +
+            'Ну и три партии в каркасон.</br>' +
+            'В итоге 4 партии, и везде победил.',
+        tags: ["Маленький мир", "Каркасон"],
         files: [
             "https://github.com/fso13/note-boardgames/raw/master/img/0/img.png",
             "https://github.com/fso13/note-boardgames/raw/master/img/0/img_1.png"]
