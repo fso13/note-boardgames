@@ -219,7 +219,7 @@ var notes = [
         content: "Египет вырвался вперед, благодаря пирамидам и сфинксам. </br>" +
             "А в алхимики удалось победить, только благодаря опровержению. И то, первое, второе и третья места с разницей по одному очку.",
         tags: ["Поселенцы", "Алхимики"],
-        files: ["https://github.com/fso13/note-boardgames/raw/master/img/-2/img_0.png",
+        files: [
             "https://github.com/fso13/note-boardgames/raw/master/img/-2/img_1.png",
             "https://github.com/fso13/note-boardgames/raw/master/img/-2/img_2.png"]
     },
