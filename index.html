@@ -12,289 +12,109 @@
     <meta property="og:title" content="Бардовский университет"/>
     <meta property="og:description" content="Бардовский университет"/>
 
-    <script>
-        if (window.location.hash) {
-            var id = window.location.hash.replace(/^\D+/g, '');
-            console.log("'" + window.location.hash + "'");
-            console.log("fsfdsfsdf");
-            var note = notes.filter(n => n.id == id)[0];
-            var url = note.files[0];
-            var desc = note.title + "\n" + note.content;
-            document.querySelector('meta[property="og:image"]').setAttribute("content", url);
-            document.querySelector('meta[property="og:url"]').setAttribute("content", window.location);
-            document.querySelector('meta[property="og:description"]').setAttribute("content", desc);
-            document.querySelector('meta[property="og:title"]').setAttribute("content", desc);
-            document.querySelector('meta[property="og:site_name"]').setAttribute("content", desc);
-            document.querySelector('meta[property="og:image:alt"]').setAttribute("content", desc);
-        }
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
     </script>
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.12/dist/css/bootstrap-select.min.css">
-    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.12/dist/js/bootstrap-select.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
     <script src="js/note.js"></script>
+    <script src="js/games.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/header.js"></script>
     <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-            font-size: 18px;
-        }
-
-        .grid {
-            background-color: #ffffff;
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            grid-auto-rows: 10px;
-        }
-
-        .item {
-            background-color: #ffffff;
-        }
-
-        .content {
-            border: 1px solid;
-            border-radius: 8px;
-            width: 280px;
-            padding: 10px;
-            margin: 5px;
-            box-shadow: 3px 3px 3px darkgrey;
-            background-color: #ffffff;
+        .truncate-text {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
         }
     </style>
-
 </head>
 
 <body translate="no">
-<script>
-    if (window.location.hash) {
-        var id = window.location.hash.replace(/^\D+/g, '');
-        console.log("'" + window.location.hash + "'");
-        console.log("fsfdsfsdf");
-        var note = notes.filter(n => n.id == id)[0];
-        var url = note.files[0];
-        var desc = note.content;
-        ``
-        document.querySelector('meta[property="og:image"]').setAttribute("content", url);
-        document.querySelector('meta[property="og:url"]').setAttribute("content", window.location);
-        document.querySelector('meta[property="og:description"]').setAttribute("content", desc);
-        document.querySelector('meta[property="og:title"]').setAttribute("content", note.title + "\n" + desc);
-        document.querySelector('meta[property="og:site_name"]').setAttribute("content", note.title + "\n" + desc);
-    }
-</script>
-<div class="container-fluid">
-    <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                <a href="/note-boardgames/index.html" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <img src="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg?size=100x100&quality=96&crop=20,20,503,503&ava=1"
-                         alt="hugenerd" width="100" height="100" class="rounded-circle">
 
-                    <span class="fs-5 d-none d-sm-inline">Бардовский университет</span>
-                </a>
-                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class="nav-item">
-                        <a href="/note-boardgames/index.html" class="nav-link align-middle px-0">
-                            <i class="fs-4 bi-house"></i> <span
-                                class="ms-1 d-none d-sm-inline">Стартовая страница</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/note-boardgames/games.html" class="nav-link align-middle px-0">
-                            <i class="fs-4 bi-house"></i> <span
-                                class="ms-1 d-none d-sm-inline">Список игр</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/note-boardgames/calendar.html" class="nav-link align-middle px-0">
-                            <i class="fs-4 bi-house"></i> <span
-                                class="ms-1 d-none d-sm-inline">Календарь игр</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#submenu3" data-bs-toggle="collapse"
-                           class="nav-link px-0 align-middle dropdown-toggle">
-                            <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Теги</span> </a>
-                        <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div style="" id="contentSlider" class="col py-3">
-
-        </div>
-    </div>
-</div>
-
-<script>
-    function resizeGridItem(item) {
-        grid = document.getElementsByClassName("grid")[0];
-        rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
-        rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
-        rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height + rowGap) / (rowHeight + rowGap));
-        item.style.gridRowEnd = "span " + rowSpan;
-    }
-
-    function resizeAllGridItems() {
-        allItems = document.getElementsByClassName("item");
-        for (x = 0; x < allItems.length; x++) {
-            resizeGridItem(allItems[x]);
-        }
-    }
-
-    function resizeInstance(instance) {
-        item = instance.elements[0];
-        resizeGridItem(item);
-    }
-
-    function copyToClipboard(id, el) {
-        text = document.getElementById(id).href;
-        navigator.clipboard.writeText(text).then(function () {
-            alert("Ссылка скопированна в буффер");
-        }, function (err) {
-            console.error('Async: Could not copy text: ', err);
-        });
-
-    }
-
-
-    window.onload = resizeAllGridItems();
-    window.addEventListener("resize", resizeAllGridItems);
-
-    allItems = document.getElementsByClassName("item");
-    for (x = 0; x < allItems.length; x++) {
-        imagesLoaded(allItems[x], resizeInstance);
-    }
-</script>
-
-<script>
-    var url_string = window.location.href;
-    var url = new URL(url_string);
-    var hash = url.searchParams.get("filter");
-
-    var main = document.createElement("div");
-    main.className = " grid";
-    main.style = ''
-    document.getElementById("contentSlider").appendChild(main);
-    const mapTags = new Map();
-
-    notes.filter(n => hash === null || n.tags.includes(decodeURI(hash))).forEach(function (note) {
-
-        var newElement2 = document.createElement('div');
-        newElement2.id = 'm_' + note.id;
-
-        files = "";
-        for (var file in note.files) {
-            files += '<div style="width:50%; padding: 10px; float: left;"><img width="90%" loading="lazy" src="' + note.files[file] + '"></div>';
-        }
-
-        tags = "";
-        for (var tag in note.tags) {
-            if (mapTags.has(note.tags[tag])) {
-                mapTags.set(note.tags[tag], mapTags.get(note.tags[tag]) + 1);
-            } else {
-                mapTags.set(note.tags[tag], 1);
-            }
-            tags += '<a href="?filter=' + encodeURIComponent(note.tags[tag]) + '" class="text-decoration-none font-weight-light" className="link-primary">' + note.tags[tag] + '</a><br>';
-        }
-
-        newElement2.innerHTML = "<div  class=\"modal fade\" id=\"exampleModal" + note.id + "\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n" +
-            "    <div class=\"modal-dialog modal-lg\" role=\"document\">\n" +
-            "        <div class=\"modal-content\">\n" +
-            "            <div class=\"modal-header\">\n" +
-            "                <h5 class=\"modal-title\" id=\"exampleModalLabel\">" + note.title + "</h5>\n" +
-            "                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n" +
-            "                    <span aria-hidden=\"true\">&times;</span>\n" +
-            "                </button>\n" +
-            "            </div>\n" +
-            "            <div class=\"modal-body\">\n" + "<div  style=\"padding: 10px; float: left;\">" + note.content + "</div>" + "<div>" + files + "</div>" +
-            "            </div>\n" +
-            "            <div class=\"modal-footer\">\n" +
-            '<a id="a_' + note.id + '" href="#data_' + note.id + '" hidden="hidden"></a>' +
-            '<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="a_' + note.id + '">' +
-            '  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">\n' +
-            '   <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>\n' +
-            '  </svg>' +
-            '</button>' +
-            tags +
-            "            </div>\n" +
-            "        </div>\n" +
-            "    </div>\n" +
-            "</div>";
-
-        var imgs = "";
-        note.files.forEach(function (item) {
-            imgs += '<div style="margin:5px;height:110px; width:110px; display: block;float: left">' +
-                '<img width="105px" height="105px" loading="lazy"  src="' + item + '">' +
-                '</div>';
-
-        });
-
-        var newElement = document.createElement('div');
-        newElement.id = note.id;
-        newElement.className = "item";
-
-
-        newElement.innerHTML = "<div class='content'><div id=\"data_" + note.id + "\" data-toggle=\"modal\" data-target=\"#exampleModal" + note.id + "\">" +
-            "<p class=\"font-weight-bold\">" + note.title + "</p>" +
-            "<hr><div style='height: 100%;Display: flex'><div style='float: left'>" + imgs + '</div>' +
-            "</div>" +
-            "<div class=\"font-weight-normal\" style='margin-top:10px;Display: flex'>" + note.content + "</div>" +
-            '<hr><div>' + tags + '</div>' +
-            "</div></div>";
-        main.appendChild(newElement);
-        resizeGridItem(newElement);
-
-
-        document.body.appendChild(newElement2);
-
-    });
-
-    sortMapTags = new Map([...mapTags.entries()].sort((a, b) => b[1] - a[1]));
-    sortMapTags.forEach(function (value, key) {
-        var submenu = document.createElement("li");
-        submenu.innerHTML = '<a href="?filter=' + encodeURIComponent(key) + '" class"nav-link px-0"> <span class=" text-decoration-none font-weight-light d-none d-sm-inline">' + key + '(' + value + ')' + '</a>';
-        document.getElementById("submenu3").appendChild(submenu);
-    });
-</script>
-
-<script>
-    $(document).ready(function () {
-        $('.js-tooltip').tooltip();
-
-        // Copy to clipboard
-        // Grab any text in the attribute 'data-copy' and pass it to the
-        // copy function
-        $('.js-copy').click(function () {
-            var text = $(this).attr('data-copy');
-            var el = $(this);
-            copyToClipboard(text, el);
-        });
-
-
-        if (window.location.hash !== null) {
-            document.getElementById(window.location.hash.replace('#', '')).click();
-        }
-    });
-</script>
 </body>
+
+<script defer>
+    var nav = document.createElement('div');
+    nav.className = 'flex flex-no-wrap font-mono';
+    nav.innerHTML = headerHtml;
+    nav.id = 'header';
+
+    document.body.appendChild(nav);
+
+    notes.forEach(function (note) {
+
+        var modalDiv = document.createElement('div');
+        modalDiv.id = note.id;
+        modalDiv.className = 'hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center'
+
+        var imagesDiv = "";
+        note.files.forEach(function (image) {
+
+            imagesDiv +=
+                '<div class="gap-x-5 gap-y-5 dark:bg-gray-800 max-w-xs  flex flex-col justify-between ">\n' +
+                '   <img class="object-scale-down h-80 w-80 p-3" src="' + image + '" />\n' +
+                '</div>';
+        });
+        modalDiv.innerHTML =
+            '<div style="width: 100%; height: 100%" class="p-8  transition duration-200 ease-in-out z-10  top-0 right-0 bottom-0 left-0" id="modal">\n' +
+            '            <div role="alert" class="container mx-auto  flex justify-center">\n' +
+            '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 bg-white dark:bg-gray-800 shadow pt-10 pb-8 rounded">\n' +
+            '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
+            '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center dark:text-gray-100">' + note.title + '</p>\n' +
+            '                        <p class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 ">' + note.content + '</p>\n' +
+            '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center ttext-sky-500 dark:text-sky-400">' + note.tags + '</p>\n' +
+            '                        <div class="gap-x-1 gap-y-0 grid grid-flow-row-dense grid-cols-3 hover:auto-rows-min">' + imagesDiv + '</div>' +
+            '                    </div>\n' +
+            '                    <button class="cursor-pointer absolute top-0 right-0 m-3 text-gray-800 hover:text-gray-600 dark:text-gray-100 dark:hover:text-gray-200 transition duration-150 ease-in-out" onclick="toggleModal(' + note.id + ')">\n' +
+            '                        <svg xmlns="http://www.w3.org/2000/svg" aria-label="Close" class="icon icon-tabler icon-tabler-x" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">\n' +
+            '                            <path stroke="none" d="M0 0h24v24H0z" />\n' +
+            '                            <line x1="18" y1="6" x2="6" y2="18" />\n' +
+            '                            <line x1="6" y1="6" x2="18" y2="18" />\n' +
+            '                        </svg>\n' +
+            '                    </button>\n' +
+            '                </div>\n' +
+            '            </div>\n' +
+            '        </div>';
+        document.getElementById('container').appendChild(modalDiv);
+
+
+        var mainDiv = document.createElement('div');
+
+        mainDiv.innerHTML = '<div class="flex w-full items-center flex justify-center items-center">\n' +
+            '        <div>\n' +
+            '            <div class="max-w-xs  flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">\n' +
+            '                <div>\n' +
+            '                    <div>\n' +
+            '                        <h4 tabindex="0" class="focus:outline-none text-center  text-gray-800 dark:text-gray-100 font-bold mb-3">' + note.title + '</h4>\n' +
+            '                    </div>\n' +
+            '                    <div class="flex flex-col items-center bg-gray-600">\n' +
+            '                        <img loading="lazy" class="object-scale-down h-48 w-96" height="" src="' + note.files[0] + '">\n' +
+            '                    </div>\n' +
+            '                    <div>\n' +
+            '                        <p tabindex="0" class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 truncate-text">' + note.content + '</p>\n' +
+            '                    </div>\n' +
+            '                    <div>\n' +
+            '                        <div class="flex items-center justify-between text-gray-800">\n' +
+            '                            <p tabindex="0" class="focus:outline-none text-sm text-sky-500 dark:text-sky-400">' + note.tags + '</p>\n' +
+            '                             <button  class="w-8 h-8 rounded-full bg-gray-800 text-white flex items-center justify-center" onclick="toggleModal(' + note.id + ')">\n' +
+            '                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">\n' +
+            '                                   <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h4a1 1 0 010 2H6.414l2.293 2.293a1 1 0 01-1.414 1.414L5 6.414V8a1 1 0 01-2 0V4zm9 1a1 1 0 110-2h4a1 1 0 011 1v4a1 1 0 11-2 0V6.414l-2.293 2.293a1 1 0 11-1.414-1.414L13.586 5H12zm-9 7a1 1 0 112 0v1.586l2.293-2.293a1 1 0 011.414 1.414L6.414 15H8a1 1 0 110 2H4a1 1 0 01-1-1v-4zm13-1a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 110-2h1.586l-2.293-2.293a1 1 0 011.414-1.414L15 13.586V12a1 1 0 011-1z" clip-rule="evenodd" />\n' +
+            '                               </svg>\n' +
+            '                            </button>' +
+            '                        </div>\n' +
+            '                    </div>\n' +
+            '                </div>\n' +
+            '            </div>\n' +
+            '        </div>\n' +
+            '    </div>' +
+            '<div class="hidden opacity-25 fixed inset-0 z-40 bg-black" id="' + note.id + '-backdrop"></div>';
+        mainDiv.className = 'rounded';
+        document.getElementById('container').appendChild(mainDiv);
+    });
+</script>
 </html>
