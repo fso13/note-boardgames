@@ -57,7 +57,7 @@
 
             imagesDiv +=
                 '<div class="gap-x-5 gap-y-5 dark:bg-gray-800 max-w-xs  flex flex-col justify-between ">\n' +
-                '   <img class="object-scale-down h-80 w-80 p-3" src="' + image + '" />\n' +
+                '   <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="' + image + '" />\n' +
                 '</div>';
         });
         modalDiv.innerHTML =
@@ -66,7 +66,7 @@
             '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 bg-white dark:bg-gray-800 shadow pt-10 pb-8 rounded">\n' +
             '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
             '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center dark:text-gray-100">' + note.title + '</p>\n' +
-            '                        <p class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 ">' + note.content + '</p>\n' +
+            '                        <p class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 bg-gray-600">' + note.content + '</p>\n' +
             '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center ttext-sky-500 dark:text-sky-400">' + note.tags + '</p>\n' +
             '                        <div class="gap-x-1 gap-y-0 grid grid-flow-row-dense grid-cols-3 hover:auto-rows-min">' + imagesDiv + '</div>' +
             '                    </div>\n' +
@@ -92,15 +92,13 @@
             '                    <div>\n' +
             '                        <h4 tabindex="0" class="focus:outline-none text-center  text-gray-800 dark:text-gray-100 font-bold mb-3">' + note.title + '</h4>\n' +
             '                    </div>\n' +
-            '                    <div class="flex flex-col items-center bg-gray-600">\n' +
-            '                        <img loading="lazy" class="object-scale-down h-48 w-96" height="" src="' + note.files[0] + '">\n' +
-            '                    </div>\n' +
+            '                        <img loading="lazy" class="contrast-125 hue-rotate-15 " height="" src="' + note.files[0] + '">\n' +
             '                    <div>\n' +
-            '                        <p tabindex="0" class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 truncate-text">' + note.content + '</p>\n' +
+            '                        <p tabindex="0" class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 truncate-text ">' + note.content + '</p>\n' +
             '                    </div>\n' +
             '                    <div>\n' +
             '                        <div class="flex items-center justify-between text-gray-800">\n' +
-            '                            <p tabindex="0" class="focus:outline-none text-sm text-sky-500 dark:text-sky-400">' + note.tags + '</p>\n' +
+            '                            <p tabindex="0" class="focus:outline-none text-sm text-sky-500 dark:text-sky-400 ">' + note.tags + '</p>\n' +
             '                             <button  class="w-8 h-8 rounded-full bg-gray-800 text-white flex items-center justify-center" onclick="toggleModal(' + note.id + ')">\n' +
             '                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">\n' +
             '                                   <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h4a1 1 0 010 2H6.414l2.293 2.293a1 1 0 01-1.414 1.414L5 6.414V8a1 1 0 01-2 0V4zm9 1a1 1 0 110-2h4a1 1 0 011 1v4a1 1 0 11-2 0V6.414l-2.293 2.293a1 1 0 11-1.414-1.414L13.586 5H12zm-9 7a1 1 0 112 0v1.586l2.293-2.293a1 1 0 011.414 1.414L6.414 15H8a1 1 0 110 2H4a1 1 0 01-1-1v-4zm13-1a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 110-2h1.586l-2.293-2.293a1 1 0 011.414-1.414L15 13.586V12a1 1 0 011-1z" clip-rule="evenodd" />\n' +
