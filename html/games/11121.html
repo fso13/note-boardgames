@@ -24,17 +24,6 @@
     <script src="../../js/modal.js"></script>
     <script src="../../js/header.js"></script>
 </head>
-<script>
-    function copyToClipboard(id, el) {
-        text = document.getElementById(id).href;
-        navigator.clipboard.writeText(text).then(function () {
-            alert("Ссылка скопированна в буффер");
-        }, function (err) {
-            console.error('Async: Could not copy text: ', err);
-        });
-
-    }
-</script>
 <body translate="no">
 
 </body>
@@ -53,10 +42,10 @@
         '            <div role="alert" class="container mx-auto  flex justify-center">\n' +
         '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 pt-10 pb-8 rounded">\n' +
         '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
-        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center dark:text-gray-100">Runebound Третья редакция - Ярость гор (Дополнительное приключение)</p>\n' +
-        '                        <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://s.tesera.ru/images/items/785856,3/photo1.png"</img>\n' +
-        '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center text-sky-500 dark:text-sky-400 ">от 2 до 4 игроков</p>\n' +
-        '                        <p class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 "><p>The Mountains Rise повышает реиграбельность любого сценария, добавляя в игру новые карты и способы развития героев. Дополнение содержит 15 карты приключений, которые добавляют новых врагов, события и квесты. 20 новых карт вещей и 10 карт умений дают больше возможностей персонализировать своего героя. В дополнение включен новый герой &ndash; Nanok of the Blade.</p><br><p>&nbsp;</p><br><p><span>В этом дополнении появляется новый символ на боевых жетонах: заряд (charge). Он позволяет нанести неблокируемый урон вашему оппоненту, правда, после применения этого жетона вы больше не сможете блокировать получаемый урон до конца раунда.</span></p></p>\n' +
+        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center ">Runebound Третья редакция - Ярость гор (Дополнительное приключение)</p>\n' +
+        '                        <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://s.tesera.ru/images/items/785856,3/photo1.png">\n' +
+        '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center text-sky-500  ">от 2 до 4 игроков</p>\n' +
+        '                        <p class="focus:outline-none text-lg font-medium text-gray-800 "><p>The Mountains Rise повышает реиграбельность любого сценария, добавляя в игру новые карты и способы развития героев. Дополнение содержит 15 карты приключений, которые добавляют новых врагов, события и квесты. 20 новых карт вещей и 10 карт умений дают больше возможностей персонализировать своего героя. В дополнение включен новый герой &ndash; Nanok of the Blade.</p><br><p>&nbsp;</p><br><p><span>В этом дополнении появляется новый символ на боевых жетонах: заряд (charge). Он позволяет нанести неблокируемый урон вашему оппоненту, правда, после применения этого жетона вы больше не сможете блокировать получаемый урон до конца раунда.</span></p></p>\n' +
         '                    <div>\n' 
         ;
     mainDiv.className = 'rounded';

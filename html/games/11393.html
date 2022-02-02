@@ -24,17 +24,6 @@
     <script src="../../js/modal.js"></script>
     <script src="../../js/header.js"></script>
 </head>
-<script>
-    function copyToClipboard(id, el) {
-        text = document.getElementById(id).href;
-        navigator.clipboard.writeText(text).then(function () {
-            alert("Ссылка скопированна в буффер");
-        }, function (err) {
-            console.error('Async: Could not copy text: ', err);
-        });
-
-    }
-</script>
 <body translate="no">
 
 </body>
@@ -53,10 +42,10 @@
         '            <div role="alert" class="container mx-auto  flex justify-center">\n' +
         '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 pt-10 pb-8 rounded">\n' +
         '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
-        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center dark:text-gray-100">Особняки безумия (2nd edition)</p>\n' +
-        '                        <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://s.tesera.ru/images/items/807928,3/photo1.jpg"</img>\n' +
-        '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center text-sky-500 dark:text-sky-400 ">от 1 до 5 игроков</p>\n' +
-        '                        <p class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 "><p style="text-align: justify;">В этот раз роль ведущего досталась программному обеспечению (ПО), что упростило подготовку к партии и сделало игру кооперативной.</p><br><p style="text-align: justify;">&nbsp;</p><br><p style="text-align: justify;">Как и прежде, партия проходит по одному из выбранных сценариев (который, помимо прочего, задаёт продолжительность и сложность приключения), а ПО формирует игровое поле, &laquo;расставляет&raquo; на нём монстров, предметы, секреты и события. В игре появился &laquo;туман войны&raquo;: игроки узнают, что за дверью, только когда открывают её (при этом ПО просит их добавить к физическому полю определённый тайл и пр. игровые элементы).</p><br><p style="text-align: justify;">&nbsp;</p><br><p style="text-align: justify;">Играть без ПО во 2-ю редакцию нельзя. ПО будет распространяться через App Store (iOS), Google Play (Android) и Steam (Windows / Mac OS X).</p><br><p style="text-align: justify;">&nbsp;</p><br><p style="text-align: justify;">В коробку 2-й редакции сразу входит т.н. Conversion Kit &mdash; набор, позволяющий использовать тайлы местности, фигурки сыщиков и монстров из 1-й редакции.</p></p>\n' +
+        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center ">Особняки безумия (2nd edition)</p>\n' +
+        '                        <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://s.tesera.ru/images/items/807928,3/photo1.jpg">\n' +
+        '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center text-sky-500  ">от 1 до 5 игроков</p>\n' +
+        '                        <p class="focus:outline-none text-lg font-medium text-gray-800 "><p style="text-align: justify;">В этот раз роль ведущего досталась программному обеспечению (ПО), что упростило подготовку к партии и сделало игру кооперативной.</p><br><p style="text-align: justify;">&nbsp;</p><br><p style="text-align: justify;">Как и прежде, партия проходит по одному из выбранных сценариев (который, помимо прочего, задаёт продолжительность и сложность приключения), а ПО формирует игровое поле, &laquo;расставляет&raquo; на нём монстров, предметы, секреты и события. В игре появился &laquo;туман войны&raquo;: игроки узнают, что за дверью, только когда открывают её (при этом ПО просит их добавить к физическому полю определённый тайл и пр. игровые элементы).</p><br><p style="text-align: justify;">&nbsp;</p><br><p style="text-align: justify;">Играть без ПО во 2-ю редакцию нельзя. ПО будет распространяться через App Store (iOS), Google Play (Android) и Steam (Windows / Mac OS X).</p><br><p style="text-align: justify;">&nbsp;</p><br><p style="text-align: justify;">В коробку 2-й редакции сразу входит т.н. Conversion Kit &mdash; набор, позволяющий использовать тайлы местности, фигурки сыщиков и монстров из 1-й редакции.</p></p>\n' +
         '                    <div>\n' 
         ;
     mainDiv.className = 'rounded';

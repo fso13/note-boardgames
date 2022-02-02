@@ -24,17 +24,6 @@
     <script src="../../js/modal.js"></script>
     <script src="../../js/header.js"></script>
 </head>
-<script>
-    function copyToClipboard(id, el) {
-        text = document.getElementById(id).href;
-        navigator.clipboard.writeText(text).then(function () {
-            alert("Ссылка скопированна в буффер");
-        }, function (err) {
-            console.error('Async: Could not copy text: ', err);
-        });
-
-    }
-</script>
 <body translate="no">
 
 </body>
@@ -53,10 +42,10 @@
         '            <div role="alert" class="container mx-auto  flex justify-center">\n' +
         '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 pt-10 pb-8 rounded">\n' +
         '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
-        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center dark:text-gray-100">Фонарики. Праздник урожая</p>\n' +
-        '                        <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://s.tesera.ru/images/items/579173,3/photo1.jpg"</img>\n' +
-        '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center text-sky-500 dark:text-sky-400 ">от 2 до 4 игроков</p>\n' +
-        '                        <p class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 "><p><strong>Lanterns: The Harvest Festival</strong> - игра на сбор сетов с выкладыванием тайлов.</p><br><p>&nbsp;</p><br><p>Во время своего хода игрок ставит на поле тайл к одному из соседних, получая бонус за совпадение присоединяемых граней. Затем&nbsp;<i>все</i> игроки получают карты фонарей того цвета, какой нарисован на повернутой к ним стороне выложенного тайла.</p><br><p>&nbsp;</p><br><p>Игроки получают честь (победные очки), собирая сочетания карт фонарей (три пары разных цветов, четыре одного или по одной карте всех цветов). Тот, кто соберет больше - выигрывает.</p><br><p>В середине осени Crowd Games планирует запуск проекта с этой игрой на площадке "Бумстартер". Печать в России.&nbsp;</p><br><p>&nbsp;</p><br><p><strong><br /></strong></p></p>\n' +
+        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center ">Фонарики. Праздник урожая</p>\n' +
+        '                        <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://s.tesera.ru/images/items/579173,3/photo1.jpg">\n' +
+        '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center text-sky-500  ">от 2 до 4 игроков</p>\n' +
+        '                        <p class="focus:outline-none text-lg font-medium text-gray-800 "><p><strong>Lanterns: The Harvest Festival</strong> - игра на сбор сетов с выкладыванием тайлов.</p><br><p>&nbsp;</p><br><p>Во время своего хода игрок ставит на поле тайл к одному из соседних, получая бонус за совпадение присоединяемых граней. Затем&nbsp;<i>все</i> игроки получают карты фонарей того цвета, какой нарисован на повернутой к ним стороне выложенного тайла.</p><br><p>&nbsp;</p><br><p>Игроки получают честь (победные очки), собирая сочетания карт фонарей (три пары разных цветов, четыре одного или по одной карте всех цветов). Тот, кто соберет больше - выигрывает.</p><br><p>В середине осени Crowd Games планирует запуск проекта с этой игрой на площадке "Бумстартер". Печать в России.&nbsp;</p><br><p>&nbsp;</p><br><p><strong><br /></strong></p></p>\n' +
         '                    <div>\n' 
         ;
     mainDiv.className = 'rounded';

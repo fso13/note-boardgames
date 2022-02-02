@@ -24,17 +24,6 @@
     <script src="../../js/modal.js"></script>
     <script src="../../js/header.js"></script>
 </head>
-<script>
-    function copyToClipboard(id, el) {
-        text = document.getElementById(id).href;
-        navigator.clipboard.writeText(text).then(function () {
-            alert("Ссылка скопированна в буффер");
-        }, function (err) {
-            console.error('Async: Could not copy text: ', err);
-        });
-
-    }
-</script>
 <body translate="no">
 
 </body>
@@ -53,10 +42,10 @@
         '            <div role="alert" class="container mx-auto  flex justify-center">\n' +
         '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 pt-10 pb-8 rounded">\n' +
         '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
-        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center dark:text-gray-100">Запретная пустыня</p>\n' +
-        '                        <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://s.tesera.ru/images/items/206160,3/photo1.jpg"</img>\n' +
-        '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center text-sky-500 dark:text-sky-400 ">от 2 до 5 игроков</p>\n' +
-        '                        <p class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 "><p>"Forbidden Desert: Thirst for Survival"&nbsp;&mdash; сиквел кооперативной семейной игры &laquo;Запретный остров&raquo;.&nbsp;Игроки по-прежнему выступают в роли бравых приключенцев. Что до места событий, оно перенесено с острова в пустыню, где&nbsp;игрокам приходится бороться с обжигающим ветром и непостоянными песками в поисках запчастей летающей машины, погребённой в древнем городе. Игрокам предлагают постоянно меняющееся игровое поле, индвидуальный менеджмент ресурсов и уникальный метод обнаружения запчастей летающей машины.</p><br><p>&nbsp;</p><br><p><span>Перед автором, Мэттом Ликоком, стояла задача: создать игру, похожую на предшественницу элементами, но другую по ощущениям от игрового процесса, одинаково интересную как для новичков, так и для бывалых игроков, исколесивших &laquo;Запретный остров&raquo; вдоль и поперёк.</span></p><br><p>&nbsp;</p><br><p><span>В продаже с весны 2013.</span></p></p>\n' +
+        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center ">Запретная пустыня</p>\n' +
+        '                        <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://s.tesera.ru/images/items/206160,3/photo1.jpg">\n' +
+        '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center text-sky-500  ">от 2 до 5 игроков</p>\n' +
+        '                        <p class="focus:outline-none text-lg font-medium text-gray-800 "><p>"Forbidden Desert: Thirst for Survival"&nbsp;&mdash; сиквел кооперативной семейной игры &laquo;Запретный остров&raquo;.&nbsp;Игроки по-прежнему выступают в роли бравых приключенцев. Что до места событий, оно перенесено с острова в пустыню, где&nbsp;игрокам приходится бороться с обжигающим ветром и непостоянными песками в поисках запчастей летающей машины, погребённой в древнем городе. Игрокам предлагают постоянно меняющееся игровое поле, индвидуальный менеджмент ресурсов и уникальный метод обнаружения запчастей летающей машины.</p><br><p>&nbsp;</p><br><p><span>Перед автором, Мэттом Ликоком, стояла задача: создать игру, похожую на предшественницу элементами, но другую по ощущениям от игрового процесса, одинаково интересную как для новичков, так и для бывалых игроков, исколесивших &laquo;Запретный остров&raquo; вдоль и поперёк.</span></p><br><p>&nbsp;</p><br><p><span>В продаже с весны 2013.</span></p></p>\n' +
         '                    <div>\n' 
         ;
     mainDiv.className = 'rounded';
