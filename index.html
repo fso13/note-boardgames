@@ -57,11 +57,6 @@
     document.body.appendChild(nav);
 
     notes.forEach(function (note) {
-
-        var modalDiv = document.createElement('div');
-        modalDiv.id = note.id;
-        modalDiv.className = 'hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center'
-
         var imagesDiv = "";
         note.files.forEach(function (image) {
 
@@ -70,38 +65,10 @@
                 '   <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="' + image + '" />\n' +
                 '</div>';
         });
-        modalDiv.innerHTML =
-            '<div style="width: 100%; height: 100%" class="p-8  transition duration-200 ease-in-out z-10  top-0 right-0 bottom-0 left-0" id="modal">\n' +
-            '            <div role="alert" class="container mx-auto  flex justify-center">\n' +
-            '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 bg-white dark:bg-gray-800 shadow pt-10 pb-8 rounded">\n' +
-            '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
-            '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center dark:text-gray-100">' + note.title + '</p>\n' +
-            '                        <p class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 bg-gray-600">' + note.content + '</p>\n' +
-            '                    <div>\n' +
-            '                        <div class=" pt-10 flex items-center justify-between text-gray-800">\n' +
-            '                            <a id="a_' + note.id + '" href="#' + note.id + '" hidden="hidden"></a>' +
-            '                            <p tabindex="0" class="focus:outline-none text-sm text-sky-500 dark:text-sky-400 ">' + note.tags + '</p>\n' +
-            '                            <button id="linkCopyBtn4" data-copy="a_' + note.id + '" class=" js-copy ml-10 mr-2 sm:mr-4 p-2 text-white rounded focus:outline-none  bg-gray-700 "><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"></path></svg></button>' +
-            '                        </div>\n' +
-            '                    </div>\n' +
-            '                        <div class="gap-x-1 gap-y-0 grid  grid-cols-3 hover:auto-rows-min">' + imagesDiv + '</div>' +
-            '                    </div>\n' +
-            '                    <button class="cursor-pointer absolute top-0 right-0 m-3 text-gray-800 hover:text-gray-600 dark:text-gray-100 dark:hover:text-gray-200 transition duration-150 ease-in-out" onclick="toggleModal(' + note.id + ')">\n' +
-            '                        <svg xmlns="http://www.w3.org/2000/svg" aria-label="Close" class="icon icon-tabler icon-tabler-x" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">\n' +
-            '                            <path stroke="none" d="M0 0h24v24H0z" />\n' +
-            '                            <line x1="18" y1="6" x2="6" y2="18" />\n' +
-            '                            <line x1="6" y1="6" x2="18" y2="18" />\n' +
-            '                        </svg>\n' +
-            '                    </button>\n' +
-            '                </div>\n' +
-            '            </div>\n' +
-            '        </div>';
-        document.getElementById('container').appendChild(modalDiv);
-
 
         var mainDiv = document.createElement('div');
 
-        mainDiv.innerHTML = '<div class="flex w-full items-center flex justify-center items-center">\n' +
+        mainDiv.innerHTML = '<a href="/note-boardgames/html/'+note.id+'.html" ><div class="flex w-full items-center flex justify-center items-center">\n' +
             '        <div>\n' +
             '            <div class="max-w-xs  flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">\n' +
             '                <div>\n' +
@@ -125,7 +92,7 @@
             '                </div>\n' +
             '            </div>\n' +
             '        </div>\n' +
-            '    </div>' +
+            '    </div></a>' +
             '<div class="hidden opacity-25 fixed inset-0 z-40 bg-black" id="' + note.id + '-backdrop"></div>';
         mainDiv.className = 'rounded';
         document.getElementById('container').appendChild(mainDiv);
