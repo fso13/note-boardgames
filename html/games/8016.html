@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:url" content="https://fso13.github.io/note-boardgames/html/games/8016.html"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:site_name" content="Бардовский университет"/>
+    <meta property="og:title" content="Серп"/>
+    <meta property="og:description" content="Серп"/>
+    <meta property="og:image" content="https://s.tesera.ru/images/items/478961,3/photo1.jpg"/>
+    <meta property="og:image:alt" content="Серп"/>
+    <meta property="og:image:width" content="550"/>
+    <meta property="og:image:height" content="550"/>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    </script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <script src="../../js/note.js"></script>
+    <script src="../../js/games.js"></script>
+    <script src="../../js/modal.js"></script>
+    <script src="../../js/header.js"></script>
+</head>
+<script>
+    function copyToClipboard(id, el) {
+        text = document.getElementById(id).href;
+        navigator.clipboard.writeText(text).then(function () {
+            alert("Ссылка скопированна в буффер");
+        }, function (err) {
+            console.error('Async: Could not copy text: ', err);
+        });
+
+    }
+</script>
+<body translate="no">
+
+</body>
+
+<script defer>
+    var nav = document.createElement('div');
+    nav.className = 'flex flex-no-wrap font-mono';
+    nav.innerHTML = headerHtml;
+    nav.id = 'header';
+
+    document.body.appendChild(nav);
+
+    var mainDiv = document.createElement('div');
+
+    mainDiv.innerHTML =         '<div style="width: 100%; height: 100%" class="p-8  transition duration-200 ease-in-out z-10  top-0 right-0 bottom-0 left-0" id="modal">\n' +
+        '            <div role="alert" class="container mx-auto  flex justify-center">\n' +
+        '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 pt-10 pb-8 rounded">\n' +
+        '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
+        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center dark:text-gray-100">Серп</p>\n' +
+        '                        <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://s.tesera.ru/images/items/478961,3/photo1.jpg"</img>\n' +
+        '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center text-sky-500 dark:text-sky-400 ">от 1 до 5 игроков</p>\n' +
+        '                        <p class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 "><p>В альтернативной реальности, после Первой Мировой войны, на территории восточной Европы образовались несколько новых государств, которые продолжают враждовать между собой. Долгая война дала толчок научной мысли, что позволило создать невиданное оружие, похожее на гигантских роботов. Заручившись поддержкой своих граждан, пятеро лидеров готовы начать новый виток войны и одержать в ней победу.</p><br><p>&nbsp;</p><br><p>Игра Scythe выделяется, в первую очередь, превосходным дизайном от польского художника Якоба Розальски (Jakub Rozalski). Сочные и проработанные до мелочей иллюстрации на планшетах и картах выглядят как настоящие картины, выполненные в духе социалистического реализма. Хотя этот реализм несколько специфический - рядом с крестьянами на пашне или лесорубами на опушке изображены огромные роботы, как будто перекочевавшие из настолки&nbsp;Battletech. Миниатюры персонажей фракций и роботов также выполнены на высоте.</p><br><p>&nbsp;</p><br><p>За боевую славу и новые территории в игре Scythe будут сражаться пять фракций: Северное королевство, Саксонская империя, республика Полания, Крымское ханство и Союз Русвет. Выбрав одну из фракций, игроки получают все соответствующие ей компоненты. Лидер фракции выставляется на поле в стартовой позиции. Каждая фракция и ее лидер обладают уникальными способностями и стартовыми ресурсами.</p><br><p>&nbsp;</p><br><p>В игре Серп нет разделения на раунды или фазы: игроки просто ходят по очереди и каждый в свой ход выполняет одно/два действия, указанные на его личном поле. Именно в полях игроков сфокусирована ключевая механика игры Scythe. Поле игрока разбито на 4 части, в каждой из которых есть верхнее действие и нижнее. Сначала игрок выбирает нужную часть поля, а потом объявляет, какое действие он будет выполнять - верхнее, нижнее или оба.</p><br><p>&nbsp;</p><br><p>Оплатив в банк требуемую цену (монеты, ресурсы), игрок может: переместить персонажа или робота по карте поля, накопить военные силы (отмечается на соответствующем треке), купить ресурсы (еда, дерево, металл, нефть), произвести ресурс или нового рабочего, увеличить популярность среди населения (отмечается на соответствующем треке), построить робота или здание и другое.</p><br><p>&nbsp;</p><br><p>Если после перемещения робота или персонажа, они оказываются на вражеской территории, происходит бой. Сразу скажем, что боям в игре Scythe отведена очень маленькая роль. Игроки тайно тратят накопленные очки силы (отмечают на особом циферблате) и добавляют к ним по желанию карты битвы с дополнительными очками силы. Сравнив значения, игроки определяют победителя.</p><br><p>&nbsp;</p><br><p>Если после перемещения персонаж оказался в одной клетке с жетоном встреч, он тянет карту встреч и выбирает один из игровых эффектов. Когда персонаж достигает центральной клетки поля "Фактории", он может получить соответствующую карту, которая даст новое уникальное действие, в дополнение к указанным на планшете игрока.</p><br><p>&nbsp;</p><br><p>Цель игры Серп - собрать как можно больше монет. Кроме получения монет в процессе игры, они начисляются за накопленные ресурсы, контролируемые ячейки поля и жетоны звездочек, которые получает игрок за достижение в процессе игры разных результатов, например, за постройку всех четырех роботов, за получение 16 очков силы, за выполненные условия на карте цели, за победу в бою и так далее. Причем и звездочки, и ресурсы, и контролируемые территории принесут тем больше монет, чем больше уровень популярности фракции. После финального подсчета очков определяется победитель.<br /><br /><br /></p></p>\n' +
+        '                    <div>\n' 
+        ;
+    mainDiv.className = 'rounded';
+    document.getElementById('container').className = 'container grid';
+
+    document.getElementById('container').appendChild(mainDiv);
+</script>
+
+</html>

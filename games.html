@@ -53,33 +53,6 @@
         return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
     }).forEach(function (game) {
 
-        var modalDiv = document.createElement('div');
-        modalDiv.id = game.game.id;
-        modalDiv.className = 'hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center'
-
-
-        modalDiv.innerHTML =
-            '<div style="width: 100%; height: 100%" class="p-8  transition duration-200 ease-in-out z-10  top-0 right-0 bottom-0 left-0" id="modal">\n' +
-            '            <div role="alert" class="container mx-auto  flex justify-center">\n' +
-            '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 bg-white dark:bg-gray-800 shadow pt-10 pb-8 rounded">\n' +
-            '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
-            '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center dark:text-gray-100">' + game.game.title + '</p>\n' +
-            '                        <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="' + game.game.photoUrl + '" />\n' +
-            '                        <p class="text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center ttext-sky-500 dark:text-sky-400">от ' + game.game.playersMin + ' до ' + game.game.playersMax + ' игроков</p>\n' +
-            '                        <p class="focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100">' + game.game.description.replace(/<(.|\n)*?>/g, '') + '</p>\n' +
-            '                    </div>\n' +
-            '                    <button class="cursor-pointer absolute top-0 right-0 m-3 text-gray-800 hover:text-gray-600 dark:text-gray-100 dark:hover:text-gray-200 transition duration-150 ease-in-out" onclick="toggleModal(' + game.game.id + ')">\n' +
-            '                        <svg xmlns="http://www.w3.org/2000/svg" aria-label="Close" class="icon icon-tabler icon-tabler-x" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">\n' +
-            '                            <path stroke="none" d="M0 0h24v24H0z" />\n' +
-            '                            <line x1="18" y1="6" x2="6" y2="18" />\n' +
-            '                            <line x1="6" y1="6" x2="18" y2="18" />\n' +
-            '                        </svg>\n' +
-            '                    </button>\n' +
-            '                </div>\n' +
-            '            </div>\n' +
-            '        </div>';
-        document.getElementById('container').appendChild(modalDiv);
-
 
         var mainDiv = document.createElement('div');
 
@@ -91,7 +64,7 @@
         }
         d = d.replace(/<(.|\n)*?>/g, '');
 
-        mainDiv.innerHTML = '<div class="flex w-full items-center flex justify-center items-center">\n' +
+        mainDiv.innerHTML = '<a href="/note-boardgames/html/games/' + game.game.id + '.html" ><div class="flex w-full items-center flex justify-center items-center">\n' +
             '        <div>\n' +
             '            <div class="max-w-xs  flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">\n' +
             '                <div>\n' +
@@ -107,17 +80,12 @@
             '                    <div>\n' +
             '                        <div class="flex items-center justify-between text-gray-800">\n' +
             '                            <p tabindex="0" class="focus:outline-none text-sm text-sky-500 dark:text-sky-400">от ' + game.game.playersMin + ' до ' + game.game.playersMax + ' игроков</p>\n' +
-            '                             <button  class="w-8 h-8 rounded-full bg-gray-800 text-white flex items-center justify-center" onclick="toggleModal(' + game.game.id + ')">\n' +
-            '                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">\n' +
-            '                                   <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h4a1 1 0 010 2H6.414l2.293 2.293a1 1 0 01-1.414 1.414L5 6.414V8a1 1 0 01-2 0V4zm9 1a1 1 0 110-2h4a1 1 0 011 1v4a1 1 0 11-2 0V6.414l-2.293 2.293a1 1 0 11-1.414-1.414L13.586 5H12zm-9 7a1 1 0 112 0v1.586l2.293-2.293a1 1 0 011.414 1.414L6.414 15H8a1 1 0 110 2H4a1 1 0 01-1-1v-4zm13-1a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 110-2h1.586l-2.293-2.293a1 1 0 011.414-1.414L15 13.586V12a1 1 0 011-1z" clip-rule="evenodd" />\n' +
-            '                               </svg>\n' +
-            '                            </button>' +
             '                        </div>\n' +
             '                    </div>\n' +
             '                </div>\n' +
             '            </div>\n' +
             '        </div>\n' +
-            '    </div>' +
+            '    </div></a>' +
             '<div class="hidden opacity-25 fixed inset-0 z-40 bg-black" id="' + game.game.id + '-backdrop"></div>';
         mainDiv.className = 'rounded';
         document.getElementById('container').appendChild(mainDiv);
