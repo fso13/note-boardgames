@@ -64,6 +64,13 @@
         }
         d = d.replace(/<(.|\n)*?>/g, '');
 
+        var playersMax = "";
+
+        if (game.game.playersMax === 0) {
+            playersMax = "∞";
+        } else {
+            playersMax = game.game.playersMax;
+        }
         mainDiv.innerHTML = '<a href="/note-boardgames/html/games/' + game.game.id + '.html" ><div class="flex w-full items-center flex justify-center items-center">\n' +
             '        <div>\n' +
             '            <div class="max-w-xs  flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">\n' +
@@ -79,7 +86,7 @@
             '                    </div>\n' +
             '                    <div>\n' +
             '                        <div class="flex items-center justify-between text-gray-800">\n' +
-            '                            <p tabindex="0" class="focus:outline-none text-sm text-sky-500 dark:text-sky-400">от ' + game.game.playersMin + ' до ' + game.game.playersMax + ' игроков</p>\n' +
+            '                            <p tabindex="0" class="focus:outline-none text-sm text-sky-500 dark:text-sky-400">от ' + game.game.playersMin + ' до ' + playersMax + ' игроков</p>\n' +
             '                        </div>\n' +
             '                    </div>\n' +
             '                </div>\n' +

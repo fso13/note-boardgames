@@ -98,7 +98,7 @@ public class GamesGeneration {
                     game.game.title,
                     game.game.title,
                     game.game.photoUrl,
-                    String.format("от %s до %s игроков", game.game.playersMin, game.game.playersMax),
+                    String.format("от %s до %s игроков", game.game.playersMin, "0".equals(game.game.playersMax) ? "∞" : game.game.playersMax),
                     game.game.description.replaceAll("\r\n", "<\\br>"));
 
             try {
