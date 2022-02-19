@@ -8,8 +8,8 @@ var notes = [
             "Similo"
         ],
         "files": [
-            "https://github.com/fso13/note-boardgames/raw/master/img/102/4754f885-bd86-4201-b07e-04e78be2a7b5.jpg",
-            "https://github.com/fso13/note-boardgames/raw/master/img/102/41ce4af1-72f3-4da3-876e-d8eb81f033b3.jpg"
+            "https://github.com/fso13/note-boardgames/raw/master/img/103/4754f885-bd86-4201-b07e-04e78be2a7b5.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/103/41ce4af1-72f3-4da3-876e-d8eb81f033b3.jpg"
         ]
     },
     {
