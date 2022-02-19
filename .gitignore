@@ -1,5 +1,5 @@
 /.idea/runConfigurations.xml
-/.idea/vcs.xml
-/.idea/misc.xml
-/.idea/modules.xml
+/generation/target/
+/generation/generation.iml
+/.idea/
 /note-boardgames.iml
