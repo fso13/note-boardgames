@@ -1,4 +1,4 @@
-package ru.drudenko.sms.testclient;
+package tesera;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -21,7 +21,7 @@ import java.util.Map;
  *
  * @author Rudenko Dmitry
  */
-public class BG {
+public class Tesera {
     public static void main(String[] args) {
 
 

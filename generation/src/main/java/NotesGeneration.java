@@ -1,5 +1,3 @@
-package ru.drudenko.sms.testclient;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
@@ -12,30 +10,31 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 /**
  * created 14/01/2022
  *
  * @author Rudenko Dmitry
  */
-public class GameHtmlCreate {
+public class NotesGeneration {
     public static void main(String[] args) throws IOException {
 
-        String list = new String(Files.readAllBytes(Paths.get("D:\\Projects\\note-boardgames\\js\\games.js")), StandardCharsets.UTF_8).replace("var games = ", "");
+        String list = new String(Files.readAllBytes(Paths.get("D:\\Документы\\D\\fso13\\note-boardgames\\js\\note.js")), StandardCharsets.UTF_8).replace("var notes = ", "");;
         list = list.trim();
         JsonReader reader = new JsonReader(new StringReader(list));
         reader.setLenient(true);
 
-        Type listType = new TypeToken<ArrayList<Game>>() {
+        Type listType = new TypeToken<ArrayList<Note>>() {
         }.getType();
-        ArrayList<Game> games = new Gson().fromJson(reader, listType);
+        ArrayList<Note> notes = new Gson().fromJson(reader, listType);
 
-        System.out.println(games);
+        System.out.println(notes);
         String html = "<!DOCTYPE html>\n" +
                 "<html lang=\"en\">\n" +
                 "<head>\n" +
                 "    <meta charset=\"UTF-8\">\n" +
-                "    <meta property=\"og:url\" content=\"https://fso13.github.io/note-boardgames/html/games/%s.html\"/>\n" +
+                "    <meta property=\"og:url\" content=\"https://fso13.github.io/note-boardgames/html/%s.html\"/>\n" +
                 "    <meta property=\"og:type\" content=\"article\"/>\n" +
                 "    <meta property=\"og:site_name\" content=\"Бардовский университет\"/>\n" +
                 "    <meta property=\"og:title\" content=\"%s\"/>\n" +
@@ -52,11 +51,22 @@ public class GameHtmlCreate {
                 "    <link href=\"https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css\" rel=\"stylesheet\">\n" +
                 "    <script src=\"https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp\"></script>\n" +
                 "\n" +
-                "    <script src=\"../../js/note.js\"></script>\n" +
-                "    <script src=\"../../js/games.js\"></script>\n" +
-                "    <script src=\"../../js/modal.js\"></script>\n" +
-                "    <script src=\"../../js/header.js\"></script>\n" +
+                "    <script src=\"../js/note.js\"></script>\n" +
+                "    <script src=\"../js/games.js\"></script>\n" +
+                "    <script src=\"../js/modal.js\"></script>\n" +
+                "    <script src=\"../js/header.js\"></script>\n" +
                 "</head>\n" +
+                "<script>\n" +
+                "    function copyToClipboard(id, el) {\n" +
+                "        text = document.getElementById(id).href;\n" +
+                "        navigator.clipboard.writeText(text).then(function () {\n" +
+                "            alert(\"Ссылка скопированна в буффер\");\n" +
+                "        }, function (err) {\n" +
+                "            console.error('Async: Could not copy text: ', err);\n" +
+                "        });\n" +
+                "\n" +
+                "    }\n" +
+                "</script>\n" +
                 "<body translate=\"no\">\n" +
                 "\n" +
                 "</body>\n" +
@@ -76,12 +86,15 @@ public class GameHtmlCreate {
                 "        '            <div role=\"alert\" class=\"container mx-auto  flex justify-center\">\\n' +\n" +
                 "        '                <div class=\"relative w-11/12 sm:w-8/12 md:w-9/12 pt-10 pb-8 rounded\">\\n' +\n" +
                 "        '                    <div class=\"flex flex-col items-center px-4 md:px-12\">\\n' +\n" +
-                "        '                        <p class=\"pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-gray-800 text-center \">%s</p>\\n' +\n" + //title
-                "        '                        <img class=\"object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15\" src=\"%s\">\\n' +\n" +
-                "        '                        <p class=\"text-xs sm:text-sm leading-5 mt-2 sm:mt-4 text-center text-sky-500  \">%s</p>\\n' +\n" + //игроки
-                "        '                        <p class=\"focus:outline-none text-lg font-medium text-gray-800 \">%s</p>\\n' +\n" + //описание
-                "        '                    <div>\\n' \n" +
-                "        ;\n" +
+                "        '                        <p class=\"pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-center \">%s</p>\\n' +\n" +
+                "        '                        <p class=\"focus:outline-none text-lg font-medium \">%s</p>\\n' +\n" +
+                "        '                    <div>\\n' +\n" +
+                "        '                    <div>\\n' +\n" +
+                "        '                        <div class=\"flex p-8 flex-col items-center px-4 md:px-12\">\\n' +\n" +
+                "        '                            <p  class=\"focus:outline-none text-sm text-sky-500 dark:text-sky-400 text-center\">%s</p>\\n' +\n" +
+                "        '                        </div>" +
+                "                               </div>' +\n" +
+                "        '                      <div class=\"gap-x-1 gap-y-0 grid  grid-cols-3 hover:auto-rows-min\">%s</div>';\n" +
                 "    mainDiv.className = 'rounded';\n" +
                 "    document.getElementById('container').className = 'container grid';\n\n" +
                 "    document.getElementById('container').appendChild(mainDiv);\n" +
@@ -89,22 +102,20 @@ public class GameHtmlCreate {
                 "\n" +
                 "</html>\n";
 
+        String htmlImageDiv =
+                "                                   <div class=\"gap-x-5 gap-y-5  max-w-xs  flex flex-col justify-between \">\\n' +\n" +
+                        "        '                              <img class=\"object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15\" src=\"%s\">\\n' +\n" +
+                        "        '                          </div>";
 
-        games.forEach(game -> {
 
-            String total = String.format(html,
-                    game.game.id,
-                    game.game.title,
-                    game.game.title,
-                    game.game.photoUrl,
-                    game.game.title,
-                    game.game.title,
-                    game.game.photoUrl,
-                    String.format("от %s до %s игроков", game.game.playersMin, game.game.playersMax),
-                    game.game.description.replaceAll("\r\n", "<\\br>"));
+        notes.forEach(note -> {
+
+            String images = note.files.stream().map(s -> String.format(htmlImageDiv, s)).collect(Collectors.joining());
+
+            String total = String.format(html, note.id, note.content.replaceAll("<.*?>", ""), note.content.replaceAll("<.*?>", ""), note.files.get(0), note.content.replaceAll("<.*?>", ""), note.title, note.content, String.join(",", note.tags), images);
 
             try {
-                Files.write(Paths.get("D:\\Projects\\note-boardgames\\html\\games\\" + game.game.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
+                Files.write(Paths.get("D:\\Документы\\D\\fso13\\note-boardgames\\html\\" + note.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
             } catch (IOException e) {
                 e.printStackTrace();
             }

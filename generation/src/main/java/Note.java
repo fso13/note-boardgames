@@ -1,5 +1,3 @@
-package ru.drudenko.sms.testclient;
-
 import java.util.List;
 
 /**

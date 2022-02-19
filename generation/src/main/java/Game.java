@@ -1,5 +1,3 @@
-package ru.drudenko.sms.testclient;
-
 /**
  * created 02/02/2022
  *
