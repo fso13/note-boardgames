@@ -3143,27 +3143,748 @@ var games = [
     },
 
     //ниже из моей коллекции
+
     {
         "game": {
-            "id": 34634,
-            "teseraId": 1477514,
-            "bggId": 0,
-            "title": "Mansions of Madness Second Edition: Path of the Serpent",
-            "alias": "mansions-of-madness-second-edition-path-of-the-serpent",
-            "descriptionShort": "",
-            "description": "<p>Четверым новым сыщикам предстоит отправиться в джунгли Амазонии, чтобы на протяжении трёх сценариев обыскивать руины в поисках секретов и &mdash; в конце концов &mdash; развеять древнее проклятье змея.</p>\r\n<p>Новые монстры, фрагменты игрового поля, карты и миниатюры.</p>",
-            "modificationDateUtc": "2022-01-14T08:19:51",
-            "creationDateUtc": "2019-06-25T13:30:29",
-            "photoUrl": "https://s.tesera.ru/images/items/1477514,3/photo1.png",
-            "photoUrl2": "https://s.tesera.ru/images/items/1477514,3/photo2.png",
+            "id": 13340,
+            "teseraId": 978774,
+            "bggId": 188547,
+            "title": "Максимум Апокалипсис",
+            "title2": "Maximum Apocalypse",
+            "alias": "Maximum-Apocalypse",
+            "descriptionShort": "Maximum Apocalypse is a cooperative roguelike adventure game for 1-6 players. In Maximum Apocalypse, civilization has already fallen. The players are survivors of the apocalypse whose mission is to survive the hostile landscape. The game map is randomly generated and different every time that you play. On each turn, a player can use up to four actions to explore the map, play cards, equip weapons, scavenge for resources, draw cards or battle off monsters. Picking a unique survivor class within the group, players must plan their strategy and work together while leaning on their survivor’s strengths in order to defeat monsters and avoid starvation. For example, the Fireman is deadly up close with his ax and can easily chop down monsters; meanwhile the stealthy Hunter is great at scouting the map and avoiding traps — but roaming monsters are gathering quickly and time is running out. If you are overwhelmed by monsters or die of starvation, the players lose. If they can find enough gas and get it back to their van to escape, they all win and live to play another scenario.",
+            "description": "<p><i><strong>Maximum Apocalypse</strong></i>&nbsp;is a cooperative roguelike adventure game for 1-6 players. In Maximum Apocalypse, civilization has already fallen. The players are survivors of the apocalypse whose mission is to survive the hostile landscape.</p>\r\n<p>&nbsp;</p>\r\n<p>The game map is randomly generated and different every time that you play. On each turn, a player can use up to four actions to explore the map, play cards, equip weapons, scavenge for resources, draw cards or battle off monsters.</p>\r\n<p>&nbsp;</p>\r\n<p>Picking a unique survivor class within the group, players must plan their strategy and work together while leaning on their survivor&rsquo;s strengths in order to defeat monsters and avoid starvation. For example, the Fireman is deadly up close with his ax and can easily chop down monsters; meanwhile the stealthy Hunter is great at scouting the map and avoiding traps &mdash; but roaming monsters are gathering quickly and time is running out. If you are overwhelmed by monsters or die of starvation, the players lose. If they can find enough gas and get it back to their van to escape, they all win and live to play another scenario.</p>",
+            "modificationDateUtc": "2022-02-19T19:02:34",
+            "creationDateUtc": "2017-04-12T04:06:57",
+            "photoUrl": "https://s.tesera.ru/images/items/978774,3/photo1.png",
+            "year": 2018,
+            "ratingUser": 7.52,
+            "n10Rating": 6.54,
+            "n20Rating": 0.0,
+            "bggRating": 7.579,
+            "bggGeekRating": 6.451,
+            "bggNumVotes": 1739,
+            "numVotes": 14,
+            "playersMin": 1,
+            "playersMax": 6,
+            "playersMinRecommend": 4,
+            "playersMaxRecommend": 4,
+            "playersAgeMin": 13,
+            "timeToLearn": 20,
+            "playtimeMin": 45,
+            "playtimeMax": 90,
+            "commentsTotal": 16,
+            "commentsTotalNew": 0,
+            "teseraUrl": "https://tesera.ru/game/978774",
+            "isAddition": false
+        },
+        "ownersTotal": 65,
+        "sellTotal": 0,
+        "buyTotal": 11,
+        "sellTotalAll": 0,
+        "buyTotalAll": 3,
+        "commentsTotal": 16,
+        "reportsTotal": 0,
+        "photosTotal": 2,
+        "filesTotal": 4,
+        "linksTotal": 4,
+        "videoExternalTotal": 6,
+        "videoInternalTotal": 0,
+        "photos": [{
+            "teseraId": 1456012,
+            "title": "Maximum Apocalypse Play Mat",
+            "photoUrl": "https://s.tesera.ru/images/items/1456012/1600x1200xsxy/photo.png",
+            "creationDateUtc": "2019-05-15T07:32:31",
+            "commentsTotal": 0,
+            "author": {"teseraId": 126140, "id": 2810, "login": "lihadzey", "name": "lihadzey", "rating": 967, "teseraUrl": "https://tesera.ru/user/126140"}
+        }, {
+            "teseraId": 978775,
+            "title": "Maximum Apocalypse",
+            "photoUrl": "https://s.tesera.ru/images/items/978775/1600x1200xsxy/photo.jpg",
+            "creationDateUtc": "2017-04-12T04:07:09",
+            "commentsTotal": 0,
+            "author": {
+                "teseraId": 20015,
+                "id": 358,
+                "login": "port",
+                "name": "Олег",
+                "avatarUrl": "https://s.tesera.ru/images/items/20015,22/photo.jpg",
+                "rating": 51002,
+                "teseraUrl": "https://tesera.ru/user/20015"
+            }
+        }],
+        "files": [{
+            "teseraId": 1735221,
+            "objectType": "Game",
+            "title": "Правила (rus)",
+            "content": "Перевод правил",
+            "photoUrl": "https://tesera.ru/images/items/1735221/Max Apocalypse rulebook RU.pdf",
+            "modificationDateUtc": "2020-09-03T15:07:48",
+            "creationDateUtc": "2020-09-03T15:07:48",
+            "author": {
+                "teseraId": 866257,
+                "id": 20744,
+                "login": "feunoir",
+                "name": "feunoir",
+                "avatarUrl": "https://s.tesera.ru/images/items/866257,22/photo.jpg",
+                "rating": 312,
+                "teseraUrl": "https://tesera.ru/user/866257"
+            }
+        }, {
+            "teseraId": 1456010,
+            "objectType": "Game",
+            "title": "The RolePlaying Game Quickstart Guide (eng)",
+            "content": "RPG Quickstart!",
+            "photoUrl": "https://tesera.ru/images/items/1456010/quickstart.pdf",
+            "modificationDateUtc": "2019-05-15T07:28:06",
+            "creationDateUtc": "2019-05-15T07:28:06",
+            "author": {"teseraId": 126140, "id": 2810, "login": "lihadzey", "name": "lihadzey", "rating": 967, "teseraUrl": "https://tesera.ru/user/126140"}
+        }, {
+            "teseraId": 1284967,
+            "objectType": "Game",
+            "title": "Правила (eng)",
+            "photoUrl": "https://tesera.ru/images/items/1284967/Max Apocalypse rulebook.pdf",
+            "modificationDateUtc": "2018-07-19T09:27:30",
+            "creationDateUtc": "2018-07-19T09:27:29",
+            "author": {
+                "teseraId": 601733,
+                "id": 13723,
+                "login": "dojo",
+                "name": "Павел",
+                "avatarUrl": "https://s.tesera.ru/images/items/601733,22/photo.jpg",
+                "rating": 10159,
+                "teseraUrl": "https://tesera.ru/user/601733"
+            }
+        }, {
+            "teseraId": 1284959,
+            "objectType": "Game",
+            "title": "FAQ 1.1",
+            "photoUrl": "https://tesera.ru/images/items/1284959/Maximum_Apocalyse_FAQ_v1.1.pdf",
+            "modificationDateUtc": "2018-07-19T09:17:52",
+            "creationDateUtc": "2018-07-19T09:17:51",
+            "author": {
+                "teseraId": 601733,
+                "id": 13723,
+                "login": "dojo",
+                "name": "Павел",
+                "avatarUrl": "https://s.tesera.ru/images/items/601733,22/photo.jpg",
+                "rating": 10159,
+                "teseraUrl": "https://tesera.ru/user/601733"
+            }
+        }],
+        "links": [{
+            "teseraId": 2036392,
+            "objectType": "Game",
+            "title": "Миниобзор на \"Усатом Злобоглазе\".",
+            "photoUrl": "https://evil-eye.ru/mini_240.html",
+            "modificationDateUtc": "2022-02-15T21:45:44",
+            "creationDateUtc": "2022-02-15T21:45:43",
+            "author": {
+                "teseraId": 263569,
+                "id": 5810,
+                "login": "desert_witch",
+                "name": "Desert_witch",
+                "avatarUrl": "https://s.tesera.ru/images/items/263569,22/photo.jpg",
+                "rating": 65475,
+                "teseraUrl": "https://tesera.ru/user/263569"
+            }
+        }, {
+            "teseraId": 2029886,
+            "objectType": "Game",
+            "title": "Купить Print & Play от автора игры на itch.io",
+            "photoUrl": "https://rockmanor.itch.io/maximum-apocalypse",
+            "modificationDateUtc": "2022-02-04T13:50:41",
+            "creationDateUtc": "2022-02-04T13:50:39",
+            "author": {"teseraId": 1541552, "id": 44002, "login": "vasil3v", "name": "Денис Васильев", "rating": 647, "teseraUrl": "https://tesera.ru/user/1541552"}
+        }, {
+            "teseraId": 1756007,
+            "objectType": "Game",
+            "title": "Сборы на Kickstarter",
+            "photoUrl": "https://www.kickstarter.com/projects/mikegnade/maximum-apocalypse-legendary-edition-with-miniatur",
+            "modificationDateUtc": "2020-10-14T06:38:25",
+            "creationDateUtc": "2020-10-14T06:38:25",
+            "author": {"teseraId": 749890, "id": 18520, "login": "dar_ling", "name": "Максим", "rating": 28599, "teseraUrl": "https://tesera.ru/user/749890"}
+        }, {
+            "teseraId": 1301242,
+            "objectType": "Game",
+            "title": "Maximum Apocalypse on Tabletopia",
+            "photoUrl": "https://tabletopia.com/games/maximum-apocalypse",
+            "modificationDateUtc": "2018-08-23T17:16:56",
+            "creationDateUtc": "2018-08-23T17:16:56",
+            "author": {
+                "teseraId": 58096,
+                "id": 962,
+                "login": "ardenis",
+                "name": "Ardenis",
+                "avatarUrl": "https://s.tesera.ru/images/items/58096,22/photo.jpg",
+                "rating": 24519,
+                "teseraUrl": "https://tesera.ru/user/58096"
+            }
+        }],
+        "similars": [],
+        "relateds": [{
+            "id": 34243,
+            "teseraId": 1445381,
+            "bggId": 249137,
+            "title": "Максимум Апокалипсис. Юрский период",
+            "title2": "Maximum Apocalypse: Jurassic Perils",
+            "alias": "maximum-apocalypse-jurassic-perils",
+            "descriptionShort": "Maximum Apocalypse: Jurassic Perils добавляет персонажа - археолога, и Апокалипсис юрского периода. Археолог - искатель приключений, пытающийся...",
+            "creationDateUtc": "2019-04-24T10:15:34",
+            "photoUrl": "https://s.tesera.ru/images/items/1445381,3/200x200xpa/photo1.png",
             "year": 2019,
-            "ratingUser": 8.89,
-            "n10Rating": 7.09,
+            "numVotes": 1,
+            "ratingUser": 8.0,
+            "n10Rating": 0.0,
+            "n20Rating": 0.0,
+            "bggRating": 7.993,
+            "bggGeekRating": 5.648,
+            "bggNumVotes": 121,
+            "commentsTotal": 0,
+            "commentsTotalNew": 0,
+            "isAddition": true
+        }, {
+            "id": 34372,
+            "teseraId": 1456057,
+            "bggId": 0,
+            "title": "Максимум Апокалипсис. Жукогеддон",
+            "title2": "Maximum Apocalypse: The Bugpocalypse",
+            "alias": "Maximum-Apocalypse-The-Bugpocalypse",
+            "descriptionShort": "",
+            "creationDateUtc": "2019-05-15T08:41:51",
+            "photoUrl": "https://s.tesera.ru/images/items/1456057,3/200x200xpa/photo1.jpg",
+            "year": 2019,
+            "numVotes": 1,
+            "ratingUser": 8.0,
+            "n10Rating": 0.0,
             "n20Rating": 0.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
-            "numVotes": 11,
+            "commentsTotal": 0,
+            "commentsTotalNew": 0,
+            "isAddition": true
+        }, {
+            "id": 35471,
+            "teseraId": 1545178,
+            "bggId": 244841,
+            "title": "Максимум Апокалипсис. Готические ужасы",
+            "title2": "Maximum Apocalypse: Gothic Horrors",
+            "alias": "maximum-apocalypse-gothic-horrors",
+            "descriptionShort": "Дополнение Maximum Apocalypse: Gothic Horrors добавляет три новых апокалиптических сценария: Ктулху, Вампиры и Йокай. Схлестнитесь с выпивающими...",
+            "creationDateUtc": "2019-10-20T10:07:24",
+            "photoUrl": "https://s.tesera.ru/images/items/1545178,3/200x200xpa/photo1.png",
+            "year": 2019,
+            "numVotes": 1,
+            "ratingUser": 7.75,
+            "n10Rating": 0.0,
+            "n20Rating": 0.0,
+            "bggRating": 8.143,
+            "bggGeekRating": 5.778,
+            "bggNumVotes": 233,
+            "commentsTotal": 0,
+            "commentsTotalNew": 0,
+            "isAddition": true
+        }, {
+            "id": 39326,
+            "teseraId": 1858619,
+            "bggId": 335446,
+            "title": "Maximum Apocalypse: Wasted Wilds",
+            "alias": "maximum-apocalypse-wasted-wilds",
+            "descriptionShort": "Maximum Apocalypse: Wasted Wilds - долгожданное продолжение популярной кооперативной игры в жанре roguelike, Maximum Apocalypse, впервые выпущенной...",
+            "creationDateUtc": "2021-04-04T12:05:05",
+            "photoUrl": "https://s.tesera.ru/images/items/1858619,3/200x200xpa/photo1.png",
+            "year": 2022,
+            "numVotes": 0,
+            "ratingUser": 0.0,
+            "n10Rating": 0.0,
+            "n20Rating": 0.0,
+            "bggRating": 7.833,
+            "bggGeekRating": 0.0,
+            "bggNumVotes": 3,
+            "commentsTotal": 1,
+            "commentsTotalNew": 0,
+            "isAddition": true
+        }],
+        "news": [{
+            "teseraId": 2029366,
+            "title": "«Максимум Апокалипсис» — предзаказ стартовал!",
+            "alias": "2029366",
+            "contentShort": "10 апокалипсисов на любой вкус цвет!",
+            "creationDateUtc": "2022-02-03T17:23:08",
+            "modificationDateUtc": "2022-02-11T11:29:27",
+            "publicationDateUtc": "2022-02-03T17:36:00",
+            "photoUrl": "https://s.tesera.ru/images/items/2029366,18/125x125xpa/photo.jpg",
+            "rating": 8.63,
+            "commentsTotal": 56,
+            "numVotes": 59
+        }]
+    }, {
+        "game": {
+            "id": 35450,
+            "teseraId": 1543737,
+            "bggId": 280032,
+            "title": "Раскопки",
+            "title2": "Fossilis",
+            "alias": "fossilis",
+            "descriptionShort": "В игре Fossilis вам предстоит исследовать уникальное трехмерное игровое поле. Раскопайте невероятные окаменелости динозавров, пока ваши соперники-палеонтологи копошатся вокруг вас!",
+            "description": "<p>В игре Fossilis вам предстоит исследовать уникальное трехмерное игровое поле. Раскопайте невероятные окаменелости динозавров, пока ваши соперники-палеонтологи копошатся вокруг вас!</p>",
+            "modificationDateUtc": "2022-02-23T10:45:00",
+            "creationDateUtc": "2019-10-17T12:03:53",
+            "photoUrl": "https://s.tesera.ru/images/items/1543737,3/photo1.png",
+            "year": 2020,
+            "ratingUser": 7.6,
+            "n10Rating": 6.64,
+            "n20Rating": 0.0,
+            "bggRating": 7.3,
+            "bggGeekRating": 6.04,
+            "bggNumVotes": 820,
+            "numVotes": 16,
+            "playersMin": 2,
+            "playersMax": 5,
+            "playersMinRecommend": 0,
+            "playersMaxRecommend": 0,
+            "playersAgeMin": 8,
+            "timeToLearn": 0,
+            "playtimeMin": 45,
+            "playtimeMax": 45,
+            "commentsTotal": 26,
+            "commentsTotalNew": 0,
+            "teseraUrl": "https://tesera.ru/game/1543737",
+            "isAddition": false
+        },
+        "ownersTotal": 80,
+        "sellTotal": 2,
+        "buyTotal": 1,
+        "sellTotalAll": 0,
+        "buyTotalAll": 7,
+        "commentsTotal": 26,
+        "reportsTotal": 0,
+        "photosTotal": 6,
+        "filesTotal": 4,
+        "linksTotal": 1,
+        "videoExternalTotal": 0,
+        "videoInternalTotal": 0,
+        "photos": [{
+            "teseraId": 1795031,
+            "title": "процесс игры",
+            "photoUrl": "https://s.tesera.ru/images/items/1795031/1600x1200xsxy/photo.jpg",
+            "creationDateUtc": "2020-12-21T04:42:02",
+            "commentsTotal": 0,
+            "author": {"teseraId": 1434920, "id": 40382, "login": "kadeas", "name": "Сергей", "rating": 753, "teseraUrl": "https://tesera.ru/user/1434920"}
+        }, {
+            "teseraId": 1795030,
+            "title": "процесс игры",
+            "photoUrl": "https://s.tesera.ru/images/items/1795030/1600x1200xsxy/photo.jpg",
+            "creationDateUtc": "2020-12-21T04:41:52",
+            "commentsTotal": 0,
+            "author": {"teseraId": 1434920, "id": 40382, "login": "kadeas", "name": "Сергей", "rating": 753, "teseraUrl": "https://tesera.ru/user/1434920"}
+        }, {
+            "teseraId": 1795029,
+            "title": "Карты Динозавров",
+            "photoUrl": "https://s.tesera.ru/images/items/1795029/1600x1200xsxy/photo.jpg",
+            "creationDateUtc": "2020-12-21T04:40:55",
+            "commentsTotal": 0,
+            "author": {"teseraId": 1434920, "id": 40382, "login": "kadeas", "name": "Сергей", "rating": 753, "teseraUrl": "https://tesera.ru/user/1434920"}
+        }, {
+            "teseraId": 1795028,
+            "title": "Палеонтологи",
+            "photoUrl": "https://s.tesera.ru/images/items/1795028/1600x1200xsxy/photo.jpg",
+            "creationDateUtc": "2020-12-21T04:40:42",
+            "commentsTotal": 0,
+            "author": {"teseraId": 1434920, "id": 40382, "login": "kadeas", "name": "Сергей", "rating": 753, "teseraUrl": "https://tesera.ru/user/1434920"}
+        }, {
+            "teseraId": 1795027,
+            "title": "Плитки",
+            "photoUrl": "https://s.tesera.ru/images/items/1795027/1600x1200xsxy/photo.jpg",
+            "creationDateUtc": "2020-12-21T04:40:32",
+            "commentsTotal": 0,
+            "author": {"teseraId": 1434920, "id": 40382, "login": "kadeas", "name": "Сергей", "rating": 753, "teseraUrl": "https://tesera.ru/user/1434920"}
+        }],
+        "files": [{
+            "teseraId": 1963153,
+            "objectType": "Game",
+            "title": "Правила на русском языке",
+            "content": "Официальные правила от Фабрики игр",
+            "photoUrl": "https://tesera.ru/images/items/1963153/Fossilis_Rules.pdf",
+            "modificationDateUtc": "2021-10-23T03:03:45",
+            "creationDateUtc": "2021-10-23T03:03:44",
+            "author": {"teseraId": 1604748, "id": 46254, "login": "niidzima", "name": "Артём", "rating": 447, "teseraUrl": "https://tesera.ru/user/1604748"}
+        }, {
+            "teseraId": 1900413,
+            "objectType": "Game",
+            "title": "Правила на русском языке",
+            "content": "Автоперевод",
+            "photoUrl": "https://tesera.ru/images/items/1900413/ilovepdf_merged.pdf",
+            "modificationDateUtc": "2021-06-23T06:42:06",
+            "creationDateUtc": "2021-06-23T06:42:05",
+            "author": {
+                "teseraId": 1774173,
+                "id": 51998,
+                "login": "droltromed",
+                "name": "Руслан",
+                "avatarUrl": "https://s.tesera.ru/images/items/1774173,22/photo.png",
+                "rating": 95,
+                "teseraUrl": "https://tesera.ru/user/1774173"
+            }
+        }, {
+            "teseraId": 1900412,
+            "objectType": "Game",
+            "title": "Памятка по событиям, способностям и инструментам",
+            "content": "На русском языке",
+            "photoUrl": "https://tesera.ru/images/items/1900412/Fossilis.pdf",
+            "modificationDateUtc": "2021-06-23T06:41:31",
+            "creationDateUtc": "2021-06-23T06:41:30",
+            "author": {
+                "teseraId": 1774173,
+                "id": 51998,
+                "login": "droltromed",
+                "name": "Руслан",
+                "avatarUrl": "https://s.tesera.ru/images/items/1774173,22/photo.png",
+                "rating": 95,
+                "teseraUrl": "https://tesera.ru/user/1774173"
+            }
+        }, {
+            "teseraId": 1795023,
+            "objectType": "Game",
+            "title": "Правила английские",
+            "photoUrl": "https://tesera.ru/images/items/1795023/FSL_rules_work.pdf",
+            "modificationDateUtc": "2020-12-21T04:37:38",
+            "creationDateUtc": "2020-12-21T04:37:38",
+            "author": {"teseraId": 1434920, "id": 40382, "login": "kadeas", "name": "Сергей", "rating": 753, "teseraUrl": "https://tesera.ru/user/1434920"}
+        }],
+        "links": [{
+            "teseraId": 1543741,
+            "objectType": "Game",
+            "title": "Страница игры на Kickstarter",
+            "photoUrl": "https://www.kickstarter.com/projects/kidstablebg/fossilis",
+            "modificationDateUtc": "2019-10-17T12:05:16",
+            "creationDateUtc": "2019-10-17T12:05:15",
+            "author": {"teseraId": 749890, "id": 18520, "login": "dar_ling", "name": "Максим", "rating": 28599, "teseraUrl": "https://tesera.ru/user/749890"}
+        }],
+        "similars": [],
+        "relateds": [],
+        "news": []
+    }, {
+        "game": {
+            "id": 35953,
+            "teseraId": 1576734,
+            "bggId": 291962,
+            "title": "Бумажные подземелья",
+            "title2": "Paper Dungeons: A Dungeon Drawling Game",
+            "title3": "Paper Dungeons",
+            "alias": "paper-dungeons",
+            "descriptionShort": "",
+            "description": "<h2><span style=\"font-weight: 400;\">&laquo;Бумажные подземелья&raquo; (Paper Dungeons) &mdash; это динамичное приключение, в котором вам предстоит исследовать сказочные подземелья в поисках славы и несметных сокровищ.&nbsp;</span></h2>\r\n<p><span style=\"font-weight: 400;\">Возглавьте команду искателей приключений, сражающихся со страшными чудовищами и помогите им прославиться.&nbsp;</span></p>\r\n<p><span style=\"font-weight: 400;\">Повышайте уровни ваших персонажей, изготавливайте волшебные предметы и исследуйте все закоулки подземелья, где притаились жуткие порождения зла &mdash; от злобной горгульи и древней мумии до коварной гидры и могучего дракона.</span></p>\r\n<p><span style=\"font-weight: 400;\">В &laquo;Бумажных подземельях&raquo; каждый игрок управляет командой из 4 героев классического фэнтези (воин, маг, священник и плут), бросая кубики и рисуя путь их перемещения. Странствия героев проходят в подземелье, полном чудовищ и ловушек, с которыми им предстоит справиться, чтобы выполнить свою опасную миссию. В течение 8 раундов ваши герои будут оттачивать свои умения, сражаться с жуткими порождениями зла и их мерзкими приспешниками, а также пытаться заполучить сокровища.</span></p>\r\n<p><span style=\"font-weight: 400;\">В конце игры команды возвращаются в родную деревню, чтобы поведать истории о своих свершениях в местной таверне. Победителем становится игрок, чья команда получила больше всего славы во время удивительных приключений!</span></p>",
+            "modificationDateUtc": "2022-02-22T17:40:48",
+            "creationDateUtc": "2019-12-11T18:38:12",
+            "photoUrl": "https://s.tesera.ru/images/items/1576734,3/photo1.png",
+            "year": 2021,
+            "ratingUser": 7.38,
+            "n10Rating": 7.16,
+            "n20Rating": 6.99,
+            "bggRating": 7.4,
+            "bggGeekRating": 6.125,
+            "bggNumVotes": 896,
+            "numVotes": 92,
+            "playersMin": 1,
+            "playersMax": 8,
+            "playersMinRecommend": 2,
+            "playersMaxRecommend": 7,
+            "playersAgeMin": 10,
+            "timeToLearn": 10,
+            "playtimeMin": 25,
+            "playtimeMax": 40,
+            "commentsTotal": 32,
+            "commentsTotalNew": 0,
+            "teseraUrl": "https://tesera.ru/game/1576734",
+            "isAddition": false
+        },
+        "ownersTotal": 287,
+        "sellTotal": 1,
+        "buyTotal": 1,
+        "sellTotalAll": 3,
+        "buyTotalAll": 3,
+        "commentsTotal": 32,
+        "reportsTotal": 0,
+        "photosTotal": 2,
+        "filesTotal": 3,
+        "linksTotal": 5,
+        "videoExternalTotal": 1,
+        "videoInternalTotal": 0,
+        "photos": [{
+            "teseraId": 1938176,
+            "title": "Планшет игрока из локализации",
+            "photoUrl": "https://s.tesera.ru/images/items/1938176/1600x1200xsxy/photo.jpg",
+            "creationDateUtc": "2021-09-05T09:07:32",
+            "commentsTotal": 0,
+            "author": {"teseraId": 778190, "id": 19085, "login": "mifreal", "name": "MifReal", "rating": 64, "teseraUrl": "https://tesera.ru/user/778190"}
+        }, {
+            "teseraId": 1902116,
+            "title": "Планшет игрока",
+            "photoUrl": "https://s.tesera.ru/images/items/1902116/1600x1200xsxy/photo.jpg",
+            "creationDateUtc": "2021-06-26T10:53:51",
+            "commentsTotal": 0,
+            "author": {"teseraId": 1217835, "id": 32629, "login": "scooter", "name": "scooter", "rating": 1819, "teseraUrl": "https://tesera.ru/user/1217835"}
+        }],
+        "files": [{
+            "teseraId": 1938174,
+            "objectType": "Game",
+            "title": "Планшет игрока",
+            "content": "Скан версии из локализации 300dpi",
+            "photoUrl": "https://tesera.ru/images/items/1938174/List_Paper_dungeon_rus.pdf",
+            "modificationDateUtc": "2021-09-05T09:07:06",
+            "creationDateUtc": "2021-09-05T09:07:05",
+            "author": {"teseraId": 778190, "id": 19085, "login": "mifreal", "name": "MifReal", "rating": 64, "teseraUrl": "https://tesera.ru/user/778190"}
+        }, {
+            "teseraId": 1935370,
+            "objectType": "Game",
+            "title": "Планшет игрока для печати",
+            "content": "Взят с официального сайта в оригинальном качестве",
+            "photoUrl": "https://tesera.ru/images/items/1935370/Paper-Dungeons-Sheet.pdf",
+            "modificationDateUtc": "2021-09-14T06:44:46",
+            "creationDateUtc": "2021-08-30T12:06:53",
+            "author": {
+                "teseraId": 569615,
+                "id": 12950,
+                "login": "rouslanko",
+                "name": "Руслан",
+                "avatarUrl": "https://s.tesera.ru/images/items/569615,22/photo.jpg",
+                "rating": 9325,
+                "teseraUrl": "https://tesera.ru/user/569615"
+            }
+        }, {
+            "teseraId": 1924302,
+            "objectType": "Game",
+            "title": "Правила игры",
+            "content": "Русский язык",
+            "photoUrl": "https://tesera.ru/images/items/1924302/Paper Dungeon Rules RUS_compressed.pdf",
+            "modificationDateUtc": "2021-08-11T03:27:18",
+            "creationDateUtc": "2021-08-11T03:27:17",
+            "author": {"teseraId": 908648, "id": 21804, "login": "drasn", "name": "Уафин Денис Маратович", "rating": 744, "teseraUrl": "https://tesera.ru/user/908648"}
+        }],
+        "links": [{
+            "teseraId": 1951681,
+            "objectType": "Game",
+            "title": "Настольная игра Бумажные подземелья",
+            "photoUrl": "https://xn--80aqfdihui.xn--p1ai/igra/bumazhnye-podzemelya",
+            "modificationDateUtc": "2021-10-02T09:42:53",
+            "creationDateUtc": "2021-10-02T09:42:53",
+            "author": {
+                "teseraId": 775050,
+                "id": 19031,
+                "login": "twix",
+                "name": "НастольнаяИгра.ру",
+                "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
+                "rating": 4962,
+                "teseraUrl": "https://tesera.ru/user/775050"
+            }
+        }, {
+            "teseraId": 1946842,
+            "objectType": "Game",
+            "title": "Описание игры Бумажные Подземелья",
+            "photoUrl": "https://geekach.com.ua/bumazhnye-podzemelya-paper-dungeons-a-dungeon-scrawler-game/",
+            "modificationDateUtc": "2021-09-22T09:12:28",
+            "creationDateUtc": "2021-09-22T09:12:27",
+            "author": {
+                "teseraId": 422194,
+                "id": 9488,
+                "login": "gadomer320",
+                "name": "Голубенко Юрий Александрович",
+                "avatarUrl": "https://s.tesera.ru/images/items/422194,22/photo.jpg",
+                "rating": 3620,
+                "teseraUrl": "https://tesera.ru/user/422194"
+            }
+        }, {
+            "teseraId": 1944528,
+            "objectType": "Game",
+            "title": "Правила игры Бумажные Подземелья",
+            "photoUrl": "https://desktopgames.com.ua/paper-dungeons-dungeon-scrawler-game-ru.html?tab=rules#p",
+            "modificationDateUtc": "2021-09-16T21:08:13",
+            "creationDateUtc": "2021-09-16T21:08:12",
+            "author": {
+                "teseraId": 1923492,
+                "id": 59181,
+                "login": "niacrys",
+                "name": "Niacrys",
+                "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
+                "rating": 8465,
+                "teseraUrl": "https://tesera.ru/user/1923492"
+            }
+        }, {
+            "teseraId": 1944526,
+            "objectType": "Game",
+            "title": "Обзор настольной игры Бумажные Подземелья",
+            "photoUrl": "https://desktopgames.com.ua/paper-dungeons-dungeon-scrawler-game-ru.html",
+            "modificationDateUtc": "2021-09-16T21:07:26",
+            "creationDateUtc": "2021-09-16T21:07:25",
+            "author": {
+                "teseraId": 1923492,
+                "id": 59181,
+                "login": "niacrys",
+                "name": "Niacrys",
+                "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
+                "rating": 8465,
+                "teseraUrl": "https://tesera.ru/user/1923492"
+            }
+        }, {
+            "teseraId": 1942812,
+            "objectType": "Game",
+            "title": "Летсплей на OMGames",
+            "photoUrl": "https://www.youtube.com/watch?v=ma_0F4HV92U&t=410s",
+            "modificationDateUtc": "2021-09-14T06:44:32",
+            "creationDateUtc": "2021-09-14T06:44:32",
+            "author": {
+                "teseraId": 333437,
+                "id": 7237,
+                "login": "imurseev",
+                "name": "Илья Мурсеев",
+                "avatarUrl": "https://s.tesera.ru/images/items/333437,22/photo.jpg",
+                "rating": 17177,
+                "teseraUrl": "https://tesera.ru/user/333437"
+            }
+        }],
+        "similars": [{
+            "id": 29366,
+            "teseraId": 1251670,
+            "bggId": 233867,
+            "title": "Бумажные кварталы",
+            "title2": "Welcome To...",
+            "alias": "Welcome-To",
+            "descriptionShort": "Бумажные кварталы (Welcome To...) – компактная игра на логику. Стройте дома в своем квартале, вписывая их номера в клетки на бумажном поле....",
+            "creationDateUtc": "2018-05-09T08:45:16",
+            "photoUrl": "https://s.tesera.ru/images/items/1251670,3/200x200xpa/photo1.jpg",
+            "year": 2018,
+            "numVotes": 390,
+            "ratingUser": 7.61,
+            "n10Rating": 7.56,
+            "n20Rating": 7.5,
+            "bggRating": 7.59,
+            "bggGeekRating": 7.418,
+            "bggNumVotes": 22398,
+            "commentsTotal": 112,
+            "commentsTotalNew": 0,
+            "isAddition": false
+        }, {
+            "id": 33551,
+            "teseraId": 1396932,
+            "bggId": 263918,
+            "title": "Картографы",
+            "title2": "Cartographers: A Roll Player Tale",
+            "alias": "Cartographers-A-Roll-Player-Tale",
+            "descriptionShort": "Картографы (Cartographers: A Roll Player Tale) — настолка в сеттинге Roll Player; участники на протяжении 4 раундов рисуют карты фэнтезийных миров...",
+            "creationDateUtc": "2019-01-30T23:54:50",
+            "photoUrl": "https://s.tesera.ru/images/items/1396932,3/200x200xpa/photo1.jpg",
+            "year": 2019,
+            "numVotes": 493,
+            "ratingUser": 7.56,
+            "n10Rating": 7.51,
+            "n20Rating": 7.47,
+            "bggRating": 7.71,
+            "bggGeekRating": 7.481,
+            "bggNumVotes": 17967,
+            "commentsTotal": 132,
+            "commentsTotalNew": 0,
+            "isAddition": true
+        }, {
+            "id": 35633,
+            "teseraId": 1552672,
+            "bggId": 283864,
+            "title": "Тропы Туканы",
+            "title2": "Trails of Tucana",
+            "alias": "trails-of-tucana",
+            "descriptionShort": "На тропах Туканы легко заблудиться даже самому опытному путешественнику. Остров, который предстоит исследовать игрокам, покрыт густыми лесами и...",
+            "creationDateUtc": "2019-11-03T20:35:50",
+            "photoUrl": "https://s.tesera.ru/images/items/1552672,3/200x200xpa/photo1.jpg",
+            "year": 2019,
+            "numVotes": 172,
+            "ratingUser": 7.25,
+            "n10Rating": 7.14,
+            "n20Rating": 7.03,
+            "bggRating": 7.463,
+            "bggGeekRating": 6.694,
+            "bggNumVotes": 2691,
+            "commentsTotal": 14,
+            "commentsTotalNew": 0,
+            "isAddition": false
+        }, {
+            "id": 37449,
+            "teseraId": 1714276,
+            "bggId": 321850,
+            "title": "Цветрис",
+            "title2": "Colorium",
+            "alias": "Colorium",
+            "descriptionShort": "Цветрис - абстракт в стиле тетриса, но в котором цвет фигур имеет такое же значение как и форма",
+            "creationDateUtc": "2020-07-25T21:56:14",
+            "photoUrl": "https://s.tesera.ru/images/items/1714276,3/200x200xpa/photo1.jpg",
+            "year": 2020,
+            "numVotes": 30,
+            "ratingUser": 7.09,
+            "n10Rating": 6.61,
+            "n20Rating": 6.32,
+            "bggRating": 7.076,
+            "bggGeekRating": 5.526,
+            "bggNumVotes": 31,
+            "commentsTotal": 16,
+            "commentsTotalNew": 0,
+            "isAddition": false
+        }, {
+            "id": 41120,
+            "teseraId": 1994778,
+            "bggId": 350736,
+            "title": "Voyages",
+            "alias": "voyages",
+            "descriptionShort": "Voyages - это игра в жанре \"roll-n-write\" о приключениях и исследованиях в открытом море. Каждый игрок является капитаном корабля, плывущего по...",
+            "creationDateUtc": "2021-12-13T08:26:43",
+            "photoUrl": "https://s.tesera.ru/images/items/1994778,3/200x200xpa/photo1.jpg",
+            "year": 2021,
+            "numVotes": 2,
+            "ratingUser": 7.75,
+            "n10Rating": 0.0,
+            "n20Rating": 0.0,
+            "bggRating": 7.692,
+            "bggGeekRating": 5.964,
+            "bggNumVotes": 532,
+            "commentsTotal": 2,
+            "commentsTotalNew": 0,
+            "isAddition": false
+        }],
+        "relateds": [],
+        "news": [{
+            "teseraId": 1900187,
+            "title": "Предзаказ на «Бумажные подземелья»",
+            "alias": "1900187",
+            "contentShort": "От «Лавки игр».",
+            "creationDateUtc": "2021-06-22T16:22:18",
+            "modificationDateUtc": "2021-12-03T16:41:08",
+            "publicationDateUtc": "2021-06-22T20:16:00",
+            "photoUrl": "https://s.tesera.ru/images/items/1900187,18/125x125xpa/photo.jpg",
+            "rating": 5.61,
+            "commentsTotal": 12,
+            "numVotes": 49
+        }]
+    }, {
+        "game": {
+            "id": 34634,
+            "teseraId": 1477514,
+            "bggId": 0,
+            "title": "Особняки безумия. Вторая редакция: Путь змеи",
+            "title2": "Mansions of Madness Second Edition: Path of the Serpent",
+            "alias": "mansions-of-madness-second-edition-path-of-the-serpent",
+            "descriptionShort": "",
+            "description": "<p>Четверым новым сыщикам предстоит отправиться в джунгли Амазонии, чтобы на протяжении трёх сценариев обыскивать руины в поисках секретов и &mdash; в конце концов &mdash; развеять древнее проклятье змея.</p>\r\n<p>Новые монстры, фрагменты игрового поля, карты и миниатюры.</p>",
+            "modificationDateUtc": "2022-02-18T16:24:36",
+            "creationDateUtc": "2019-06-25T13:30:29",
+            "photoUrl": "https://s.tesera.ru/images/items/1477514,3/photo1.png",
+            "photoUrl2": "https://s.tesera.ru/images/items/1477514,3/photo2.png",
+            "year": 2019,
+            "ratingUser": 8.84,
+            "n10Rating": 7.43,
+            "n20Rating": 0.0,
+            "bggRating": 0.0,
+            "bggGeekRating": 0.0,
+            "bggNumVotes": 0,
+            "numVotes": 16,
             "playersMin": 1,
             "playersMax": 5,
             "playersMinRecommend": 0,
@@ -3177,17 +3898,17 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/1477514",
             "isAddition": false
         },
-        "ownersTotal": 175,
-        "sellTotal": 2,
-        "buyTotal": 4,
+        "ownersTotal": 242,
+        "sellTotal": 3,
+        "buyTotal": 1,
         "sellTotalAll": 0,
-        "buyTotalAll": 2,
+        "buyTotalAll": 6,
         "commentsTotal": 6,
         "reportsTotal": 0,
         "photosTotal": 2,
-        "filesTotal": 1,
-        "linksTotal": 2,
-        "videoExternalTotal": 1,
+        "filesTotal": 2,
+        "linksTotal": 3,
+        "videoExternalTotal": 4,
         "videoInternalTotal": 0,
         "photos": [{
             "teseraId": 1477520,
@@ -3205,6 +3926,23 @@ var games = [
             "author": {"teseraId": 1335379, "id": 37297, "login": "altermichelin", "name": "Миха Карпов", "rating": 1101, "teseraUrl": "https://tesera.ru/user/1335379"}
         }],
         "files": [{
+            "teseraId": 2015565,
+            "objectType": "Game",
+            "title": "Правила дополнения \"Особняки безумия. Вторая редакция: Путь змеи\"",
+            "content": "Правила дополнения \"Особняки безумия. Вторая редакция: Путь змеи\"",
+            "photoUrl": "https://tesera.ru/images/items/2015565/Path_of_the_Serpent_Rules.pdf",
+            "modificationDateUtc": "2022-01-14T19:54:28",
+            "creationDateUtc": "2022-01-14T19:54:27",
+            "author": {
+                "teseraId": 1067039,
+                "id": 25053,
+                "login": "anton_3d4u",
+                "name": "Антон",
+                "avatarUrl": "https://s.tesera.ru/images/items/1067039,22/photo.jpg",
+                "rating": 6276,
+                "teseraUrl": "https://tesera.ru/user/1067039"
+            }
+        }, {
             "teseraId": 1787320,
             "objectType": "Game",
             "title": "Mansions of Madness: Path of the Serpent rules",
@@ -3223,13 +3961,29 @@ var games = [
             }
         }],
         "links": [{
+            "teseraId": 2019859,
+            "objectType": "Game",
+            "title": "Особняки безумия (Путь Змеи) - Обзор-Мнение",
+            "photoUrl": "https://www.youtube.com/watch?v=yACxzbJU_yw",
+            "modificationDateUtc": "2022-01-20T06:46:38",
+            "creationDateUtc": "2022-01-20T06:46:36",
+            "author": {
+                "teseraId": 1953295,
+                "id": 60824,
+                "login": "mrjoker",
+                "name": "MrJoker",
+                "avatarUrl": "https://s.tesera.ru/images/items/1953295,22/photo.jpg",
+                "rating": 184,
+                "teseraUrl": "https://tesera.ru/user/1953295"
+            }
+        }, {
             "teseraId": 1930338,
             "objectType": "Game",
             "title": "Обзор дополнения Mansions of Madness Second Edition: Path of the Serpent",
             "photoUrl": "https://desktopgames.com.ua/mansions-of-madness-se-path-of-the-serpent.html",
             "modificationDateUtc": "2021-08-20T21:20:55",
             "creationDateUtc": "2021-08-20T21:20:54",
-            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1763, "teseraUrl": "https://tesera.ru/user/1924212"}
+            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1823, "teseraUrl": "https://tesera.ru/user/1924212"}
         }, {
             "teseraId": 1561992,
             "objectType": "Game",
@@ -3243,7 +3997,7 @@ var games = [
                 "login": "bodyhammer",
                 "name": "BodyHammer",
                 "avatarUrl": "https://s.tesera.ru/images/items/848512,22/photo.jpg",
-                "rating": 3901,
+                "rating": 4056,
                 "teseraUrl": "https://tesera.ru/user/848512"
             }
         }],
@@ -3261,11 +4015,11 @@ var games = [
             "year": 2017,
             "numVotes": 65,
             "ratingUser": 8.62,
-            "n10Rating": 8.15,
-            "n20Rating": 7.79,
-            "bggRating": 8.59,
-            "bggGeekRating": 7.075,
-            "bggNumVotes": 1990,
+            "n10Rating": 8.16,
+            "n20Rating": 7.81,
+            "bggRating": 8.591,
+            "bggGeekRating": 7.082,
+            "bggNumVotes": 2040,
             "commentsTotal": 24,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3281,13 +4035,13 @@ var games = [
             "creationDateUtc": "2018-04-23T15:50:42",
             "photoUrl": "https://s.tesera.ru/images/items/1243114,3/200x200xpa/photo1.jpg",
             "year": 2018,
-            "numVotes": 23,
-            "ratingUser": 8.47,
-            "n10Rating": 7.42,
-            "n20Rating": 6.89,
-            "bggRating": 8.43,
-            "bggGeekRating": 6.762,
-            "bggNumVotes": 1494,
+            "numVotes": 26,
+            "ratingUser": 8.49,
+            "n10Rating": 7.57,
+            "n20Rating": 7.05,
+            "bggRating": 8.426,
+            "bggGeekRating": 6.778,
+            "bggNumVotes": 1547,
             "commentsTotal": 5,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -3302,13 +4056,13 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/1278188,3/200x200xpa/photo1.png",
             "year": 2018,
             "numVotes": 8,
-            "ratingUser": 8.53,
+            "ratingUser": 8.68,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
-            "commentsTotal": 1,
+            "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -3322,13 +4076,13 @@ var games = [
             "creationDateUtc": "2020-02-19T01:33:50",
             "photoUrl": "https://s.tesera.ru/images/items/1620432,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 94,
+            "numVotes": 97,
             "ratingUser": 8.3,
-            "n10Rating": 7.99,
-            "n20Rating": 7.74,
+            "n10Rating": 8.01,
+            "n20Rating": 7.76,
             "bggRating": 8.36,
-            "bggGeekRating": 7.127,
-            "bggNumVotes": 2543,
+            "bggGeekRating": 7.129,
+            "bggNumVotes": 2589,
             "commentsTotal": 83,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3345,19 +4099,18 @@ var games = [
             "alias": "Mansions-of-Madness-Sanctum-of-Twilight",
             "descriptionShort": "Дополнение ко 2-й редакции игры «Особняки безумия» под названием «Святилище сумерек» позволяет поближе познакомиться с членами Ложи серебряных сумерек — влиятельными людьми Аркхэма, которые используют свои мистические силы, чтобы властвовать в городе.",
             "description": "<p>Дополнение ко 2-й редакции игры &laquo;Особняки безумия&raquo; под названием &laquo;Святилище сумерек&raquo; позволяет поближе познакомиться с членами Ложи серебряных сумерек &mdash; влиятельными людьми Аркхэма, которые используют свои мистические силы, чтобы властвовать в городе. В коробке притаились 2 новых сыщика и 2 сценария, рассказывающих об их противостоянии Ложе, новые заклинания, предметы, механики и монстр.</p>",
-            "modificationDateUtc": "2022-01-14T08:19:37",
+            "modificationDateUtc": "2022-02-18T16:24:43",
             "creationDateUtc": "2018-04-23T15:50:42",
             "photoUrl": "https://s.tesera.ru/images/items/1243114,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/1243114,3/photo2.png",
             "year": 2018,
-            "ratingUser": 8.47,
-            "n10Rating": 7.42,
-            "n20Rating": 6.89,
-            "ratingMy": 10.0,
-            "bggRating": 8.43,
-            "bggGeekRating": 6.762,
-            "bggNumVotes": 1494,
-            "numVotes": 23,
+            "ratingUser": 8.49,
+            "n10Rating": 7.57,
+            "n20Rating": 7.05,
+            "bggRating": 8.426,
+            "bggGeekRating": 6.778,
+            "bggNumVotes": 1547,
+            "numVotes": 26,
             "playersMin": 1,
             "playersMax": 5,
             "playersMinRecommend": 2,
@@ -3371,17 +4124,17 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/1243114",
             "isAddition": false
         },
-        "ownersTotal": 333,
-        "sellTotal": 3,
-        "buyTotal": 3,
-        "sellTotalAll": 0,
-        "buyTotalAll": 4,
+        "ownersTotal": 382,
+        "sellTotal": 2,
+        "buyTotal": 1,
+        "sellTotalAll": 1,
+        "buyTotalAll": 7,
         "commentsTotal": 5,
         "reportsTotal": 0,
         "photosTotal": 2,
         "filesTotal": 0,
         "linksTotal": 3,
-        "videoExternalTotal": 4,
+        "videoExternalTotal": 5,
         "videoInternalTotal": 0,
         "photos": [{
             "teseraId": 1243117,
@@ -3395,7 +4148,7 @@ var games = [
                 "login": "ardenis",
                 "name": "Ardenis",
                 "avatarUrl": "https://s.tesera.ru/images/items/58096,22/photo.jpg",
-                "rating": 24249,
+                "rating": 24519,
                 "teseraUrl": "https://tesera.ru/user/58096"
             }
         }, {
@@ -3410,7 +4163,7 @@ var games = [
                 "login": "ardenis",
                 "name": "Ardenis",
                 "avatarUrl": "https://s.tesera.ru/images/items/58096,22/photo.jpg",
-                "rating": 24249,
+                "rating": 24519,
                 "teseraUrl": "https://tesera.ru/user/58096"
             }
         }],
@@ -3428,7 +4181,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -3444,7 +4197,7 @@ var games = [
                 "login": "evgeni9711",
                 "name": "Евгений",
                 "avatarUrl": "https://s.tesera.ru/images/items/1768517,22/photo.jpg",
-                "rating": 629,
+                "rating": 634,
                 "teseraUrl": "https://tesera.ru/user/1768517"
             }
         }, {
@@ -3460,7 +4213,7 @@ var games = [
                 "login": "bodyhammer",
                 "name": "BodyHammer",
                 "avatarUrl": "https://s.tesera.ru/images/items/848512,22/photo.jpg",
-                "rating": 3904,
+                "rating": 4056,
                 "teseraUrl": "https://tesera.ru/user/848512"
             }
         }],
@@ -3477,14 +4230,14 @@ var games = [
             "creationDateUtc": "2009-11-23T16:42:40",
             "photoUrl": "https://s.tesera.ru/images/items/1442,3/200x200xpa/photo1.jpg",
             "year": 2005,
-            "numVotes": 1367,
+            "numVotes": 1378,
             "ratingUser": 7.92,
             "n10Rating": 7.9,
             "n20Rating": 7.88,
             "bggRating": 7.249,
-            "bggGeekRating": 7.051,
-            "bggNumVotes": 37578,
-            "commentsTotal": 933,
+            "bggGeekRating": 7.049,
+            "bggNumVotes": 37734,
+            "commentsTotal": 934,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -3502,9 +4255,9 @@ var games = [
             "ratingUser": 8.26,
             "n10Rating": 8.17,
             "n20Rating": 8.09,
-            "bggRating": 7.29,
-            "bggGeekRating": 6.992,
-            "bggNumVotes": 13066,
+            "bggRating": 7.284,
+            "bggGeekRating": 6.987,
+            "bggNumVotes": 13121,
             "commentsTotal": 373,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -3520,11 +4273,11 @@ var games = [
             "year": 2011,
             "numVotes": 11,
             "ratingUser": 7.66,
-            "n10Rating": 6.48,
+            "n10Rating": 6.47,
             "n20Rating": 0.0,
-            "bggRating": 7.546,
-            "bggGeekRating": 6.043,
-            "bggNumVotes": 666,
+            "bggRating": 7.548,
+            "bggGeekRating": 6.038,
+            "bggNumVotes": 668,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3542,9 +4295,9 @@ var games = [
             "ratingUser": 8.25,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.439,
-            "bggGeekRating": 5.907,
-            "bggNumVotes": 510,
+            "bggRating": 7.443,
+            "bggGeekRating": 5.904,
+            "bggNumVotes": 512,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3562,9 +4315,9 @@ var games = [
             "ratingUser": 8.51,
             "n10Rating": 7.61,
             "n20Rating": 7.09,
-            "bggRating": 7.751,
-            "bggGeekRating": 6.367,
-            "bggNumVotes": 1216,
+            "bggRating": 7.752,
+            "bggGeekRating": 6.361,
+            "bggNumVotes": 1220,
             "commentsTotal": 11,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3583,8 +4336,8 @@ var games = [
             "n10Rating": 6.96,
             "n20Rating": 0.0,
             "bggRating": 7.775,
-            "bggGeekRating": 5.957,
-            "bggNumVotes": 469,
+            "bggGeekRating": 5.951,
+            "bggNumVotes": 473,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3602,9 +4355,9 @@ var games = [
             "ratingUser": 8.67,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.756,
-            "bggGeekRating": 5.922,
-            "bggNumVotes": 427,
+            "bggRating": 7.755,
+            "bggGeekRating": 5.915,
+            "bggNumVotes": 430,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3620,7 +4373,7 @@ var games = [
             "year": 2013,
             "numVotes": 23,
             "ratingUser": 8.85,
-            "n10Rating": 7.74,
+            "n10Rating": 7.73,
             "n20Rating": 7.14,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -3640,11 +4393,11 @@ var games = [
             "year": 2012,
             "numVotes": 10,
             "ratingUser": 8.33,
-            "n10Rating": 6.76,
+            "n10Rating": 6.75,
             "n20Rating": 0.0,
-            "bggRating": 7.838,
-            "bggGeekRating": 5.927,
-            "bggNumVotes": 416,
+            "bggRating": 7.844,
+            "bggGeekRating": 5.922,
+            "bggNumVotes": 418,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3659,14 +4412,14 @@ var games = [
             "creationDateUtc": "2013-08-03T16:45:07",
             "photoUrl": "https://s.tesera.ru/images/items/296979,3/200x200xpa/photo1.jpg",
             "year": 2013,
-            "numVotes": 1475,
+            "numVotes": 1499,
             "ratingUser": 8.2,
             "n10Rating": 8.18,
             "n20Rating": 8.16,
-            "bggRating": 7.783,
-            "bggGeekRating": 7.55,
-            "bggNumVotes": 31545,
-            "commentsTotal": 4802,
+            "bggRating": 7.78,
+            "bggGeekRating": 7.547,
+            "bggNumVotes": 31883,
+            "commentsTotal": 4823,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -3683,9 +4436,9 @@ var games = [
             "ratingUser": 8.55,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.924,
-            "bggGeekRating": 5.81,
-            "bggNumVotes": 266,
+            "bggRating": 7.93,
+            "bggGeekRating": 5.801,
+            "bggNumVotes": 267,
             "commentsTotal": 5,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3700,16 +4453,16 @@ var games = [
             "creationDateUtc": "2016-07-26T08:07:40",
             "photoUrl": "https://s.tesera.ru/images/items/807928,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 712,
-            "ratingUser": 8.31,
-            "n10Rating": 8.27,
-            "n20Rating": 8.22,
-            "bggRating": 8.022,
-            "bggGeekRating": 7.784,
-            "bggNumVotes": 28640,
-            "commentsTotal": 1158,
+            "numVotes": 733,
+            "ratingUser": 8.28,
+            "n10Rating": 8.24,
+            "n20Rating": 8.2,
+            "bggRating": 8.02,
+            "bggGeekRating": 7.779,
+            "bggNumVotes": 29189,
+            "commentsTotal": 1163,
             "commentsTotalNew": 0,
-            "isAddition": false
+            "isAddition": true
         }, {
             "id": 12221,
             "teseraId": 874987,
@@ -3722,11 +4475,11 @@ var games = [
             "year": 2016,
             "numVotes": 12,
             "ratingUser": 8.44,
-            "n10Rating": 6.96,
+            "n10Rating": 6.95,
             "n20Rating": 0.0,
-            "bggRating": 8.13,
-            "bggGeekRating": 6.576,
-            "bggNumVotes": 1308,
+            "bggRating": 8.138,
+            "bggGeekRating": 6.571,
+            "bggNumVotes": 1323,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3744,9 +4497,9 @@ var games = [
             "ratingUser": 8.21,
             "n10Rating": 6.83,
             "n20Rating": 0.0,
-            "bggRating": 8.174,
-            "bggGeekRating": 6.579,
-            "bggNumVotes": 1306,
+            "bggRating": 8.171,
+            "bggGeekRating": 6.572,
+            "bggNumVotes": 1324,
             "commentsTotal": 7,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3763,11 +4516,11 @@ var games = [
             "year": 2017,
             "numVotes": 65,
             "ratingUser": 8.62,
-            "n10Rating": 8.15,
-            "n20Rating": 7.79,
-            "bggRating": 8.59,
-            "bggGeekRating": 7.075,
-            "bggNumVotes": 1990,
+            "n10Rating": 8.16,
+            "n20Rating": 7.81,
+            "bggRating": 8.591,
+            "bggGeekRating": 7.082,
+            "bggNumVotes": 2040,
             "commentsTotal": 24,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -3783,18 +4536,17 @@ var games = [
             "alias": "Colorium",
             "descriptionShort": "Цветрис - абстракт в стиле тетриса, но в котором цвет фигур имеет такое же значение как и форма",
             "description": "<p>Один из roll&amp;write проектов, которыми был богат прошедший &laquo;Граникон&raquo;, от автора Леонсия Литвинова. Это абстракт в стиле тетриса, но в котором цвет фигур имеет такое же значение как и форма. В отличие от большинства игр r&amp;w, где все рисуют одно и то же, здесь игроки драфтят кубы, и нужно решать &mdash; помочь себе или запороть сопернику.</p>",
-            "modificationDateUtc": "2022-01-07T15:37:19",
+            "modificationDateUtc": "2022-02-08T21:48:45",
             "creationDateUtc": "2020-07-25T21:56:14",
             "photoUrl": "https://s.tesera.ru/images/items/1714276,3/photo1.jpg",
             "year": 2020,
-            "ratingUser": 7.06,
-            "n10Rating": 6.58,
-            "n20Rating": 6.29,
-            "ratingMy": 8.0,
-            "bggRating": 7.173,
-            "bggGeekRating": 0.0,
-            "bggNumVotes": 28,
-            "numVotes": 29,
+            "ratingUser": 7.09,
+            "n10Rating": 6.61,
+            "n20Rating": 6.32,
+            "bggRating": 7.076,
+            "bggGeekRating": 5.526,
+            "bggNumVotes": 31,
+            "numVotes": 30,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 3,
@@ -3808,13 +4560,13 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/1714276",
             "isAddition": false
         },
-        "ownersTotal": 101,
+        "ownersTotal": 116,
         "sellTotal": 2,
         "buyTotal": 0,
         "sellTotalAll": 0,
         "buyTotalAll": 1,
         "commentsTotal": 16,
-        "reportsTotal": 1,
+        "reportsTotal": 6,
         "photosTotal": 8,
         "filesTotal": 2,
         "linksTotal": 5,
@@ -3832,7 +4584,7 @@ var games = [
                 "login": "leonsiya",
                 "name": "Леонсия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1171012,22/photo.jpg",
-                "rating": 536,
+                "rating": 546,
                 "teseraUrl": "https://tesera.ru/user/1171012"
             }
         }, {
@@ -3847,7 +4599,7 @@ var games = [
                 "login": "leonsiya",
                 "name": "Леонсия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1171012,22/photo.jpg",
-                "rating": 536,
+                "rating": 546,
                 "teseraUrl": "https://tesera.ru/user/1171012"
             }
         }, {
@@ -3862,7 +4614,7 @@ var games = [
                 "login": "leonsiya",
                 "name": "Леонсия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1171012,22/photo.jpg",
-                "rating": 536,
+                "rating": 546,
                 "teseraUrl": "https://tesera.ru/user/1171012"
             }
         }, {
@@ -3877,7 +4629,7 @@ var games = [
                 "login": "leonsiya",
                 "name": "Леонсия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1171012,22/photo.jpg",
-                "rating": 536,
+                "rating": 546,
                 "teseraUrl": "https://tesera.ru/user/1171012"
             }
         }, {
@@ -3892,7 +4644,7 @@ var games = [
                 "login": "leonsiya",
                 "name": "Леонсия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1171012,22/photo.jpg",
-                "rating": 536,
+                "rating": 546,
                 "teseraUrl": "https://tesera.ru/user/1171012"
             }
         }],
@@ -3910,7 +4662,7 @@ var games = [
                 "login": "leonsiya",
                 "name": "Леонсия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1171012,22/photo.jpg",
-                "rating": 536,
+                "rating": 546,
                 "teseraUrl": "https://tesera.ru/user/1171012"
             }
         }, {
@@ -3926,7 +4678,7 @@ var games = [
                 "login": "leonsiya",
                 "name": "Леонсия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1171012,22/photo.jpg",
-                "rating": 536,
+                "rating": 546,
                 "teseraUrl": "https://tesera.ru/user/1171012"
             }
         }],
@@ -3943,7 +4695,7 @@ var games = [
                 "login": "biodji",
                 "name": "Олег",
                 "avatarUrl": "https://s.tesera.ru/images/items/559388,22/photo.jpg",
-                "rating": 4009,
+                "rating": 4028,
                 "teseraUrl": "https://tesera.ru/user/559388"
             }
         }, {
@@ -3959,7 +4711,7 @@ var games = [
                 "login": "imurseev",
                 "name": "Илья Мурсеев",
                 "avatarUrl": "https://s.tesera.ru/images/items/333437,22/photo.jpg",
-                "rating": 17172,
+                "rating": 17177,
                 "teseraUrl": "https://tesera.ru/user/333437"
             }
         }, {
@@ -3975,7 +4727,7 @@ var games = [
                 "login": "leonsiya",
                 "name": "Леонсия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1171012,22/photo.jpg",
-                "rating": 536,
+                "rating": 546,
                 "teseraUrl": "https://tesera.ru/user/1171012"
             }
         }, {
@@ -3991,7 +4743,7 @@ var games = [
                 "login": "leonsiya",
                 "name": "Леонсия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1171012,22/photo.jpg",
-                "rating": 536,
+                "rating": 546,
                 "teseraUrl": "https://tesera.ru/user/1171012"
             }
         }, {
@@ -4007,7 +4759,7 @@ var games = [
                 "login": "leonsiya",
                 "name": "Леонсия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1171012,22/photo.jpg",
-                "rating": 536,
+                "rating": 546,
                 "teseraUrl": "https://tesera.ru/user/1171012"
             }
         }],
@@ -4022,14 +4774,14 @@ var games = [
             "creationDateUtc": "2016-09-13T08:12:10",
             "photoUrl": "https://s.tesera.ru/images/items/839820,3/200x200xpa/photo1.png",
             "year": 2017,
-            "numVotes": 600,
+            "numVotes": 617,
             "ratingUser": 7.74,
             "n10Rating": 7.7,
             "n20Rating": 7.66,
-            "bggRating": 7.514,
-            "bggGeekRating": 7.365,
-            "bggNumVotes": 30445,
-            "commentsTotal": 194,
+            "bggRating": 7.51,
+            "bggGeekRating": 7.362,
+            "bggNumVotes": 31157,
+            "commentsTotal": 196,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -4043,13 +4795,13 @@ var games = [
             "creationDateUtc": "2017-09-25T17:06:10",
             "photoUrl": "https://s.tesera.ru/images/items/1096478,3/200x200xpa/photo1.png",
             "year": 2017,
-            "numVotes": 13,
-            "ratingUser": 6.93,
-            "n10Rating": 6.17,
+            "numVotes": 17,
+            "ratingUser": 6.9,
+            "n10Rating": 6.26,
             "n20Rating": 0.0,
-            "bggRating": 6.882,
-            "bggGeekRating": 6.009,
-            "bggNumVotes": 1015,
+            "bggRating": 6.871,
+            "bggGeekRating": 6.008,
+            "bggNumVotes": 1033,
             "commentsTotal": 8,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -4068,9 +4820,9 @@ var games = [
             "ratingUser": 6.8,
             "n10Rating": 6.6,
             "n20Rating": 6.45,
-            "bggRating": 6.698,
+            "bggRating": 6.685,
             "bggGeekRating": 5.701,
-            "bggNumVotes": 401,
+            "bggNumVotes": 410,
             "commentsTotal": 24,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -4085,13 +4837,13 @@ var games = [
             "creationDateUtc": "2018-05-09T08:45:16",
             "photoUrl": "https://s.tesera.ru/images/items/1251670,3/200x200xpa/photo1.jpg",
             "year": 2018,
-            "numVotes": 374,
-            "ratingUser": 7.62,
+            "numVotes": 390,
+            "ratingUser": 7.61,
             "n10Rating": 7.56,
             "n20Rating": 7.5,
-            "bggRating": 7.596,
+            "bggRating": 7.59,
             "bggGeekRating": 7.418,
-            "bggNumVotes": 21663,
+            "bggNumVotes": 22398,
             "commentsTotal": 112,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -4107,14 +4859,14 @@ var games = [
             "creationDateUtc": "2018-05-15T09:18:09",
             "photoUrl": "https://s.tesera.ru/images/items/1254358,3/200x200xpa/photo1.png",
             "year": 2018,
-            "numVotes": 252,
-            "ratingUser": 7.61,
-            "n10Rating": 7.52,
-            "n20Rating": 7.43,
-            "bggRating": 7.623,
-            "bggGeekRating": 7.41,
-            "bggNumVotes": 17487,
-            "commentsTotal": 85,
+            "numVotes": 257,
+            "ratingUser": 7.62,
+            "n10Rating": 7.53,
+            "n20Rating": 7.44,
+            "bggRating": 7.618,
+            "bggGeekRating": 7.408,
+            "bggNumVotes": 18011,
+            "commentsTotal": 86,
             "commentsTotalNew": 0,
             "isAddition": false
         }],
@@ -4143,17 +4895,16 @@ var games = [
             "alias": "cyclades-titans",
             "descriptionShort": "Дополнение к «Кикладам». Позволяет играть вшестером, включает правила командной игры и титанов, которые могут атаковать без благосклонности бога войны Ареса.",
             "description": "<p><span>Дополнение к &laquo;Кикладам&raquo;. Позволяет играть вшестером, включает правила командной игры и титанов, которые могут атаковать без благосклонности бога войны Ареса.</span></p>\r\n<p>&nbsp;</p>\r\n<p><span>В продаже с октября 2014.</span></p>",
-            "modificationDateUtc": "2022-01-14T06:13:39",
+            "modificationDateUtc": "2022-01-20T16:26:52",
             "creationDateUtc": "2014-01-29T20:24:53",
             "photoUrl": "https://s.tesera.ru/images/items/370477,3/photo1.jpg",
             "year": 2014,
-            "ratingUser": 8.21,
+            "ratingUser": 8.22,
             "n10Rating": 7.91,
             "n20Rating": 7.66,
-            "ratingMy": 9.0,
-            "bggRating": 8.08,
-            "bggGeekRating": 6.811,
-            "bggNumVotes": 1877,
+            "bggRating": 8.077,
+            "bggGeekRating": 6.805,
+            "bggNumVotes": 1889,
             "numVotes": 89,
             "playersMin": 3,
             "playersMax": 6,
@@ -4168,11 +4919,11 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/370477",
             "isAddition": false
         },
-        "ownersTotal": 469,
-        "sellTotal": 0,
+        "ownersTotal": 477,
+        "sellTotal": 2,
         "buyTotal": 0,
         "sellTotalAll": 3,
-        "buyTotalAll": 10,
+        "buyTotalAll": 9,
         "commentsTotal": 144,
         "reportsTotal": 0,
         "photosTotal": 15,
@@ -4207,7 +4958,7 @@ var games = [
                 "login": "daredevil",
                 "name": "Кичатов Иван",
                 "avatarUrl": "https://s.tesera.ru/images/items/95005,22/photo.jpg",
-                "rating": 13229,
+                "rating": 13299,
                 "teseraUrl": "https://tesera.ru/user/95005"
             }
         }, {
@@ -4222,7 +4973,7 @@ var games = [
                 "login": "daredevil",
                 "name": "Кичатов Иван",
                 "avatarUrl": "https://s.tesera.ru/images/items/95005,22/photo.jpg",
-                "rating": 13229,
+                "rating": 13299,
                 "teseraUrl": "https://tesera.ru/user/95005"
             }
         }, {
@@ -4237,7 +4988,7 @@ var games = [
                 "login": "daredevil",
                 "name": "Кичатов Иван",
                 "avatarUrl": "https://s.tesera.ru/images/items/95005,22/photo.jpg",
-                "rating": 13229,
+                "rating": 13299,
                 "teseraUrl": "https://tesera.ru/user/95005"
             }
         }, {
@@ -4252,7 +5003,7 @@ var games = [
                 "login": "daredevil",
                 "name": "Кичатов Иван",
                 "avatarUrl": "https://s.tesera.ru/images/items/95005,22/photo.jpg",
-                "rating": 13229,
+                "rating": 13299,
                 "teseraUrl": "https://tesera.ru/user/95005"
             }
         }],
@@ -4319,7 +5070,7 @@ var games = [
                 "login": "daredevil",
                 "name": "Кичатов Иван",
                 "avatarUrl": "https://s.tesera.ru/images/items/95005,22/photo.jpg",
-                "rating": 13229,
+                "rating": 13299,
                 "teseraUrl": "https://tesera.ru/user/95005"
             }
         }],
@@ -4336,7 +5087,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -4352,7 +5103,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -4368,7 +5119,7 @@ var games = [
                 "login": "geekach_ua",
                 "name": "Гикач",
                 "avatarUrl": "https://s.tesera.ru/images/items/1134445,22/photo.png",
-                "rating": 3600,
+                "rating": 3621,
                 "teseraUrl": "https://tesera.ru/user/1134445"
             }
         }, {
@@ -4392,7 +5143,7 @@ var games = [
                 "login": "suzume",
                 "name": "Александра",
                 "avatarUrl": "https://s.tesera.ru/images/items/434002,22/photo.png",
-                "rating": 12568,
+                "rating": 12611,
                 "teseraUrl": "https://tesera.ru/user/434002"
             }
         }],
@@ -4408,13 +5159,13 @@ var games = [
             "creationDateUtc": "2011-04-12T13:55:37",
             "photoUrl": "https://s.tesera.ru/images/items/36098,3/200x200xpa/photo1.png",
             "year": 2011,
-            "numVotes": 162,
+            "numVotes": 164,
             "ratingUser": 8.39,
             "n10Rating": 8.2,
             "n20Rating": 8.04,
-            "bggRating": 7.999,
+            "bggRating": 8.0,
             "bggGeekRating": 6.901,
-            "bggNumVotes": 2363,
+            "bggNumVotes": 2385,
             "commentsTotal": 266,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -4433,9 +5184,9 @@ var games = [
             "ratingUser": 7.61,
             "n10Rating": 6.74,
             "n20Rating": 0.0,
-            "bggRating": 7.543,
-            "bggGeekRating": 5.893,
-            "bggNumVotes": 430,
+            "bggRating": 7.53,
+            "bggGeekRating": 5.887,
+            "bggNumVotes": 435,
             "commentsTotal": 26,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -4487,18 +5238,17 @@ var games = [
             "alias": "cyclades-hades",
             "descriptionShort": "Cyclades: Hades — первое дополнение к «Кикладам». Включает нового бога, созданий и героев. Аид — бог подземного царства, позволяет строить Некрополис, но из-за особенности места проживания доступен далеко не каждый ход. В числе новых созданий Церберы (представлены миниатюрами). Часть созданий позволяют отложить их применение на ход. Герои подобны созданиям, но требуют оплаты вызова каждый ход, представлены на поле миниатюрами, обладают постоянной способностью, а также могут быть пожертвованы ради временного воздействия на игру. Кроме того, с дополнением появляется ещё один способ заполучить Метрополию.",
             "description": "<p>Cyclades: Hades &mdash; первое дополнение к &laquo;Кикладам&raquo;. Включает нового бога, созданий и героев. Аид &mdash; бог подземного царства, позволяет строить  Некрополис, но из-за особенности места проживания доступен далеко  не каждый ход. В числе новых созданий Церберы (представлены миниатюрами). Часть созданий позволяют отложить их применение на ход. Герои подобны созданиям, но требуют оплаты вызова каждый ход, представлены на поле миниатюрами, обладают постоянной способностью, а  также могут быть пожертвованы ради временного воздействия на игру. Кроме того, с дополнением появляется ещё один способ заполучить Метрополию.</p>",
-            "modificationDateUtc": "2022-01-12T01:09:20",
+            "modificationDateUtc": "2022-02-23T14:57:36",
             "creationDateUtc": "2011-04-12T13:55:37",
             "photoUrl": "https://s.tesera.ru/images/items/36098,3/photo1.png",
             "year": 2011,
             "ratingUser": 8.39,
             "n10Rating": 8.2,
             "n20Rating": 8.04,
-            "ratingMy": 9.0,
-            "bggRating": 7.999,
+            "bggRating": 8.0,
             "bggGeekRating": 6.901,
-            "bggNumVotes": 2363,
-            "numVotes": 162,
+            "bggNumVotes": 2385,
+            "numVotes": 164,
             "playersMin": 2,
             "playersMax": 5,
             "playersMinRecommend": 4,
@@ -4512,9 +5262,9 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/36098",
             "isAddition": false
         },
-        "ownersTotal": 628,
-        "sellTotal": 3,
-        "buyTotal": 1,
+        "ownersTotal": 634,
+        "sellTotal": 2,
+        "buyTotal": 2,
         "sellTotalAll": 3,
         "buyTotalAll": 21,
         "commentsTotal": 266,
@@ -4634,7 +5384,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1396619/CycladesHades_rules_ru_CrowdGames.pdf",
             "modificationDateUtc": "2019-01-30T12:58:20",
             "creationDateUtc": "2019-01-30T12:58:20",
-            "author": {"teseraId": 49344, "id": 733, "login": "dima", "name": "Жидков Дмитрий", "rating": 12980, "teseraUrl": "https://tesera.ru/user/49344"}
+            "author": {"teseraId": 49344, "id": 733, "login": "dima", "name": "Жидков Дмитрий", "rating": 13006, "teseraUrl": "https://tesera.ru/user/49344"}
         }, {
             "teseraId": 1233404,
             "objectType": "Game",
@@ -4649,7 +5399,7 @@ var games = [
                 "login": "wulkuw",
                 "name": "Wulkuw",
                 "avatarUrl": "https://s.tesera.ru/images/items/447627,22/photo.jpg",
-                "rating": 61605,
+                "rating": 61846,
                 "teseraUrl": "https://tesera.ru/user/447627"
             }
         }, {
@@ -4683,7 +5433,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -4715,7 +5465,7 @@ var games = [
                 "login": "geekach_ua",
                 "name": "Гикач",
                 "avatarUrl": "https://s.tesera.ru/images/items/1134445,22/photo.png",
-                "rating": 3600,
+                "rating": 3621,
                 "teseraUrl": "https://tesera.ru/user/1134445"
             }
         }, {
@@ -4759,9 +5509,9 @@ var games = [
             "ratingUser": 7.61,
             "n10Rating": 6.74,
             "n20Rating": 0.0,
-            "bggRating": 7.543,
-            "bggGeekRating": 5.893,
-            "bggNumVotes": 430,
+            "bggRating": 7.53,
+            "bggGeekRating": 5.887,
+            "bggNumVotes": 435,
             "commentsTotal": 26,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -4777,11 +5527,11 @@ var games = [
             "year": 2013,
             "numVotes": 21,
             "ratingUser": 7.42,
-            "n10Rating": 6.7,
-            "n20Rating": 6.33,
-            "bggRating": 7.563,
-            "bggGeekRating": 6.016,
-            "bggNumVotes": 598,
+            "n10Rating": 6.69,
+            "n20Rating": 6.32,
+            "bggRating": 7.549,
+            "bggGeekRating": 6.012,
+            "bggNumVotes": 602,
             "commentsTotal": 46,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -4833,18 +5583,18 @@ var games = [
             "alias": "canvas",
             "descriptionShort": "Canvas – это игра, где участники выступают художниками, участвующими в художественном конкурсе. Игроки будут собирать художественные карты, объединяя 3 из них вместе, чтобы создать свою собственную уникальную картину.",
             "description": "<p>Canvas &ndash; это игра, где участники выступают художниками, участвующими в художественном конкурсе. Игроки будут собирать художественные карты, объединяя 3 из них вместе, чтобы создать свою собственную уникальную картину.</p>\r\n<p>&nbsp;</p>\r\n<p>Каждая карта содержит произведение искусства, а также набор значков, используемых во время подсчета очков. Иконки будут отображаться или скрываться в зависимости от того, как игроки выбирают карты для создания захватывающей головоломки. Картины оцениваются на основе набора карт подсчета очков, которые изменят каждую игру. Как только игроки создали и создали 3 картины, игра заканчивается.</p>",
-            "modificationDateUtc": "2021-12-09T17:38:46",
+            "modificationDateUtc": "2022-02-23T00:11:47",
             "creationDateUtc": "2020-04-29T08:27:25",
             "photoUrl": "https://s.tesera.ru/images/items/1664797,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/1664797,3/photo2.png",
             "year": 2020,
-            "ratingUser": 7.63,
-            "n10Rating": 6.93,
-            "n20Rating": 6.54,
-            "bggRating": 7.513,
-            "bggGeekRating": 6.817,
-            "bggNumVotes": 3676,
-            "numVotes": 25,
+            "ratingUser": 7.68,
+            "n10Rating": 7.04,
+            "n20Rating": 6.66,
+            "bggRating": 7.5,
+            "bggGeekRating": 6.855,
+            "bggNumVotes": 4104,
+            "numVotes": 29,
             "playersMin": 1,
             "playersMax": 5,
             "playersMinRecommend": 0,
@@ -4853,21 +5603,21 @@ var games = [
             "timeToLearn": 0,
             "playtimeMin": 20,
             "playtimeMax": 40,
-            "commentsTotal": 11,
+            "commentsTotal": 13,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/1664797",
             "isAddition": false
         },
-        "ownersTotal": 135,
+        "ownersTotal": 153,
         "sellTotal": 0,
-        "buyTotal": 2,
+        "buyTotal": 4,
         "sellTotalAll": 0,
-        "buyTotalAll": 13,
-        "commentsTotal": 11,
+        "buyTotalAll": 11,
+        "commentsTotal": 13,
         "reportsTotal": 0,
         "photosTotal": 3,
         "filesTotal": 3,
-        "linksTotal": 5,
+        "linksTotal": 6,
         "videoExternalTotal": 4,
         "videoInternalTotal": 0,
         "photos": [{
@@ -4882,7 +5632,7 @@ var games = [
                 "login": "weballin",
                 "name": "weballin",
                 "avatarUrl": "https://s.tesera.ru/images/items/384258,22/photo.png",
-                "rating": 2317,
+                "rating": 2321,
                 "teseraUrl": "https://tesera.ru/user/384258"
             }
         }, {
@@ -4897,7 +5647,7 @@ var games = [
                 "login": "ardenis",
                 "name": "Ardenis",
                 "avatarUrl": "https://s.tesera.ru/images/items/58096,22/photo.jpg",
-                "rating": 24249,
+                "rating": 24519,
                 "teseraUrl": "https://tesera.ru/user/58096"
             }
         }, {
@@ -4912,7 +5662,7 @@ var games = [
                 "login": "ardenis",
                 "name": "Ardenis",
                 "avatarUrl": "https://s.tesera.ru/images/items/58096,22/photo.jpg",
-                "rating": 24249,
+                "rating": 24519,
                 "teseraUrl": "https://tesera.ru/user/58096"
             }
         }],
@@ -4930,7 +5680,7 @@ var games = [
                 "login": "volchara",
                 "name": "Александр",
                 "avatarUrl": "https://s.tesera.ru/images/items/1453651,22/photo.jpg",
-                "rating": 8614,
+                "rating": 8660,
                 "teseraUrl": "https://tesera.ru/user/1453651"
             }
         }, {
@@ -4964,11 +5714,19 @@ var games = [
                 "login": "kosfiz",
                 "name": "Константин",
                 "avatarUrl": "https://s.tesera.ru/images/items/1511368,22/photo.gif",
-                "rating": 3748,
+                "rating": 3770,
                 "teseraUrl": "https://tesera.ru/user/1511368"
             }
         }],
         "links": [{
+            "teseraId": 2037275,
+            "objectType": "Game",
+            "title": "Настольная игра Холст (Живопис, Canvas) - обзор",
+            "photoUrl": "https://igrodol.com.ua/zhivopis-canvas-ua",
+            "modificationDateUtc": "2022-02-17T08:04:09",
+            "creationDateUtc": "2022-02-17T08:04:07",
+            "author": {"teseraId": 1346647, "id": 37706, "login": "zipa1", "name": "Zipa", "rating": 383, "teseraUrl": "https://tesera.ru/user/1346647"}
+        }, {
             "teseraId": 1979744,
             "objectType": "Game",
             "title": "Правила игры Холст",
@@ -4981,7 +5739,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -4997,7 +5755,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -5007,7 +5765,7 @@ var games = [
             "photoUrl": "https://nastol.io/publications/2229_obzor_predzakazov",
             "modificationDateUtc": "2021-09-21T10:13:50",
             "creationDateUtc": "2021-09-21T10:13:48",
-            "author": {"teseraId": 1764724, "id": 51697, "login": "weird6", "name": "Weird6", "rating": 688, "teseraUrl": "https://tesera.ru/user/1764724"}
+            "author": {"teseraId": 1764724, "id": 51697, "login": "weird6", "name": "Weird6", "rating": 793, "teseraUrl": "https://tesera.ru/user/1764724"}
         }, {
             "teseraId": 1924488,
             "objectType": "Game",
@@ -5021,17 +5779,9 @@ var games = [
                 "login": "geekach_ua",
                 "name": "Гикач",
                 "avatarUrl": "https://s.tesera.ru/images/items/1134445,22/photo.png",
-                "rating": 3600,
+                "rating": 3621,
                 "teseraUrl": "https://tesera.ru/user/1134445"
             }
-        }, {
-            "teseraId": 1665011,
-            "objectType": "Game",
-            "title": "Сборы на Kickstarter",
-            "photoUrl": "https://www.kickstarter.com/projects/roadtoinfamy/canvas-2",
-            "modificationDateUtc": "2020-04-29T13:45:01",
-            "creationDateUtc": "2020-04-29T13:45:01",
-            "author": {"teseraId": 749890, "id": 18520, "login": "dar_ling", "name": "Максим", "rating": 28338, "teseraUrl": "https://tesera.ru/user/749890"}
         }],
         "similars": [{
             "id": 10617,
@@ -5043,13 +5793,13 @@ var games = [
             "creationDateUtc": "2016-03-04T07:53:36",
             "photoUrl": "https://s.tesera.ru/images/items/726299,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 66,
+            "numVotes": 67,
             "ratingUser": 7.8,
             "n10Rating": 7.46,
-            "n20Rating": 7.19,
-            "bggRating": 7.285,
-            "bggGeekRating": 6.991,
-            "bggNumVotes": 9877,
+            "n20Rating": 7.2,
+            "bggRating": 7.29,
+            "bggGeekRating": 6.992,
+            "bggNumVotes": 10021,
             "commentsTotal": 14,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -5064,13 +5814,13 @@ var games = [
             "creationDateUtc": "2016-05-30T08:22:51",
             "photoUrl": "https://s.tesera.ru/images/items/779449,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 229,
+            "numVotes": 231,
             "ratingUser": 7.42,
             "n10Rating": 7.33,
             "n20Rating": 7.24,
-            "bggRating": 7.08,
-            "bggGeekRating": 6.759,
-            "bggNumVotes": 7679,
+            "bggRating": 7.076,
+            "bggGeekRating": 6.758,
+            "bggNumVotes": 7780,
             "commentsTotal": 79,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -5086,13 +5836,13 @@ var games = [
             "creationDateUtc": "2016-07-08T12:00:10",
             "photoUrl": "https://s.tesera.ru/images/items/799168,3/200x200xpa/photo1.png",
             "year": 2015,
-            "numVotes": 169,
-            "ratingUser": 6.94,
-            "n10Rating": 6.84,
-            "n20Rating": 6.75,
-            "bggRating": 6.907,
-            "bggGeekRating": 6.382,
-            "bggNumVotes": 3280,
+            "numVotes": 175,
+            "ratingUser": 6.96,
+            "n10Rating": 6.86,
+            "n20Rating": 6.78,
+            "bggRating": 6.902,
+            "bggGeekRating": 6.383,
+            "bggNumVotes": 3344,
             "commentsTotal": 33,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -5110,9 +5860,9 @@ var games = [
             "ratingUser": 0.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.51,
-            "bggGeekRating": 5.543,
-            "bggNumVotes": 58,
+            "bggRating": 7.583,
+            "bggGeekRating": 5.547,
+            "bggNumVotes": 61,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -5132,9 +5882,9 @@ var games = [
             "ratingUser": 8.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.919,
-            "bggGeekRating": 5.541,
-            "bggNumVotes": 32,
+            "bggRating": 7.848,
+            "bggGeekRating": 5.616,
+            "bggNumVotes": 92,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -5153,9 +5903,9 @@ var games = [
             "ratingUser": 0.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.63,
-            "bggGeekRating": 5.629,
-            "bggNumVotes": 114,
+            "bggRating": 7.646,
+            "bggGeekRating": 5.65,
+            "bggNumVotes": 131,
             "commentsTotal": 14,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -5183,18 +5933,17 @@ var games = [
             "alias": "wingspan",
             "descriptionShort": "Крылья (Wingspan) – соревновательная настольная игра на построение движка. Здесь игроки, выступающие в роли любителей птиц, стремятся обнаружить и привлечь лучших птиц в свою сеть заповедников.",
             "description": "<p>Wingspan - это соревновательная настольная игра на построение движка. Здесь игроки, выступающие в роли любителей птиц (исследователей, наблюдателей за птицами, орнитологов и коллекционеров), стремятся обнаружить и привлечь лучших птиц в свою сеть заповедников дикой природы.</p>",
-            "modificationDateUtc": "2022-01-14T06:31:14",
+            "modificationDateUtc": "2022-02-23T15:59:35",
             "creationDateUtc": "2018-11-30T12:45:46",
             "photoUrl": "https://s.tesera.ru/images/items/1352213,3/photo1.jpg",
             "year": 2019,
-            "ratingUser": 7.95,
+            "ratingUser": 7.94,
             "n10Rating": 7.91,
-            "n20Rating": 7.88,
-            "ratingMy": 10.0,
+            "n20Rating": 7.87,
             "bggRating": 8.1,
-            "bggGeekRating": 7.943,
-            "bggNumVotes": 56558,
-            "numVotes": 771,
+            "bggGeekRating": 7.944,
+            "bggNumVotes": 58829,
+            "numVotes": 799,
             "playersMin": 1,
             "playersMax": 5,
             "playersMinRecommend": 2,
@@ -5203,18 +5952,18 @@ var games = [
             "timeToLearn": 10,
             "playtimeMin": 40,
             "playtimeMax": 90,
-            "commentsTotal": 838,
+            "commentsTotal": 839,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/1352213",
             "isAddition": false
         },
-        "ownersTotal": 1555,
-        "sellTotal": 2,
-        "buyTotal": 4,
-        "sellTotalAll": 11,
-        "buyTotalAll": 58,
-        "commentsTotal": 838,
-        "reportsTotal": 105,
+        "ownersTotal": 1613,
+        "sellTotal": 5,
+        "buyTotal": 3,
+        "sellTotalAll": 8,
+        "buyTotalAll": 57,
+        "commentsTotal": 839,
+        "reportsTotal": 119,
         "photosTotal": 37,
         "filesTotal": 9,
         "linksTotal": 25,
@@ -5310,7 +6059,7 @@ var games = [
                 "login": "hoxqot",
                 "name": "Алексей Кондрашов",
                 "avatarUrl": "https://s.tesera.ru/images/items/1514766,22/photo.jpg",
-                "rating": 95,
+                "rating": 98,
                 "teseraUrl": "https://tesera.ru/user/1514766"
             }
         }, {
@@ -5338,7 +6087,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1816170/Wingspan Coop.pdf",
             "modificationDateUtc": "2021-01-25T07:01:38",
             "creationDateUtc": "2021-01-25T07:01:37",
-            "author": {"teseraId": 1689067, "id": 49132, "login": "dvemer", "name": "dvemer", "rating": 349, "teseraUrl": "https://tesera.ru/user/1689067"}
+            "author": {"teseraId": 1689067, "id": 49132, "login": "dvemer", "name": "dvemer", "rating": 365, "teseraUrl": "https://tesera.ru/user/1689067"}
         }, {
             "teseraId": 1762133,
             "objectType": "Game",
@@ -5346,7 +6095,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1762133/Sanctuary_Rules_RU.pdf",
             "modificationDateUtc": "2020-10-23T13:01:56",
             "creationDateUtc": "2020-10-23T13:01:56",
-            "author": {"teseraId": 1421925, "id": 39978, "login": "polniy_lamer", "name": "polniy_lamer", "rating": 1568, "teseraUrl": "https://tesera.ru/user/1421925"}
+            "author": {"teseraId": 1421925, "id": 39978, "login": "polniy_lamer", "name": "polniy_lamer", "rating": 1622, "teseraUrl": "https://tesera.ru/user/1421925"}
         }, {
             "teseraId": 1761826,
             "objectType": "Game",
@@ -5355,7 +6104,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1761826/Sanctuary_Rules.pdf",
             "modificationDateUtc": "2020-10-23T05:06:16",
             "creationDateUtc": "2020-10-23T05:06:15",
-            "author": {"teseraId": 1421925, "id": 39978, "login": "polniy_lamer", "name": "polniy_lamer", "rating": 1568, "teseraUrl": "https://tesera.ru/user/1421925"}
+            "author": {"teseraId": 1421925, "id": 39978, "login": "polniy_lamer", "name": "polniy_lamer", "rating": 1622, "teseraUrl": "https://tesera.ru/user/1421925"}
         }],
         "links": [{
             "teseraId": 1968177,
@@ -5370,7 +6119,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -5384,9 +6133,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -5396,7 +6145,7 @@ var games = [
             "photoUrl": "https://desktopgames.com.ua/wingspan-ukr.html",
             "modificationDateUtc": "2021-08-20T16:41:19",
             "creationDateUtc": "2021-08-20T16:41:18",
-            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1763, "teseraUrl": "https://tesera.ru/user/1924212"}
+            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1823, "teseraUrl": "https://tesera.ru/user/1924212"}
         }, {
             "teseraId": 1853485,
             "objectType": "Game",
@@ -5410,7 +6159,7 @@ var games = [
                 "login": "crazy_murloc",
                 "name": "Банько Алексей Юрьевич",
                 "avatarUrl": "https://s.tesera.ru/images/items/1673299,22/photo.png",
-                "rating": 3238,
+                "rating": 3448,
                 "teseraUrl": "https://tesera.ru/user/1673299"
             }
         }, {
@@ -5426,7 +6175,7 @@ var games = [
                 "login": "paloget",
                 "name": "Paloget",
                 "avatarUrl": "https://s.tesera.ru/images/items/901764,22/photo.jpg",
-                "rating": 824,
+                "rating": 834,
                 "teseraUrl": "https://tesera.ru/user/901764"
             }
         }],
@@ -5442,13 +6191,13 @@ var games = [
             "creationDateUtc": "2013-01-22T13:00:05",
             "photoUrl": "https://s.tesera.ru/images/items/211601,3/200x200xpa/photo1.png",
             "year": 2013,
-            "numVotes": 598,
-            "ratingUser": 7.92,
+            "numVotes": 600,
+            "ratingUser": 7.91,
             "n10Rating": 7.87,
-            "n20Rating": 7.83,
-            "bggRating": 7.425,
-            "bggGeekRating": 7.149,
-            "bggNumVotes": 10709,
+            "n20Rating": 7.82,
+            "bggRating": 7.42,
+            "bggGeekRating": 7.146,
+            "bggNumVotes": 10789,
             "commentsTotal": 635,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -5463,14 +6212,14 @@ var games = [
             "creationDateUtc": "2015-03-17T16:21:04",
             "photoUrl": "https://s.tesera.ru/images/items/526664,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 1741,
-            "ratingUser": 8.57,
-            "n10Rating": 8.55,
-            "n20Rating": 8.53,
-            "bggRating": 8.42,
-            "bggGeekRating": 8.273,
-            "bggNumVotes": 74538,
-            "commentsTotal": 3854,
+            "numVotes": 1768,
+            "ratingUser": 8.55,
+            "n10Rating": 8.53,
+            "n20Rating": 8.51,
+            "bggRating": 8.41,
+            "bggGeekRating": 8.271,
+            "bggNumVotes": 76170,
+            "commentsTotal": 3886,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -5484,14 +6233,14 @@ var games = [
             "creationDateUtc": "2015-11-04T18:49:09",
             "photoUrl": "https://s.tesera.ru/images/items/636272,3/200x200xpa/photo1.png",
             "year": 2015,
-            "numVotes": 583,
-            "ratingUser": 8.26,
-            "n10Rating": 8.21,
-            "n20Rating": 8.16,
-            "bggRating": 7.879,
-            "bggGeekRating": 7.604,
-            "bggNumVotes": 14752,
-            "commentsTotal": 1193,
+            "numVotes": 595,
+            "ratingUser": 8.28,
+            "n10Rating": 8.23,
+            "n20Rating": 8.18,
+            "bggRating": 7.881,
+            "bggGeekRating": 7.606,
+            "bggNumVotes": 15033,
+            "commentsTotal": 1196,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -5505,14 +6254,14 @@ var games = [
             "creationDateUtc": "2018-01-09T17:14:08",
             "photoUrl": "https://s.tesera.ru/images/items/1167261,3/200x200xpa/photo1.jpg",
             "year": 2018,
-            "numVotes": 419,
-            "ratingUser": 8.09,
-            "n10Rating": 8.02,
-            "n20Rating": 7.96,
+            "numVotes": 464,
+            "ratingUser": 8.1,
+            "n10Rating": 8.04,
+            "n20Rating": 7.98,
             "bggRating": 8.1,
-            "bggGeekRating": 7.874,
-            "bggNumVotes": 29318,
-            "commentsTotal": 602,
+            "bggGeekRating": 7.88,
+            "bggNumVotes": 30932,
+            "commentsTotal": 615,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -5526,13 +6275,13 @@ var games = [
             "creationDateUtc": "2018-06-19T21:12:50",
             "photoUrl": "https://s.tesera.ru/images/items/1272004,3/200x200xpa/photo1.png",
             "year": 2018,
-            "numVotes": 165,
-            "ratingUser": 7.42,
-            "n10Rating": 7.29,
-            "n20Rating": 7.18,
-            "bggRating": 7.428,
-            "bggGeekRating": 7.089,
-            "bggNumVotes": 8718,
+            "numVotes": 170,
+            "ratingUser": 7.43,
+            "n10Rating": 7.3,
+            "n20Rating": 7.19,
+            "bggRating": 7.425,
+            "bggGeekRating": 7.087,
+            "bggNumVotes": 8938,
             "commentsTotal": 45,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -5548,14 +6297,14 @@ var games = [
             "creationDateUtc": "2019-10-03T06:41:25",
             "photoUrl": "https://s.tesera.ru/images/items/1535523,3/200x200xpa/photo1.jpg",
             "year": 2019,
-            "numVotes": 104,
-            "ratingUser": 8.02,
-            "n10Rating": 7.77,
-            "n20Rating": 7.56,
-            "bggRating": 8.412,
-            "bggGeekRating": 7.883,
-            "bggNumVotes": 8810,
-            "commentsTotal": 66,
+            "numVotes": 108,
+            "ratingUser": 8.03,
+            "n10Rating": 7.79,
+            "n20Rating": 7.58,
+            "bggRating": 8.406,
+            "bggGeekRating": 7.894,
+            "bggNumVotes": 9251,
+            "commentsTotal": 67,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -5569,14 +6318,14 @@ var games = [
             "creationDateUtc": "2020-01-21T07:36:19",
             "photoUrl": "https://s.tesera.ru/images/items/1600842,3/200x200xpa/photo1.png",
             "year": 2020,
-            "numVotes": 70,
-            "ratingUser": 8.3,
-            "n10Rating": 7.91,
-            "n20Rating": 7.61,
-            "bggRating": 8.56,
-            "bggGeekRating": 7.649,
-            "bggNumVotes": 4502,
-            "commentsTotal": 53,
+            "numVotes": 71,
+            "ratingUser": 8.29,
+            "n10Rating": 7.9,
+            "n20Rating": 7.6,
+            "bggRating": 8.545,
+            "bggGeekRating": 7.688,
+            "bggNumVotes": 4896,
+            "commentsTotal": 56,
             "commentsTotalNew": 0,
             "isAddition": true
         }],
@@ -5586,12 +6335,12 @@ var games = [
             "alias": "1774419",
             "contentShort": "Второе дополенение к популярной семейной игре.",
             "creationDateUtc": "2020-11-12T17:39:27",
-            "modificationDateUtc": "2021-03-13T21:28:03",
+            "modificationDateUtc": "2022-02-14T16:32:41",
             "publicationDateUtc": "2020-11-12T19:01:00",
             "photoUrl": "https://s.tesera.ru/images/items/1774419,18/125x125xpa/photo.jpg",
-            "rating": 7.1,
+            "rating": 7.15,
             "commentsTotal": 32,
-            "numVotes": 61
+            "numVotes": 62
         }, {
             "teseraId": 1612026,
             "title": "«Крылья. Птицы Европы»",
@@ -5627,19 +6376,18 @@ var games = [
             "alias": "Imperial-Settlers",
             "descriptionShort": "Поселенцы (Imperial Settlers) – стратегическая игра, позволяющая участникам развивать свою фракцию. На протяжение пяти раундов они будут торговать, воевать, добывать ресурсы и многое другое. Количество игроков от 1 до 4.",
             "description": "<p>Движок &laquo;Поселенцев&raquo; основан на концепции другой игры Игнация, &ldquo;51st State&rdquo;. Игрокам предлагают взять под своё крыло первопроходцев четырёх фракций (римляне, варвары, египтяне и азиаты), исследовать новые земли и расширять границы своих империй.</p>\r\n<p>&nbsp;</p>\r\n<p>Партия длится пять раундов, на протяжении которых игроки открывают новые земли, строят здания и направляют туда людей, чтобы добывать ресурсы и использовать свои игровые возможности (например, тренировать солдат, ведь рано или поздно мир станет тесен, и война неизбежна), торгуют и воюют &mdash; и всё для того, чтобы зарабатывать победные очки.</p>",
-            "modificationDateUtc": "2022-01-13T12:39:34",
+            "modificationDateUtc": "2022-02-20T18:21:40",
             "creationDateUtc": "2014-02-18T21:29:44",
             "photoUrl": "https://s.tesera.ru/images/items/378237,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/378237,3/photo2.jpg",
             "year": 2014,
-            "ratingUser": 7.61,
-            "n10Rating": 7.58,
-            "n20Rating": 7.54,
-            "ratingMy": 7.0,
-            "bggRating": 7.376,
-            "bggGeekRating": 7.208,
-            "bggNumVotes": 22260,
-            "numVotes": 716,
+            "ratingUser": 7.6,
+            "n10Rating": 7.57,
+            "n20Rating": 7.53,
+            "bggRating": 7.37,
+            "bggGeekRating": 7.201,
+            "bggNumVotes": 22443,
+            "numVotes": 724,
             "playersMin": 1,
             "playersMax": 4,
             "playersMinRecommend": 2,
@@ -5654,9 +6402,9 @@ var games = [
             "isAddition": false
         },
         "ownersTotal": 1342,
-        "sellTotal": 22,
+        "sellTotal": 20,
         "buyTotal": 0,
-        "sellTotalAll": 49,
+        "sellTotalAll": 53,
         "buyTotalAll": 51,
         "commentsTotal": 1250,
         "reportsTotal": 44,
@@ -5836,7 +6584,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -5850,9 +6598,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -5868,7 +6616,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -5884,7 +6632,7 @@ var games = [
                 "login": "bondjunior23",
                 "name": "bondjunior23",
                 "avatarUrl": "https://s.tesera.ru/images/items/716376,22/photo.jpg",
-                "rating": 1093,
+                "rating": 1111,
                 "teseraUrl": "https://tesera.ru/user/716376"
             }
         }, {
@@ -5920,9 +6668,9 @@ var games = [
             "ratingUser": 6.5,
             "n10Rating": 6.43,
             "n20Rating": 6.37,
-            "bggRating": 6.711,
-            "bggGeekRating": 6.527,
-            "bggNumVotes": 13332,
+            "bggRating": 6.71,
+            "bggGeekRating": 6.525,
+            "bggNumVotes": 13401,
             "commentsTotal": 16,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -5938,13 +6686,13 @@ var games = [
             "creationDateUtc": "2010-02-05T13:07:49",
             "photoUrl": "https://s.tesera.ru/images/items/2678,3/200x200xpa/photo1.jpg",
             "year": 2010,
-            "numVotes": 144,
-            "ratingUser": 7.49,
-            "n10Rating": 7.34,
-            "n20Rating": 7.21,
-            "bggRating": 6.966,
-            "bggGeekRating": 6.609,
-            "bggNumVotes": 6365,
+            "numVotes": 146,
+            "ratingUser": 7.5,
+            "n10Rating": 7.35,
+            "n20Rating": 7.22,
+            "bggRating": 6.962,
+            "bggGeekRating": 6.605,
+            "bggNumVotes": 6451,
             "commentsTotal": 59,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -5959,13 +6707,13 @@ var games = [
             "creationDateUtc": "2010-03-15T11:21:12",
             "photoUrl": "https://s.tesera.ru/images/items/3624,3/200x200xpa/photo1.png",
             "year": 2010,
-            "numVotes": 1575,
+            "numVotes": 1595,
             "ratingUser": 8.21,
             "n10Rating": 8.19,
             "n20Rating": 8.17,
-            "bggRating": 7.735,
-            "bggGeekRating": 7.633,
-            "bggNumVotes": 90184,
+            "bggRating": 7.73,
+            "bggGeekRating": 7.628,
+            "bggNumVotes": 91219,
             "commentsTotal": 475,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -5983,9 +6731,9 @@ var games = [
             "ratingUser": 7.51,
             "n10Rating": 7.21,
             "n20Rating": 6.98,
-            "bggRating": 6.814,
-            "bggGeekRating": 6.316,
-            "bggNumVotes": 2876,
+            "bggRating": 6.811,
+            "bggGeekRating": 6.312,
+            "bggNumVotes": 2890,
             "commentsTotal": 81,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -6001,12 +6749,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/36198,3/200x200xpa/photo1.jpg",
             "year": 2011,
             "numVotes": 200,
-            "ratingUser": 8.2,
-            "n10Rating": 8.06,
+            "ratingUser": 8.21,
+            "n10Rating": 8.07,
             "n20Rating": 7.93,
-            "bggRating": 7.51,
-            "bggGeekRating": 6.346,
-            "bggNumVotes": 1279,
+            "bggRating": 7.505,
+            "bggGeekRating": 6.338,
+            "bggNumVotes": 1283,
             "commentsTotal": 653,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -6022,13 +6770,13 @@ var games = [
             "creationDateUtc": "2014-11-13T13:12:23",
             "photoUrl": "https://s.tesera.ru/images/items/469885,3/200x200xpa/photo1.jpg",
             "year": 2014,
-            "numVotes": 21,
-            "ratingUser": 7.93,
-            "n10Rating": 7.04,
-            "n20Rating": 6.59,
-            "bggRating": 7.566,
-            "bggGeekRating": 6.589,
-            "bggNumVotes": 1969,
+            "numVotes": 22,
+            "ratingUser": 7.91,
+            "n10Rating": 7.05,
+            "n20Rating": 6.61,
+            "bggRating": 7.568,
+            "bggGeekRating": 6.587,
+            "bggNumVotes": 1984,
             "commentsTotal": 68,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -6043,13 +6791,13 @@ var games = [
             "creationDateUtc": "2015-05-11T15:53:11",
             "photoUrl": "https://s.tesera.ru/images/items/552768,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 47,
-            "ratingUser": 7.25,
-            "n10Rating": 6.89,
-            "n20Rating": 6.63,
-            "bggRating": 7.395,
+            "numVotes": 49,
+            "ratingUser": 7.26,
+            "n10Rating": 6.91,
+            "n20Rating": 6.65,
+            "bggRating": 7.394,
             "bggGeekRating": 6.418,
-            "bggNumVotes": 1658,
+            "bggNumVotes": 1677,
             "commentsTotal": 109,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -6065,11 +6813,11 @@ var games = [
             "year": 2016,
             "numVotes": 11,
             "ratingUser": 7.75,
-            "n10Rating": 6.53,
+            "n10Rating": 6.52,
             "n20Rating": 0.0,
-            "bggRating": 7.489,
-            "bggGeekRating": 6.128,
-            "bggNumVotes": 811,
+            "bggRating": 7.493,
+            "bggGeekRating": 6.13,
+            "bggNumVotes": 822,
             "commentsTotal": 8,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -6087,9 +6835,9 @@ var games = [
             "ratingUser": 2.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.055,
-            "bggGeekRating": 5.588,
-            "bggNumVotes": 115,
+            "bggRating": 7.063,
+            "bggGeekRating": 5.589,
+            "bggNumVotes": 116,
             "commentsTotal": 11,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -6107,9 +6855,9 @@ var games = [
             "ratingUser": 2.25,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.237,
-            "bggGeekRating": 5.718,
-            "bggNumVotes": 263,
+            "bggRating": 7.24,
+            "bggGeekRating": 5.715,
+            "bggNumVotes": 264,
             "commentsTotal": 6,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -6124,13 +6872,13 @@ var games = [
             "creationDateUtc": "2016-06-18T16:40:56",
             "photoUrl": "https://s.tesera.ru/images/items/789512,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 31,
-            "ratingUser": 7.32,
-            "n10Rating": 6.8,
-            "n20Rating": 6.48,
-            "bggRating": 7.583,
+            "numVotes": 33,
+            "ratingUser": 7.34,
+            "n10Rating": 6.84,
+            "n20Rating": 6.52,
+            "bggRating": 7.585,
             "bggGeekRating": 6.164,
-            "bggNumVotes": 830,
+            "bggNumVotes": 839,
             "commentsTotal": 61,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -6211,9 +6959,9 @@ var games = [
             "ratingUser": 0.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.503,
-            "bggGeekRating": 5.638,
-            "bggNumVotes": 142,
+            "bggRating": 7.519,
+            "bggGeekRating": 5.645,
+            "bggNumVotes": 149,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -6288,20 +7036,19 @@ var games = [
             "title3": "Клуэдо",
             "alias": "cluedo2017",
             "descriptionShort": "",
-            "description": "Таинственный миллионер Сэмюэль Блэк был убит в&nbsp;своем особняке. Теперь именно вам предстоит с&nbsp;блеском раскрыть это дело. Подозревайте всех и&nbsp;вся, чтобы разгадать тайну. Кто совершил убийство? Где? Каким орудием? Обыщите весь дом и&nbsp;соберите улики. Первым найдите убийцу и&nbsp;выиграйте!",
-            "modificationDateUtc": "2021-12-12T12:58:57",
+            "description": "<p style=\"text-align: justify;\"><span>Таинственный миллионер Сэмюэль Блэк был убит в&nbsp;своем особняке. Теперь именно вам предстоит с&nbsp;блеском раскрыть это дело. Подозревайте всех и&nbsp;вся, чтобы разгадать тайну. Кто совершил убийство? Где? Каким орудием? Обыщите весь дом и&nbsp;соберите улики. Первым найдите убийцу и&nbsp;выиграйте!</span></p>",
+            "modificationDateUtc": "2022-02-05T02:05:47",
             "creationDateUtc": "2018-02-14T22:02:43",
             "photoUrl": "https://s.tesera.ru/images/items/1199477,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/1199477,3/photo2.jpg",
             "year": 2017,
-            "ratingUser": 6.34,
-            "n10Rating": 6.19,
-            "n20Rating": 6.07,
-            "ratingMy": 7.0,
-            "bggRating": 5.998,
+            "ratingUser": 6.33,
+            "n10Rating": 6.18,
+            "n20Rating": 6.06,
+            "bggRating": 5.988,
             "bggGeekRating": 5.682,
-            "bggNumVotes": 1816,
-            "numVotes": 65,
+            "bggNumVotes": 1914,
+            "numVotes": 66,
             "playersMin": 2,
             "playersMax": 6,
             "playersMinRecommend": 3,
@@ -6315,10 +7062,10 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/1199477",
             "isAddition": false
         },
-        "ownersTotal": 295,
+        "ownersTotal": 304,
         "sellTotal": 1,
         "buyTotal": 0,
-        "sellTotalAll": 11,
+        "sellTotalAll": 10,
         "buyTotalAll": 4,
         "commentsTotal": 11,
         "reportsTotal": 0,
@@ -6449,9 +7196,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -6461,7 +7208,7 @@ var games = [
             "photoUrl": "https://desktopgames.com.ua/cluedo.html",
             "modificationDateUtc": "2021-08-16T19:38:40",
             "creationDateUtc": "2021-08-16T19:38:40",
-            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1763, "teseraUrl": "https://tesera.ru/user/1924212"}
+            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1823, "teseraUrl": "https://tesera.ru/user/1924212"}
         }],
         "similars": [{
             "id": 6867,
@@ -6476,7 +7223,7 @@ var games = [
             "year": 1991,
             "numVotes": 12,
             "ratingUser": 6.31,
-            "n10Rating": 5.8,
+            "n10Rating": 5.79,
             "n20Rating": 0.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -6496,8 +7243,8 @@ var games = [
             "year": 2015,
             "numVotes": 22,
             "ratingUser": 6.15,
-            "n10Rating": 5.85,
-            "n20Rating": 5.69,
+            "n10Rating": 5.84,
+            "n20Rating": 5.68,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
@@ -6516,13 +7263,13 @@ var games = [
             "creationDateUtc": "2016-08-26T10:05:13",
             "photoUrl": "https://s.tesera.ru/images/items/829265,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 209,
+            "numVotes": 211,
             "ratingUser": 7.36,
             "n10Rating": 7.26,
             "n20Rating": 7.17,
-            "bggRating": 7.19,
-            "bggGeekRating": 6.526,
-            "bggNumVotes": 2952,
+            "bggRating": 7.188,
+            "bggGeekRating": 6.538,
+            "bggNumVotes": 3065,
             "commentsTotal": 20,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -6541,10 +7288,10 @@ var games = [
             "ratingUser": 7.65,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.655,
-            "bggGeekRating": 5.914,
-            "bggNumVotes": 984,
-            "commentsTotal": 0,
+            "bggRating": 6.626,
+            "bggGeekRating": 5.91,
+            "bggNumVotes": 1019,
+            "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -6559,14 +7306,14 @@ var games = [
             "creationDateUtc": "2018-11-13T04:00:19",
             "photoUrl": "https://s.tesera.ru/images/items/1342373,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 61,
-            "ratingUser": 7.23,
-            "n10Rating": 6.94,
-            "n20Rating": 6.72,
-            "bggRating": 7.698,
-            "bggGeekRating": 7.1,
-            "bggNumVotes": 5033,
-            "commentsTotal": 64,
+            "numVotes": 65,
+            "ratingUser": 7.24,
+            "n10Rating": 6.96,
+            "n20Rating": 6.75,
+            "bggRating": 7.693,
+            "bggGeekRating": 7.115,
+            "bggNumVotes": 5288,
+            "commentsTotal": 66,
             "commentsTotalNew": 0,
             "isAddition": false
         }],
@@ -6585,10 +7332,10 @@ var games = [
             "numVotes": 21,
             "ratingUser": 5.23,
             "n10Rating": 5.21,
-            "n20Rating": 5.21,
-            "bggRating": 5.28,
+            "n20Rating": 5.2,
+            "bggRating": 5.286,
             "bggGeekRating": 5.475,
-            "bggNumVotes": 159,
+            "bggNumVotes": 160,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -6604,13 +7351,13 @@ var games = [
             "creationDateUtc": "2014-02-11T10:33:57",
             "photoUrl": "https://s.tesera.ru/images/items/375120,3/200x200xpa/photo1.jpg",
             "year": 2012,
-            "numVotes": 207,
-            "ratingUser": 6.48,
-            "n10Rating": 6.42,
-            "n20Rating": 6.37,
-            "bggRating": 5.998,
+            "numVotes": 210,
+            "ratingUser": 6.46,
+            "n10Rating": 6.4,
+            "n20Rating": 6.35,
+            "bggRating": 5.988,
             "bggGeekRating": 5.682,
-            "bggNumVotes": 1816,
+            "bggNumVotes": 1914,
             "commentsTotal": 9,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -6624,7 +7371,7 @@ var games = [
             "creationDateUtc": "2015-06-15T13:57:31",
             "photoUrl": "https://s.tesera.ru/images/items/571219,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 68,
+            "numVotes": 69,
             "ratingUser": 6.6,
             "n10Rating": 6.42,
             "n20Rating": 6.28,
@@ -6646,7 +7393,7 @@ var games = [
             "year": 2008,
             "numVotes": 11,
             "ratingUser": 7.2,
-            "n10Rating": 6.24,
+            "n10Rating": 6.23,
             "n20Rating": 0.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -6709,19 +7456,18 @@ var games = [
             "alias": "Mansions-of-Madness-Second-Edition",
             "descriptionShort": "Особняки безумия (2nd edition) (Mansions of Madness Second Edition) – игра, в которой роль ведущего досталась программному обеспечению, что упростило подготовку к партии и сделало игру кооперативной. В коробку также входит Conversion Kit.",
             "description": "<p style=\"text-align: justify;\">В этот раз роль ведущего досталась программному обеспечению (ПО), что упростило подготовку к партии и сделало игру кооперативной.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Как и прежде, партия проходит по одному из выбранных сценариев (который, помимо прочего, задаёт продолжительность и сложность приключения), а ПО формирует игровое поле, &laquo;расставляет&raquo; на нём монстров, предметы, секреты и события. В игре появился &laquo;туман войны&raquo;: игроки узнают, что за дверью, только когда открывают её (при этом ПО просит их добавить к физическому полю определённый тайл и пр. игровые элементы).</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Играть без ПО во 2-ю редакцию нельзя. ПО будет распространяться через App Store (iOS), Google Play (Android) и Steam (Windows / Mac OS X).</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">В коробку 2-й редакции сразу входит т.н. Conversion Kit &mdash; набор, позволяющий использовать тайлы местности, фигурки сыщиков и монстров из 1-й редакции.</p>",
-            "modificationDateUtc": "2022-01-12T06:35:17",
+            "modificationDateUtc": "2022-02-23T09:40:24",
             "creationDateUtc": "2016-07-26T08:07:40",
             "photoUrl": "https://s.tesera.ru/images/items/807928,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/807928,3/photo2.jpg",
             "year": 2016,
-            "ratingUser": 8.31,
-            "n10Rating": 8.27,
-            "n20Rating": 8.22,
-            "ratingMy": 9.0,
-            "bggRating": 8.022,
-            "bggGeekRating": 7.784,
-            "bggNumVotes": 28640,
-            "numVotes": 712,
+            "ratingUser": 8.28,
+            "n10Rating": 8.24,
+            "n20Rating": 8.2,
+            "bggRating": 8.02,
+            "bggGeekRating": 7.779,
+            "bggNumVotes": 29189,
+            "numVotes": 733,
             "playersMin": 1,
             "playersMax": 5,
             "playersMinRecommend": 2,
@@ -6730,22 +7476,22 @@ var games = [
             "timeToLearn": 15,
             "playtimeMin": 120,
             "playtimeMax": 180,
-            "commentsTotal": 1158,
+            "commentsTotal": 1163,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/807928",
             "isAddition": false
         },
-        "ownersTotal": 1600,
-        "sellTotal": 6,
-        "buyTotal": 9,
-        "sellTotalAll": 20,
+        "ownersTotal": 1645,
+        "sellTotal": 4,
+        "buyTotal": 6,
+        "sellTotalAll": 22,
         "buyTotalAll": 85,
-        "commentsTotal": 1158,
+        "commentsTotal": 1163,
         "reportsTotal": 61,
         "photosTotal": 41,
         "filesTotal": 8,
-        "linksTotal": 23,
-        "videoExternalTotal": 22,
+        "linksTotal": 25,
+        "videoExternalTotal": 23,
         "videoInternalTotal": 0,
         "photos": [{
             "teseraId": 1789758,
@@ -6774,7 +7520,7 @@ var games = [
                 "login": "alter_ago",
                 "name": "Мария",
                 "avatarUrl": "https://s.tesera.ru/images/items/555555,22/photo.jpg",
-                "rating": 3335,
+                "rating": 3369,
                 "teseraUrl": "https://tesera.ru/user/555555"
             }
         }, {
@@ -6789,7 +7535,7 @@ var games = [
                 "login": "alter_ago",
                 "name": "Мария",
                 "avatarUrl": "https://s.tesera.ru/images/items/555555,22/photo.jpg",
-                "rating": 3335,
+                "rating": 3369,
                 "teseraUrl": "https://tesera.ru/user/555555"
             }
         }, {
@@ -6804,7 +7550,7 @@ var games = [
                 "login": "alter_ago",
                 "name": "Мария",
                 "avatarUrl": "https://s.tesera.ru/images/items/555555,22/photo.jpg",
-                "rating": 3335,
+                "rating": 3369,
                 "teseraUrl": "https://tesera.ru/user/555555"
             }
         }, {
@@ -6819,7 +7565,7 @@ var games = [
                 "login": "cosmicd",
                 "name": "Павел",
                 "avatarUrl": "https://s.tesera.ru/images/items/1290318,22/photo.jpg",
-                "rating": 983,
+                "rating": 993,
                 "teseraUrl": "https://tesera.ru/user/1290318"
             }
         }],
@@ -6879,11 +7625,43 @@ var games = [
                 "login": "kil_q",
                 "name": "Константин",
                 "avatarUrl": "https://s.tesera.ru/images/items/573555,22/photo.png",
-                "rating": 8203,
+                "rating": 8236,
                 "teseraUrl": "https://tesera.ru/user/573555"
             }
         }],
         "links": [{
+            "teseraId": 2015287,
+            "objectType": "Game",
+            "title": "Особняки безумия (Плейлист с обзорами и стримами)",
+            "photoUrl": "https://youtube.com/playlist?list=PLJ1wbQ99Ro-I5zic0Vfgw1dOVPTa-mMGq",
+            "modificationDateUtc": "2022-01-14T13:00:36",
+            "creationDateUtc": "2022-01-14T13:00:36",
+            "author": {
+                "teseraId": 1953295,
+                "id": 60824,
+                "login": "mrjoker",
+                "name": "MrJoker",
+                "avatarUrl": "https://s.tesera.ru/images/items/1953295,22/photo.jpg",
+                "rating": 184,
+                "teseraUrl": "https://tesera.ru/user/1953295"
+            }
+        }, {
+            "teseraId": 2015286,
+            "objectType": "Game",
+            "title": "Особняки безумия - Обзор-Мнение",
+            "photoUrl": "https://youtu.be/DUccwibz7xk",
+            "modificationDateUtc": "2022-01-14T12:59:34",
+            "creationDateUtc": "2022-01-14T12:59:33",
+            "author": {
+                "teseraId": 1953295,
+                "id": 60824,
+                "login": "mrjoker",
+                "name": "MrJoker",
+                "avatarUrl": "https://s.tesera.ru/images/items/1953295,22/photo.jpg",
+                "rating": 184,
+                "teseraUrl": "https://tesera.ru/user/1953295"
+            }
+        }, {
             "teseraId": 1966551,
             "objectType": "Game",
             "title": "Настольная игра Особняки безумия: Вторая редакция",
@@ -6894,9 +7672,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -6912,7 +7690,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -6922,31 +7700,7 @@ var games = [
             "photoUrl": "https://desktopgames.com.ua/osobnyaki-bezumiya-vtoraya-redaktsiya.html",
             "modificationDateUtc": "2021-08-19T18:17:15",
             "creationDateUtc": "2021-08-19T18:17:14",
-            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1763, "teseraUrl": "https://tesera.ru/user/1924212"}
-        }, {
-            "teseraId": 1870569,
-            "objectType": "Game",
-            "title": "Миниатюры Сыщиков и Монстров из 1й редакции",
-            "photoUrl": "https://vk.com/public192803229?w=wall-192803229_170",
-            "modificationDateUtc": "2021-04-25T09:02:45",
-            "creationDateUtc": "2021-04-25T09:02:44",
-            "author": {"teseraId": 1535319, "id": 43777, "login": "alexma", "name": "AlexMA", "rating": 147, "teseraUrl": "https://tesera.ru/user/1535319"}
-        }, {
-            "teseraId": 1858614,
-            "objectType": "Game",
-            "title": "Обзор игры (магазин BanzGames)",
-            "photoUrl": "https://banzgames.ru/ispytanie-bezumiem-review.html",
-            "modificationDateUtc": "2021-04-04T11:48:32",
-            "creationDateUtc": "2021-04-04T11:48:31",
-            "author": {
-                "teseraId": 45372,
-                "id": 629,
-                "login": "banz",
-                "name": "banz",
-                "avatarUrl": "https://s.tesera.ru/images/items/45372,22/photo.jpg",
-                "rating": 4468,
-                "teseraUrl": "https://tesera.ru/user/45372"
-            }
+            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1823, "teseraUrl": "https://tesera.ru/user/1924212"}
         }],
         "similars": [{
             "id": 381,
@@ -6960,14 +7714,14 @@ var games = [
             "creationDateUtc": "2010-02-25T16:52:13",
             "photoUrl": "https://s.tesera.ru/images/items/3242,3/200x200xpa/photo1.png",
             "year": 2006,
-            "numVotes": 460,
-            "ratingUser": 7.8,
-            "n10Rating": 7.74,
-            "n20Rating": 7.69,
-            "bggRating": 7.118,
-            "bggGeekRating": 6.818,
-            "bggNumVotes": 9072,
-            "commentsTotal": 376,
+            "numVotes": 465,
+            "ratingUser": 7.81,
+            "n10Rating": 7.75,
+            "n20Rating": 7.7,
+            "bggRating": 7.116,
+            "bggGeekRating": 6.814,
+            "bggNumVotes": 9096,
+            "commentsTotal": 378,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -6981,13 +7735,13 @@ var games = [
             "creationDateUtc": "2010-07-12T19:48:23",
             "photoUrl": "https://s.tesera.ru/images/items/6068,3/200x200xpa/photo1.jpg",
             "year": 2004,
-            "numVotes": 222,
-            "ratingUser": 7.7,
-            "n10Rating": 7.59,
-            "n20Rating": 7.49,
-            "bggRating": 7.056,
-            "bggGeekRating": 6.848,
-            "bggNumVotes": 39727,
+            "numVotes": 224,
+            "ratingUser": 7.69,
+            "n10Rating": 7.58,
+            "n20Rating": 7.48,
+            "bggRating": 7.054,
+            "bggGeekRating": 6.845,
+            "bggNumVotes": 40192,
             "commentsTotal": 113,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7002,13 +7756,13 @@ var games = [
             "creationDateUtc": "2010-08-12T17:56:15",
             "photoUrl": "https://s.tesera.ru/images/items/7135,3/200x200xpa/photo1.jpg",
             "year": 2003,
-            "numVotes": 404,
+            "numVotes": 408,
             "ratingUser": 6.43,
             "n10Rating": 6.4,
             "n20Rating": 6.37,
-            "bggRating": 6.105,
-            "bggGeekRating": 5.836,
-            "bggNumVotes": 2636,
+            "bggRating": 6.104,
+            "bggGeekRating": 5.834,
+            "bggNumVotes": 2643,
             "commentsTotal": 386,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7027,9 +7781,9 @@ var games = [
             "ratingUser": 8.26,
             "n10Rating": 8.17,
             "n20Rating": 8.09,
-            "bggRating": 7.29,
-            "bggGeekRating": 6.992,
-            "bggNumVotes": 13066,
+            "bggRating": 7.284,
+            "bggGeekRating": 6.987,
+            "bggNumVotes": 13121,
             "commentsTotal": 373,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7043,13 +7797,13 @@ var games = [
             "creationDateUtc": "2010-09-26T06:36:37",
             "photoUrl": "https://s.tesera.ru/images/items/10036,3/200x200xpa/photo1.jpg",
             "year": 2008,
-            "numVotes": 59,
-            "ratingUser": 7.62,
-            "n10Rating": 7.27,
-            "n20Rating": 7.0,
+            "numVotes": 60,
+            "ratingUser": 7.6,
+            "n10Rating": 7.25,
+            "n20Rating": 6.99,
             "bggRating": 6.973,
-            "bggGeekRating": 6.499,
-            "bggNumVotes": 4495,
+            "bggGeekRating": 6.496,
+            "bggNumVotes": 4510,
             "commentsTotal": 116,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7066,14 +7820,14 @@ var games = [
             "creationDateUtc": "2009-11-23T16:42:40",
             "photoUrl": "https://s.tesera.ru/images/items/1442,3/200x200xpa/photo1.jpg",
             "year": 2005,
-            "numVotes": 1367,
+            "numVotes": 1378,
             "ratingUser": 7.92,
             "n10Rating": 7.9,
             "n20Rating": 7.88,
             "bggRating": 7.249,
-            "bggGeekRating": 7.051,
-            "bggNumVotes": 37578,
-            "commentsTotal": 933,
+            "bggGeekRating": 7.049,
+            "bggNumVotes": 37734,
+            "commentsTotal": 934,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -7091,9 +7845,9 @@ var games = [
             "ratingUser": 8.26,
             "n10Rating": 8.17,
             "n20Rating": 8.09,
-            "bggRating": 7.29,
-            "bggGeekRating": 6.992,
-            "bggNumVotes": 13066,
+            "bggRating": 7.284,
+            "bggGeekRating": 6.987,
+            "bggNumVotes": 13121,
             "commentsTotal": 373,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7108,13 +7862,13 @@ var games = [
             "creationDateUtc": "2011-06-09T09:25:14",
             "photoUrl": "https://s.tesera.ru/images/items/47019,3/200x200xpa/photo1.jpg",
             "year": 2011,
-            "numVotes": 541,
-            "ratingUser": 7.19,
-            "n10Rating": 7.15,
-            "n20Rating": 7.12,
-            "bggRating": 6.978,
-            "bggGeekRating": 6.815,
-            "bggNumVotes": 23137,
+            "numVotes": 542,
+            "ratingUser": 7.18,
+            "n10Rating": 7.14,
+            "n20Rating": 7.11,
+            "bggRating": 6.976,
+            "bggGeekRating": 6.813,
+            "bggNumVotes": 23327,
             "commentsTotal": 361,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7130,11 +7884,11 @@ var games = [
             "year": 2011,
             "numVotes": 11,
             "ratingUser": 7.66,
-            "n10Rating": 6.48,
+            "n10Rating": 6.47,
             "n20Rating": 0.0,
-            "bggRating": 7.546,
-            "bggGeekRating": 6.043,
-            "bggNumVotes": 666,
+            "bggRating": 7.548,
+            "bggGeekRating": 6.038,
+            "bggNumVotes": 668,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -7152,9 +7906,9 @@ var games = [
             "ratingUser": 8.25,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.439,
-            "bggGeekRating": 5.907,
-            "bggNumVotes": 510,
+            "bggRating": 7.443,
+            "bggGeekRating": 5.904,
+            "bggNumVotes": 512,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -7172,9 +7926,9 @@ var games = [
             "ratingUser": 8.51,
             "n10Rating": 7.61,
             "n20Rating": 7.09,
-            "bggRating": 7.751,
-            "bggGeekRating": 6.367,
-            "bggNumVotes": 1216,
+            "bggRating": 7.752,
+            "bggGeekRating": 6.361,
+            "bggNumVotes": 1220,
             "commentsTotal": 11,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -7193,8 +7947,8 @@ var games = [
             "n10Rating": 6.96,
             "n20Rating": 0.0,
             "bggRating": 7.775,
-            "bggGeekRating": 5.957,
-            "bggNumVotes": 469,
+            "bggGeekRating": 5.951,
+            "bggNumVotes": 473,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -7212,9 +7966,9 @@ var games = [
             "ratingUser": 8.67,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.756,
-            "bggGeekRating": 5.922,
-            "bggNumVotes": 427,
+            "bggRating": 7.755,
+            "bggGeekRating": 5.915,
+            "bggNumVotes": 430,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -7230,7 +7984,7 @@ var games = [
             "year": 2013,
             "numVotes": 23,
             "ratingUser": 8.85,
-            "n10Rating": 7.74,
+            "n10Rating": 7.73,
             "n20Rating": 7.14,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -7250,11 +8004,11 @@ var games = [
             "year": 2012,
             "numVotes": 10,
             "ratingUser": 8.33,
-            "n10Rating": 6.76,
+            "n10Rating": 6.75,
             "n20Rating": 0.0,
-            "bggRating": 7.838,
-            "bggGeekRating": 5.927,
-            "bggNumVotes": 416,
+            "bggRating": 7.844,
+            "bggGeekRating": 5.922,
+            "bggNumVotes": 418,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -7269,14 +8023,14 @@ var games = [
             "creationDateUtc": "2013-08-03T16:45:07",
             "photoUrl": "https://s.tesera.ru/images/items/296979,3/200x200xpa/photo1.jpg",
             "year": 2013,
-            "numVotes": 1475,
+            "numVotes": 1499,
             "ratingUser": 8.2,
             "n10Rating": 8.18,
             "n20Rating": 8.16,
-            "bggRating": 7.783,
-            "bggGeekRating": 7.55,
-            "bggNumVotes": 31545,
-            "commentsTotal": 4802,
+            "bggRating": 7.78,
+            "bggGeekRating": 7.547,
+            "bggNumVotes": 31883,
+            "commentsTotal": 4823,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -7291,11 +8045,11 @@ var games = [
             "year": 2016,
             "numVotes": 12,
             "ratingUser": 8.44,
-            "n10Rating": 6.96,
+            "n10Rating": 6.95,
             "n20Rating": 0.0,
-            "bggRating": 8.13,
-            "bggGeekRating": 6.576,
-            "bggNumVotes": 1308,
+            "bggRating": 8.138,
+            "bggGeekRating": 6.571,
+            "bggNumVotes": 1323,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -7313,9 +8067,9 @@ var games = [
             "ratingUser": 8.21,
             "n10Rating": 6.83,
             "n20Rating": 0.0,
-            "bggRating": 8.174,
-            "bggGeekRating": 6.579,
-            "bggNumVotes": 1306,
+            "bggRating": 8.171,
+            "bggGeekRating": 6.572,
+            "bggNumVotes": 1324,
             "commentsTotal": 7,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -7332,11 +8086,11 @@ var games = [
             "year": 2017,
             "numVotes": 65,
             "ratingUser": 8.62,
-            "n10Rating": 8.15,
-            "n20Rating": 7.79,
-            "bggRating": 8.59,
-            "bggGeekRating": 7.075,
-            "bggNumVotes": 1990,
+            "n10Rating": 8.16,
+            "n20Rating": 7.81,
+            "bggRating": 8.591,
+            "bggGeekRating": 7.082,
+            "bggNumVotes": 2040,
             "commentsTotal": 24,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -7351,13 +8105,13 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/1278188,3/200x200xpa/photo1.png",
             "year": 2018,
             "numVotes": 8,
-            "ratingUser": 8.53,
+            "ratingUser": 8.68,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
-            "commentsTotal": 1,
+            "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -7371,29 +8125,30 @@ var games = [
             "creationDateUtc": "2018-08-02T07:23:33",
             "photoUrl": "https://s.tesera.ru/images/items/1291044,3/200x200xpa/photo1.jpg",
             "year": 2018,
-            "numVotes": 313,
-            "ratingUser": 7.94,
-            "n10Rating": 7.85,
-            "n20Rating": 7.77,
-            "bggRating": 7.764,
-            "bggGeekRating": 7.134,
-            "bggNumVotes": 6326,
-            "commentsTotal": 734,
+            "numVotes": 325,
+            "ratingUser": 7.97,
+            "n10Rating": 7.89,
+            "n20Rating": 7.81,
+            "bggRating": 7.76,
+            "bggGeekRating": 7.14,
+            "bggNumVotes": 6592,
+            "commentsTotal": 739,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
             "id": 34634,
             "teseraId": 1477514,
             "bggId": 0,
-            "title": "Mansions of Madness Second Edition: Path of the Serpent",
+            "title": "Особняки безумия. Вторая редакция: Путь змеи",
+            "title2": "Mansions of Madness Second Edition: Path of the Serpent",
             "alias": "mansions-of-madness-second-edition-path-of-the-serpent",
             "descriptionShort": "",
             "creationDateUtc": "2019-06-25T13:30:29",
             "photoUrl": "https://s.tesera.ru/images/items/1477514,3/200x200xpa/photo1.png",
             "year": 2019,
-            "numVotes": 11,
-            "ratingUser": 8.89,
-            "n10Rating": 7.09,
+            "numVotes": 16,
+            "ratingUser": 8.84,
+            "n10Rating": 7.43,
             "n20Rating": 0.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -7412,13 +8167,13 @@ var games = [
             "creationDateUtc": "2020-02-19T01:33:50",
             "photoUrl": "https://s.tesera.ru/images/items/1620432,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 94,
+            "numVotes": 97,
             "ratingUser": 8.3,
-            "n10Rating": 7.99,
-            "n20Rating": 7.74,
+            "n10Rating": 8.01,
+            "n20Rating": 7.76,
             "bggRating": 8.36,
-            "bggGeekRating": 7.127,
-            "bggNumVotes": 2543,
+            "bggGeekRating": 7.129,
+            "bggNumVotes": 2589,
             "commentsTotal": 83,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -7441,12 +8196,12 @@ var games = [
             "alias": "808047",
             "contentShort": "FFG выпустит 4 августа 2016 2-ю редакцию приключений Mansions of Madness.",
             "creationDateUtc": "2016-07-26T10:16:52",
-            "modificationDateUtc": "2020-08-12T09:20:08",
+            "modificationDateUtc": "2022-01-20T13:39:13",
             "publicationDateUtc": "2016-07-26T10:22:00",
             "photoUrl": "https://s.tesera.ru/images/items/808047,18/125x125xpa/photo.png",
             "rating": 9.41,
             "commentsTotal": 104,
-            "numVotes": 69
+            "numVotes": 70
         }, {
             "teseraId": 1036005,
             "title": "Дополнение для Mansions of Madness SE",
@@ -7470,17 +8225,16 @@ var games = [
             "alias": "exit-kvest-sekretnaya-laboratoriya",
             "descriptionShort": "",
             "description": "<p class=\"Default\">Игры серии EXIT- КВЕСТ основаны на так называемых  Эскейп-квестах(приключенческих играх, проходящих в реальности),  популярном жанре развлечения во всем мире. Перед игроками стоит задача -  попытаться выпутаться из опасной ситуации. Серия игр-квестов постоянно  пополняется новинками. И в каждой коробке вас ждет новая история и новый  мир загадок.</p>\r\n<p class=\"Default\">Вы &ndash; волонтёр в медицинских исследованиях. Согласно  полученной инструкции вы прибыли в лабораторию, но там никого нет!  Голова кружится от едких испарений тестовых пробирок и сознание на миг  оставляет вас. Когда вы приходите в себя, то обнаруживаете, что заперты.  Рядом лежат записная книжка и странный диск&hellip;</p>",
-            "modificationDateUtc": "2022-01-04T16:56:19",
+            "modificationDateUtc": "2022-02-22T21:49:24",
             "creationDateUtc": "2017-04-13T06:40:04",
             "photoUrl": "https://s.tesera.ru/images/items/979918,3/photo1.jpg",
             "year": 2016,
-            "ratingUser": 6.91,
-            "n10Rating": 6.77,
-            "n20Rating": 6.66,
-            "ratingMy": 6.0,
-            "bggRating": 7.109,
-            "bggGeekRating": 6.755,
-            "bggNumVotes": 6151,
+            "ratingUser": 6.9,
+            "n10Rating": 6.76,
+            "n20Rating": 6.65,
+            "bggRating": 7.11,
+            "bggGeekRating": 6.753,
+            "bggNumVotes": 6235,
             "numVotes": 117,
             "playersMin": 1,
             "playersMax": 6,
@@ -7495,10 +8249,10 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/979918",
             "isAddition": false
         },
-        "ownersTotal": 287,
+        "ownersTotal": 289,
         "sellTotal": 6,
-        "buyTotal": 0,
-        "sellTotalAll": 9,
+        "buyTotal": 1,
+        "sellTotalAll": 8,
         "buyTotalAll": 5,
         "commentsTotal": 34,
         "reportsTotal": 2,
@@ -7519,7 +8273,7 @@ var games = [
                 "login": "port",
                 "name": "Олег",
                 "avatarUrl": "https://s.tesera.ru/images/items/20015,22/photo.jpg",
-                "rating": 51062,
+                "rating": 51002,
                 "teseraUrl": "https://tesera.ru/user/20015"
             }
         }],
@@ -7535,9 +8289,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -7577,7 +8331,7 @@ var games = [
                 "login": "scafandr",
                 "name": "scafandr",
                 "avatarUrl": "https://s.tesera.ru/images/items/14747,22/photo.jpg",
-                "rating": 25170,
+                "rating": 25230,
                 "teseraUrl": "https://tesera.ru/user/14747"
             }
         }, {
@@ -7608,13 +8362,13 @@ var games = [
             "creationDateUtc": "2017-02-23T21:43:28",
             "photoUrl": "https://s.tesera.ru/images/items/943970,3/200x200xpa/photo1.jpg",
             "year": 2017,
-            "numVotes": 122,
+            "numVotes": 123,
             "ratingUser": 7.52,
             "n10Rating": 7.34,
             "n20Rating": 7.19,
-            "bggRating": 7.413,
-            "bggGeekRating": 6.929,
-            "bggNumVotes": 5364,
+            "bggRating": 7.41,
+            "bggGeekRating": 6.925,
+            "bggNumVotes": 5435,
             "commentsTotal": 68,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7630,13 +8384,13 @@ var games = [
             "creationDateUtc": "2018-04-20T10:49:38",
             "photoUrl": "https://s.tesera.ru/images/items/1241478,3/200x200xpa/photo1.jpg",
             "year": 2018,
-            "numVotes": 51,
-            "ratingUser": 6.38,
-            "n10Rating": 6.18,
-            "n20Rating": 6.04,
-            "bggRating": 6.752,
-            "bggGeekRating": 6.098,
-            "bggNumVotes": 1519,
+            "numVotes": 53,
+            "ratingUser": 6.4,
+            "n10Rating": 6.2,
+            "n20Rating": 6.06,
+            "bggRating": 6.749,
+            "bggGeekRating": 6.099,
+            "bggNumVotes": 1555,
             "commentsTotal": 7,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7655,9 +8409,9 @@ var games = [
             "ratingUser": 7.59,
             "n10Rating": 6.44,
             "n20Rating": 0.0,
-            "bggRating": 6.36,
-            "bggGeekRating": 5.517,
-            "bggNumVotes": 40,
+            "bggRating": 6.402,
+            "bggGeekRating": 5.52,
+            "bggNumVotes": 46,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7674,12 +8428,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/1122256,3/200x200xpa/photo1.jpg",
             "year": 2017,
             "numVotes": 96,
-            "ratingUser": 6.6,
-            "n10Rating": 6.47,
-            "n20Rating": 6.36,
-            "bggRating": 6.922,
-            "bggGeekRating": 6.425,
-            "bggNumVotes": 3195,
+            "ratingUser": 6.59,
+            "n10Rating": 6.46,
+            "n20Rating": 6.35,
+            "bggRating": 6.92,
+            "bggGeekRating": 6.423,
+            "bggNumVotes": 3259,
             "commentsTotal": 15,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7694,13 +8448,13 @@ var games = [
             "creationDateUtc": "2017-11-12T12:25:36",
             "photoUrl": "https://s.tesera.ru/images/items/1131259,3/200x200xpa/photo1.png",
             "year": 2017,
-            "numVotes": 58,
-            "ratingUser": 6.82,
-            "n10Rating": 6.58,
-            "n20Rating": 6.4,
-            "bggRating": 6.979,
-            "bggGeekRating": 6.448,
-            "bggNumVotes": 3085,
+            "numVotes": 60,
+            "ratingUser": 6.78,
+            "n10Rating": 6.55,
+            "n20Rating": 6.38,
+            "bggRating": 6.976,
+            "bggGeekRating": 6.446,
+            "bggNumVotes": 3126,
             "commentsTotal": 21,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7718,10 +8472,10 @@ var games = [
             "numVotes": 62,
             "ratingUser": 6.67,
             "n10Rating": 6.46,
-            "n20Rating": 6.31,
-            "bggRating": 6.848,
-            "bggGeekRating": 6.34,
-            "bggNumVotes": 2787,
+            "n20Rating": 6.3,
+            "bggRating": 6.85,
+            "bggGeekRating": 6.338,
+            "bggNumVotes": 2836,
             "commentsTotal": 19,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7737,12 +8491,12 @@ var games = [
             "year": 2020,
             "numVotes": 10,
             "ratingUser": 7.68,
-            "n10Rating": 6.43,
+            "n10Rating": 6.42,
             "n20Rating": 0.0,
-            "bggRating": 7.217,
-            "bggGeekRating": 5.965,
-            "bggNumVotes": 633,
-            "commentsTotal": 1,
+            "bggRating": 7.163,
+            "bggGeekRating": 5.972,
+            "bggNumVotes": 677,
+            "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -7759,9 +8513,9 @@ var games = [
             "ratingUser": 7.13,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.208,
-            "bggGeekRating": 5.957,
-            "bggNumVotes": 633,
+            "bggRating": 7.197,
+            "bggGeekRating": 5.974,
+            "bggNumVotes": 683,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -7790,18 +8544,17 @@ var games = [
             "alias": "star-wars-outer-rim",
             "descriptionShort": "Вдали от небоскребов Корусанта лежат \"Территории Внешнего Кольца\". Для многих граждан на краю галактики живут одни мерзавцы и негодяи, на которых лучше не обращать внимание.",
             "description": "<p style=\"text-align: justify;\">Вдали от небоскребов Корусанта лежат \"Территории Внешнего Кольца\". Для многих граждан на краю галактики живут одни мерзавцы и негодяи, на которых лучше не обращать внимание. Но для негодяев галактики Внешнее Кольцо, это возможность стать легендой.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Откройте для себя галактику с игрой Star Wars &trade;: Outer Rim, игрой охотников за головами, игрой наемников и контрабандистов!</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Во Внешнем Кольце игроки берут на себя роль преступников, намеревающихся оставить свой след в галактике. Вы путешествуете по Внешнему Кольцу на своем личном корабле, нанимаете легендарных персонажей Звездных войн, и соперничаете, чтобы закрепить свое место в легендах галактики Звездных войн! Сможете ли вы пережить все опасности Внешнего Кольца и стать живой легендой?</p>",
-            "modificationDateUtc": "2022-01-13T13:36:55",
+            "modificationDateUtc": "2022-02-22T08:32:51",
             "creationDateUtc": "2019-02-08T22:04:04",
             "photoUrl": "https://s.tesera.ru/images/items/1402888,3/photo1.jpg",
             "year": 2019,
-            "ratingUser": 8.03,
-            "n10Rating": 7.94,
-            "n20Rating": 7.86,
-            "ratingMy": 8.0,
-            "bggRating": 7.7,
-            "bggGeekRating": 7.205,
-            "bggNumVotes": 7358,
-            "numVotes": 322,
+            "ratingUser": 8.01,
+            "n10Rating": 7.93,
+            "n20Rating": 7.85,
+            "bggRating": 7.694,
+            "bggGeekRating": 7.21,
+            "bggNumVotes": 7642,
+            "numVotes": 328,
             "playersMin": 1,
             "playersMax": 4,
             "playersMinRecommend": 0,
@@ -7810,17 +8563,17 @@ var games = [
             "timeToLearn": 0,
             "playtimeMin": 120,
             "playtimeMax": 180,
-            "commentsTotal": 578,
+            "commentsTotal": 581,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/1402888",
             "isAddition": false
         },
-        "ownersTotal": 624,
+        "ownersTotal": 639,
         "sellTotal": 3,
         "buyTotal": 2,
         "sellTotalAll": 8,
-        "buyTotalAll": 18,
-        "commentsTotal": 578,
+        "buyTotalAll": 21,
+        "commentsTotal": 581,
         "reportsTotal": 54,
         "photosTotal": 11,
         "filesTotal": 7,
@@ -7839,7 +8592,7 @@ var games = [
                 "login": "geschaft",
                 "name": "Geschaft",
                 "avatarUrl": "https://s.tesera.ru/images/items/630907,22/photo.jpg",
-                "rating": 3016,
+                "rating": 3023,
                 "teseraUrl": "https://tesera.ru/user/630907"
             }
         }, {
@@ -7854,7 +8607,7 @@ var games = [
                 "login": "geschaft",
                 "name": "Geschaft",
                 "avatarUrl": "https://s.tesera.ru/images/items/630907,22/photo.jpg",
-                "rating": 3016,
+                "rating": 3023,
                 "teseraUrl": "https://tesera.ru/user/630907"
             }
         }, {
@@ -7869,7 +8622,7 @@ var games = [
                 "login": "apavlov",
                 "name": "Павлов Аркадий",
                 "avatarUrl": "https://s.tesera.ru/images/items/796699,22/photo.jpg",
-                "rating": 1938,
+                "rating": 1941,
                 "teseraUrl": "https://tesera.ru/user/796699"
             }
         }, {
@@ -7884,7 +8637,7 @@ var games = [
                 "login": "apavlov",
                 "name": "Павлов Аркадий",
                 "avatarUrl": "https://s.tesera.ru/images/items/796699,22/photo.jpg",
-                "rating": 1938,
+                "rating": 1941,
                 "teseraUrl": "https://tesera.ru/user/796699"
             }
         }, {
@@ -7916,7 +8669,7 @@ var games = [
                 "login": "geschaft",
                 "name": "Geschaft",
                 "avatarUrl": "https://s.tesera.ru/images/items/630907,22/photo.jpg",
-                "rating": 3016,
+                "rating": 3023,
                 "teseraUrl": "https://tesera.ru/user/630907"
             }
         }, {
@@ -7932,7 +8685,7 @@ var games = [
                 "login": "cosmicd",
                 "name": "Павел",
                 "avatarUrl": "https://s.tesera.ru/images/items/1290318,22/photo.jpg",
-                "rating": 983,
+                "rating": 993,
                 "teseraUrl": "https://tesera.ru/user/1290318"
             }
         }, {
@@ -7949,7 +8702,7 @@ var games = [
                 "login": "evgenman",
                 "name": "Evgenman",
                 "avatarUrl": "https://s.tesera.ru/images/items/1668838,22/photo.jpg",
-                "rating": 247,
+                "rating": 250,
                 "teseraUrl": "https://tesera.ru/user/1668838"
             }
         }, {
@@ -7959,7 +8712,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1749402/SWOR_-_Galaxys_Edge_v1.0.pdf",
             "modificationDateUtc": "2020-10-02T04:18:53",
             "creationDateUtc": "2020-10-02T04:18:52",
-            "author": {"teseraId": 1421925, "id": 39978, "login": "polniy_lamer", "name": "polniy_lamer", "rating": 1568, "teseraUrl": "https://tesera.ru/user/1421925"}
+            "author": {"teseraId": 1421925, "id": 39978, "login": "polniy_lamer", "name": "polniy_lamer", "rating": 1622, "teseraUrl": "https://tesera.ru/user/1421925"}
         }, {
             "teseraId": 1639534,
             "objectType": "Game",
@@ -7990,7 +8743,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -8004,9 +8757,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -8016,7 +8769,7 @@ var games = [
             "photoUrl": "https://desktopgames.com.ua/star-wars-outer-rim-eng.html",
             "modificationDateUtc": "2021-08-20T17:10:29",
             "creationDateUtc": "2021-08-20T17:10:28",
-            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1763, "teseraUrl": "https://tesera.ru/user/1924212"}
+            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1823, "teseraUrl": "https://tesera.ru/user/1924212"}
         }, {
             "teseraId": 1867807,
             "objectType": "Game",
@@ -8024,7 +8777,7 @@ var games = [
             "photoUrl": "https://nastol.io/publications/1817",
             "modificationDateUtc": "2021-04-20T12:57:54",
             "creationDateUtc": "2021-04-20T12:57:53",
-            "author": {"teseraId": 1764724, "id": 51697, "login": "weird6", "name": "Weird6", "rating": 688, "teseraUrl": "https://tesera.ru/user/1764724"}
+            "author": {"teseraId": 1764724, "id": 51697, "login": "weird6", "name": "Weird6", "rating": 793, "teseraUrl": "https://tesera.ru/user/1764724"}
         }, {
             "teseraId": 1857726,
             "objectType": "Game",
@@ -8038,7 +8791,7 @@ var games = [
                 "login": "snowbody",
                 "name": "Владислав",
                 "avatarUrl": "https://s.tesera.ru/images/items/10705,22/photo.jpg",
-                "rating": 29098,
+                "rating": 29261,
                 "teseraUrl": "https://tesera.ru/user/10705"
             }
         }],
@@ -8052,13 +8805,13 @@ var games = [
             "creationDateUtc": "2009-11-09T15:54:58",
             "photoUrl": "https://s.tesera.ru/images/items/1160,3/200x200xpa/photo1.jpg",
             "year": 2005,
-            "numVotes": 316,
-            "ratingUser": 6.59,
-            "n10Rating": 6.55,
-            "n20Rating": 6.51,
-            "bggRating": 6.884,
-            "bggGeekRating": 6.567,
-            "bggNumVotes": 7858,
+            "numVotes": 317,
+            "ratingUser": 6.58,
+            "n10Rating": 6.54,
+            "n20Rating": 6.5,
+            "bggRating": 6.881,
+            "bggGeekRating": 6.562,
+            "bggNumVotes": 7881,
             "commentsTotal": 218,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -8073,13 +8826,13 @@ var games = [
             "creationDateUtc": "2013-05-30T07:12:07",
             "photoUrl": "https://s.tesera.ru/images/items/273117,3/200x200xpa/photo1.png",
             "year": 2014,
-            "numVotes": 162,
-            "ratingUser": 8.05,
+            "numVotes": 164,
+            "ratingUser": 8.04,
             "n10Rating": 7.88,
             "n20Rating": 7.73,
-            "bggRating": 7.879,
-            "bggGeekRating": 7.395,
-            "bggNumVotes": 8249,
+            "bggRating": 7.878,
+            "bggGeekRating": 7.397,
+            "bggNumVotes": 8363,
             "commentsTotal": 172,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -8094,14 +8847,14 @@ var games = [
             "creationDateUtc": "2015-02-26T20:40:56",
             "photoUrl": "https://s.tesera.ru/images/items/517466,3/200x200xpa/photo1.jpg",
             "year": 2017,
-            "numVotes": 66,
-            "ratingUser": 6.97,
-            "n10Rating": 6.73,
-            "n20Rating": 6.55,
-            "bggRating": 6.83,
-            "bggGeekRating": 5.568,
-            "bggNumVotes": 135,
-            "commentsTotal": 152,
+            "numVotes": 67,
+            "ratingUser": 6.92,
+            "n10Rating": 6.69,
+            "n20Rating": 6.52,
+            "bggRating": 6.847,
+            "bggGeekRating": 5.572,
+            "bggNumVotes": 143,
+            "commentsTotal": 154,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -8115,13 +8868,13 @@ var games = [
             "creationDateUtc": "2015-08-01T08:06:50",
             "photoUrl": "https://s.tesera.ru/images/items/591609,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 668,
-            "ratingUser": 7.83,
+            "numVotes": 677,
+            "ratingUser": 7.84,
             "n10Rating": 7.79,
             "n20Rating": 7.75,
             "bggRating": 7.49,
-            "bggGeekRating": 6.926,
-            "bggNumVotes": 5375,
+            "bggGeekRating": 6.925,
+            "bggNumVotes": 5426,
             "commentsTotal": 1193,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -8136,14 +8889,14 @@ var games = [
             "creationDateUtc": "2017-08-08T18:47:14",
             "photoUrl": "https://s.tesera.ru/images/items/1063856,3/200x200xpa/photo1.jpg",
             "year": 2017,
-            "numVotes": 373,
-            "ratingUser": 7.46,
-            "n10Rating": 7.4,
+            "numVotes": 382,
+            "ratingUser": 7.45,
+            "n10Rating": 7.39,
             "n20Rating": 7.34,
-            "bggRating": 6.937,
-            "bggGeekRating": 6.497,
-            "bggNumVotes": 6144,
-            "commentsTotal": 783,
+            "bggRating": 6.934,
+            "bggGeekRating": 6.496,
+            "bggNumVotes": 6255,
+            "commentsTotal": 785,
             "commentsTotalNew": 0,
             "isAddition": false
         }],
@@ -8162,9 +8915,9 @@ var games = [
             "ratingUser": 7.93,
             "n10Rating": 7.78,
             "n20Rating": 7.64,
-            "bggRating": 7.671,
-            "bggGeekRating": 7.442,
-            "bggNumVotes": 23741,
+            "bggRating": 7.668,
+            "bggGeekRating": 7.438,
+            "bggNumVotes": 23862,
             "commentsTotal": 160,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -8182,9 +8935,9 @@ var games = [
             "ratingUser": 8.17,
             "n10Rating": 7.1,
             "n20Rating": 0.0,
-            "bggRating": 7.838,
-            "bggGeekRating": 7.13,
-            "bggNumVotes": 4877,
+            "bggRating": 7.832,
+            "bggGeekRating": 7.124,
+            "bggNumVotes": 4930,
             "commentsTotal": 46,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -8199,14 +8952,14 @@ var games = [
             "creationDateUtc": "2014-08-15T20:16:23",
             "photoUrl": "https://s.tesera.ru/images/items/434907,3/200x200xpa/photo1.png",
             "year": 2015,
-            "numVotes": 209,
-            "ratingUser": 8.13,
-            "n10Rating": 8.0,
-            "n20Rating": 7.87,
-            "bggRating": 7.998,
-            "bggGeekRating": 7.718,
-            "bggNumVotes": 21834,
-            "commentsTotal": 549,
+            "numVotes": 211,
+            "ratingUser": 8.1,
+            "n10Rating": 7.97,
+            "n20Rating": 7.85,
+            "bggRating": 7.994,
+            "bggGeekRating": 7.715,
+            "bggNumVotes": 22041,
+            "commentsTotal": 558,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -8220,13 +8973,13 @@ var games = [
             "creationDateUtc": "2017-08-19T06:23:01",
             "photoUrl": "https://s.tesera.ru/images/items/1070344,3/200x200xpa/photo1.jpg",
             "year": 2018,
-            "numVotes": 10,
-            "ratingUser": 9.03,
-            "n10Rating": 7.1,
+            "numVotes": 11,
+            "ratingUser": 8.93,
+            "n10Rating": 7.14,
             "n20Rating": 0.0,
-            "bggRating": 8.016,
-            "bggGeekRating": 6.463,
-            "bggNumVotes": 1365,
+            "bggRating": 8.014,
+            "bggGeekRating": 6.47,
+            "bggNumVotes": 1398,
             "commentsTotal": 40,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -8240,13 +8993,13 @@ var games = [
             "creationDateUtc": "2018-05-02T16:51:41",
             "photoUrl": "https://s.tesera.ru/images/items/1247538,3/200x200xpa/photo1.jpg",
             "year": 2018,
-            "numVotes": 9,
-            "ratingUser": 8.75,
-            "n10Rating": 0.0,
+            "numVotes": 10,
+            "ratingUser": 8.58,
+            "n10Rating": 6.88,
             "n20Rating": 0.0,
-            "bggRating": 8.218,
-            "bggGeekRating": 6.885,
-            "bggNumVotes": 2139,
+            "bggRating": 8.212,
+            "bggGeekRating": 6.899,
+            "bggNumVotes": 2206,
             "commentsTotal": 19,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -8282,17 +9035,17 @@ var games = [
             "alias": "cyclades-monuments",
             "descriptionShort": "",
             "description": "<p>В Кикладах появляются монументы. Всего в дополнении их 10. Каждый монумент &ndash; это постройка с уникальным свойством, дающая игроку ощутимое преимущество. Например, цитадель полностью защищает остров от вторжений других игроков, если в ней есть хоть один солдат. Университет - позволяет нанимать сколько угодно философов за один ход. Маяк - спасает погибшие в битве корабли. Другие монументы дают скидки на покупки.</p>\r\n<p>&nbsp;</p>\r\n<p>Монументы устроены таким образом, что игровой процесс теперь будет вертеться вокруг зданий, т.к. от того, что именно вы построите и какие бонусы получите и будет зависеть путь к победе. Это дополнение совместимо со всеми прочими выпущенными дополнениями к Кикладам.&nbsp;</p>",
-            "modificationDateUtc": "2022-01-14T06:13:54",
+            "modificationDateUtc": "2022-01-17T04:19:01",
             "creationDateUtc": "2016-03-25T11:57:08",
             "photoUrl": "https://s.tesera.ru/images/items/739793,3/photo1.png",
             "year": 2016,
-            "ratingUser": 7.76,
-            "n10Rating": 7.22,
-            "n20Rating": 6.87,
-            "bggRating": 7.58,
-            "bggGeekRating": 5.951,
-            "bggNumVotes": 523,
-            "numVotes": 39,
+            "ratingUser": 7.77,
+            "n10Rating": 7.25,
+            "n20Rating": 6.9,
+            "bggRating": 7.59,
+            "bggGeekRating": 5.954,
+            "bggNumVotes": 531,
+            "numVotes": 40,
             "playersMin": 2,
             "playersMax": 5,
             "playersMinRecommend": 3,
@@ -8306,10 +9059,10 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/739793",
             "isAddition": false
         },
-        "ownersTotal": 369,
-        "sellTotal": 0,
-        "buyTotal": 1,
-        "sellTotalAll": 2,
+        "ownersTotal": 374,
+        "sellTotal": 3,
+        "buyTotal": 0,
+        "sellTotalAll": 1,
         "buyTotalAll": 9,
         "commentsTotal": 89,
         "reportsTotal": 0,
@@ -8330,7 +9083,7 @@ var games = [
                 "login": "drudenko",
                 "name": "laughingman13",
                 "avatarUrl": "https://s.tesera.ru/images/items/596286,22/photo.jpg",
-                "rating": 976,
+                "rating": 982,
                 "teseraUrl": "https://tesera.ru/user/596286"
             }
         }, {
@@ -8345,7 +9098,7 @@ var games = [
                 "login": "likvi139",
                 "name": "Артем",
                 "avatarUrl": "https://s.tesera.ru/images/items/201796,22/photo.jpg",
-                "rating": 6515,
+                "rating": 6532,
                 "teseraUrl": "https://tesera.ru/user/201796"
             }
         }, {
@@ -8360,7 +9113,7 @@ var games = [
                 "login": "bobrik",
                 "name": "Яна Бебре",
                 "avatarUrl": "https://s.tesera.ru/images/items/483224,22/photo.jpg",
-                "rating": 19905,
+                "rating": 19909,
                 "teseraUrl": "https://tesera.ru/user/483224"
             }
         }, {
@@ -8375,7 +9128,7 @@ var games = [
                 "login": "bobrik",
                 "name": "Яна Бебре",
                 "avatarUrl": "https://s.tesera.ru/images/items/483224,22/photo.jpg",
-                "rating": 19905,
+                "rating": 19909,
                 "teseraUrl": "https://tesera.ru/user/483224"
             }
         }, {
@@ -8390,7 +9143,7 @@ var games = [
                 "login": "bobrik",
                 "name": "Яна Бебре",
                 "avatarUrl": "https://s.tesera.ru/images/items/483224,22/photo.jpg",
-                "rating": 19905,
+                "rating": 19909,
                 "teseraUrl": "https://tesera.ru/user/483224"
             }
         }],
@@ -8416,7 +9169,7 @@ var games = [
                 "login": "212666pnd",
                 "name": "Игорь",
                 "avatarUrl": "https://s.tesera.ru/images/items/702002,22/photo.jpg",
-                "rating": 2452,
+                "rating": 2492,
                 "teseraUrl": "https://tesera.ru/user/702002"
             }
         }, {
@@ -8432,7 +9185,7 @@ var games = [
                 "login": "daredevil",
                 "name": "Кичатов Иван",
                 "avatarUrl": "https://s.tesera.ru/images/items/95005,22/photo.jpg",
-                "rating": 13229,
+                "rating": 13299,
                 "teseraUrl": "https://tesera.ru/user/95005"
             }
         }],
@@ -8449,7 +9202,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -8465,7 +9218,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -8505,7 +9258,7 @@ var games = [
                 "login": "bobrik",
                 "name": "Яна Бебре",
                 "avatarUrl": "https://s.tesera.ru/images/items/483224,22/photo.jpg",
-                "rating": 19905,
+                "rating": 19909,
                 "teseraUrl": "https://tesera.ru/user/483224"
             }
         }],
@@ -8521,13 +9274,13 @@ var games = [
             "creationDateUtc": "2011-04-12T13:55:37",
             "photoUrl": "https://s.tesera.ru/images/items/36098,3/200x200xpa/photo1.png",
             "year": 2011,
-            "numVotes": 162,
+            "numVotes": 164,
             "ratingUser": 8.39,
             "n10Rating": 8.2,
             "n20Rating": 8.04,
-            "bggRating": 7.999,
+            "bggRating": 8.0,
             "bggGeekRating": 6.901,
-            "bggNumVotes": 2363,
+            "bggNumVotes": 2385,
             "commentsTotal": 266,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -8543,12 +9296,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/370477,3/200x200xpa/photo1.jpg",
             "year": 2014,
             "numVotes": 89,
-            "ratingUser": 8.21,
+            "ratingUser": 8.22,
             "n10Rating": 7.91,
             "n20Rating": 7.66,
-            "bggRating": 8.08,
-            "bggGeekRating": 6.811,
-            "bggNumVotes": 1877,
+            "bggRating": 8.077,
+            "bggGeekRating": 6.805,
+            "bggNumVotes": 1889,
             "commentsTotal": 144,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -8600,18 +9353,17 @@ var games = [
             "alias": "Runebound-Third-Edition-Caught-in-a-Web-Scenario-Pack",
             "descriptionShort": "Caught in a Web предлагает игрокам окунуться в новое приключение и помешать колдунье Ариаде и ордам её приспешников-арахнидов захватить Терринот (если точнее, хотя бы 4 ключевых города).",
             "description": "<p><span>Caught in a Web предлагает игрокам окунуться в новое приключение и помешать колдунье Ариаде и ордам её приспешников-арахнидов захватить Терринот (если точнее, хотя бы 4 ключевых города).</span></p>\r\n<p><span><br /></span></p>\r\n<p>На протяжении всего сценария из-за эффектов карт сюжета и приключений на игровом поле будет появляться паутина. Она ограничит движения героев, но может быть разрушена, если вы готовы приложить усилия. В конце первого акта колдунья Ариад примет свое паучье обличье и начнет движение по карте. Если она окутает паутиной четыре великих города, то игроки проиграют. Единственный путь к победе &mdash; найти Ариад и сразить ее в бою прежде, чем до нее доберутся другие герои.</p>\r\n<p>&nbsp;</p>\r\n<p>По пути вы окажетесь лицом к лицу с отвратительными монстрами и ужасающими опасностями. Вы можете столкнуться с Arachyura, паукообразной тварью, которая может поймать в свои сети и нанести урон даже будучи поверженной. Вы можете выследить гнездо пауков в Smokeblue Hills или углубиться в тоннели, пронизывающие землю под Терринотом. К счастью, в это дополнение включен новый герой Jonas the Kind, который поможет спасти Терринот. Jonas обладает многими неожиданными навыками, полученными в преступной жизни, но теперь он использует их для защиты невинных людей от чудовищ.</p>\r\n<p>&nbsp;</p>\r\n<p>В этом дополнении появляется новый символ на боевых жетонах: заряд (charge). Он позволяет нанести неблокируемый урон вашему оппоненту, правда, после применения этого жетона вы больше не сможете блокировать получаемый урон до конца раунда.</p>\r\n<p><span><br /></span></p>",
-            "modificationDateUtc": "2021-12-25T13:07:48",
+            "modificationDateUtc": "2022-01-25T08:30:42",
             "creationDateUtc": "2016-04-28T12:27:34",
             "photoUrl": "https://s.tesera.ru/images/items/762389,3/photo1.png",
             "year": 2016,
-            "ratingUser": 7.84,
+            "ratingUser": 7.83,
             "n10Rating": 7.46,
-            "n20Rating": 7.18,
-            "ratingMy": 7.0,
-            "bggRating": 7.768,
-            "bggGeekRating": 6.009,
-            "bggNumVotes": 539,
-            "numVotes": 60,
+            "n20Rating": 7.17,
+            "bggRating": 7.751,
+            "bggGeekRating": 6.008,
+            "bggNumVotes": 546,
+            "numVotes": 61,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 3,
@@ -8627,9 +9379,9 @@ var games = [
         },
         "ownersTotal": 590,
         "sellTotal": 0,
-        "buyTotal": 0,
-        "sellTotalAll": 3,
-        "buyTotalAll": 8,
+        "buyTotal": 2,
+        "sellTotalAll": 2,
+        "buyTotalAll": 7,
         "commentsTotal": 20,
         "reportsTotal": 1,
         "photosTotal": 11,
@@ -8664,7 +9416,7 @@ var games = [
                 "login": "carboxed",
                 "name": "Илья",
                 "avatarUrl": "https://s.tesera.ru/images/items/762262,22/photo.png",
-                "rating": 2891,
+                "rating": 2899,
                 "teseraUrl": "https://tesera.ru/user/762262"
             }
         }, {
@@ -8679,7 +9431,7 @@ var games = [
                 "login": "carboxed",
                 "name": "Илья",
                 "avatarUrl": "https://s.tesera.ru/images/items/762262,22/photo.png",
-                "rating": 2891,
+                "rating": 2899,
                 "teseraUrl": "https://tesera.ru/user/762262"
             }
         }, {
@@ -8721,7 +9473,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1068538/RuneboundThirdEditionCaughtInAWebScenarioPack_rules_ru_HobbyGames.pdf",
             "modificationDateUtc": "2017-08-16T12:02:31",
             "creationDateUtc": "2017-08-16T12:02:30",
-            "author": {"teseraId": 49344, "id": 733, "login": "dima", "name": "Жидков Дмитрий", "rating": 12980, "teseraUrl": "https://tesera.ru/user/49344"}
+            "author": {"teseraId": 49344, "id": 733, "login": "dima", "name": "Жидков Дмитрий", "rating": 13006, "teseraUrl": "https://tesera.ru/user/49344"}
         }],
         "links": [{
             "teseraId": 1958850,
@@ -8734,9 +9486,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -8752,7 +9504,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -8768,7 +9520,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -8816,8 +9568,8 @@ var games = [
             "creationDateUtc": "2016-04-28T12:27:45",
             "photoUrl": "https://s.tesera.ru/images/items/762391,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 49,
-            "ratingUser": 7.84,
+            "numVotes": 51,
+            "ratingUser": 7.82,
             "n10Rating": 7.39,
             "n20Rating": 7.07,
             "bggRating": 0.0,
@@ -8850,18 +9602,17 @@ var games = [
             "alias": "Runebound-Third-Edition-The-Gilded-Blade-Adventure-Pack",
             "descriptionShort": "The Gilded Blade повышает реиграбельность любого сценария, добавляя в игру новые карты и способы развития героев. Также в каждом из этих дополнений есть новый герой и новые жетоны боя.",
             "description": "<p><span><span>The Gilded Blade</span> повышает реиграбельность любого сценария, добавляя в игру новые карты и способы развития героев.</span></p>\r\n<p>&nbsp;</p>\r\n<p>В это дополнение включен новый герой &mdash; Красный Скорпион (Red Scorpion). У этого персонажа интересная стартовая особенность: во время подготовки к игре вы можете взять три верхние карты из колоды исследовательских квестов, оставить одну в руке, а остальные положить в любом порядке либо под низ колоды, либо наверх. На одном из боевых жетонов Красного Скорпиона появляется новый символ &mdash; тактика. Используя его, вы сможете скопировать другой символ с ваших боевых жетонов или жетонов оппонента. Любой герой может применить тактический символ, если он владеет соответствующим жетоном.</p>\r\n<p>&nbsp;</p>\r\n<p>Дополнение содержит 15 карты приключений, которые добавляют новых врагов, события и квесты. 20 новых карт вещей и 10 карт умений дают больше возможностей персонализировать своего героя.</p>",
-            "modificationDateUtc": "2022-01-04T16:35:17",
+            "modificationDateUtc": "2022-02-19T00:06:58",
             "creationDateUtc": "2016-04-28T12:27:45",
             "photoUrl": "https://s.tesera.ru/images/items/762391,3/photo1.png",
             "year": 2016,
-            "ratingUser": 7.84,
+            "ratingUser": 7.82,
             "n10Rating": 7.39,
             "n20Rating": 7.07,
-            "ratingMy": 8.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
-            "numVotes": 49,
+            "numVotes": 51,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 0,
@@ -8875,10 +9626,10 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/762391",
             "isAddition": false
         },
-        "ownersTotal": 535,
+        "ownersTotal": 540,
         "sellTotal": 0,
         "buyTotal": 0,
-        "sellTotalAll": 4,
+        "sellTotalAll": 3,
         "buyTotalAll": 5,
         "commentsTotal": 6,
         "reportsTotal": 0,
@@ -8899,7 +9650,7 @@ var games = [
                 "login": "carboxed",
                 "name": "Илья",
                 "avatarUrl": "https://s.tesera.ru/images/items/762262,22/photo.png",
-                "rating": 2891,
+                "rating": 2899,
                 "teseraUrl": "https://tesera.ru/user/762262"
             }
         }, {
@@ -8944,7 +9695,7 @@ var games = [
                 "login": "valentia",
                 "name": "Валентина",
                 "avatarUrl": "https://s.tesera.ru/images/items/318132,22/photo.jpg",
-                "rating": 3038,
+                "rating": 3037,
                 "teseraUrl": "https://tesera.ru/user/318132"
             }
         }, {
@@ -8959,7 +9710,7 @@ var games = [
                 "login": "valentia",
                 "name": "Валентина",
                 "avatarUrl": "https://s.tesera.ru/images/items/318132,22/photo.jpg",
-                "rating": 3038,
+                "rating": 3037,
                 "teseraUrl": "https://tesera.ru/user/318132"
             }
         }],
@@ -8971,7 +9722,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1068542/RuneboundThirdEditionTheGildedBladeAdventurePack_rules_ru_HobbyGames.pdf",
             "modificationDateUtc": "2017-08-16T12:03:54",
             "creationDateUtc": "2017-08-16T12:03:54",
-            "author": {"teseraId": 49344, "id": 733, "login": "dima", "name": "Жидков Дмитрий", "rating": 12980, "teseraUrl": "https://tesera.ru/user/49344"}
+            "author": {"teseraId": 49344, "id": 733, "login": "dima", "name": "Жидков Дмитрий", "rating": 13006, "teseraUrl": "https://tesera.ru/user/49344"}
         }, {
             "teseraId": 836997,
             "objectType": "Game",
@@ -8986,7 +9737,7 @@ var games = [
                 "login": "valentia",
                 "name": "Валентина",
                 "avatarUrl": "https://s.tesera.ru/images/items/318132,22/photo.jpg",
-                "rating": 3038,
+                "rating": 3037,
                 "teseraUrl": "https://tesera.ru/user/318132"
             }
         }],
@@ -9001,9 +9752,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -9019,7 +9770,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -9035,7 +9786,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -9096,18 +9847,17 @@ var games = [
             "alias": "Runebound-Third-Edition-The-Mountains-Rise-Adventure-Pack",
             "descriptionShort": "The Mountains Rise повышает реиграбельность любого сценария, добавляя в игру новые карты и способы развития героев. Дополнение содержит 15 карты приключений, которые добавляют новых врагов, события и квесты. 20 новых карт вещей и 10 карт умений дают больше возможностей персонализировать своего героя. В дополнение включен новый герой – Nanok of the Blade.",
             "description": "<p>The Mountains Rise повышает реиграбельность любого сценария, добавляя в игру новые карты и способы развития героев. Дополнение содержит 15 карты приключений, которые добавляют новых врагов, события и квесты. 20 новых карт вещей и 10 карт умений дают больше возможностей персонализировать своего героя. В дополнение включен новый герой &ndash; Nanok of the Blade.</p>\r\n<p>&nbsp;</p>\r\n<p><span>В этом дополнении появляется новый символ на боевых жетонах: заряд (charge). Он позволяет нанести неблокируемый урон вашему оппоненту, правда, после применения этого жетона вы больше не сможете блокировать получаемый урон до конца раунда.</span></p>",
-            "modificationDateUtc": "2021-12-14T10:29:47",
+            "modificationDateUtc": "2022-02-19T00:07:06",
             "creationDateUtc": "2016-06-09T19:01:33",
             "photoUrl": "https://s.tesera.ru/images/items/785856,3/photo1.png",
             "year": 2016,
             "ratingUser": 7.86,
-            "n10Rating": 7.41,
-            "n20Rating": 7.08,
-            "ratingMy": 8.0,
+            "n10Rating": 7.43,
+            "n20Rating": 7.11,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
-            "numVotes": 49,
+            "numVotes": 52,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 3,
@@ -9121,7 +9871,7 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/785856",
             "isAddition": false
         },
-        "ownersTotal": 522,
+        "ownersTotal": 528,
         "sellTotal": 1,
         "buyTotal": 0,
         "sellTotalAll": 2,
@@ -9145,7 +9895,7 @@ var games = [
                 "login": "carboxed",
                 "name": "Илья",
                 "avatarUrl": "https://s.tesera.ru/images/items/762262,22/photo.png",
-                "rating": 2891,
+                "rating": 2899,
                 "teseraUrl": "https://tesera.ru/user/762262"
             }
         }, {
@@ -9190,7 +9940,7 @@ var games = [
                 "login": "valentia",
                 "name": "Валентина",
                 "avatarUrl": "https://s.tesera.ru/images/items/318132,22/photo.jpg",
-                "rating": 3038,
+                "rating": 3037,
                 "teseraUrl": "https://tesera.ru/user/318132"
             }
         }, {
@@ -9205,7 +9955,7 @@ var games = [
                 "login": "valentia",
                 "name": "Валентина",
                 "avatarUrl": "https://s.tesera.ru/images/items/318132,22/photo.jpg",
-                "rating": 3038,
+                "rating": 3037,
                 "teseraUrl": "https://tesera.ru/user/318132"
             }
         }],
@@ -9217,7 +9967,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1068533/RuneboundThirdEditionTheMountainsRiseAdventurePack_rules_ru_HobbyGames.pdf",
             "modificationDateUtc": "2017-08-16T12:01:32",
             "creationDateUtc": "2017-08-16T12:01:32",
-            "author": {"teseraId": 49344, "id": 733, "login": "dima", "name": "Жидков Дмитрий", "rating": 12980, "teseraUrl": "https://tesera.ru/user/49344"}
+            "author": {"teseraId": 49344, "id": 733, "login": "dima", "name": "Жидков Дмитрий", "rating": 13006, "teseraUrl": "https://tesera.ru/user/49344"}
         }],
         "links": [{
             "teseraId": 1959129,
@@ -9230,9 +9980,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -9248,7 +9998,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -9264,7 +10014,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -9312,13 +10062,13 @@ var games = [
             "creationDateUtc": "2016-04-28T12:27:34",
             "photoUrl": "https://s.tesera.ru/images/items/762389,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 60,
-            "ratingUser": 7.84,
+            "numVotes": 61,
+            "ratingUser": 7.83,
             "n10Rating": 7.46,
-            "n20Rating": 7.18,
-            "bggRating": 7.768,
-            "bggGeekRating": 6.009,
-            "bggNumVotes": 539,
+            "n20Rating": 7.17,
+            "bggRating": 7.751,
+            "bggGeekRating": 6.008,
+            "bggNumVotes": 546,
             "commentsTotal": 20,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9333,8 +10083,8 @@ var games = [
             "creationDateUtc": "2016-04-28T12:27:45",
             "photoUrl": "https://s.tesera.ru/images/items/762391,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 49,
-            "ratingUser": 7.84,
+            "numVotes": 51,
+            "ratingUser": 7.82,
             "n10Rating": 7.39,
             "n20Rating": 7.07,
             "bggRating": 0.0,
@@ -9354,13 +10104,13 @@ var games = [
             "creationDateUtc": "2016-06-09T18:33:12",
             "photoUrl": "https://s.tesera.ru/images/items/785837,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 43,
-            "ratingUser": 8.0,
-            "n10Rating": 7.47,
-            "n20Rating": 7.1,
-            "bggRating": 7.597,
+            "numVotes": 44,
+            "ratingUser": 8.01,
+            "n10Rating": 7.48,
+            "n20Rating": 7.12,
+            "bggRating": 7.598,
             "bggGeekRating": 5.88,
-            "bggNumVotes": 411,
+            "bggNumVotes": 416,
             "commentsTotal": 12,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9376,19 +10126,18 @@ var games = [
             "alias": "terraforming-mars",
             "descriptionShort": "Покорение Марса (Terraforming Mars) – стратегическая игра, в которой участники выступают за одну из корпораций, желающей изменить планету Марс до условий, пригодных для жизни человеческой цивилизации.",
             "description": "<p style=\"text-align: justify;\">В 2400-х человечество начинает терраформировать планету Марс. Гигантские корпорации, созданные по инициативе Всемирного правительства на Земле, инициируют масштабные проекты, чтобы поднять температуру, уровень кислорода и покрыть океанами планету Марс до условий, пригодных для жизни. В Terraforming Mars вы играете за одну из этих корпораций и работаете вместе в процессе терраформирования, но конкурируете за получение победных очков, которыми награждаетесь не только за вклад в терраформинг, но и за развитие человеческой инфраструктуры во всей Солнечной системе.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Игроки приобретают уникальные карты проектов (существует более 200 различных видов). Проекты (карточки) могут представлять что-нибудь от внедрения растительной или животной жизни, спуска астероидов на поверхность и строительства городов до добычи полезных ископаемых на спутниках Юпитера и развития отрасли по производству парниковых газов для нагрева атмосферы. Карты могут дать вам немедленные бонусы, а также увеличение вашего производства различных ресурсов. Многие карты также имеют условия применения, они становятся доступными, когда температура, кислород или покрытие поверхности океаном достигают определённого уровня. Когда процесс терраформинга завершён, игра заканчивается, и вы считаете свои победные очки, чтобы увидеть, кто победил.</p>",
-            "modificationDateUtc": "2022-01-14T06:31:51",
+            "modificationDateUtc": "2022-02-23T09:35:05",
             "creationDateUtc": "2015-03-17T16:21:04",
             "photoUrl": "https://s.tesera.ru/images/items/526664,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/526664,3/photo2.png",
             "year": 2016,
-            "ratingUser": 8.57,
-            "n10Rating": 8.55,
-            "n20Rating": 8.53,
-            "ratingMy": 10.0,
-            "bggRating": 8.42,
-            "bggGeekRating": 8.273,
-            "bggNumVotes": 74538,
-            "numVotes": 1741,
+            "ratingUser": 8.55,
+            "n10Rating": 8.53,
+            "n20Rating": 8.51,
+            "bggRating": 8.41,
+            "bggGeekRating": 8.271,
+            "bggNumVotes": 76170,
+            "numVotes": 1768,
             "playersMin": 1,
             "playersMax": 5,
             "playersMinRecommend": 2,
@@ -9397,18 +10146,18 @@ var games = [
             "timeToLearn": 15,
             "playtimeMin": 120,
             "playtimeMax": 180,
-            "commentsTotal": 3854,
+            "commentsTotal": 3886,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/526664",
             "isAddition": false
         },
-        "ownersTotal": 3537,
+        "ownersTotal": 3597,
         "sellTotal": 12,
-        "buyTotal": 13,
-        "sellTotalAll": 26,
-        "buyTotalAll": 206,
-        "commentsTotal": 3854,
-        "reportsTotal": 78,
+        "buyTotal": 8,
+        "sellTotalAll": 25,
+        "buyTotalAll": 211,
+        "commentsTotal": 3886,
+        "reportsTotal": 103,
         "photosTotal": 59,
         "filesTotal": 15,
         "linksTotal": 31,
@@ -9426,7 +10175,7 @@ var games = [
                 "login": "no1ks",
                 "name": "Ярослав",
                 "avatarUrl": "https://s.tesera.ru/images/items/1447400,22/photo.jpg",
-                "rating": 481,
+                "rating": 495,
                 "teseraUrl": "https://tesera.ru/user/1447400"
             }
         }, {
@@ -9441,7 +10190,7 @@ var games = [
                 "login": "avlivandovsky",
                 "name": "Ливандовский Антон Владимирович",
                 "avatarUrl": "https://s.tesera.ru/images/items/1672630,22/photo.jpg",
-                "rating": 2001,
+                "rating": 2108,
                 "teseraUrl": "https://tesera.ru/user/1672630"
             }
         }, {
@@ -9456,7 +10205,7 @@ var games = [
                 "login": "avlivandovsky",
                 "name": "Ливандовский Антон Владимирович",
                 "avatarUrl": "https://s.tesera.ru/images/items/1672630,22/photo.jpg",
-                "rating": 2001,
+                "rating": 2108,
                 "teseraUrl": "https://tesera.ru/user/1672630"
             }
         }, {
@@ -9471,7 +10220,7 @@ var games = [
                 "login": "igrokratiya",
                 "name": "Павел Игрократия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1522755,22/photo.jpg",
-                "rating": 8464,
+                "rating": 8643,
                 "teseraUrl": "https://tesera.ru/user/1522755"
             }
         }, {
@@ -9504,7 +10253,7 @@ var games = [
                 "login": "arcanum",
                 "name": "Міхась",
                 "avatarUrl": "https://s.tesera.ru/images/items/1722520,22/photo.jpg",
-                "rating": 802,
+                "rating": 805,
                 "teseraUrl": "https://tesera.ru/user/1722520"
             }
         }, {
@@ -9521,7 +10270,7 @@ var games = [
                 "login": "arcanum",
                 "name": "Міхась",
                 "avatarUrl": "https://s.tesera.ru/images/items/1722520,22/photo.jpg",
-                "rating": 802,
+                "rating": 805,
                 "teseraUrl": "https://tesera.ru/user/1722520"
             }
         }, {
@@ -9554,7 +10303,7 @@ var games = [
                 "login": "bse",
                 "name": "bse",
                 "avatarUrl": "https://s.tesera.ru/images/items/743726,22/photo.jpg",
-                "rating": 1564,
+                "rating": 1569,
                 "teseraUrl": "https://tesera.ru/user/743726"
             }
         }, {
@@ -9571,7 +10320,7 @@ var games = [
                 "login": "igornik74",
                 "name": "Игорь",
                 "avatarUrl": "https://s.tesera.ru/images/items/1401330,22/photo.jpg",
-                "rating": 531,
+                "rating": 537,
                 "teseraUrl": "https://tesera.ru/user/1401330"
             }
         }],
@@ -9586,9 +10335,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -9604,7 +10353,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -9614,7 +10363,7 @@ var games = [
             "photoUrl": "https://desktopgames.com.ua/terraforming-mars-ukr.html",
             "modificationDateUtc": "2021-08-19T22:02:49",
             "creationDateUtc": "2021-08-19T22:02:48",
-            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1763, "teseraUrl": "https://tesera.ru/user/1924212"}
+            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1823, "teseraUrl": "https://tesera.ru/user/1924212"}
         }, {
             "teseraId": 1874387,
             "objectType": "Game",
@@ -9651,13 +10400,13 @@ var games = [
             "creationDateUtc": "2009-08-17T22:21:17",
             "photoUrl": "https://s.tesera.ru/images/items/238,3/200x200xpa/photo1.jpg",
             "year": 2007,
-            "numVotes": 914,
+            "numVotes": 921,
             "ratingUser": 8.08,
             "n10Rating": 8.05,
             "n20Rating": 8.02,
             "bggRating": 7.76,
-            "bggGeekRating": 7.652,
-            "bggNumVotes": 48985,
+            "bggGeekRating": 7.651,
+            "bggNumVotes": 49427,
             "commentsTotal": 766,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -9673,12 +10422,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/36198,3/200x200xpa/photo1.jpg",
             "year": 2011,
             "numVotes": 200,
-            "ratingUser": 8.2,
-            "n10Rating": 8.06,
+            "ratingUser": 8.21,
+            "n10Rating": 8.07,
             "n20Rating": 7.93,
-            "bggRating": 7.51,
-            "bggGeekRating": 6.346,
-            "bggNumVotes": 1279,
+            "bggRating": 7.505,
+            "bggGeekRating": 6.338,
+            "bggNumVotes": 1283,
             "commentsTotal": 653,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9693,14 +10442,14 @@ var games = [
             "creationDateUtc": "2011-11-24T02:06:31",
             "photoUrl": "https://s.tesera.ru/images/items/77369,3/200x200xpa/photo1.jpg",
             "year": 2012,
-            "numVotes": 834,
-            "ratingUser": 8.09,
-            "n10Rating": 8.06,
-            "n20Rating": 8.02,
-            "bggRating": 7.396,
-            "bggGeekRating": 7.228,
-            "bggNumVotes": 22049,
-            "commentsTotal": 462,
+            "numVotes": 845,
+            "ratingUser": 8.08,
+            "n10Rating": 8.05,
+            "n20Rating": 8.01,
+            "bggRating": 7.39,
+            "bggGeekRating": 7.225,
+            "bggNumVotes": 22259,
+            "commentsTotal": 464,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -9715,13 +10464,13 @@ var games = [
             "creationDateUtc": "2012-08-21T15:54:07",
             "photoUrl": "https://s.tesera.ru/images/items/159005,3/200x200xpa/photo1.jpg",
             "year": 2012,
-            "numVotes": 702,
-            "ratingUser": 8.31,
-            "n10Rating": 8.27,
-            "n20Rating": 8.22,
-            "bggRating": 8.122,
-            "bggGeekRating": 7.965,
-            "bggNumVotes": 41888,
+            "numVotes": 710,
+            "ratingUser": 8.32,
+            "n10Rating": 8.28,
+            "n20Rating": 8.23,
+            "bggRating": 8.12,
+            "bggGeekRating": 7.96,
+            "bggNumVotes": 42283,
             "commentsTotal": 761,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9736,12 +10485,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/315045,3/200x200xpa/photo1.jpg",
             "year": 2013,
             "numVotes": 62,
-            "ratingUser": 6.68,
-            "n10Rating": 6.47,
-            "n20Rating": 6.31,
-            "bggRating": 6.295,
-            "bggGeekRating": 5.571,
-            "bggNumVotes": 172,
+            "ratingUser": 6.66,
+            "n10Rating": 6.45,
+            "n20Rating": 6.3,
+            "bggRating": 6.29,
+            "bggGeekRating": 5.57,
+            "bggNumVotes": 173,
             "commentsTotal": 25,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -9757,13 +10506,13 @@ var games = [
             "creationDateUtc": "2017-01-13T11:44:04",
             "photoUrl": "https://s.tesera.ru/images/items/914592,3/200x200xpa/photo1.jpg",
             "year": 2017,
-            "numVotes": 185,
-            "ratingUser": 8.2,
-            "n10Rating": 8.05,
-            "n20Rating": 7.91,
-            "bggRating": 8.393,
-            "bggGeekRating": 7.863,
-            "bggNumVotes": 8402,
+            "numVotes": 189,
+            "ratingUser": 8.18,
+            "n10Rating": 8.03,
+            "n20Rating": 7.89,
+            "bggRating": 8.39,
+            "bggGeekRating": 7.869,
+            "bggNumVotes": 8596,
             "commentsTotal": 17,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9778,13 +10527,13 @@ var games = [
             "creationDateUtc": "2017-03-23T07:18:11",
             "photoUrl": "https://s.tesera.ru/images/items/963004,3/200x200xpa/photo1.jpg",
             "year": 2017,
-            "numVotes": 173,
-            "ratingUser": 7.74,
-            "n10Rating": 7.6,
-            "n20Rating": 7.47,
+            "numVotes": 176,
+            "ratingUser": 7.71,
+            "n10Rating": 7.57,
+            "n20Rating": 7.45,
             "bggRating": 7.591,
-            "bggGeekRating": 7.102,
-            "bggNumVotes": 6411,
+            "bggGeekRating": 7.104,
+            "bggNumVotes": 6551,
             "commentsTotal": 74,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9803,9 +10552,9 @@ var games = [
             "ratingUser": 7.44,
             "n10Rating": 6.66,
             "n20Rating": 0.0,
-            "bggRating": 7.786,
+            "bggRating": 7.787,
             "bggGeekRating": 6.356,
-            "bggNumVotes": 1104,
+            "bggNumVotes": 1110,
             "commentsTotal": 6,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9841,13 +10590,13 @@ var games = [
             "creationDateUtc": "2017-08-14T19:11:05",
             "photoUrl": "https://s.tesera.ru/images/items/1067373,3/200x200xpa/photo1.jpg",
             "year": 2017,
-            "numVotes": 15,
+            "numVotes": 16,
             "ratingUser": 7.25,
-            "n10Rating": 6.42,
+            "n10Rating": 6.45,
             "n20Rating": 0.0,
-            "bggRating": 7.971,
-            "bggGeekRating": 6.405,
-            "bggNumVotes": 1055,
+            "bggRating": 7.98,
+            "bggGeekRating": 6.406,
+            "bggNumVotes": 1068,
             "commentsTotal": 10,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9866,9 +10615,9 @@ var games = [
             "ratingUser": 7.12,
             "n10Rating": 6.4,
             "n20Rating": 0.0,
-            "bggRating": 7.851,
+            "bggRating": 7.853,
             "bggGeekRating": 6.316,
-            "bggNumVotes": 977,
+            "bggNumVotes": 984,
             "commentsTotal": 7,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9887,9 +10636,9 @@ var games = [
             "ratingUser": 8.16,
             "n10Rating": 6.86,
             "n20Rating": 0.0,
-            "bggRating": 7.748,
-            "bggGeekRating": 6.254,
-            "bggNumVotes": 929,
+            "bggRating": 7.758,
+            "bggGeekRating": 6.257,
+            "bggNumVotes": 940,
             "commentsTotal": 32,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9904,13 +10653,13 @@ var games = [
             "creationDateUtc": "2018-03-10T21:49:46",
             "photoUrl": "https://s.tesera.ru/images/items/1217193,3/200x200xpa/photo1.png",
             "year": 2018,
-            "numVotes": 175,
-            "ratingUser": 8.28,
-            "n10Rating": 8.11,
-            "n20Rating": 7.96,
-            "bggRating": 8.831,
-            "bggGeekRating": 8.338,
-            "bggNumVotes": 10641,
+            "numVotes": 182,
+            "ratingUser": 8.26,
+            "n10Rating": 8.1,
+            "n20Rating": 7.95,
+            "bggRating": 8.83,
+            "bggGeekRating": 8.349,
+            "bggNumVotes": 10987,
             "commentsTotal": 161,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9925,13 +10674,13 @@ var games = [
             "creationDateUtc": "2018-08-23T09:43:27",
             "photoUrl": "https://s.tesera.ru/images/items/1301025,3/200x200xpa/photo1.jpg",
             "year": 2018,
-            "numVotes": 127,
-            "ratingUser": 8.16,
-            "n10Rating": 7.94,
-            "n20Rating": 7.75,
-            "bggRating": 8.127,
-            "bggGeekRating": 7.441,
-            "bggNumVotes": 5348,
+            "numVotes": 129,
+            "ratingUser": 8.14,
+            "n10Rating": 7.93,
+            "n20Rating": 7.74,
+            "bggRating": 8.124,
+            "bggGeekRating": 7.448,
+            "bggNumVotes": 5505,
             "commentsTotal": 78,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9947,8 +10696,8 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/1393652,3/200x200xpa/photo1.jpg",
             "year": 2018,
             "numVotes": 14,
-            "ratingUser": 8.11,
-            "n10Rating": 6.89,
+            "ratingUser": 8.05,
+            "n10Rating": 6.85,
             "n20Rating": 0.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -9971,9 +10720,9 @@ var games = [
             "ratingUser": 7.95,
             "n10Rating": 7.66,
             "n20Rating": 7.43,
-            "bggRating": 7.601,
-            "bggGeekRating": 6.859,
-            "bggNumVotes": 3500,
+            "bggRating": 7.6,
+            "bggGeekRating": 6.865,
+            "bggNumVotes": 3605,
             "commentsTotal": 79,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -9992,9 +10741,9 @@ var games = [
             "ratingUser": 7.98,
             "n10Rating": 6.58,
             "n20Rating": 0.0,
-            "bggRating": 8.186,
-            "bggGeekRating": 6.086,
-            "bggNumVotes": 506,
+            "bggRating": 8.188,
+            "bggGeekRating": 6.099,
+            "bggNumVotes": 526,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -10196,18 +10945,17 @@ var games = [
             "alias": "scythe-invaders-from-afar",
             "descriptionShort": "Дополнение расширяет базовую игру до 6-7 игроков. вводя две новые фракции.",
             "description": "<p>Пока империи Восточной Европы переживали расцвет и падение, остальной мир наблюдал. Две удаленные фракции, Альбион и Тогава, послали лазутчиков разведать и завоевать земли, используя свои уникальные умения.</p>\r\n<p>Это дополнение вводит в игру две новые фракции и совместимо с любой версией игры. Учитывая увеличение количества игроков, были изменены некоторые свойства на планшетах у базовых фракций. &nbsp;Для удешевления производства в дополнения не будут включены два диска силы для новых фракций.</p>",
-            "modificationDateUtc": "2022-01-11T19:10:38",
+            "modificationDateUtc": "2022-02-10T06:03:21",
             "creationDateUtc": "2016-05-31T07:50:39",
             "photoUrl": "https://s.tesera.ru/images/items/780023,3/photo1.jpg",
             "year": 2016,
-            "ratingUser": 8.09,
+            "ratingUser": 8.08,
             "n10Rating": 7.94,
-            "n20Rating": 7.81,
-            "ratingMy": 9.0,
-            "bggRating": 8.331,
-            "bggGeekRating": 7.834,
-            "bggNumVotes": 9110,
-            "numVotes": 189,
+            "n20Rating": 7.8,
+            "bggRating": 8.327,
+            "bggGeekRating": 7.833,
+            "bggNumVotes": 9279,
+            "numVotes": 191,
             "playersMin": 1,
             "playersMax": 7,
             "playersMinRecommend": 2,
@@ -10221,11 +10969,11 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/780023",
             "isAddition": false
         },
-        "ownersTotal": 1203,
+        "ownersTotal": 1219,
         "sellTotal": 3,
-        "buyTotal": 0,
-        "sellTotalAll": 5,
-        "buyTotalAll": 20,
+        "buyTotal": 2,
+        "sellTotalAll": 4,
+        "buyTotalAll": 19,
         "commentsTotal": 93,
         "reportsTotal": 0,
         "photosTotal": 12,
@@ -10245,7 +10993,7 @@ var games = [
                 "login": "drudenko",
                 "name": "laughingman13",
                 "avatarUrl": "https://s.tesera.ru/images/items/596286,22/photo.jpg",
-                "rating": 976,
+                "rating": 982,
                 "teseraUrl": "https://tesera.ru/user/596286"
             }
         }, {
@@ -10260,7 +11008,7 @@ var games = [
                 "login": "drudenko",
                 "name": "laughingman13",
                 "avatarUrl": "https://s.tesera.ru/images/items/596286,22/photo.jpg",
-                "rating": 976,
+                "rating": 982,
                 "teseraUrl": "https://tesera.ru/user/596286"
             }
         }, {
@@ -10275,7 +11023,7 @@ var games = [
                 "login": "azrail",
                 "name": "Azrail",
                 "avatarUrl": "https://s.tesera.ru/images/items/884229,22/photo.png",
-                "rating": 8499,
+                "rating": 8784,
                 "teseraUrl": "https://tesera.ru/user/884229"
             }
         }, {
@@ -10323,7 +11071,7 @@ var games = [
                 "login": "rouslanko",
                 "name": "Руслан",
                 "avatarUrl": "https://s.tesera.ru/images/items/569615,22/photo.jpg",
-                "rating": 9303,
+                "rating": 9325,
                 "teseraUrl": "https://tesera.ru/user/569615"
             }
         }, {
@@ -10340,7 +11088,7 @@ var games = [
                 "login": "rouslanko",
                 "name": "Руслан",
                 "avatarUrl": "https://s.tesera.ru/images/items/569615,22/photo.jpg",
-                "rating": 9303,
+                "rating": 9325,
                 "teseraUrl": "https://tesera.ru/user/569615"
             }
         }, {
@@ -10357,7 +11105,7 @@ var games = [
                 "login": "priceless",
                 "name": "Афанасьев Сергей",
                 "avatarUrl": "https://s.tesera.ru/images/items/492536,22/photo.jpg",
-                "rating": 13436,
+                "rating": 13537,
                 "teseraUrl": "https://tesera.ru/user/492536"
             }
         }, {
@@ -10374,7 +11122,7 @@ var games = [
                 "login": "valentia",
                 "name": "Валентина",
                 "avatarUrl": "https://s.tesera.ru/images/items/318132,22/photo.jpg",
-                "rating": 3038,
+                "rating": 3037,
                 "teseraUrl": "https://tesera.ru/user/318132"
             }
         }, {
@@ -10391,7 +11139,7 @@ var games = [
                 "login": "valentia",
                 "name": "Валентина",
                 "avatarUrl": "https://s.tesera.ru/images/items/318132,22/photo.jpg",
-                "rating": 3038,
+                "rating": 3037,
                 "teseraUrl": "https://tesera.ru/user/318132"
             }
         }],
@@ -10406,9 +11154,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -10424,7 +11172,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -10440,7 +11188,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -10456,7 +11204,7 @@ var games = [
                 "login": "desert_witch",
                 "name": "Desert_witch",
                 "avatarUrl": "https://s.tesera.ru/images/items/263569,22/photo.jpg",
-                "rating": 64605,
+                "rating": 65475,
                 "teseraUrl": "https://tesera.ru/user/263569"
             }
         }, {
@@ -10472,7 +11220,7 @@ var games = [
                 "login": "desert_witch",
                 "name": "Desert_witch",
                 "avatarUrl": "https://s.tesera.ru/images/items/263569,22/photo.jpg",
-                "rating": 64605,
+                "rating": 65475,
                 "teseraUrl": "https://tesera.ru/user/263569"
             }
         }],
@@ -10526,17 +11274,17 @@ var games = [
             "alias": "Runebound-Third-Edition-Fall-of-the-Dark-Star-Scenario-Pack",
             "descriptionShort": "Это дополнение вводит новый сценарий в игру, существенно отличающийся от предыдущих. Здесь нет единого Злодея, который должен быть уничтожен, чтобы восстановить мир. Ваша цель – просто стать сильнейшим и суметь выжить.",
             "description": "<p>Пришествие темной звезды было давно предсказано пророками Терринота. Они говорят, что ее падение начнет эпоху тьмы в мире. Предвестником этого станет дождь из темных осколков, которые будут развращать каждую сильную и благородную душу. Этот мрачный и развращенный Терринот становится средоточием вашей борьбы за выживание в сценарии Падение Темной Звезды.</p>\r\n<p>&nbsp;</p>\r\n<p>Это дополнение вводит новый сценарий в игру, существенно отличающийся от предыдущих. Здесь нет единого Злодея, который должен быть уничтожен, чтобы восстановить мир. Ваша цель &ndash; просто стать сильнейшим и суметь выжить. На протяжении игры вы будете собирать все больше и больше темных осколков. Они увеличат ваше здоровье, но и заставят&nbsp; брать карты из совершенно новой колоды порчи (corruption cards). Каждая из этих карт порчи создает помеху на пути героев. Например, карта Darkening Sigh повышает требования для каждого исследовательского квеста, или карта Exiled делает вас задержанным, каждый раз, когда вы входите в город или крепость.</p>\r\n<p>&nbsp;</p>\r\n<p>Вы можете подумать, что увеличение здоровья, не стоит тех бед, которые приносят карты порчи, но вы ошибаетесь. В конце второго акта темная звезда упадет на землю, и все герои немедленно перенесутся в Проклятые Руины. Здесь произойдет жестокое финальное сражение друг против друга. Краткие альянсы могут образоваться в хаосе битвы, но в конце концов только один устоявший герой победит в игре.</p>\r\n<p>&nbsp;</p>\r\n<p>Это дополнение включает в себя 30 карт приключений &nbsp;(по десять каждого типа), 10 карт сюжета (story cards), а также нового героя Zyla.</p>\r\n<p>&nbsp;</p>\r\n<p>На боевых жетонах появится новый символ &mdash; тактика. Используя его, вы сможете скопировать другой символ с ваших боевых жетонов или жетонов оппонента. Любой герой может применить тактический символ, если он владеет соответствующим жетоном.</p>",
-            "modificationDateUtc": "2021-12-19T07:19:26",
+            "modificationDateUtc": "2022-01-26T19:59:14",
             "creationDateUtc": "2016-06-09T18:33:12",
             "photoUrl": "https://s.tesera.ru/images/items/785837,3/photo1.png",
             "year": 2016,
-            "ratingUser": 8.0,
-            "n10Rating": 7.47,
-            "n20Rating": 7.1,
-            "bggRating": 7.597,
+            "ratingUser": 8.01,
+            "n10Rating": 7.48,
+            "n20Rating": 7.12,
+            "bggRating": 7.598,
             "bggGeekRating": 5.88,
-            "bggNumVotes": 411,
-            "numVotes": 43,
+            "bggNumVotes": 416,
+            "numVotes": 44,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 3,
@@ -10550,7 +11298,7 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/785837",
             "isAddition": false
         },
-        "ownersTotal": 492,
+        "ownersTotal": 494,
         "sellTotal": 1,
         "buyTotal": 0,
         "sellTotalAll": 2,
@@ -10574,7 +11322,7 @@ var games = [
                 "login": "carboxed",
                 "name": "Илья",
                 "avatarUrl": "https://s.tesera.ru/images/items/762262,22/photo.png",
-                "rating": 2891,
+                "rating": 2899,
                 "teseraUrl": "https://tesera.ru/user/762262"
             }
         }, {
@@ -10619,7 +11367,7 @@ var games = [
                 "login": "valentia",
                 "name": "Валентина",
                 "avatarUrl": "https://s.tesera.ru/images/items/318132,22/photo.jpg",
-                "rating": 3038,
+                "rating": 3037,
                 "teseraUrl": "https://tesera.ru/user/318132"
             }
         }, {
@@ -10634,7 +11382,7 @@ var games = [
                 "login": "valentia",
                 "name": "Валентина",
                 "avatarUrl": "https://s.tesera.ru/images/items/318132,22/photo.jpg",
-                "rating": 3038,
+                "rating": 3037,
                 "teseraUrl": "https://tesera.ru/user/318132"
             }
         }],
@@ -10646,7 +11394,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1068541/RuneboundThirdEditionFallOfTheDarkStarScenarioPack_rules_ru_HobbyGames.pdf",
             "modificationDateUtc": "2017-08-16T12:03:16",
             "creationDateUtc": "2017-08-16T12:03:16",
-            "author": {"teseraId": 49344, "id": 733, "login": "dima", "name": "Жидков Дмитрий", "rating": 12980, "teseraUrl": "https://tesera.ru/user/49344"}
+            "author": {"teseraId": 49344, "id": 733, "login": "dima", "name": "Жидков Дмитрий", "rating": 13006, "teseraUrl": "https://tesera.ru/user/49344"}
         }],
         "links": [{
             "teseraId": 1959127,
@@ -10659,9 +11407,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -10677,7 +11425,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -10693,7 +11441,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -10741,13 +11489,13 @@ var games = [
             "creationDateUtc": "2016-04-28T12:27:34",
             "photoUrl": "https://s.tesera.ru/images/items/762389,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 60,
-            "ratingUser": 7.84,
+            "numVotes": 61,
+            "ratingUser": 7.83,
             "n10Rating": 7.46,
-            "n20Rating": 7.18,
-            "bggRating": 7.768,
-            "bggGeekRating": 6.009,
-            "bggNumVotes": 539,
+            "n20Rating": 7.17,
+            "bggRating": 7.751,
+            "bggGeekRating": 6.008,
+            "bggNumVotes": 546,
             "commentsTotal": 20,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -10762,8 +11510,8 @@ var games = [
             "creationDateUtc": "2016-04-28T12:27:45",
             "photoUrl": "https://s.tesera.ru/images/items/762391,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 49,
-            "ratingUser": 7.84,
+            "numVotes": 51,
+            "ratingUser": 7.82,
             "n10Rating": 7.39,
             "n20Rating": 7.07,
             "bggRating": 0.0,
@@ -10784,19 +11532,18 @@ var games = [
             "alias": "Runebound-Third-Edition-Unbreakable-Bonds",
             "descriptionShort": "Вы тратили свою жизнь пересекая поля Терринота, встречая опасность лицом к лицу снова и снова, испытывая свои умения в боях с ужасающими монстрами и живя полной жизнью приключенца. Вы никогда не знали, что встретит вас впереди, за горизонтом, - громады гор, логово злобных тварей, или освещенные солнцем стены одного из свободных городов. Но во всех своих путешествиях, у вас было ощущение соревнования с другими, подобными вам, приключенцами, оно заставляло вас биться лучше и двигаться быстрее, чем прочие \"герои\". Но может вы предпочтете работать и сражаться вместе, в этот раз? Unbreakable Bonds (далее - Нерушимые Узы) - это новое дополнение для игры Рунбаунд, оно представляет вам возможности к кардинальному изменению самой природы игры. Вместо соревнования с тремя оппонентами, Нерушимые Узы позволят вам путешествовать на просторах Терринота в составе группы, или же сражаться с оппонентами в соло -режиме. C переработанной системой управления монстрами, двумя новыми героями, пятью кооперативными\\соло сценариями, и множеством новых карт вещей и умений, Нерушимые Узы раздвигают границы Терринота дальше, чем когда либо и ведут вас к новым приключениям в каждой игре.",
             "description": "<p>Вы тратили свою жизнь пересекая поля Терринота, встречая опасность  лицом к лицу снова и снова, испытывая свои умения в боях с ужасающими  монстрами и живя полной жизнью приключенца. Вы никогда не знали, что  встретит вас впереди, за горизонтом, - громады гор, логово злобных  тварей, или освещенные солнцем стены одного из свободных городов. Но во  всех своих путешествиях, у вас было ощущение соревнования с другими,  подобными вам, приключенцами, оно заставляло вас биться лучше и  двигаться быстрее, чем прочие \"герои\". Но может вы предпочтете работать и  сражаться вместе, в этот раз?</p>\r\n<p>Unbreakable Bonds (далее - Нерушимые Узы) - это новое дополнение для  игры Рунбаунд, оно представляет вам возможности к кардинальному  изменению самой природы игры. Вместо соревнования с тремя оппонентами,  Нерушимые Узы позволят вам путешествовать на просторах Терринота в  составе группы, или же сражаться с оппонентами в соло -режиме. C  переработанной системой управления монстрами, двумя новыми героями,  пятью кооперативными\\соло сценариями, и множеством новых карт вещей и  умений, Нерушимые Узы раздвигают границы Терринота дальше, чем когда  либо и ведут вас к новым приключениям в каждой игре.</p>\r\n<p>Больше всего изменений стоит ожидать от новых сценариев. До сих пор,  вы соперничали с другими героями и все же имели возможность победить  зло, грозившее Терриноту, но сейчас вы сталкиваетесь со смертельной  опасностью, которая вынудит героев работать вместе, если желаете выжить.</p>\r\n<p>В этом дополнении есть два новых сценария для игры, которые можно  играть кооперативно или соло: Locust swarm и The Red Death. И если вам  показалось, что это не много, то вам следует знать, что также будут  карты сценариев для трех уже существующих. Они позволят вам сыграть в  сценарии из базовой коробки или из мелкого дополнения Caught in a Web, в  кооперативном (и соло) режиме.</p>\r\n<p>Как и предыдущие, каждый новый сценарий ставит вас перед лицом новых  опасностей, нависших над миром. Но в отличие от предыдущих сценариев,  угрозы, с которыми вы столкнетесь достаточно велики, чтобы заставить  героев Терринота работать вместе, чтобы защитить Свободные Города.  Возможно вам предстоит бороться со вспышками опасных болезней, а может  на своем пути вы сразитесь с кровожадными дикарями Uthuk Y'llan. В любом  случае, вам придется работать вместе со своими компаньонами на пределе  своих возможностей, чтобы достичь победы.</p>\r\n<p>К счастью, в кооперативной игре, вы и ваши друзья не обязаны  сражаться в одиночку. На самом деле, вы вполне можете собраться в партию  с другими героями, войдя в одну локацию (клетка игрового поля). Пока  ваш герой состоит в партии, вся партия может двигаться как единая  группа, и двигаясь в свой ход, герой передвигает всю партию вместе с  собой, позволяя быстро путешествовать на большие расстояния. Также стоит  отметить, что будучи в партии, герой получает возможность изучить новые  партийные умения. Они позволят получать еще больше выгоды от партии:  пусть вы проверяете умения с Cover weakness или поддерживаете друг друга  в бою с Coodinated attack. Конечно иногда партиям придется разделяться,  чтобы выполнять различные цели, но как только вы снова присоединитесь,  вы получите доступ к любым партийным умениям, которые были куплены  группой в ходе игры</p>\r\n<p><i>Cover weakness - позволяет другому герою проходить тесты вместо вашего.</i></p>\r\n<p><i>Coordinated attack - раз за раунд боя, в качестве действия,  другой герой из партии может бросить вам в боевой пул один из своих  жетонов</i></p>\r\n<p>В любом кооперативном или соло приключении Рунбаунда, вы также  сможете быстро начать бой, используя четыре новых боевых таблицы. Каждая  из этих таблиц соответствует одному из типов врагов:<strong> Воин</strong>, <strong>Мистик</strong>, <strong>Дикарь</strong>, <strong>Трикстер </strong>(<strong><i>Warrior</i></strong>, <strong><i>Mystic</i></strong>, <strong><i>Savage</i></strong>, or <strong><i>Trickster</i></strong><i>)</i>. После начала боя с противником, вы берете нужную таблицу и набор из шести соответствующих ей боевых жетонов.</p>\r\n<p>&nbsp;</p>\r\n<p>Во время битвы, вы бросаете вражеские боевые жетоны и раскладываете  их на соответствующие позиции в таблице. Когда наступает черед вашего  противника действовать, вы просто двигаетесь на следующую строку боевой  таблицы и применяете все эффекты жетонов, лежащих там. С новыми  уникальными правилами, специальными бонусами и различными таблицами,  битвы в Рунбаунд стали еще более инновационными и опасными.</p>\r\n<p>Даже если вы предпочтете играть в Рунбаунд, как в соревновательную  игру, вы все еще найдете достаточно новинок в Нерушимых Узах. Два новых  героя представят уникальные возможности развития своего персонажа во  время игры. Двадцать новых карт вещей и тридцать новых карт умений  откроют двери для множества альтернативных возможностей. А десять  уникальных twist карт, например Secret wares (тайный ассортимент,  продажа из-под полы) вводят непредвиденные события и могут произойти в  любой момент, когда вы посещаете рынки Свободных городов.</p>",
-            "modificationDateUtc": "2022-01-02T08:17:06",
+            "modificationDateUtc": "2022-02-21T00:15:55",
             "creationDateUtc": "2017-04-14T06:50:03",
             "photoUrl": "https://s.tesera.ru/images/items/980659,3/photo1.png",
             "photoUrl2": "https://s.tesera.ru/images/items/980659,3/photo2.png",
             "year": 2017,
-            "ratingUser": 8.15,
-            "n10Rating": 7.89,
-            "n20Rating": 7.68,
-            "ratingMy": 8.0,
-            "bggRating": 8.215,
-            "bggGeekRating": 6.359,
-            "bggNumVotes": 883,
-            "numVotes": 106,
+            "ratingUser": 8.19,
+            "n10Rating": 7.94,
+            "n20Rating": 7.73,
+            "bggRating": 8.211,
+            "bggGeekRating": 6.361,
+            "bggNumVotes": 893,
+            "numVotes": 110,
             "playersMin": 1,
             "playersMax": 4,
             "playersMinRecommend": 0,
@@ -10805,17 +11552,17 @@ var games = [
             "timeToLearn": 0,
             "playtimeMin": 120,
             "playtimeMax": 240,
-            "commentsTotal": 161,
+            "commentsTotal": 163,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/980659",
             "isAddition": false
         },
-        "ownersTotal": 566,
-        "sellTotal": 1,
+        "ownersTotal": 575,
+        "sellTotal": 0,
         "buyTotal": 0,
         "sellTotalAll": 1,
-        "buyTotalAll": 12,
-        "commentsTotal": 161,
+        "buyTotalAll": 11,
+        "commentsTotal": 163,
         "reportsTotal": 0,
         "photosTotal": 9,
         "filesTotal": 2,
@@ -10849,7 +11596,7 @@ var games = [
                 "login": "carboxed",
                 "name": "Илья",
                 "avatarUrl": "https://s.tesera.ru/images/items/762262,22/photo.png",
-                "rating": 2891,
+                "rating": 2899,
                 "teseraUrl": "https://tesera.ru/user/762262"
             }
         }, {
@@ -10864,7 +11611,7 @@ var games = [
                 "login": "carboxed",
                 "name": "Илья",
                 "avatarUrl": "https://s.tesera.ru/images/items/762262,22/photo.png",
-                "rating": 2891,
+                "rating": 2899,
                 "teseraUrl": "https://tesera.ru/user/762262"
             }
         }, {
@@ -10879,7 +11626,7 @@ var games = [
                 "login": "goraizon",
                 "name": "Goraizon",
                 "avatarUrl": "https://s.tesera.ru/images/items/321005,22/photo.jpg",
-                "rating": 763,
+                "rating": 764,
                 "teseraUrl": "https://tesera.ru/user/321005"
             }
         }, {
@@ -10894,7 +11641,7 @@ var games = [
                 "login": "goraizon",
                 "name": "Goraizon",
                 "avatarUrl": "https://s.tesera.ru/images/items/321005,22/photo.jpg",
-                "rating": 763,
+                "rating": 764,
                 "teseraUrl": "https://tesera.ru/user/321005"
             }
         }],
@@ -10912,7 +11659,7 @@ var games = [
                 "login": "ardenis",
                 "name": "Ardenis",
                 "avatarUrl": "https://s.tesera.ru/images/items/58096,22/photo.jpg",
-                "rating": 24249,
+                "rating": 24519,
                 "teseraUrl": "https://tesera.ru/user/58096"
             }
         }, {
@@ -10944,9 +11691,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -10962,7 +11709,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -10978,7 +11725,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -11010,7 +11757,7 @@ var games = [
                 "login": "silentdevil",
                 "name": "Антон",
                 "avatarUrl": "https://s.tesera.ru/images/items/765063,22/photo.jpg",
-                "rating": 5302,
+                "rating": 5308,
                 "teseraUrl": "https://tesera.ru/user/765063"
             }
         }],
@@ -11026,13 +11773,13 @@ var games = [
             "creationDateUtc": "2016-04-28T12:27:34",
             "photoUrl": "https://s.tesera.ru/images/items/762389,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 60,
-            "ratingUser": 7.84,
+            "numVotes": 61,
+            "ratingUser": 7.83,
             "n10Rating": 7.46,
-            "n20Rating": 7.18,
-            "bggRating": 7.768,
-            "bggGeekRating": 6.009,
-            "bggNumVotes": 539,
+            "n20Rating": 7.17,
+            "bggRating": 7.751,
+            "bggGeekRating": 6.008,
+            "bggNumVotes": 546,
             "commentsTotal": 20,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -11047,8 +11794,8 @@ var games = [
             "creationDateUtc": "2016-04-28T12:27:45",
             "photoUrl": "https://s.tesera.ru/images/items/762391,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 49,
-            "ratingUser": 7.84,
+            "numVotes": 51,
+            "ratingUser": 7.82,
             "n10Rating": 7.39,
             "n20Rating": 7.07,
             "bggRating": 0.0,
@@ -11068,13 +11815,13 @@ var games = [
             "creationDateUtc": "2016-06-09T18:33:12",
             "photoUrl": "https://s.tesera.ru/images/items/785837,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 43,
-            "ratingUser": 8.0,
-            "n10Rating": 7.47,
-            "n20Rating": 7.1,
-            "bggRating": 7.597,
+            "numVotes": 44,
+            "ratingUser": 8.01,
+            "n10Rating": 7.48,
+            "n20Rating": 7.12,
+            "bggRating": 7.598,
             "bggGeekRating": 5.88,
-            "bggNumVotes": 411,
+            "bggNumVotes": 416,
             "commentsTotal": 12,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -11089,10 +11836,10 @@ var games = [
             "creationDateUtc": "2016-06-09T19:01:33",
             "photoUrl": "https://s.tesera.ru/images/items/785856,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 49,
+            "numVotes": 52,
             "ratingUser": 7.86,
-            "n10Rating": 7.41,
-            "n20Rating": 7.08,
+            "n10Rating": 7.43,
+            "n20Rating": 7.11,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
@@ -11135,19 +11882,18 @@ var games = [
             "alias": "Runebound-Third-Edition",
             "descriptionShort": "Runebound Third Edition - новая версия игры о героическом спасении фентезийного мира. Герои странствуют по игровому полю в поисках приключений, отмеченных специальными значками.",
             "description": "<p style=\"text-align: justify;\">Runebound Third Edition &mdash; новая версия игры, несмотря на часть знакомых по предыдущим редакциям элементов и механик, несовместима с ними, поскольку создавалась с чистого листа. Предлагает игрокам перевоплотиться в нескольких героев (всего их в коробке 6), одному из которых суждено спасти мир и прослыть легендой при жизни.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Герои странствуют по игровому полю в поисках приключений, отмеченных специальными значками (они могут носить боевой, исследовательский или социальный характер, а также всего сразу и понемногу). Перед перемещением игрок бросает кубики с особой разметкой: выпавшие грани показывают, какие виды местности он может пересечь в этот раз (при этом менее проходимые виды местности встречаются на гранях кубиков реже).</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Боевая система основана на жетонах: игроки бросают имеющиеся у их героев жетоны боя как кубики (или подбрасывают как монеты), а затем постепенно расходуют выпавшие стороны для нанесения урона, блокировки атак противника или накопления сил. Также герои и их враги могут обращаться к способностям, которые активируются соответствующими выпавшими сторонами жетонов.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Во время приключений герои набирают трофеи, которые можно обменивать на карты умений. Каждый герой обладает тремя атрибутами: тело, разум и дух. Их уровни используются при проверках во время приключений, а также задают, сколько умений в какой сфере герой может выучить. В четырёх вольных городах, разбросанных по игровому полю, можно приобретать снаряжение, чтобы получать дополнительные жетоны боя или способности.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">В базовом комплекте игры представлены два сценария. Выбрав один из них, игроки замешивают сопутствующие ему карты в общую колоду приключений, что позволяет привнести в партию сюжет. Так или иначе, победа достаётся тому герою, кому первым удалось победить в бою главного злодея. Однако поражение в финальной схватке грозит вылетом из игры. Поэтому перед ней лучше обзавестись нужным набором умений и снаряжением. Но и слишком затягивать нельзя, ведь можно опоздать и проиграть гонку к славе.</p>",
-            "modificationDateUtc": "2022-01-14T09:23:36",
+            "modificationDateUtc": "2022-02-23T07:59:47",
             "creationDateUtc": "2015-08-01T08:06:50",
             "photoUrl": "https://s.tesera.ru/images/items/591609,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/591609,3/photo2.png",
             "year": 2015,
-            "ratingUser": 7.83,
+            "ratingUser": 7.84,
             "n10Rating": 7.79,
             "n20Rating": 7.75,
-            "ratingMy": 8.0,
             "bggRating": 7.49,
-            "bggGeekRating": 6.926,
-            "bggNumVotes": 5375,
-            "numVotes": 668,
+            "bggGeekRating": 6.925,
+            "bggNumVotes": 5426,
+            "numVotes": 677,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 2,
@@ -11161,11 +11907,11 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/591609",
             "isAddition": false
         },
-        "ownersTotal": 1457,
-        "sellTotal": 7,
+        "ownersTotal": 1475,
+        "sellTotal": 5,
         "buyTotal": 1,
         "sellTotalAll": 33,
-        "buyTotalAll": 36,
+        "buyTotalAll": 37,
         "commentsTotal": 1193,
         "reportsTotal": 46,
         "photosTotal": 68,
@@ -11194,7 +11940,7 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/1927420/1600x1200xsxy/photo.jpg",
             "creationDateUtc": "2021-08-16T16:03:24",
             "commentsTotal": 0,
-            "author": {"teseraId": 1853042, "id": 55433, "login": "vitt0_b", "name": "vitt0_b", "rating": 157, "teseraUrl": "https://tesera.ru/user/1853042"}
+            "author": {"teseraId": 1853042, "id": 55433, "login": "vitt0_b", "name": "vitt0_b", "rating": 163, "teseraUrl": "https://tesera.ru/user/1853042"}
         }, {
             "teseraId": 1731443,
             "title": "Когда начитался комментариев на Тесере про Рунный Край",
@@ -11255,7 +12001,7 @@ var games = [
                 "login": "kubik_rubik",
                 "name": "Ruslan",
                 "avatarUrl": "https://s.tesera.ru/images/items/1821336,22/photo.jpg",
-                "rating": 1089,
+                "rating": 1111,
                 "teseraUrl": "https://tesera.ru/user/1821336"
             }
         }, {
@@ -11272,7 +12018,7 @@ var games = [
                 "login": "kubik_rubik",
                 "name": "Ruslan",
                 "avatarUrl": "https://s.tesera.ru/images/items/1821336,22/photo.jpg",
-                "rating": 1089,
+                "rating": 1111,
                 "teseraUrl": "https://tesera.ru/user/1821336"
             }
         }, {
@@ -11289,7 +12035,7 @@ var games = [
                 "login": "kubik_rubik",
                 "name": "Ruslan",
                 "avatarUrl": "https://s.tesera.ru/images/items/1821336,22/photo.jpg",
-                "rating": 1089,
+                "rating": 1111,
                 "teseraUrl": "https://tesera.ru/user/1821336"
             }
         }, {
@@ -11306,7 +12052,7 @@ var games = [
                 "login": "kubik_rubik",
                 "name": "Ruslan",
                 "avatarUrl": "https://s.tesera.ru/images/items/1821336,22/photo.jpg",
-                "rating": 1089,
+                "rating": 1111,
                 "teseraUrl": "https://tesera.ru/user/1821336"
             }
         }, {
@@ -11316,7 +12062,15 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1618646/Лист Подготовка к игре-2.pdf",
             "modificationDateUtc": "2020-02-16T09:24:40",
             "creationDateUtc": "2020-02-16T09:24:40",
-            "author": {"teseraId": 1603911, "id": 46208, "login": "cezzar", "name": "Евгений", "rating": 99, "teseraUrl": "https://tesera.ru/user/1603911"}
+            "author": {
+                "teseraId": 1603911,
+                "id": 46208,
+                "login": "cezzar",
+                "name": "Евгений",
+                "avatarUrl": "https://s.tesera.ru/images/items/1603911,22/photo.jpg",
+                "rating": 99,
+                "teseraUrl": "https://tesera.ru/user/1603911"
+            }
         }],
         "links": [{
             "teseraId": 1985359,
@@ -11331,7 +12085,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -11345,9 +12099,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -11363,7 +12117,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -11416,8 +12170,8 @@ var games = [
             "n10Rating": 7.12,
             "n20Rating": 7.04,
             "bggRating": 6.68,
-            "bggGeekRating": 6.308,
-            "bggNumVotes": 5507,
+            "bggGeekRating": 6.309,
+            "bggNumVotes": 5537,
             "commentsTotal": 194,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -11433,13 +12187,13 @@ var games = [
             "creationDateUtc": "2009-11-11T16:00:50",
             "photoUrl": "https://s.tesera.ru/images/items/1261,3/200x200xpa/photo1.jpg",
             "year": 2008,
-            "numVotes": 76,
-            "ratingUser": 6.47,
-            "n10Rating": 6.32,
-            "n20Rating": 6.2,
-            "bggRating": 6.158,
-            "bggGeekRating": 5.81,
-            "bggNumVotes": 1979,
+            "numVotes": 77,
+            "ratingUser": 6.5,
+            "n10Rating": 6.35,
+            "n20Rating": 6.23,
+            "bggRating": 6.157,
+            "bggGeekRating": 5.806,
+            "bggNumVotes": 1987,
             "commentsTotal": 21,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -11454,13 +12208,13 @@ var games = [
             "creationDateUtc": "2009-11-11T16:03:09",
             "photoUrl": "https://s.tesera.ru/images/items/1262,3/200x200xpa/photo1.jpg",
             "year": 2007,
-            "numVotes": 346,
+            "numVotes": 349,
             "ratingUser": 6.79,
             "n10Rating": 6.74,
             "n20Rating": 6.7,
-            "bggRating": 6.52,
-            "bggGeekRating": 6.268,
-            "bggNumVotes": 13899,
+            "bggRating": 6.518,
+            "bggGeekRating": 6.263,
+            "bggNumVotes": 14032,
             "commentsTotal": 442,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -11479,10 +12233,10 @@ var games = [
             "numVotes": 39,
             "ratingUser": 6.64,
             "n10Rating": 6.34,
-            "n20Rating": 6.15,
-            "bggRating": 6.175,
-            "bggGeekRating": 5.827,
-            "bggNumVotes": 1852,
+            "n20Rating": 6.14,
+            "bggRating": 6.177,
+            "bggGeekRating": 5.825,
+            "bggNumVotes": 1857,
             "commentsTotal": 9,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -11521,10 +12275,10 @@ var games = [
             "ratingUser": 8.39,
             "n10Rating": 8.18,
             "n20Rating": 8.0,
-            "bggRating": 7.631,
-            "bggGeekRating": 7.186,
-            "bggNumVotes": 7943,
-            "commentsTotal": 367,
+            "bggRating": 7.627,
+            "bggGeekRating": 7.179,
+            "bggNumVotes": 7963,
+            "commentsTotal": 368,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -11538,13 +12292,13 @@ var games = [
             "creationDateUtc": "2016-04-28T12:27:34",
             "photoUrl": "https://s.tesera.ru/images/items/762389,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 60,
-            "ratingUser": 7.84,
+            "numVotes": 61,
+            "ratingUser": 7.83,
             "n10Rating": 7.46,
-            "n20Rating": 7.18,
-            "bggRating": 7.768,
-            "bggGeekRating": 6.009,
-            "bggNumVotes": 539,
+            "n20Rating": 7.17,
+            "bggRating": 7.751,
+            "bggGeekRating": 6.008,
+            "bggNumVotes": 546,
             "commentsTotal": 20,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -11559,8 +12313,8 @@ var games = [
             "creationDateUtc": "2016-04-28T12:27:45",
             "photoUrl": "https://s.tesera.ru/images/items/762391,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 49,
-            "ratingUser": 7.84,
+            "numVotes": 51,
+            "ratingUser": 7.82,
             "n10Rating": 7.39,
             "n20Rating": 7.07,
             "bggRating": 0.0,
@@ -11580,13 +12334,13 @@ var games = [
             "creationDateUtc": "2016-06-09T18:33:12",
             "photoUrl": "https://s.tesera.ru/images/items/785837,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 43,
-            "ratingUser": 8.0,
-            "n10Rating": 7.47,
-            "n20Rating": 7.1,
-            "bggRating": 7.597,
+            "numVotes": 44,
+            "ratingUser": 8.01,
+            "n10Rating": 7.48,
+            "n20Rating": 7.12,
+            "bggRating": 7.598,
             "bggGeekRating": 5.88,
-            "bggNumVotes": 411,
+            "bggNumVotes": 416,
             "commentsTotal": 12,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -11601,10 +12355,10 @@ var games = [
             "creationDateUtc": "2016-06-09T19:01:33",
             "photoUrl": "https://s.tesera.ru/images/items/785856,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 49,
+            "numVotes": 52,
             "ratingUser": 7.86,
-            "n10Rating": 7.41,
-            "n20Rating": 7.08,
+            "n10Rating": 7.43,
+            "n20Rating": 7.11,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
@@ -11622,14 +12376,14 @@ var games = [
             "creationDateUtc": "2017-04-14T06:50:03",
             "photoUrl": "https://s.tesera.ru/images/items/980659,3/200x200xpa/photo1.png",
             "year": 2017,
-            "numVotes": 106,
-            "ratingUser": 8.15,
-            "n10Rating": 7.89,
-            "n20Rating": 7.68,
-            "bggRating": 8.215,
-            "bggGeekRating": 6.359,
-            "bggNumVotes": 883,
-            "commentsTotal": 161,
+            "numVotes": 110,
+            "ratingUser": 8.19,
+            "n10Rating": 7.94,
+            "n20Rating": 7.73,
+            "bggRating": 8.211,
+            "bggGeekRating": 6.361,
+            "bggNumVotes": 893,
+            "commentsTotal": 163,
             "commentsTotalNew": 0,
             "isAddition": true
         }],
@@ -11704,7 +12458,7 @@ var games = [
             "alias": "Small-World-Underground",
             "descriptionShort": "Small World Underground — «перезапуск» популярной стратегии «Маленький мир». В целом игровой процесс остался неизменным: выступая в роли богов, которым важнее их собственная сила, нежели могущество каких-то определённых народов, которые по воле истории так же легко исчезают с лица земли, как и появляются, игроки выбирают и меняют по ходу игры народы и захватывают земли, за контроль над которыми и даются необходимые для победы очки. Помимо новых народов и их способностей в комплект Underground входят два новых двусторонних игровых поля (по одной карте для 2, 3, 4 и 5 игроков) и новые виды местности. Кроме того, по игровой карте разбрасываются могущественные локации и реликвии, охраняемые жуткими монстрами — контролирующий любую из них народ получает дополнительные и уникальные игровые возможности. Являясь полностью самостоятельной игрой, Small World Underground тем не менее совместима со всеми выпущенными ранее наборами «Маленького мира».",
             "description": "<p>Small World Underground&nbsp;&mdash;&nbsp;&laquo;перезапуск&raquo; популярной стратегии&nbsp;&laquo;Маленький мир&raquo;. В целом игровой процесс остался неизменным: выступая в роли богов, которым важнее их собственная сила, нежели могущество каких-то определённых народов, которые по воле истории так же легко исчезают с лица земли, как и появляются, игроки выбирают и меняют по ходу игры народы и захватывают земли, за контроль над которыми и даются необходимые для победы очки. Помимо новых народов и их способностей в комплект Underground входят два новых двусторонних игровых поля (по одной карте для 2, 3, 4 и 5 игроков) и новые виды местности. Кроме того, по игровой карте разбрасываются могущественные локации и реликвии, охраняемые жуткими монстрами&nbsp;&mdash; контролирующий любую из них народ получает дополнительные и уникальные игровые возможности.&nbsp;Являясь полностью самостоятельной игрой, Small World Underground тем не менее совместима со всеми выпущенными ранее наборами &laquo;Маленького мира&raquo;.</p>\r\n<p>&nbsp;</p>\r\n<p>В продаже&nbsp;&mdash; с июня 2011 в европейских магазинах и с июля 2011 в североамериканских.</p>",
-            "modificationDateUtc": "2022-01-06T19:32:53",
+            "modificationDateUtc": "2022-02-15T00:05:18",
             "creationDateUtc": "2011-04-28T13:56:10",
             "photoUrl": "https://s.tesera.ru/images/items/39544,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/39544,3/photo2.jpg",
@@ -11712,11 +12466,10 @@ var games = [
             "ratingUser": 7.73,
             "n10Rating": 7.66,
             "n20Rating": 7.6,
-            "ratingMy": 7.0,
-            "bggRating": 7.257,
-            "bggGeekRating": 6.956,
-            "bggNumVotes": 10162,
-            "numVotes": 373,
+            "bggRating": 7.255,
+            "bggGeekRating": 6.953,
+            "bggNumVotes": 10231,
+            "numVotes": 376,
             "playersMin": 2,
             "playersMax": 5,
             "playersMinRecommend": 3,
@@ -11730,11 +12483,11 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/39544",
             "isAddition": false
         },
-        "ownersTotal": 919,
-        "sellTotal": 7,
+        "ownersTotal": 927,
+        "sellTotal": 10,
         "buyTotal": 2,
-        "sellTotalAll": 25,
-        "buyTotalAll": 31,
+        "sellTotalAll": 23,
+        "buyTotalAll": 30,
         "commentsTotal": 170,
         "reportsTotal": 37,
         "photosTotal": 35,
@@ -11754,7 +12507,7 @@ var games = [
                 "login": "igrokratiya",
                 "name": "Павел Игрократия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1522755,22/photo.jpg",
-                "rating": 8464,
+                "rating": 8643,
                 "teseraUrl": "https://tesera.ru/user/1522755"
             }
         }, {
@@ -11769,7 +12522,7 @@ var games = [
                 "login": "igrokratiya",
                 "name": "Павел Игрократия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1522755,22/photo.jpg",
-                "rating": 8464,
+                "rating": 8643,
                 "teseraUrl": "https://tesera.ru/user/1522755"
             }
         }, {
@@ -11814,7 +12567,7 @@ var games = [
                 "login": "zuzubun",
                 "name": "Вытенов Илья",
                 "avatarUrl": "https://s.tesera.ru/images/items/20231,22/photo.png",
-                "rating": 43197,
+                "rating": 43207,
                 "teseraUrl": "https://tesera.ru/user/20231"
             }
         }],
@@ -11832,7 +12585,7 @@ var games = [
                 "login": "azrail",
                 "name": "Azrail",
                 "avatarUrl": "https://s.tesera.ru/images/items/884229,22/photo.png",
-                "rating": 8500,
+                "rating": 8784,
                 "teseraUrl": "https://tesera.ru/user/884229"
             }
         }, {
@@ -11849,7 +12602,7 @@ var games = [
                 "login": "mefistofel",
                 "name": "Михаил",
                 "avatarUrl": "https://s.tesera.ru/images/items/140528,22/photo.jpg",
-                "rating": 3994,
+                "rating": 3997,
                 "teseraUrl": "https://tesera.ru/user/140528"
             }
         }, {
@@ -11866,7 +12619,7 @@ var games = [
                 "login": "mefistofel",
                 "name": "Михаил",
                 "avatarUrl": "https://s.tesera.ru/images/items/140528,22/photo.jpg",
-                "rating": 3994,
+                "rating": 3997,
                 "teseraUrl": "https://tesera.ru/user/140528"
             }
         }, {
@@ -11883,7 +12636,7 @@ var games = [
                 "login": "leopold42",
                 "name": "Семенов Олег Николаевич",
                 "avatarUrl": "https://s.tesera.ru/images/items/59044,22/photo.jpg",
-                "rating": 900,
+                "rating": 902,
                 "teseraUrl": "https://tesera.ru/user/59044"
             }
         }, {
@@ -11917,7 +12670,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -11931,9 +12684,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -11943,7 +12696,7 @@ var games = [
             "photoUrl": "https://desktopgames.com.ua/small-world-podzemniy-mir.html",
             "modificationDateUtc": "2021-08-17T08:37:28",
             "creationDateUtc": "2021-08-17T08:37:26",
-            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1763, "teseraUrl": "https://tesera.ru/user/1924212"}
+            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1823, "teseraUrl": "https://tesera.ru/user/1924212"}
         }, {
             "teseraId": 1669292,
             "objectType": "Game",
@@ -11990,11 +12743,11 @@ var games = [
             "year": 1986,
             "numVotes": 11,
             "ratingUser": 7.37,
-            "n10Rating": 6.33,
+            "n10Rating": 6.32,
             "n20Rating": 0.0,
-            "bggRating": 7.201,
-            "bggGeekRating": 6.668,
-            "bggNumVotes": 4103,
+            "bggRating": 7.199,
+            "bggGeekRating": 6.664,
+            "bggNumVotes": 4118,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -12009,14 +12762,14 @@ var games = [
             "creationDateUtc": "2017-08-30T18:28:28",
             "photoUrl": "https://s.tesera.ru/images/items/1078358,3/200x200xpa/photo1.jpg",
             "year": 2017,
-            "numVotes": 379,
+            "numVotes": 394,
             "ratingUser": 7.69,
-            "n10Rating": 7.63,
+            "n10Rating": 7.62,
             "n20Rating": 7.56,
-            "bggRating": 7.466,
-            "bggGeekRating": 6.667,
-            "bggNumVotes": 2786,
-            "commentsTotal": 388,
+            "bggRating": 7.46,
+            "bggGeekRating": 6.668,
+            "bggNumVotes": 2855,
+            "commentsTotal": 389,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -12030,10 +12783,10 @@ var games = [
             "creationDateUtc": "2017-12-05T05:42:08",
             "photoUrl": "https://s.tesera.ru/images/items/1147913,3/200x200xpa/photo1.jpg",
             "year": 2017,
-            "numVotes": 38,
-            "ratingUser": 7.46,
+            "numVotes": 39,
+            "ratingUser": 7.45,
             "n10Rating": 6.98,
-            "n20Rating": 6.67,
+            "n20Rating": 6.68,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
@@ -12051,10 +12804,10 @@ var games = [
             "creationDateUtc": "2010-05-17T17:49:13",
             "photoUrl": "https://s.tesera.ru/images/items/4964,3/200x200xpa/photo1.jpg",
             "year": 2009,
-            "numVotes": 23,
-            "ratingUser": 6.55,
-            "n10Rating": 6.13,
-            "n20Rating": 5.91,
+            "numVotes": 24,
+            "ratingUser": 6.61,
+            "n10Rating": 6.19,
+            "n20Rating": 5.96,
             "bggRating": 6.552,
             "bggGeekRating": 5.945,
             "bggNumVotes": 1433,
@@ -12075,9 +12828,9 @@ var games = [
             "ratingUser": 7.63,
             "n10Rating": 6.65,
             "n20Rating": 0.0,
-            "bggRating": 6.909,
-            "bggGeekRating": 5.848,
-            "bggNumVotes": 618,
+            "bggRating": 6.897,
+            "bggGeekRating": 5.844,
+            "bggNumVotes": 619,
             "commentsTotal": 10,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12092,12 +12845,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/105219,3/200x200xpa/photo1.jpg",
             "year": 2012,
             "numVotes": 37,
-            "ratingUser": 8.02,
-            "n10Rating": 7.42,
-            "n20Rating": 7.02,
-            "bggRating": 7.324,
-            "bggGeekRating": 6.404,
-            "bggNumVotes": 1845,
+            "ratingUser": 7.98,
+            "n10Rating": 7.38,
+            "n20Rating": 6.99,
+            "bggRating": 7.317,
+            "bggGeekRating": 6.402,
+            "bggNumVotes": 1855,
             "commentsTotal": 38,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12114,11 +12867,11 @@ var games = [
             "year": 2013,
             "numVotes": 12,
             "ratingUser": 7.61,
-            "n10Rating": 6.51,
+            "n10Rating": 6.5,
             "n20Rating": 0.0,
-            "bggRating": 7.425,
-            "bggGeekRating": 5.842,
-            "bggNumVotes": 389,
+            "bggRating": 7.42,
+            "bggGeekRating": 5.837,
+            "bggNumVotes": 391,
             "commentsTotal": 17,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12214,18 +12967,17 @@ var games = [
             "alias": "sagrada",
             "descriptionShort": "Саграда (Sagrada) — это игра, в которой участники создают витражи известного собора с помощью драфта кубиков, выкладывая их в определённые узоры.",
             "description": "<p style=\"text-align: justify;\">&laquo;Саграда&raquo; &mdash; логическая настольная игра невероятной красоты, в которой участники собирают оконные витражи великого собора. Для многих она стала идеальной gateway game: её правила легко освоить, игровой процесс может быть как расслабленным, так и очень напряжённым (в зависимости от вашего стиля игры).</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Игроки получают карты личных целей (они останутся в секрете до конца игры) и витраж, который им предстоит построить, а на стол выкладываются карты общих целей. Игра продлится десять коротких раундов. В каждом раунде игрок может либо взять кубик из общего запаса и положить его в свой витраж по определённым правилам, либо воспользоваться одним из доступных всем инструментов, заплатив за это. Вот и все правила.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Сложность в том, что на выкладывание кубиков наложено несколько ограничений: первый кубик всегда размешается в крайнем ряду; каждый следующий должен соседствовать с уже поставленными кубиками; кубик также должен соответствовать требованию, указанному в ячейке; кубики не могут соседствовать с кубиками того же цвета или с тем же значением. Ещё и использование инструментов тем дороже, чем больше игроков на них претендуют.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">В конце десятого раунда настаёт время для подсчёта очков. Каждый игрок получает очки за карты общих и личных целей, оставшиеся ресурсы и теряет очки за пустые ячейки на своём витраже.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">В российское издание игры входит промокарта инструмента &laquo;Быстрорез&raquo; и двусторонняя промокарта витража.</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: 55px; top: 480.545px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>",
-            "modificationDateUtc": "2022-01-13T06:23:22",
+            "modificationDateUtc": "2022-02-23T14:58:30",
             "creationDateUtc": "2016-09-13T08:12:10",
             "photoUrl": "https://s.tesera.ru/images/items/839820,3/photo1.png",
             "year": 2017,
             "ratingUser": 7.74,
             "n10Rating": 7.7,
             "n20Rating": 7.66,
-            "ratingMy": 7.0,
-            "bggRating": 7.514,
-            "bggGeekRating": 7.365,
-            "bggNumVotes": 30445,
-            "numVotes": 600,
+            "bggRating": 7.51,
+            "bggGeekRating": 7.362,
+            "bggNumVotes": 31157,
+            "numVotes": 617,
             "playersMin": 1,
             "playersMax": 4,
             "playersMinRecommend": 2,
@@ -12234,18 +12986,18 @@ var games = [
             "timeToLearn": 5,
             "playtimeMin": 30,
             "playtimeMax": 45,
-            "commentsTotal": 194,
+            "commentsTotal": 196,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/839820",
             "isAddition": false
         },
-        "ownersTotal": 1418,
+        "ownersTotal": 1454,
         "sellTotal": 8,
-        "buyTotal": 3,
-        "sellTotalAll": 16,
-        "buyTotalAll": 49,
-        "commentsTotal": 194,
-        "reportsTotal": 51,
+        "buyTotal": 2,
+        "sellTotalAll": 10,
+        "buyTotalAll": 51,
+        "commentsTotal": 196,
+        "reportsTotal": 68,
         "photosTotal": 20,
         "filesTotal": 4,
         "linksTotal": 23,
@@ -12293,7 +13045,7 @@ var games = [
                 "login": "maximillian",
                 "name": "Максим",
                 "avatarUrl": "https://s.tesera.ru/images/items/806507,22/photo.jpg",
-                "rating": 554,
+                "rating": 581,
                 "teseraUrl": "https://tesera.ru/user/806507"
             }
         }, {
@@ -12308,7 +13060,7 @@ var games = [
                 "login": "vesna1",
                 "name": "Юлия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1261654,22/photo.jpg",
-                "rating": 561,
+                "rating": 564,
                 "teseraUrl": "https://tesera.ru/user/1261654"
             }
         }, {
@@ -12323,7 +13075,7 @@ var games = [
                 "login": "vesna1",
                 "name": "Юлия",
                 "avatarUrl": "https://s.tesera.ru/images/items/1261654,22/photo.jpg",
-                "rating": 561,
+                "rating": 564,
                 "teseraUrl": "https://tesera.ru/user/1261654"
             }
         }],
@@ -12341,7 +13093,7 @@ var games = [
                 "login": "volchara",
                 "name": "Александр",
                 "avatarUrl": "https://s.tesera.ru/images/items/1453651,22/photo.jpg",
-                "rating": 8614,
+                "rating": 8660,
                 "teseraUrl": "https://tesera.ru/user/1453651"
             }
         }, {
@@ -12376,7 +13128,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/841923/sagrada-rules-preview.pdf",
             "modificationDateUtc": "2020-02-06T18:20:43",
             "creationDateUtc": "2016-09-16T14:45:25",
-            "author": {"teseraId": 741074, "id": 18327, "login": "hackch", "name": "hackch", "rating": 871, "teseraUrl": "https://tesera.ru/user/741074"}
+            "author": {"teseraId": 741074, "id": 18327, "login": "hackch", "name": "hackch", "rating": 872, "teseraUrl": "https://tesera.ru/user/741074"}
         }],
         "links": [{
             "teseraId": 1975894,
@@ -12385,7 +13137,7 @@ var games = [
             "photoUrl": "https://igrodol.com.ua/sagrada-ua-sagrada",
             "modificationDateUtc": "2021-11-11T16:59:22",
             "creationDateUtc": "2021-11-11T16:59:22",
-            "author": {"teseraId": 1346647, "id": 37706, "login": "zipa1", "name": "Zipa", "rating": 347, "teseraUrl": "https://tesera.ru/user/1346647"}
+            "author": {"teseraId": 1346647, "id": 37706, "login": "zipa1", "name": "Zipa", "rating": 383, "teseraUrl": "https://tesera.ru/user/1346647"}
         }, {
             "teseraId": 1971851,
             "objectType": "Game",
@@ -12397,9 +13149,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -12415,7 +13167,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -12431,7 +13183,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -12441,7 +13193,7 @@ var games = [
             "photoUrl": "https://nastol.io/publications/1068",
             "modificationDateUtc": "2021-04-20T13:57:33",
             "creationDateUtc": "2021-04-20T13:57:32",
-            "author": {"teseraId": 1764724, "id": 51697, "login": "weird6", "name": "Weird6", "rating": 688, "teseraUrl": "https://tesera.ru/user/1764724"}
+            "author": {"teseraId": 1764724, "id": 51697, "login": "weird6", "name": "Weird6", "rating": 793, "teseraUrl": "https://tesera.ru/user/1764724"}
         }],
         "similars": [{
             "id": 5288,
@@ -12493,13 +13245,13 @@ var games = [
             "creationDateUtc": "2015-08-27T12:58:23",
             "photoUrl": "https://s.tesera.ru/images/items/600942,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 46,
+            "numVotes": 45,
             "ratingUser": 7.37,
-            "n10Rating": 6.98,
-            "n20Rating": 6.71,
-            "bggRating": 7.026,
-            "bggGeekRating": 6.728,
-            "bggNumVotes": 9085,
+            "n10Rating": 6.97,
+            "n20Rating": 6.69,
+            "bggRating": 7.018,
+            "bggGeekRating": 6.725,
+            "bggNumVotes": 9267,
             "commentsTotal": 24,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -12514,14 +13266,14 @@ var games = [
             "creationDateUtc": "2016-01-12T19:09:01",
             "photoUrl": "https://s.tesera.ru/images/items/690577,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 208,
-            "ratingUser": 7.37,
-            "n10Rating": 7.27,
-            "n20Rating": 7.18,
-            "bggRating": 7.51,
-            "bggGeekRating": 7.282,
-            "bggNumVotes": 15718,
-            "commentsTotal": 83,
+            "numVotes": 217,
+            "ratingUser": 7.38,
+            "n10Rating": 7.28,
+            "n20Rating": 7.19,
+            "bggRating": 7.507,
+            "bggGeekRating": 7.283,
+            "bggNumVotes": 16121,
+            "commentsTotal": 85,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -12535,12 +13287,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/731197,3/200x200xpa/photo1.jpg",
             "year": 2013,
             "numVotes": 49,
-            "ratingUser": 7.05,
-            "n10Rating": 6.73,
-            "n20Rating": 6.51,
-            "bggRating": 6.815,
-            "bggGeekRating": 6.524,
-            "bggNumVotes": 6369,
+            "ratingUser": 7.07,
+            "n10Rating": 6.75,
+            "n20Rating": 6.52,
+            "bggRating": 6.814,
+            "bggGeekRating": 6.521,
+            "bggNumVotes": 6418,
             "commentsTotal": 5,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -12560,9 +13312,9 @@ var games = [
             "ratingUser": 5.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.414,
-            "bggGeekRating": 5.617,
-            "bggNumVotes": 120,
+            "bggRating": 7.407,
+            "bggGeekRating": 5.618,
+            "bggNumVotes": 122,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12602,9 +13354,9 @@ var games = [
             "ratingUser": 7.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.537,
+            "bggRating": 7.529,
             "bggGeekRating": 5.57,
-            "bggNumVotes": 66,
+            "bggNumVotes": 67,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12644,9 +13396,9 @@ var games = [
             "ratingUser": 6.75,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.418,
+            "bggRating": 7.422,
             "bggGeekRating": 5.644,
-            "bggNumVotes": 142,
+            "bggNumVotes": 143,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12665,9 +13417,9 @@ var games = [
             "ratingUser": 4.75,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.39,
-            "bggGeekRating": 5.597,
-            "bggNumVotes": 100,
+            "bggRating": 7.366,
+            "bggGeekRating": 5.596,
+            "bggNumVotes": 101,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12685,10 +13437,10 @@ var games = [
             "numVotes": 42,
             "ratingUser": 7.79,
             "n10Rating": 7.29,
-            "n20Rating": 6.95,
-            "bggRating": 7.723,
-            "bggGeekRating": 6.759,
-            "bggNumVotes": 2351,
+            "n20Rating": 6.94,
+            "bggRating": 7.727,
+            "bggGeekRating": 6.771,
+            "bggNumVotes": 2407,
             "commentsTotal": 19,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12703,13 +13455,13 @@ var games = [
             "creationDateUtc": "2018-12-16T21:19:46",
             "photoUrl": "https://s.tesera.ru/images/items/1362880,3/200x200xpa/photo1.png",
             "year": 2019,
-            "numVotes": 31,
+            "numVotes": 32,
             "ratingUser": 7.31,
-            "n10Rating": 6.79,
-            "n20Rating": 6.47,
-            "bggRating": 7.588,
-            "bggGeekRating": 6.226,
-            "bggNumVotes": 967,
+            "n10Rating": 6.8,
+            "n20Rating": 6.49,
+            "bggRating": 7.587,
+            "bggGeekRating": 6.242,
+            "bggNumVotes": 1010,
             "commentsTotal": 5,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12728,9 +13480,9 @@ var games = [
             "ratingUser": 0.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.381,
-            "bggGeekRating": 5.552,
-            "bggNumVotes": 57,
+            "bggRating": 7.391,
+            "bggGeekRating": 5.553,
+            "bggNumVotes": 58,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12748,7 +13500,7 @@ var games = [
             "ratingUser": 7.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.225,
+            "bggRating": 7.142,
             "bggGeekRating": 0.0,
             "bggNumVotes": 12,
             "commentsTotal": 0,
@@ -12787,13 +13539,13 @@ var games = [
             "creationDateUtc": "2020-05-12T23:53:02",
             "photoUrl": "https://s.tesera.ru/images/items/1672505,3/200x200xpa/photo1.png",
             "year": 2020,
-            "numVotes": 10,
-            "ratingUser": 8.3,
-            "n10Rating": 6.74,
+            "numVotes": 11,
+            "ratingUser": 8.23,
+            "n10Rating": 6.77,
             "n20Rating": 0.0,
-            "bggRating": 7.954,
-            "bggGeekRating": 5.917,
-            "bggNumVotes": 382,
+            "bggRating": 7.914,
+            "bggGeekRating": 5.94,
+            "bggNumVotes": 412,
             "commentsTotal": 5,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12811,9 +13563,9 @@ var games = [
             "ratingUser": 7.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.816,
-            "bggGeekRating": 5.578,
-            "bggNumVotes": 64,
+            "bggRating": 7.804,
+            "bggGeekRating": 5.58,
+            "bggNumVotes": 65,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12831,9 +13583,9 @@ var games = [
             "ratingUser": 7.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.738,
+            "bggRating": 7.543,
             "bggGeekRating": 0.0,
-            "bggNumVotes": 21,
+            "bggNumVotes": 23,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12852,9 +13604,9 @@ var games = [
             "ratingUser": 7.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.713,
+            "bggRating": 7.721,
             "bggGeekRating": 0.0,
-            "bggNumVotes": 23,
+            "bggNumVotes": 24,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -12902,6 +13654,18 @@ var games = [
             "isAddition": true
         }],
         "news": [{
+            "teseraId": 1937956,
+            "title": "Старт продаж дополнения «Саграда. Жизнь»",
+            "alias": "1937956",
+            "contentShort": "Дополнение для невероятно красивой игры, подходящей игрокам любого уровня и возраста. Предложит альтернативные стратегии победы и порадует...",
+            "creationDateUtc": "2021-09-04T19:00:58",
+            "modificationDateUtc": "2021-09-16T22:44:26",
+            "publicationDateUtc": "2021-09-07T10:03:00",
+            "photoUrl": "https://s.tesera.ru/images/items/1937956,18/125x125xpa/photo.png",
+            "rating": 7.79,
+            "commentsTotal": 4,
+            "numVotes": 38
+        }, {
             "teseraId": 1651604,
             "title": "На экранах [08.04.2020]",
             "title2": "Новости из мира цифровых настольных игр",
@@ -12926,18 +13690,6 @@ var games = [
             "rating": 8.83,
             "commentsTotal": 12,
             "numVotes": 46
-        }, {
-            "teseraId": 1937956,
-            "title": "Старт продаж дополнения «Саграда. Жизнь»",
-            "alias": "1937956",
-            "contentShort": "Дополнение для невероятно красивой игры, подходящей игрокам любого уровня и возраста. Предложит альтернативные стратегии победы и порадует...",
-            "creationDateUtc": "2021-09-04T19:00:58",
-            "modificationDateUtc": "2021-09-16T22:44:26",
-            "publicationDateUtc": "2021-09-07T10:03:00",
-            "photoUrl": "https://s.tesera.ru/images/items/1937956,18/125x125xpa/photo.png",
-            "rating": 7.79,
-            "commentsTotal": 4,
-            "numVotes": 38
         }, {
             "teseraId": 1616768,
             "title": "Открыт предзаказ на дополнение к игре «Саграда» — «Страсть»",
@@ -12973,17 +13725,17 @@ var games = [
             "alias": "scythe-the-rise-of-fenris",
             "descriptionShort": "Серп. Восхождение Фенриса (Scythe: The Rise of Fenris) – третья и заключительная часть игры Серп. Игрок руководит нацией в альтернативной Истории Европы 1920-х годов. Здесь добавлены компании (8 игр) и модули (11 модулей). Количество игроков от 1 до 7.",
             "description": "<p>Империи поднялись и обрушились во время Великой войны, а Европа стоит на обрыве новой эры. Экономика устойчива, моральный дух высок и оборона сильна. Из сельской местности доходят сообщения о странных солдатах со светящимися глазами, но они кажутся далёкими и не опасными...</p>\r\n<p>&nbsp;</p>\r\n<p>Третье и финальное дополнение&nbsp;Scythe: The Rise of Fenris&nbsp;предлагает два разных варианта игры до 7 участников (если у вас есть дополнение&nbsp;<a href=\"https://tesera.ru/game/Scythe_Invaders_from_Afar/\" target=\"_blank\" rel=\"noopener\">Захватчики из далёких земель</a>):&nbsp;</p>\r\n<p>&diams; Кампания из 8 сценариев: история Восточной Европы завершается из восмью эпизодами. Хоть она и включает сюрпризы, секретные и \"постоянные\" элементы, кампанию можно переиграть заново. Точное содержание эпизодов и модулей останется загадкой (некоторые из компонентов находятся в секретных коробочках).<br />&diams; 11 новых модулей, которые можно использовать вместо или после прохождения кампании в различных комбинациях. Эти модули полностью совместимы со всеми расширениями \"Серпа\".</p>\r\n<p>&nbsp;</p>\r\n<p>Дополнение&nbsp;The Rise of Fenris&nbsp;весьма масштабно и насыщенно компонентами - книга кампании, 13 пластиковых миниатюр, 62 деревянных жетона, 2 специальных кубика, 5 тайлов, и больше 100 игровых жетонов.</p>\r\n<p>Ждём в третьей четверти 2018 года.</p>",
-            "modificationDateUtc": "2022-01-08T15:27:21",
+            "modificationDateUtc": "2022-01-19T06:40:36",
             "creationDateUtc": "2018-01-01T19:43:51",
             "photoUrl": "https://s.tesera.ru/images/items/1162496,3/photo1.jpg",
             "year": 2018,
-            "ratingUser": 8.5,
-            "n10Rating": 8.22,
-            "n20Rating": 7.99,
-            "bggRating": 8.757,
-            "bggGeekRating": 7.939,
-            "bggNumVotes": 5588,
-            "numVotes": 109,
+            "ratingUser": 8.51,
+            "n10Rating": 8.24,
+            "n20Rating": 8.0,
+            "bggRating": 8.756,
+            "bggGeekRating": 7.945,
+            "bggNumVotes": 5709,
+            "numVotes": 112,
             "playersMin": 1,
             "playersMax": 7,
             "playersMinRecommend": 3,
@@ -12997,9 +13749,9 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/1162496",
             "isAddition": false
         },
-        "ownersTotal": 798,
-        "sellTotal": 6,
-        "buyTotal": 0,
+        "ownersTotal": 814,
+        "sellTotal": 4,
+        "buyTotal": 1,
         "sellTotalAll": 9,
         "buyTotalAll": 21,
         "commentsTotal": 123,
@@ -13019,9 +13771,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -13036,7 +13788,7 @@ var games = [
                 "login": "crowd",
                 "name": "CrowD",
                 "avatarUrl": "https://s.tesera.ru/images/items/515528,22/photo.png",
-                "rating": 6160,
+                "rating": 6277,
                 "teseraUrl": "https://tesera.ru/user/515528"
             }
         }, {
@@ -13051,7 +13803,7 @@ var games = [
                 "login": "crowd",
                 "name": "CrowD",
                 "avatarUrl": "https://s.tesera.ru/images/items/515528,22/photo.png",
-                "rating": 6160,
+                "rating": 6277,
                 "teseraUrl": "https://tesera.ru/user/515528"
             }
         }, {
@@ -13066,7 +13818,7 @@ var games = [
                 "login": "crowd",
                 "name": "CrowD",
                 "avatarUrl": "https://s.tesera.ru/images/items/515528,22/photo.png",
-                "rating": 6160,
+                "rating": 6277,
                 "teseraUrl": "https://tesera.ru/user/515528"
             }
         }, {
@@ -13081,7 +13833,7 @@ var games = [
                 "login": "imurseev",
                 "name": "Илья Мурсеев",
                 "avatarUrl": "https://s.tesera.ru/images/items/333437,22/photo.jpg",
-                "rating": 17172,
+                "rating": 17177,
                 "teseraUrl": "https://tesera.ru/user/333437"
             }
         }],
@@ -13099,7 +13851,7 @@ var games = [
                 "login": "dorn",
                 "name": "Дмитрий Кондратьев",
                 "avatarUrl": "https://s.tesera.ru/images/items/804991,22/photo.jpg",
-                "rating": 1684,
+                "rating": 1690,
                 "teseraUrl": "https://tesera.ru/user/804991"
             }
         }, {
@@ -13116,7 +13868,7 @@ var games = [
                 "login": "geschaft",
                 "name": "Geschaft",
                 "avatarUrl": "https://s.tesera.ru/images/items/630907,22/photo.jpg",
-                "rating": 3016,
+                "rating": 3023,
                 "teseraUrl": "https://tesera.ru/user/630907"
             }
         }],
@@ -13131,9 +13883,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -13149,7 +13901,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -13159,7 +13911,7 @@ var games = [
             "photoUrl": "https://desktopgames.com.ua/scythe-the-rise-of-fenris-eng.html",
             "modificationDateUtc": "2021-08-20T16:45:02",
             "creationDateUtc": "2021-08-20T16:45:01",
-            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1763, "teseraUrl": "https://tesera.ru/user/1924212"}
+            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1823, "teseraUrl": "https://tesera.ru/user/1924212"}
         }, {
             "teseraId": 1849245,
             "objectType": "Game",
@@ -13181,7 +13933,7 @@ var games = [
                 "login": "desert_witch",
                 "name": "Desert_witch",
                 "avatarUrl": "https://s.tesera.ru/images/items/263569,22/photo.jpg",
-                "rating": 64605,
+                "rating": 65475,
                 "teseraUrl": "https://tesera.ru/user/263569"
             }
         }],
@@ -13197,13 +13949,13 @@ var games = [
             "creationDateUtc": "2016-05-31T07:50:39",
             "photoUrl": "https://s.tesera.ru/images/items/780023,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 189,
-            "ratingUser": 8.09,
+            "numVotes": 191,
+            "ratingUser": 8.08,
             "n10Rating": 7.94,
-            "n20Rating": 7.81,
-            "bggRating": 8.331,
-            "bggGeekRating": 7.834,
-            "bggNumVotes": 9110,
+            "n20Rating": 7.8,
+            "bggRating": 8.327,
+            "bggGeekRating": 7.833,
+            "bggNumVotes": 9279,
             "commentsTotal": 93,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13219,12 +13971,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/967770,3/200x200xpa/photo1.jpg",
             "year": 2017,
             "numVotes": 127,
-            "ratingUser": 7.56,
-            "n10Rating": 7.39,
-            "n20Rating": 7.24,
-            "bggRating": 7.876,
-            "bggGeekRating": 7.261,
-            "bggNumVotes": 5651,
+            "ratingUser": 7.58,
+            "n10Rating": 7.4,
+            "n20Rating": 7.25,
+            "bggRating": 7.875,
+            "bggGeekRating": 7.262,
+            "bggNumVotes": 5754,
             "commentsTotal": 91,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13265,19 +14017,18 @@ var games = [
             "alias": "ticket-to-ride-europe",
             "descriptionShort": "Европейская версия настольной игры Ticket to Ride отличается от оригинальной, американской, не только игровым полем и названиями городов. Здесь появились два новых типа путей — паромы и туннели, — игроки могут строить станции, а карточки маршрутов делятся на обычные и длинные. Для паромов нужны локомотивы, туннели могут потребовать дополнительных карт своего цвета, а станции позволяют пользоваться чужими дорогами при выполнении маршрутов.",
             "description": "<p>Европейская версия настольной игры Ticket to Ride отличается от оригинальной, американской, не только игровым полем и названиями городов. Здесь появились два новых типа путей &mdash; паромы и туннели, &mdash; игроки могут строить станции, а карточки маршрутов делятся на обычные и длинные.</p>\r\n<p>&nbsp;</p>\r\n<p>На игровом поле изображена карта Европы по состоянию на начало XX века с городами, соединёнными разноцветными железнодорожными путями. В игре два вида карт: для прокладывания путей используются карты поездов (вагоны восьми цветов, соответствующих железным дорогам, а также локомотивы-джокеры), а задания указаны на картах маршрутов: два города, которые надо соединить, и призовые очки за выполнение. 6 маршрутов длинные: они пересекают всю Европу и приносят по 20 и больше очков. В начале партии каждый участник получает по 4 карты поездов, по 1 карте длинного маршрута и по 3 карты обычных маршрутов. До двух маршрутов можно после этого сбросить. Также в распоряжении каждого игрока &mdash; 45 пластиковых вагончиков, 3 пластиковые станции и 1 фишка для подсчёта очков.</p>\r\n<p>&nbsp;</p>\r\n<p>В свой ход игрок выбирает одно из четырёх действий. Пополнение руки и взятие новых карт маршрутов происходят аналогично американской версии Ticket to Ride. Занятие путей между городами &mdash; тоже, за исключением туннелей и паромов. Чтобы проложить паромную переправу, необходимо в числе карт поездов сыграть один или два локомотива. Прокладка туннеля может потребовать дополнительных карт нужного цвета. Четвёртое, новое действие &mdash; установить станцию в любом свободном городе. Станция даёт право в конце игры, при проверке выполненных маршрутов воспользоваться одним чужим путём, проложенным из этого города, как своим.</p>\r\n<p>&nbsp;</p>\r\n<p>Для европейской версии игры, так же, как и для американской, существует альтернативный набор карт маршрутов, входящий в расширение Ticket to Ride: Europa 1912.</p>",
-            "modificationDateUtc": "2022-01-14T08:15:17",
+            "modificationDateUtc": "2022-02-23T09:41:48",
             "creationDateUtc": "2010-01-03T11:31:34",
             "photoUrl": "https://s.tesera.ru/images/items/1700,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/1700,3/photo2.jpg",
             "year": 2005,
-            "ratingUser": 7.75,
-            "n10Rating": 7.73,
-            "n20Rating": 7.72,
-            "ratingMy": 9.0,
+            "ratingUser": 7.74,
+            "n10Rating": 7.72,
+            "n20Rating": 7.71,
             "bggRating": 7.54,
-            "bggGeekRating": 7.424,
-            "bggNumVotes": 63432,
-            "numVotes": 1564,
+            "bggGeekRating": 7.423,
+            "bggNumVotes": 64347,
+            "numVotes": 1589,
             "playersMin": 2,
             "playersMax": 5,
             "playersMinRecommend": 4,
@@ -13286,18 +14037,18 @@ var games = [
             "timeToLearn": 10,
             "playtimeMin": 40,
             "playtimeMax": 60,
-            "commentsTotal": 310,
+            "commentsTotal": 311,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/1700",
             "isAddition": false
         },
-        "ownersTotal": 3872,
+        "ownersTotal": 3957,
         "sellTotal": 7,
-        "buyTotal": 1,
+        "buyTotal": 0,
         "sellTotalAll": 32,
-        "buyTotalAll": 108,
-        "commentsTotal": 310,
-        "reportsTotal": 23,
+        "buyTotalAll": 109,
+        "commentsTotal": 311,
+        "reportsTotal": 25,
         "photosTotal": 39,
         "filesTotal": 2,
         "linksTotal": 21,
@@ -13330,7 +14081,7 @@ var games = [
                 "login": "makgrou",
                 "name": "Лекс",
                 "avatarUrl": "https://s.tesera.ru/images/items/607094,22/photo.jpg",
-                "rating": 33063,
+                "rating": 33065,
                 "teseraUrl": "https://tesera.ru/user/607094"
             }
         }, {
@@ -13345,7 +14096,7 @@ var games = [
                 "login": "gadomer320",
                 "name": "Голубенко Юрий Александрович",
                 "avatarUrl": "https://s.tesera.ru/images/items/422194,22/photo.jpg",
-                "rating": 3593,
+                "rating": 3620,
                 "teseraUrl": "https://tesera.ru/user/422194"
             }
         }, {
@@ -13360,7 +14111,7 @@ var games = [
                 "login": "tikoshka",
                 "name": "Аня",
                 "avatarUrl": "https://s.tesera.ru/images/items/222271,22/photo.jpg",
-                "rating": 12553,
+                "rating": 12572,
                 "teseraUrl": "https://tesera.ru/user/222271"
             }
         }, {
@@ -13375,7 +14126,7 @@ var games = [
                 "login": "terjul",
                 "name": "Юлия",
                 "avatarUrl": "https://s.tesera.ru/images/items/98884,22/photo.png",
-                "rating": 53059,
+                "rating": 53104,
                 "teseraUrl": "https://tesera.ru/user/98884"
             }
         }],
@@ -13393,7 +14144,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -13419,7 +14170,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -13435,7 +14186,7 @@ var games = [
                 "login": "imurseev",
                 "name": "Илья Мурсеев",
                 "avatarUrl": "https://s.tesera.ru/images/items/333437,22/photo.jpg",
-                "rating": 17172,
+                "rating": 17177,
                 "teseraUrl": "https://tesera.ru/user/333437"
             }
         }, {
@@ -13449,9 +14200,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -13467,7 +14218,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -13504,8 +14255,8 @@ var games = [
             "n10Rating": 7.2,
             "n20Rating": 7.14,
             "bggRating": 7.098,
-            "bggGeekRating": 6.945,
-            "bggNumVotes": 18710,
+            "bggGeekRating": 6.943,
+            "bggNumVotes": 18798,
             "commentsTotal": 84,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -13523,9 +14274,9 @@ var games = [
             "ratingUser": 7.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.643,
-            "bggGeekRating": 6.241,
-            "bggNumVotes": 3277,
+            "bggRating": 6.644,
+            "bggGeekRating": 6.239,
+            "bggNumVotes": 3282,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -13545,9 +14296,9 @@ var games = [
             "ratingUser": 6.94,
             "n10Rating": 6.65,
             "n20Rating": 6.44,
-            "bggRating": 6.614,
-            "bggGeekRating": 5.874,
-            "bggNumVotes": 911,
+            "bggRating": 6.609,
+            "bggGeekRating": 5.871,
+            "bggNumVotes": 916,
             "commentsTotal": 16,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -13566,8 +14317,8 @@ var games = [
             "ratingUser": 6.5,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.764,
-            "bggGeekRating": 5.642,
+            "bggRating": 7.746,
+            "bggGeekRating": 5.639,
             "bggNumVotes": 107,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
@@ -13608,10 +14359,10 @@ var games = [
             "numVotes": 84,
             "ratingUser": 7.91,
             "n10Rating": 7.62,
-            "n20Rating": 7.39,
+            "n20Rating": 7.38,
             "bggRating": 7.412,
-            "bggGeekRating": 7.078,
-            "bggNumVotes": 8849,
+            "bggGeekRating": 7.075,
+            "bggNumVotes": 8870,
             "commentsTotal": 10,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -13630,9 +14381,9 @@ var games = [
             "ratingUser": 7.41,
             "n10Rating": 7.25,
             "n20Rating": 7.11,
-            "bggRating": 7.644,
-            "bggGeekRating": 7.062,
-            "bggNumVotes": 5088,
+            "bggRating": 7.645,
+            "bggGeekRating": 7.06,
+            "bggNumVotes": 5138,
             "commentsTotal": 27,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13650,9 +14401,9 @@ var games = [
             "ratingUser": 6.51,
             "n10Rating": 6.31,
             "n20Rating": 6.17,
-            "bggRating": 6.135,
-            "bggGeekRating": 5.925,
-            "bggNumVotes": 3972,
+            "bggRating": 6.133,
+            "bggGeekRating": 5.923,
+            "bggNumVotes": 3982,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -13668,13 +14419,13 @@ var games = [
             "creationDateUtc": "2010-06-24T05:53:51",
             "photoUrl": "https://s.tesera.ru/images/items/5794,3/200x200xpa/photo1.jpg",
             "year": 2007,
-            "numVotes": 369,
-            "ratingUser": 7.84,
-            "n10Rating": 7.78,
-            "n20Rating": 7.71,
-            "bggRating": 7.63,
-            "bggGeekRating": 7.351,
-            "bggNumVotes": 12377,
+            "numVotes": 377,
+            "ratingUser": 7.83,
+            "n10Rating": 7.76,
+            "n20Rating": 7.7,
+            "bggRating": 7.633,
+            "bggGeekRating": 7.346,
+            "bggNumVotes": 12503,
             "commentsTotal": 102,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13695,8 +14446,8 @@ var games = [
             "n10Rating": 7.22,
             "n20Rating": 7.01,
             "bggRating": 7.509,
-            "bggGeekRating": 6.946,
-            "bggNumVotes": 4708,
+            "bggGeekRating": 6.944,
+            "bggNumVotes": 4718,
             "commentsTotal": 10,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13733,12 +14484,12 @@ var games = [
             "year": 2011,
             "numVotes": 13,
             "ratingUser": 6.77,
-            "n10Rating": 6.08,
+            "n10Rating": 6.07,
             "n20Rating": 0.0,
-            "bggRating": 6.522,
-            "bggGeekRating": 5.994,
-            "bggNumVotes": 1683,
-            "commentsTotal": 8,
+            "bggRating": 6.518,
+            "bggGeekRating": 5.99,
+            "bggNumVotes": 1695,
+            "commentsTotal": 9,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -13757,9 +14508,9 @@ var games = [
             "ratingUser": 7.85,
             "n10Rating": 7.57,
             "n20Rating": 7.35,
-            "bggRating": 7.782,
-            "bggGeekRating": 7.216,
-            "bggNumVotes": 5584,
+            "bggRating": 7.779,
+            "bggGeekRating": 7.213,
+            "bggNumVotes": 5635,
             "commentsTotal": 28,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13779,9 +14530,9 @@ var games = [
             "ratingUser": 7.61,
             "n10Rating": 7.06,
             "n20Rating": 6.71,
-            "bggRating": 7.403,
-            "bggGeekRating": 6.671,
-            "bggNumVotes": 2890,
+            "bggRating": 7.401,
+            "bggGeekRating": 6.666,
+            "bggNumVotes": 2913,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13820,9 +14571,9 @@ var games = [
             "ratingUser": 8.05,
             "n10Rating": 7.06,
             "n20Rating": 0.0,
-            "bggRating": 7.384,
-            "bggGeekRating": 6.599,
-            "bggNumVotes": 2488,
+            "bggRating": 7.381,
+            "bggGeekRating": 6.595,
+            "bggNumVotes": 2516,
             "commentsTotal": 20,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13840,9 +14591,9 @@ var games = [
             "ratingUser": 6.5,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.802,
-            "bggGeekRating": 5.626,
-            "bggNumVotes": 109,
+            "bggRating": 7.818,
+            "bggGeekRating": 5.63,
+            "bggNumVotes": 113,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13857,13 +14608,13 @@ var games = [
             "creationDateUtc": "2015-07-31T11:52:11",
             "photoUrl": "https://s.tesera.ru/images/items/591295,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 39,
-            "ratingUser": 7.89,
-            "n10Rating": 7.34,
-            "n20Rating": 6.97,
-            "bggRating": 7.992,
+            "numVotes": 40,
+            "ratingUser": 7.93,
+            "n10Rating": 7.38,
+            "n20Rating": 7.01,
+            "bggRating": 7.993,
             "bggGeekRating": 7.314,
-            "bggNumVotes": 4821,
+            "bggNumVotes": 4885,
             "commentsTotal": 27,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13881,9 +14632,9 @@ var games = [
             "ratingUser": 7.57,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.915,
-            "bggGeekRating": 6.182,
-            "bggNumVotes": 1753,
+            "bggRating": 6.922,
+            "bggGeekRating": 6.189,
+            "bggNumVotes": 1816,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -13920,12 +14671,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/1221086,3/200x200xpa/photo1.jpg",
             "year": 2017,
             "numVotes": 14,
-            "ratingUser": 8.06,
-            "n10Rating": 6.86,
+            "ratingUser": 8.0,
+            "n10Rating": 6.82,
             "n20Rating": 0.0,
-            "bggRating": 7.619,
+            "bggRating": 7.615,
             "bggGeekRating": 6.358,
-            "bggNumVotes": 1259,
+            "bggNumVotes": 1290,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -13945,9 +14696,9 @@ var games = [
             "ratingUser": 7.2,
             "n10Rating": 6.74,
             "n20Rating": 6.45,
-            "bggRating": 6.989,
-            "bggGeekRating": 6.601,
-            "bggNumVotes": 5357,
+            "bggRating": 6.984,
+            "bggGeekRating": 6.599,
+            "bggNumVotes": 5467,
             "commentsTotal": 7,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -13984,11 +14735,11 @@ var games = [
             "year": 2019,
             "numVotes": 13,
             "ratingUser": 7.67,
-            "n10Rating": 6.59,
+            "n10Rating": 6.58,
             "n20Rating": 0.0,
-            "bggRating": 7.949,
-            "bggGeekRating": 6.534,
-            "bggNumVotes": 1319,
+            "bggRating": 7.946,
+            "bggGeekRating": 6.551,
+            "bggNumVotes": 1371,
             "commentsTotal": 13,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14007,9 +14758,9 @@ var games = [
             "ratingUser": 7.92,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.553,
-            "bggGeekRating": 5.838,
-            "bggNumVotes": 369,
+            "bggRating": 7.543,
+            "bggGeekRating": 5.839,
+            "bggNumVotes": 379,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14025,12 +14776,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/1669484,3/200x200xpa/photo1.jpg",
             "year": 0,
             "numVotes": 10,
-            "ratingUser": 7.3,
-            "n10Rating": 6.26,
+            "ratingUser": 7.25,
+            "n10Rating": 6.21,
             "n20Rating": 0.0,
-            "bggRating": 7.1,
-            "bggGeekRating": 5.938,
-            "bggNumVotes": 702,
+            "bggRating": 7.106,
+            "bggGeekRating": 5.952,
+            "bggNumVotes": 738,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14086,14 +14837,14 @@ var games = [
             "creationDateUtc": "2021-01-26T20:45:28",
             "photoUrl": "https://s.tesera.ru/images/items/1817504,3/200x200xpa/photo1.png",
             "year": 2021,
-            "numVotes": 56,
-            "ratingUser": 5.61,
-            "n10Rating": 5.54,
-            "n20Rating": 5.5,
-            "bggRating": 8.333,
-            "bggGeekRating": 6.61,
-            "bggNumVotes": 1179,
-            "commentsTotal": 48,
+            "numVotes": 59,
+            "ratingUser": 5.72,
+            "n10Rating": 5.64,
+            "n20Rating": 5.58,
+            "bggRating": 8.331,
+            "bggGeekRating": 6.705,
+            "bggNumVotes": 1364,
+            "commentsTotal": 52,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -14210,7 +14961,7 @@ var games = [
             "alias": "carcassonne",
             "descriptionShort": "Каркассон (Carcassonne) – древняя крепость на Юге Франции, вдохновившая Клауса-Юргена Вреде на придумывание одноимённой игры.",
             "description": "<p><strong>Вы - феодальный правитель</strong> одной из провинций средневековой Франции. Вам предстоит расширять свои владения, строить города и монастыри, прокладывать дороги и не забывать мудро управлять своими подданными, ведь именно они приносят вам успех в соперничестве с соседями.</p>\r\n<p><strong>В ходе игры</strong> вы постепенно составляете из квадратов земли карту средневековой страны с городами, полями, дорогами и монастырями, при этом принцип немного напоминает домино (или пазл). На каждый выложенный им квадрат земли игрок может поместить своего поданного. В зависимости от того, где он будет выставлен, поданный становится или рыцарем в городе, или крестьянином в поле, или разбойником на дороге, или монахом в монастыре. За каждый достроенный город, окружённый землями монастырь или законченную дорогу, игрок получает очки. В конце игры очки также начисляются за недостроенные объекты. Тогда же приходит и пора собрать урожай выставленным за игру крестьянам - чем больше городов они снабжали провизией, тем больше очков они принесут своему патрону. Из-за этой особенности соотношение сил может здорово измениться в конце игры и участники вынуждены вдумчиво использовать ограниченное количество поданных - ведь рыцарь может успеть поучаствовать в строительстве нескольких городов, а крестьяне принесут доход только в конце игры (зато возможно куда как больший).</p>\r\n<p>В России игра выходила трижды. Первое издание &mdash; под названием &laquo;Средневековье&raquo;, с оригинальной буквой &laquo;С&raquo; (от <strong>C</strong>arcassonne) на рубашке плиток. Второе и третье &mdash; под современным названием, с буквой &laquo;К&raquo; на рубашке (что делает их несовместимыми с немецко- и англоязычными расширениями игры). Во первом и третьем изданиях игры фишки деревянные, а во втором &mdash; пластиковые.</p>",
-            "modificationDateUtc": "2022-01-13T12:47:04",
+            "modificationDateUtc": "2022-02-20T18:38:24",
             "creationDateUtc": "2009-10-26T12:50:52",
             "photoUrl": "https://s.tesera.ru/images/items/707,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/707,3/photo2.jpg",
@@ -14218,11 +14969,10 @@ var games = [
             "ratingUser": 7.53,
             "n10Rating": 7.52,
             "n20Rating": 7.51,
-            "ratingMy": 7.0,
-            "bggRating": 7.418,
-            "bggGeekRating": 7.308,
-            "bggNumVotes": 108977,
-            "numVotes": 1946,
+            "bggRating": 7.417,
+            "bggGeekRating": 7.307,
+            "bggNumVotes": 110148,
+            "numVotes": 1973,
             "playersMin": 2,
             "playersMax": 5,
             "playersMinRecommend": 3,
@@ -14231,18 +14981,18 @@ var games = [
             "timeToLearn": 3,
             "playtimeMin": 40,
             "playtimeMax": 40,
-            "commentsTotal": 256,
+            "commentsTotal": 264,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/707",
             "isAddition": false
         },
-        "ownersTotal": 4309,
-        "sellTotal": 5,
+        "ownersTotal": 4376,
+        "sellTotal": 6,
         "buyTotal": 0,
         "sellTotalAll": 44,
         "buyTotalAll": 64,
-        "commentsTotal": 256,
-        "reportsTotal": 1,
+        "commentsTotal": 264,
+        "reportsTotal": 2,
         "photosTotal": 31,
         "filesTotal": 5,
         "linksTotal": 40,
@@ -14290,7 +15040,7 @@ var games = [
                 "login": "ufo",
                 "name": "UFO",
                 "avatarUrl": "https://s.tesera.ru/images/items/277920,22/photo.gif",
-                "rating": 9165,
+                "rating": 9166,
                 "teseraUrl": "https://tesera.ru/user/277920"
             }
         }, {
@@ -14305,7 +15055,7 @@ var games = [
                 "login": "carboxed",
                 "name": "Илья",
                 "avatarUrl": "https://s.tesera.ru/images/items/762262,22/photo.png",
-                "rating": 2891,
+                "rating": 2899,
                 "teseraUrl": "https://tesera.ru/user/762262"
             }
         }, {
@@ -14338,7 +15088,7 @@ var games = [
                 "login": "lyopa",
                 "name": "Виктор Усачев",
                 "avatarUrl": "https://s.tesera.ru/images/items/490055,22/photo.jpg",
-                "rating": 584,
+                "rating": 593,
                 "teseraUrl": "https://tesera.ru/user/490055"
             }
         }, {
@@ -14354,7 +15104,7 @@ var games = [
                 "login": "lpx",
                 "name": "Леонид",
                 "avatarUrl": "https://s.tesera.ru/images/items/70555,22/photo.jpg",
-                "rating": 1733,
+                "rating": 1743,
                 "teseraUrl": "https://tesera.ru/user/70555"
             }
         }, {
@@ -14371,7 +15121,7 @@ var games = [
                 "login": "greengood",
                 "name": "Орденов Павел",
                 "avatarUrl": "https://s.tesera.ru/images/items/563414,22/photo.png",
-                "rating": 1896,
+                "rating": 1976,
                 "teseraUrl": "https://tesera.ru/user/563414"
             }
         }, {
@@ -14404,7 +15154,7 @@ var games = [
                 "login": "steve",
                 "name": "Стас",
                 "avatarUrl": "https://s.tesera.ru/images/items/15322,22/photo.jpg",
-                "rating": 5840,
+                "rating": 5845,
                 "teseraUrl": "https://tesera.ru/user/15322"
             }
         }],
@@ -14421,7 +15171,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -14435,9 +15185,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -14485,7 +15235,7 @@ var games = [
                 "login": "rimsky",
                 "name": "Арсений",
                 "avatarUrl": "https://s.tesera.ru/images/items/921606,22/photo.jpg",
-                "rating": 7133,
+                "rating": 7141,
                 "teseraUrl": "https://tesera.ru/user/921606"
             }
         }],
@@ -14501,13 +15251,13 @@ var games = [
             "creationDateUtc": "2009-10-11T08:34:32",
             "photoUrl": "https://s.tesera.ru/images/items/516,3/200x200xpa/photo1.jpg",
             "year": 2003,
-            "numVotes": 143,
-            "ratingUser": 7.2,
-            "n10Rating": 7.07,
+            "numVotes": 145,
+            "ratingUser": 7.19,
+            "n10Rating": 7.06,
             "n20Rating": 6.95,
             "bggRating": 7.03,
-            "bggGeekRating": 6.916,
-            "bggNumVotes": 30207,
+            "bggGeekRating": 6.915,
+            "bggNumVotes": 30478,
             "commentsTotal": 35,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -14522,13 +15272,13 @@ var games = [
             "creationDateUtc": "2009-10-29T15:56:47",
             "photoUrl": "https://s.tesera.ru/images/items/853,3/200x200xpa/photo1.jpg",
             "year": 2007,
-            "numVotes": 86,
-            "ratingUser": 7.33,
-            "n10Rating": 7.11,
+            "numVotes": 87,
+            "ratingUser": 7.32,
+            "n10Rating": 7.1,
             "n20Rating": 6.92,
-            "bggRating": 7.245,
-            "bggGeekRating": 6.928,
-            "bggNumVotes": 8086,
+            "bggRating": 7.243,
+            "bggGeekRating": 6.923,
+            "bggNumVotes": 8117,
             "commentsTotal": 16,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -14547,9 +15297,9 @@ var games = [
             "ratingUser": 5.91,
             "n10Rating": 5.79,
             "n20Rating": 5.7,
-            "bggRating": 6.173,
-            "bggGeekRating": 5.72,
-            "bggNumVotes": 822,
+            "bggRating": 6.17,
+            "bggGeekRating": 5.715,
+            "bggNumVotes": 821,
             "commentsTotal": 6,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -14565,13 +15315,13 @@ var games = [
             "creationDateUtc": "2009-11-09T09:31:31",
             "photoUrl": "https://s.tesera.ru/images/items/1125,3/200x200xpa/photo1.jpg",
             "year": 2003,
-            "numVotes": 164,
-            "ratingUser": 6.3,
-            "n10Rating": 6.24,
-            "n20Rating": 6.18,
-            "bggRating": 7.096,
-            "bggGeekRating": 6.781,
-            "bggNumVotes": 7765,
+            "numVotes": 166,
+            "ratingUser": 6.31,
+            "n10Rating": 6.25,
+            "n20Rating": 6.19,
+            "bggRating": 7.097,
+            "bggGeekRating": 6.778,
+            "bggNumVotes": 7806,
             "commentsTotal": 11,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14586,13 +15336,13 @@ var games = [
             "creationDateUtc": "2009-11-09T09:53:07",
             "photoUrl": "https://s.tesera.ru/images/items/1131,3/200x200xpa/photo1.jpg",
             "year": 2005,
-            "numVotes": 79,
-            "ratingUser": 6.15,
-            "n10Rating": 6.04,
-            "n20Rating": 5.95,
-            "bggRating": 6.484,
-            "bggGeekRating": 6.034,
-            "bggNumVotes": 2191,
+            "numVotes": 80,
+            "ratingUser": 6.13,
+            "n10Rating": 6.02,
+            "n20Rating": 5.94,
+            "bggRating": 6.483,
+            "bggGeekRating": 6.031,
+            "bggNumVotes": 2196,
             "commentsTotal": 11,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -14608,14 +15358,14 @@ var games = [
             "creationDateUtc": "2009-10-26T17:46:29",
             "photoUrl": "https://s.tesera.ru/images/items/721,3/200x200xpa/photo1.jpg",
             "year": 2002,
-            "numVotes": 403,
+            "numVotes": 410,
             "ratingUser": 7.23,
-            "n10Rating": 7.18,
-            "n20Rating": 7.13,
+            "n10Rating": 7.19,
+            "n20Rating": 7.14,
             "bggRating": 7.13,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
-            "commentsTotal": 36,
+            "commentsTotal": 37,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -14630,13 +15380,13 @@ var games = [
             "creationDateUtc": "2009-11-09T09:31:31",
             "photoUrl": "https://s.tesera.ru/images/items/1125,3/200x200xpa/photo1.jpg",
             "year": 2003,
-            "numVotes": 164,
-            "ratingUser": 6.3,
-            "n10Rating": 6.24,
-            "n20Rating": 6.18,
-            "bggRating": 7.096,
-            "bggGeekRating": 6.781,
-            "bggNumVotes": 7765,
+            "numVotes": 166,
+            "ratingUser": 6.31,
+            "n10Rating": 6.25,
+            "n20Rating": 6.19,
+            "bggRating": 7.097,
+            "bggGeekRating": 6.778,
+            "bggNumVotes": 7806,
             "commentsTotal": 11,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14651,13 +15401,13 @@ var games = [
             "creationDateUtc": "2009-11-09T09:53:07",
             "photoUrl": "https://s.tesera.ru/images/items/1131,3/200x200xpa/photo1.jpg",
             "year": 2005,
-            "numVotes": 79,
-            "ratingUser": 6.15,
-            "n10Rating": 6.04,
-            "n20Rating": 5.95,
-            "bggRating": 6.484,
-            "bggGeekRating": 6.034,
-            "bggNumVotes": 2191,
+            "numVotes": 80,
+            "ratingUser": 6.13,
+            "n10Rating": 6.02,
+            "n20Rating": 5.94,
+            "bggRating": 6.483,
+            "bggGeekRating": 6.031,
+            "bggNumVotes": 2196,
             "commentsTotal": 11,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -14673,14 +15423,14 @@ var games = [
             "creationDateUtc": "2010-05-19T12:38:41",
             "photoUrl": "https://s.tesera.ru/images/items/5008,3/200x200xpa/photo1.jpg",
             "year": 2010,
-            "numVotes": 32,
-            "ratingUser": 7.29,
-            "n10Rating": 6.79,
-            "n20Rating": 6.48,
-            "bggRating": 6.995,
-            "bggGeekRating": 6.355,
-            "bggNumVotes": 2606,
-            "commentsTotal": 4,
+            "numVotes": 33,
+            "ratingUser": 7.3,
+            "n10Rating": 6.8,
+            "n20Rating": 6.5,
+            "bggRating": 7.001,
+            "bggGeekRating": 6.357,
+            "bggNumVotes": 2639,
+            "commentsTotal": 5,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -14699,9 +15449,9 @@ var games = [
             "ratingUser": 6.52,
             "n10Rating": 6.39,
             "n20Rating": 6.28,
-            "bggRating": 6.698,
-            "bggGeekRating": 6.275,
-            "bggNumVotes": 3583,
+            "bggRating": 6.694,
+            "bggGeekRating": 6.272,
+            "bggNumVotes": 3634,
             "commentsTotal": 12,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14717,13 +15467,13 @@ var games = [
             "creationDateUtc": "2010-08-12T06:57:38",
             "photoUrl": "https://s.tesera.ru/images/items/6927,3/200x200xpa/photo1.jpg",
             "year": 2002,
-            "numVotes": 118,
-            "ratingUser": 7.58,
-            "n10Rating": 7.39,
-            "n20Rating": 7.23,
-            "bggRating": 7.626,
+            "numVotes": 120,
+            "ratingUser": 7.55,
+            "n10Rating": 7.36,
+            "n20Rating": 7.2,
+            "bggRating": 7.63,
             "bggGeekRating": 7.411,
-            "bggNumVotes": 20446,
+            "bggNumVotes": 20559,
             "commentsTotal": 8,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14743,8 +15493,8 @@ var games = [
             "n10Rating": 0.0,
             "n20Rating": 0.0,
             "bggRating": 7.208,
-            "bggGeekRating": 6.711,
-            "bggNumVotes": 4291,
+            "bggGeekRating": 6.707,
+            "bggNumVotes": 4304,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -14760,14 +15510,14 @@ var games = [
             "creationDateUtc": "2010-08-12T06:58:27",
             "photoUrl": "https://s.tesera.ru/images/items/6930,3/200x200xpa/photo1.jpg",
             "year": 2003,
-            "numVotes": 82,
+            "numVotes": 85,
             "ratingUser": 7.44,
             "n10Rating": 7.19,
             "n20Rating": 7.0,
             "bggRating": 7.61,
             "bggGeekRating": 7.357,
-            "bggNumVotes": 16143,
-            "commentsTotal": 2,
+            "bggNumVotes": 16239,
+            "commentsTotal": 5,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -14782,13 +15532,13 @@ var games = [
             "creationDateUtc": "2010-08-12T17:50:55",
             "photoUrl": "https://s.tesera.ru/images/items/7126,3/200x200xpa/photo1.jpg",
             "year": 2007,
-            "numVotes": 59,
-            "ratingUser": 7.23,
-            "n10Rating": 6.93,
-            "n20Rating": 6.71,
-            "bggRating": 7.126,
-            "bggGeekRating": 6.656,
-            "bggNumVotes": 4867,
+            "numVotes": 62,
+            "ratingUser": 7.25,
+            "n10Rating": 6.95,
+            "n20Rating": 6.73,
+            "bggRating": 7.13,
+            "bggGeekRating": 6.655,
+            "bggNumVotes": 4909,
             "commentsTotal": 4,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14808,9 +15558,9 @@ var games = [
             "ratingUser": 6.69,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 4.869,
-            "bggGeekRating": 5.176,
-            "bggNumVotes": 1461,
+            "bggRating": 4.877,
+            "bggGeekRating": 5.182,
+            "bggNumVotes": 1471,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14826,14 +15576,14 @@ var games = [
             "creationDateUtc": "2010-08-12T17:51:38",
             "photoUrl": "https://s.tesera.ru/images/items/7130,3/200x200xpa/photo1.jpg",
             "year": 2005,
-            "numVotes": 46,
-            "ratingUser": 7.05,
-            "n10Rating": 6.72,
-            "n20Rating": 6.48,
-            "bggRating": 6.774,
-            "bggGeekRating": 6.513,
-            "bggNumVotes": 9192,
-            "commentsTotal": 2,
+            "numVotes": 48,
+            "ratingUser": 7.06,
+            "n10Rating": 6.7,
+            "n20Rating": 6.47,
+            "bggRating": 6.78,
+            "bggGeekRating": 6.515,
+            "bggNumVotes": 9251,
+            "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -14848,13 +15598,13 @@ var games = [
             "creationDateUtc": "2010-08-12T17:51:45",
             "photoUrl": "https://s.tesera.ru/images/items/7131,3/200x200xpa/photo1.jpg",
             "year": 2006,
-            "numVotes": 31,
-            "ratingUser": 6.87,
+            "numVotes": 32,
+            "ratingUser": 6.86,
             "n10Rating": 6.46,
             "n20Rating": 6.21,
-            "bggRating": 6.582,
-            "bggGeekRating": 6.28,
-            "bggNumVotes": 5552,
+            "bggRating": 6.587,
+            "bggGeekRating": 6.281,
+            "bggNumVotes": 5595,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14875,8 +15625,8 @@ var games = [
             "n10Rating": 7.14,
             "n20Rating": 6.93,
             "bggRating": 7.024,
-            "bggGeekRating": 6.091,
-            "bggNumVotes": 1153,
+            "bggGeekRating": 6.089,
+            "bggNumVotes": 1156,
             "commentsTotal": 16,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14894,10 +15644,10 @@ var games = [
             "numVotes": 22,
             "ratingUser": 7.01,
             "n10Rating": 6.44,
-            "n20Rating": 6.14,
+            "n20Rating": 6.13,
             "bggRating": 7.193,
-            "bggGeekRating": 6.666,
-            "bggNumVotes": 4297,
+            "bggGeekRating": 6.663,
+            "bggNumVotes": 4307,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14916,9 +15666,9 @@ var games = [
             "ratingUser": 6.85,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 5.953,
-            "bggGeekRating": 5.776,
-            "bggNumVotes": 3229,
+            "bggRating": 5.956,
+            "bggGeekRating": 5.777,
+            "bggNumVotes": 3235,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -14938,9 +15688,9 @@ var games = [
             "ratingUser": 6.16,
             "n10Rating": 5.98,
             "n20Rating": 5.86,
-            "bggRating": 6.281,
-            "bggGeekRating": 5.811,
-            "bggNumVotes": 1222,
+            "bggRating": 6.288,
+            "bggGeekRating": 5.812,
+            "bggNumVotes": 1231,
             "commentsTotal": 4,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -14954,14 +15704,14 @@ var games = [
             "descriptionShort": "",
             "creationDateUtc": "2010-10-25T19:29:54",
             "year": 2008,
-            "numVotes": 7,
-            "ratingUser": 6.79,
+            "numVotes": 8,
+            "ratingUser": 6.85,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.815,
-            "bggGeekRating": 6.144,
-            "bggNumVotes": 1935,
-            "commentsTotal": 2,
+            "bggRating": 6.82,
+            "bggGeekRating": 6.145,
+            "bggNumVotes": 1963,
+            "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -14976,11 +15726,11 @@ var games = [
             "year": 2010,
             "numVotes": 15,
             "ratingUser": 8.24,
-            "n10Rating": 7.02,
+            "n10Rating": 7.01,
             "n20Rating": 0.0,
-            "bggRating": 7.418,
-            "bggGeekRating": 7.308,
-            "bggNumVotes": 108977,
+            "bggRating": 7.417,
+            "bggGeekRating": 7.307,
+            "bggNumVotes": 110148,
             "commentsTotal": 13,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15018,9 +15768,9 @@ var games = [
             "ratingUser": 8.19,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.829,
-            "bggGeekRating": 5.938,
-            "bggNumVotes": 417,
+            "bggRating": 7.833,
+            "bggGeekRating": 5.935,
+            "bggNumVotes": 422,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15040,9 +15790,9 @@ var games = [
             "ratingUser": 8.44,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.544,
-            "bggGeekRating": 6.354,
-            "bggNumVotes": 1318,
+            "bggRating": 7.546,
+            "bggGeekRating": 6.35,
+            "bggNumVotes": 1328,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15060,9 +15810,9 @@ var games = [
             "ratingUser": 6.63,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.47,
-            "bggGeekRating": 6.03,
-            "bggNumVotes": 2204,
+            "bggRating": 6.467,
+            "bggGeekRating": 6.026,
+            "bggNumVotes": 2208,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -15080,9 +15830,9 @@ var games = [
             "ratingUser": 6.5,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.78,
-            "bggGeekRating": 5.93,
-            "bggNumVotes": 936,
+            "bggRating": 6.782,
+            "bggGeekRating": 5.928,
+            "bggNumVotes": 939,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15100,11 +15850,11 @@ var games = [
             "year": 2011,
             "numVotes": 18,
             "ratingUser": 8.18,
-            "n10Rating": 7.11,
+            "n10Rating": 7.1,
             "n20Rating": 0.0,
-            "bggRating": 7.682,
-            "bggGeekRating": 6.537,
-            "bggNumVotes": 1679,
+            "bggRating": 7.68,
+            "bggGeekRating": 6.532,
+            "bggNumVotes": 1691,
             "commentsTotal": 6,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -15122,9 +15872,9 @@ var games = [
             "ratingUser": 0.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.892,
-            "bggGeekRating": 5.721,
-            "bggNumVotes": 357,
+            "bggRating": 6.893,
+            "bggGeekRating": 5.723,
+            "bggNumVotes": 362,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15143,9 +15893,9 @@ var games = [
             "ratingUser": 8.75,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.47,
-            "bggGeekRating": 6.03,
-            "bggNumVotes": 2204,
+            "bggRating": 6.467,
+            "bggGeekRating": 6.026,
+            "bggNumVotes": 2208,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -15183,9 +15933,9 @@ var games = [
             "ratingUser": 0.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.25,
-            "bggGeekRating": 5.904,
-            "bggNumVotes": 516,
+            "bggRating": 7.249,
+            "bggGeekRating": 5.902,
+            "bggNumVotes": 519,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -15205,9 +15955,9 @@ var games = [
             "ratingUser": 5.38,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.213,
+            "bggRating": 6.216,
             "bggGeekRating": 5.719,
-            "bggNumVotes": 848,
+            "bggNumVotes": 854,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15227,9 +15977,9 @@ var games = [
             "ratingUser": 5.75,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.743,
-            "bggGeekRating": 5.932,
-            "bggNumVotes": 993,
+            "bggRating": 6.739,
+            "bggGeekRating": 5.93,
+            "bggNumVotes": 1003,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15305,18 +16055,17 @@ var games = [
             "alias": "scythe",
             "descriptionShort": "Серп (Scythe) – стратегическая игра, события которой происходят в альтернативной Европе 1920-х годов с гигантскими роботами. Игра отличается тем, что в ней нет разделения на фазы или раунды.",
             "description": "<p>В альтернативной реальности, после Первой Мировой войны, на территории восточной Европы образовались несколько новых государств, которые продолжают враждовать между собой. Долгая война дала толчок научной мысли, что позволило создать невиданное оружие, похожее на гигантских роботов. Заручившись поддержкой своих граждан, пятеро лидеров готовы начать новый виток войны и одержать в ней победу.</p>\r\n<p>&nbsp;</p>\r\n<p>Игра Scythe выделяется, в первую очередь, превосходным дизайном от польского художника Якоба Розальски (Jakub Rozalski). Сочные и проработанные до мелочей иллюстрации на планшетах и картах выглядят как настоящие картины, выполненные в духе социалистического реализма. Хотя этот реализм несколько специфический - рядом с крестьянами на пашне или лесорубами на опушке изображены огромные роботы, как будто перекочевавшие из настолки&nbsp;Battletech. Миниатюры персонажей фракций и роботов также выполнены на высоте.</p>\r\n<p>&nbsp;</p>\r\n<p>За боевую славу и новые территории в игре Scythe будут сражаться пять фракций: Северное королевство, Саксонская империя, республика Полания, Крымское ханство и Союз Русвет. Выбрав одну из фракций, игроки получают все соответствующие ей компоненты. Лидер фракции выставляется на поле в стартовой позиции. Каждая фракция и ее лидер обладают уникальными способностями и стартовыми ресурсами.</p>\r\n<p>&nbsp;</p>\r\n<p>В игре Серп нет разделения на раунды или фазы: игроки просто ходят по очереди и каждый в свой ход выполняет одно/два действия, указанные на его личном поле. Именно в полях игроков сфокусирована ключевая механика игры Scythe. Поле игрока разбито на 4 части, в каждой из которых есть верхнее действие и нижнее. Сначала игрок выбирает нужную часть поля, а потом объявляет, какое действие он будет выполнять - верхнее, нижнее или оба.</p>\r\n<p>&nbsp;</p>\r\n<p>Оплатив в банк требуемую цену (монеты, ресурсы), игрок может: переместить персонажа или робота по карте поля, накопить военные силы (отмечается на соответствующем треке), купить ресурсы (еда, дерево, металл, нефть), произвести ресурс или нового рабочего, увеличить популярность среди населения (отмечается на соответствующем треке), построить робота или здание и другое.</p>\r\n<p>&nbsp;</p>\r\n<p>Если после перемещения робота или персонажа, они оказываются на вражеской территории, происходит бой. Сразу скажем, что боям в игре Scythe отведена очень маленькая роль. Игроки тайно тратят накопленные очки силы (отмечают на особом циферблате) и добавляют к ним по желанию карты битвы с дополнительными очками силы. Сравнив значения, игроки определяют победителя.</p>\r\n<p>&nbsp;</p>\r\n<p>Если после перемещения персонаж оказался в одной клетке с жетоном встреч, он тянет карту встреч и выбирает один из игровых эффектов. Когда персонаж достигает центральной клетки поля \"Фактории\", он может получить соответствующую карту, которая даст новое уникальное действие, в дополнение к указанным на планшете игрока.</p>\r\n<p>&nbsp;</p>\r\n<p>Цель игры Серп - собрать как можно больше монет. Кроме получения монет в процессе игры, они начисляются за накопленные ресурсы, контролируемые ячейки поля и жетоны звездочек, которые получает игрок за достижение в процессе игры разных результатов, например, за постройку всех четырех роботов, за получение 16 очков силы, за выполненные условия на карте цели, за победу в бою и так далее. Причем и звездочки, и ресурсы, и контролируемые территории принесут тем больше монет, чем больше уровень популярности фракции. После финального подсчета очков определяется победитель.<br /><br /><br /></p>",
-            "modificationDateUtc": "2022-01-12T21:18:54",
+            "modificationDateUtc": "2022-02-23T15:54:31",
             "creationDateUtc": "2014-12-05T14:39:14",
             "photoUrl": "https://s.tesera.ru/images/items/478961,3/photo1.jpg",
             "year": 2016,
-            "ratingUser": 8.33,
-            "n10Rating": 8.31,
-            "n20Rating": 8.29,
-            "ratingMy": 10.0,
-            "bggRating": 8.218,
-            "bggGeekRating": 8.063,
-            "bggNumVotes": 64839,
-            "numVotes": 1384,
+            "ratingUser": 8.31,
+            "n10Rating": 8.29,
+            "n20Rating": 8.27,
+            "bggRating": 8.22,
+            "bggGeekRating": 8.061,
+            "bggNumVotes": 66115,
+            "numVotes": 1405,
             "playersMin": 1,
             "playersMax": 5,
             "playersMinRecommend": 3,
@@ -15325,18 +16074,18 @@ var games = [
             "timeToLearn": 15,
             "playtimeMin": 90,
             "playtimeMax": 160,
-            "commentsTotal": 2715,
+            "commentsTotal": 2727,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/478961",
             "isAddition": false
         },
-        "ownersTotal": 2501,
-        "sellTotal": 7,
-        "buyTotal": 7,
-        "sellTotalAll": 40,
-        "buyTotalAll": 136,
-        "commentsTotal": 2715,
-        "reportsTotal": 204,
+        "ownersTotal": 2547,
+        "sellTotal": 6,
+        "buyTotal": 2,
+        "sellTotalAll": 42,
+        "buyTotalAll": 142,
+        "commentsTotal": 2727,
+        "reportsTotal": 214,
         "photosTotal": 120,
         "filesTotal": 13,
         "linksTotal": 34,
@@ -15432,7 +16181,7 @@ var games = [
                 "login": "shalizhuk",
                 "name": "Сергей",
                 "avatarUrl": "https://s.tesera.ru/images/items/588687,22/photo.jpg",
-                "rating": 6379,
+                "rating": 6386,
                 "teseraUrl": "https://tesera.ru/user/588687"
             }
         }, {
@@ -15468,7 +16217,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/1086773/Серп_Automa_Multiplayer_правила_rus.docx",
             "modificationDateUtc": "2017-09-12T02:32:00",
             "creationDateUtc": "2017-09-12T02:32:00",
-            "author": {"teseraId": 741962, "id": 18350, "login": "nord_0", "name": "nord_0", "rating": 139, "teseraUrl": "https://tesera.ru/user/741962"}
+            "author": {"teseraId": 741962, "id": 18350, "login": "nord_0", "name": "nord_0", "rating": 142, "teseraUrl": "https://tesera.ru/user/741962"}
         }, {
             "teseraId": 1040892,
             "objectType": "Game",
@@ -15483,7 +16232,7 @@ var games = [
                 "login": "gelo",
                 "name": "Олег и Юля Шуршины",
                 "avatarUrl": "https://s.tesera.ru/images/items/645383,22/photo.jpg",
-                "rating": 16852,
+                "rating": 16853,
                 "teseraUrl": "https://tesera.ru/user/645383"
             }
         }],
@@ -15500,7 +16249,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -15514,9 +16263,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -15532,7 +16281,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -15548,7 +16297,7 @@ var games = [
                 "login": "bondjunior23",
                 "name": "bondjunior23",
                 "avatarUrl": "https://s.tesera.ru/images/items/716376,22/photo.jpg",
-                "rating": 1093,
+                "rating": 1111,
                 "teseraUrl": "https://tesera.ru/user/716376"
             }
         }, {
@@ -15579,14 +16328,14 @@ var games = [
             "creationDateUtc": "2010-03-06T10:16:37",
             "photoUrl": "https://s.tesera.ru/images/items/3452,3/200x200xpa/photo1.png",
             "year": 2009,
-            "numVotes": 754,
-            "ratingUser": 8.16,
-            "n10Rating": 8.12,
-            "n20Rating": 8.08,
+            "numVotes": 764,
+            "ratingUser": 8.15,
+            "n10Rating": 8.1,
+            "n20Rating": 8.06,
             "bggRating": 7.52,
-            "bggGeekRating": 7.297,
-            "bggNumVotes": 18891,
-            "commentsTotal": 1133,
+            "bggGeekRating": 7.296,
+            "bggNumVotes": 19093,
+            "commentsTotal": 1162,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -15603,9 +16352,9 @@ var games = [
             "ratingUser": 7.25,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.204,
-            "bggGeekRating": 5.806,
-            "bggNumVotes": 1379,
+            "bggRating": 6.203,
+            "bggGeekRating": 5.803,
+            "bggNumVotes": 1382,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -15620,14 +16369,14 @@ var games = [
             "creationDateUtc": "2011-06-13T17:56:23",
             "photoUrl": "https://s.tesera.ru/images/items/47542,3/200x200xpa/photo1.jpg",
             "year": 2011,
-            "numVotes": 555,
+            "numVotes": 559,
             "ratingUser": 8.33,
             "n10Rating": 8.27,
             "n20Rating": 8.22,
-            "bggRating": 7.876,
-            "bggGeekRating": 7.682,
-            "bggNumVotes": 26866,
-            "commentsTotal": 858,
+            "bggRating": 7.874,
+            "bggGeekRating": 7.678,
+            "bggNumVotes": 26944,
+            "commentsTotal": 861,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -15642,13 +16391,13 @@ var games = [
             "creationDateUtc": "2012-08-21T15:54:07",
             "photoUrl": "https://s.tesera.ru/images/items/159005,3/200x200xpa/photo1.jpg",
             "year": 2012,
-            "numVotes": 702,
-            "ratingUser": 8.31,
-            "n10Rating": 8.27,
-            "n20Rating": 8.22,
-            "bggRating": 8.122,
-            "bggGeekRating": 7.965,
-            "bggNumVotes": 41888,
+            "numVotes": 710,
+            "ratingUser": 8.32,
+            "n10Rating": 8.28,
+            "n20Rating": 8.23,
+            "bggRating": 8.12,
+            "bggGeekRating": 7.96,
+            "bggNumVotes": 42283,
             "commentsTotal": 761,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15663,14 +16412,14 @@ var games = [
             "creationDateUtc": "2012-10-29T05:13:07",
             "photoUrl": "https://s.tesera.ru/images/items/180768,3/200x200xpa/photo1.png",
             "year": 2012,
-            "numVotes": 466,
+            "numVotes": 470,
             "ratingUser": 7.98,
             "n10Rating": 7.92,
-            "n20Rating": 7.86,
-            "bggRating": 7.702,
-            "bggGeekRating": 7.472,
-            "bggNumVotes": 17229,
-            "commentsTotal": 578,
+            "n20Rating": 7.87,
+            "bggRating": 7.7,
+            "bggGeekRating": 7.469,
+            "bggNumVotes": 17396,
+            "commentsTotal": 579,
             "commentsTotalNew": 0,
             "isAddition": false
         }],
@@ -15685,13 +16434,13 @@ var games = [
             "creationDateUtc": "2016-05-31T07:50:39",
             "photoUrl": "https://s.tesera.ru/images/items/780023,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 189,
-            "ratingUser": 8.09,
+            "numVotes": 191,
+            "ratingUser": 8.08,
             "n10Rating": 7.94,
-            "n20Rating": 7.81,
-            "bggRating": 8.331,
-            "bggGeekRating": 7.834,
-            "bggNumVotes": 9110,
+            "n20Rating": 7.8,
+            "bggRating": 8.327,
+            "bggGeekRating": 7.833,
+            "bggNumVotes": 9279,
             "commentsTotal": 93,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15708,11 +16457,11 @@ var games = [
             "year": 2016,
             "numVotes": 18,
             "ratingUser": 8.1,
-            "n10Rating": 7.06,
+            "n10Rating": 7.05,
             "n20Rating": 0.0,
-            "bggRating": 8.228,
-            "bggGeekRating": 6.305,
-            "bggNumVotes": 768,
+            "bggRating": 8.223,
+            "bggGeekRating": 6.312,
+            "bggNumVotes": 782,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15728,12 +16477,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/967770,3/200x200xpa/photo1.jpg",
             "year": 2017,
             "numVotes": 127,
-            "ratingUser": 7.56,
-            "n10Rating": 7.39,
-            "n20Rating": 7.24,
-            "bggRating": 7.876,
-            "bggGeekRating": 7.261,
-            "bggNumVotes": 5651,
+            "ratingUser": 7.58,
+            "n10Rating": 7.4,
+            "n20Rating": 7.25,
+            "bggRating": 7.875,
+            "bggGeekRating": 7.262,
+            "bggNumVotes": 5754,
             "commentsTotal": 91,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15750,7 +16499,7 @@ var games = [
             "year": 2017,
             "numVotes": 34,
             "ratingUser": 7.26,
-            "n10Rating": 6.79,
+            "n10Rating": 6.78,
             "n20Rating": 6.49,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -15771,11 +16520,11 @@ var games = [
             "year": 0,
             "numVotes": 13,
             "ratingUser": 7.58,
-            "n10Rating": 6.54,
+            "n10Rating": 6.53,
             "n20Rating": 0.0,
-            "bggRating": 8.283,
-            "bggGeekRating": 5.845,
-            "bggNumVotes": 272,
+            "bggRating": 8.295,
+            "bggGeekRating": 5.863,
+            "bggNumVotes": 286,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15790,13 +16539,13 @@ var games = [
             "creationDateUtc": "2018-01-01T19:43:51",
             "photoUrl": "https://s.tesera.ru/images/items/1162496,3/200x200xpa/photo1.jpg",
             "year": 2018,
-            "numVotes": 109,
-            "ratingUser": 8.5,
-            "n10Rating": 8.22,
-            "n20Rating": 7.99,
-            "bggRating": 8.757,
-            "bggGeekRating": 7.939,
-            "bggNumVotes": 5588,
+            "numVotes": 112,
+            "ratingUser": 8.51,
+            "n10Rating": 8.24,
+            "n20Rating": 8.0,
+            "bggRating": 8.756,
+            "bggGeekRating": 7.945,
+            "bggNumVotes": 5709,
             "commentsTotal": 123,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15811,13 +16560,13 @@ var games = [
             "creationDateUtc": "2018-08-15T08:56:53",
             "photoUrl": "https://s.tesera.ru/images/items/1297135,3/200x200xpa/photo1.png",
             "year": 2018,
-            "numVotes": 32,
-            "ratingUser": 7.9,
-            "n10Rating": 7.25,
-            "n20Rating": 6.85,
-            "bggRating": 8.09,
-            "bggGeekRating": 6.853,
-            "bggNumVotes": 2048,
+            "numVotes": 33,
+            "ratingUser": 7.96,
+            "n10Rating": 7.31,
+            "n20Rating": 6.91,
+            "bggRating": 8.088,
+            "bggGeekRating": 6.871,
+            "bggNumVotes": 2120,
             "commentsTotal": 12,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15834,11 +16583,11 @@ var games = [
             "year": 2016,
             "numVotes": 11,
             "ratingUser": 6.57,
-            "n10Rating": 5.91,
+            "n10Rating": 5.9,
             "n20Rating": 0.0,
-            "bggRating": 8.161,
-            "bggGeekRating": 7.49,
-            "bggNumVotes": 140,
+            "bggRating": 8.143,
+            "bggGeekRating": 7.463,
+            "bggNumVotes": 143,
             "commentsTotal": 19,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15855,12 +16604,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/1473957,3/200x200xpa/photo1.png",
             "year": 2019,
             "numVotes": 10,
-            "ratingUser": 8.2,
-            "n10Rating": 6.69,
+            "ratingUser": 8.1,
+            "n10Rating": 6.64,
             "n20Rating": 0.0,
-            "bggRating": 8.325,
-            "bggGeekRating": 6.485,
-            "bggNumVotes": 995,
+            "bggRating": 8.317,
+            "bggGeekRating": 6.501,
+            "bggNumVotes": 1037,
             "commentsTotal": 50,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15877,11 +16626,11 @@ var games = [
             "year": 2016,
             "numVotes": 12,
             "ratingUser": 7.56,
-            "n10Rating": 6.48,
+            "n10Rating": 6.47,
             "n20Rating": 0.0,
-            "bggRating": 8.95,
-            "bggGeekRating": 8.155,
-            "bggNumVotes": 104,
+            "bggRating": 8.96,
+            "bggGeekRating": 8.127,
+            "bggNumVotes": 109,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15900,9 +16649,9 @@ var games = [
             "ratingUser": 8.12,
             "n10Rating": 6.84,
             "n20Rating": 0.0,
-            "bggRating": 8.881,
-            "bggGeekRating": 8.121,
-            "bggNumVotes": 192,
+            "bggRating": 8.888,
+            "bggGeekRating": 8.119,
+            "bggNumVotes": 196,
             "commentsTotal": 10,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -15929,18 +16678,6 @@ var games = [
             "isAddition": true
         }],
         "news": [{
-            "teseraId": 893646,
-            "title": "Tric Trac d’Or 2016: лауреаты",
-            "alias": "893646",
-            "contentShort": "Определились лауреаты премии Tric Trac d’Or по версии 2016 года.",
-            "creationDateUtc": "2016-12-08T12:54:19",
-            "modificationDateUtc": "2020-08-14T07:53:21",
-            "publicationDateUtc": "2016-12-08T13:03:00",
-            "photoUrl": "https://s.tesera.ru/images/items/893646,18/125x125xpa/photo.png",
-            "rating": 9.12,
-            "commentsTotal": 17,
-            "numVotes": 26
-        }, {
             "teseraId": 1162627,
             "title": "Заключение истории игры «СЕРП»",
             "alias": "scythethirdaddon",
@@ -15989,6 +16726,18 @@ var games = [
             "rating": 9.12,
             "commentsTotal": 133,
             "numVotes": 101
+        }, {
+            "teseraId": 916949,
+            "title": "«Серп»: рекорд на Boomstarter.ru",
+            "alias": "916949",
+            "contentShort": "И бесплатная демонстрация на Tabletopia.",
+            "creationDateUtc": "2017-01-17T10:31:17",
+            "modificationDateUtc": "2020-08-14T07:53:28",
+            "publicationDateUtc": "2017-01-17T10:42:00",
+            "photoUrl": "https://s.tesera.ru/images/items/916949,18/125x125xpa/photo.jpg",
+            "rating": 8.57,
+            "commentsTotal": 61,
+            "numVotes": 63
         }]
     }, {
         "game": {
@@ -16000,18 +16749,17 @@ var games = [
             "alias": "cyclades",
             "descriptionShort": "«Киклады» — игра-гибрид, в которой необходимо стремительно развивать метрополии, вести ожесточённую борьбу за территории и использовать благосклонность богов в своих целях.",
             "description": "<p>Приготовьтесь отправиться на Кикладский архипелаг в золотой век Древней Греции. Станьте во главе одного из городов и приведите его к процветанию и вечной славе.</p>\r\n<p>&nbsp;</p>\r\n<p>Игра состоит из нескольких раундов, во время которых игроки, во-первых, получают доход в золотых монетах, равный количеству контролируемых ими маркеров процветания. Во-вторых, совершают подношения богам.</p>\r\n<p>&nbsp;</p>\r\n<p>Чтобы получить их благосклонность и выполнить связанные с ними действия, игроки должны жертвовать частью своего богатства. В порядке очереди игроки выбирают одного бога и делают ему подношение, разместив маркер в виде колонны на одну из цифр, соответствующую размеру подношения. Следующий игрок может выбрать этого же бога, перебив ставку и сделав большее подношение. В этом случае предыдущий игрок немедленно должен выбрать другого бога. Исключением является только Аполлон. Это единственный бог, не требующий подношений, и его могут выбрать одновременно несколько игроков. Правда, наибольшую выгоду получит тот, кто выбрал его первым.</p>\r\n<p>&nbsp;</p>\r\n<p>В-третьих, игроки совершают действия, связанные с выбранным богом. Все доступные игрокам действия напрямую зависят от богов. При этом все боги довольно тесно взаимосвязаны. Без помощи Ареса не начать войну, но без кораблей Посейдона любая армия будет лишь обузой. Зевс поможет экономить деньги на дальнейших ставках и вызове мифических существ, а Афина позволит выиграть партию, не проведя ни одной битвы. При этом золото Аполлона ускорит рост государства, сделав сильной его экономику.</p>\r\n<p>&nbsp;</p>\r\n<p>Цель каждого игрока &mdash; владеть двумя метрополиями к концу раунда (их можно построить и/или завоевать). Игра заканчивается в конце того раунда, в котором хотя бы один игрок достиг цели. Если к концу раунда цели достигли несколько игроков, побеждает самый богатый (тот, у кого больше золотых монет).</p>",
-            "modificationDateUtc": "2022-01-14T06:16:19",
+            "modificationDateUtc": "2022-02-23T14:50:17",
             "creationDateUtc": "2010-03-06T10:16:37",
             "photoUrl": "https://s.tesera.ru/images/items/3452,3/photo1.png",
             "year": 2009,
-            "ratingUser": 8.16,
-            "n10Rating": 8.12,
-            "n20Rating": 8.08,
-            "ratingMy": 10.0,
+            "ratingUser": 8.15,
+            "n10Rating": 8.1,
+            "n20Rating": 8.06,
             "bggRating": 7.52,
-            "bggGeekRating": 7.297,
-            "bggNumVotes": 18891,
-            "numVotes": 754,
+            "bggGeekRating": 7.296,
+            "bggNumVotes": 19093,
+            "numVotes": 764,
             "playersMin": 2,
             "playersMax": 5,
             "playersMinRecommend": 4,
@@ -16020,18 +16768,18 @@ var games = [
             "timeToLearn": 30,
             "playtimeMin": 60,
             "playtimeMax": 90,
-            "commentsTotal": 1133,
+            "commentsTotal": 1162,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/3452",
             "isAddition": false
         },
-        "ownersTotal": 1200,
-        "sellTotal": 11,
-        "buyTotal": 5,
-        "sellTotalAll": 17,
-        "buyTotalAll": 88,
-        "commentsTotal": 1133,
-        "reportsTotal": 27,
+        "ownersTotal": 1220,
+        "sellTotal": 13,
+        "buyTotal": 3,
+        "sellTotalAll": 16,
+        "buyTotalAll": 94,
+        "commentsTotal": 1162,
+        "reportsTotal": 30,
         "photosTotal": 37,
         "filesTotal": 10,
         "linksTotal": 19,
@@ -16049,7 +16797,7 @@ var games = [
                 "login": "irbis",
                 "name": "Андрей",
                 "avatarUrl": "https://s.tesera.ru/images/items/338434,22/photo.jpg",
-                "rating": 2314,
+                "rating": 2320,
                 "teseraUrl": "https://tesera.ru/user/338434"
             }
         }, {
@@ -16064,7 +16812,7 @@ var games = [
                 "login": "nikolai11",
                 "name": "Николай",
                 "avatarUrl": "https://s.tesera.ru/images/items/1638044,22/photo.jpg",
-                "rating": 663,
+                "rating": 702,
                 "teseraUrl": "https://tesera.ru/user/1638044"
             }
         }, {
@@ -16079,7 +16827,7 @@ var games = [
                 "login": "delorian",
                 "name": "DeLorian",
                 "avatarUrl": "https://s.tesera.ru/images/items/796619,22/photo.jpg",
-                "rating": 7115,
+                "rating": 7119,
                 "teseraUrl": "https://tesera.ru/user/796619"
             }
         }, {
@@ -16094,7 +16842,7 @@ var games = [
                 "login": "delorian",
                 "name": "DeLorian",
                 "avatarUrl": "https://s.tesera.ru/images/items/796619,22/photo.jpg",
-                "rating": 7115,
+                "rating": 7119,
                 "teseraUrl": "https://tesera.ru/user/796619"
             }
         }, {
@@ -16109,7 +16857,7 @@ var games = [
                 "login": "delorian",
                 "name": "DeLorian",
                 "avatarUrl": "https://s.tesera.ru/images/items/796619,22/photo.jpg",
-                "rating": 7115,
+                "rating": 7119,
                 "teseraUrl": "https://tesera.ru/user/796619"
             }
         }],
@@ -16126,7 +16874,7 @@ var games = [
                 "login": "crowd",
                 "name": "CrowD",
                 "avatarUrl": "https://s.tesera.ru/images/items/515528,22/photo.png",
-                "rating": 6160,
+                "rating": 6277,
                 "teseraUrl": "https://tesera.ru/user/515528"
             }
         }, {
@@ -16142,7 +16890,7 @@ var games = [
                 "login": "crowd",
                 "name": "CrowD",
                 "avatarUrl": "https://s.tesera.ru/images/items/515528,22/photo.png",
-                "rating": 6160,
+                "rating": 6277,
                 "teseraUrl": "https://tesera.ru/user/515528"
             }
         }, {
@@ -16159,7 +16907,7 @@ var games = [
                 "login": "berik_ts",
                 "name": "Berik_ts",
                 "avatarUrl": "https://s.tesera.ru/images/items/508477,22/photo.jpg",
-                "rating": 7299,
+                "rating": 7305,
                 "teseraUrl": "https://tesera.ru/user/508477"
             }
         }, {
@@ -16208,9 +16956,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -16226,7 +16974,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -16236,7 +16984,7 @@ var games = [
             "photoUrl": "https://desktopgames.com.ua/kikladi.html",
             "modificationDateUtc": "2021-08-17T06:59:18",
             "creationDateUtc": "2021-08-17T06:59:17",
-            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1763, "teseraUrl": "https://tesera.ru/user/1924212"}
+            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1823, "teseraUrl": "https://tesera.ru/user/1924212"}
         }, {
             "teseraId": 1906271,
             "objectType": "Game",
@@ -16250,7 +16998,7 @@ var games = [
                 "login": "ferstagerov",
                 "name": "Леша Сосницкий",
                 "avatarUrl": "https://s.tesera.ru/images/items/1290859,22/photo.png",
-                "rating": 3353,
+                "rating": 3376,
                 "teseraUrl": "https://tesera.ru/user/1290859"
             }
         }, {
@@ -16266,7 +17014,7 @@ var games = [
                 "login": "scafandr",
                 "name": "scafandr",
                 "avatarUrl": "https://s.tesera.ru/images/items/14747,22/photo.jpg",
-                "rating": 25170,
+                "rating": 25230,
                 "teseraUrl": "https://tesera.ru/user/14747"
             }
         }],
@@ -16285,9 +17033,9 @@ var games = [
             "ratingUser": 6.98,
             "n10Rating": 6.88,
             "n20Rating": 6.8,
-            "bggRating": 6.718,
+            "bggRating": 6.719,
             "bggGeekRating": 6.255,
-            "bggNumVotes": 3147,
+            "bggNumVotes": 3155,
             "commentsTotal": 38,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -16307,8 +17055,8 @@ var games = [
             "n10Rating": 6.94,
             "n20Rating": 6.76,
             "bggRating": 6.872,
-            "bggGeekRating": 6.477,
-            "bggNumVotes": 4404,
+            "bggGeekRating": 6.474,
+            "bggNumVotes": 4411,
             "commentsTotal": 21,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -16326,9 +17074,9 @@ var games = [
             "ratingUser": 10.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.401,
-            "bggGeekRating": 6.105,
-            "bggNumVotes": 820,
+            "bggRating": 7.402,
+            "bggGeekRating": 6.102,
+            "bggNumVotes": 821,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -16347,10 +17095,10 @@ var games = [
             "numVotes": 47,
             "ratingUser": 6.77,
             "n10Rating": 6.49,
-            "n20Rating": 6.3,
-            "bggRating": 6.514,
-            "bggGeekRating": 5.963,
-            "bggNumVotes": 1485,
+            "n20Rating": 6.29,
+            "bggRating": 6.516,
+            "bggGeekRating": 5.961,
+            "bggNumVotes": 1490,
             "commentsTotal": 32,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -16368,9 +17116,9 @@ var games = [
             "ratingUser": 6.75,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.184,
-            "bggGeekRating": 5.863,
-            "bggNumVotes": 2080,
+            "bggRating": 6.183,
+            "bggGeekRating": 5.861,
+            "bggNumVotes": 2084,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -16386,13 +17134,13 @@ var games = [
             "creationDateUtc": "2011-04-12T13:55:37",
             "photoUrl": "https://s.tesera.ru/images/items/36098,3/200x200xpa/photo1.png",
             "year": 2011,
-            "numVotes": 162,
+            "numVotes": 164,
             "ratingUser": 8.39,
             "n10Rating": 8.2,
             "n20Rating": 8.04,
-            "bggRating": 7.999,
+            "bggRating": 8.0,
             "bggGeekRating": 6.901,
-            "bggNumVotes": 2363,
+            "bggNumVotes": 2385,
             "commentsTotal": 266,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -16411,9 +17159,9 @@ var games = [
             "ratingUser": 7.61,
             "n10Rating": 6.74,
             "n20Rating": 0.0,
-            "bggRating": 7.543,
-            "bggGeekRating": 5.893,
-            "bggNumVotes": 430,
+            "bggRating": 7.53,
+            "bggGeekRating": 5.887,
+            "bggNumVotes": 435,
             "commentsTotal": 26,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -16429,11 +17177,11 @@ var games = [
             "year": 2013,
             "numVotes": 21,
             "ratingUser": 7.42,
-            "n10Rating": 6.7,
-            "n20Rating": 6.33,
-            "bggRating": 7.563,
-            "bggGeekRating": 6.016,
-            "bggNumVotes": 598,
+            "n10Rating": 6.69,
+            "n20Rating": 6.32,
+            "bggRating": 7.549,
+            "bggGeekRating": 6.012,
+            "bggNumVotes": 602,
             "commentsTotal": 46,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -16449,12 +17197,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/370477,3/200x200xpa/photo1.jpg",
             "year": 2014,
             "numVotes": 89,
-            "ratingUser": 8.21,
+            "ratingUser": 8.22,
             "n10Rating": 7.91,
             "n20Rating": 7.66,
-            "bggRating": 8.08,
-            "bggGeekRating": 6.811,
-            "bggNumVotes": 1877,
+            "bggRating": 8.077,
+            "bggGeekRating": 6.805,
+            "bggNumVotes": 1889,
             "commentsTotal": 144,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -16469,13 +17217,13 @@ var games = [
             "creationDateUtc": "2016-03-25T11:57:08",
             "photoUrl": "https://s.tesera.ru/images/items/739793,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 39,
-            "ratingUser": 7.76,
-            "n10Rating": 7.22,
-            "n20Rating": 6.87,
-            "bggRating": 7.58,
-            "bggGeekRating": 5.951,
-            "bggNumVotes": 523,
+            "numVotes": 40,
+            "ratingUser": 7.77,
+            "n10Rating": 7.25,
+            "n20Rating": 6.9,
+            "bggRating": 7.59,
+            "bggGeekRating": 5.954,
+            "bggNumVotes": 531,
             "commentsTotal": 89,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -16489,13 +17237,13 @@ var games = [
             "creationDateUtc": "2016-10-14T16:25:43",
             "photoUrl": "https://s.tesera.ru/images/items/859439,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 2,
-            "ratingUser": 6.5,
+            "numVotes": 3,
+            "ratingUser": 6.67,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.661,
-            "bggGeekRating": 5.587,
-            "bggNumVotes": 83,
+            "bggRating": 7.69,
+            "bggGeekRating": 5.589,
+            "bggNumVotes": 84,
             "commentsTotal": 11,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -16572,19 +17320,18 @@ var games = [
             "alias": "potion-explosion",
             "descriptionShort": "Лаборатория (Potion Explosion) – стратегическая игра, где участники партии – студенты класса зельеваренье – сдают выпускной экзамен. Однако нужно не просто варить зелья, но помнить о том, что для победы они должны быть дорогими. Количество игроков от 2 до 4.",
             "description": "<p>Игра по созданию эликсиров и уничтожению пузырьков для 2&ndash;4 учеников-волшебников!<br />Уважаемые ученики, пришло время для выпускных экзаменов в классе зельеварения! Правила все те же: берете пузырек с ингредиентом из дозатора и отслеживаете цвет следующего пузырька. Если вы получите пузырьки того же цвета, они взорвутся, тогда вы сможете их тоже забрать. Наполните собранными пузырьками свои эликсиры и выпейте, чтобы выпустить их магическую силу. Однако помните &ndash; чтобы выиграть награду &laquo;Студент года&raquo;, недостаточно быть самым быстрым, нужно сварить самые дорогие зелья!</p>",
-            "modificationDateUtc": "2022-01-12T13:06:36",
+            "modificationDateUtc": "2022-02-23T14:52:22",
             "creationDateUtc": "2015-10-11T13:06:05",
             "photoUrl": "https://s.tesera.ru/images/items/622410,3/photo1.png",
             "photoUrl2": "https://s.tesera.ru/images/items/622410,3/photo2.png",
             "year": 2015,
-            "ratingUser": 7.58,
-            "n10Rating": 7.53,
-            "n20Rating": 7.49,
-            "ratingMy": 8.75,
-            "bggRating": 7.146,
+            "ratingUser": 7.56,
+            "n10Rating": 7.51,
+            "n20Rating": 7.47,
+            "bggRating": 7.15,
             "bggGeekRating": 6.943,
-            "bggNumVotes": 15328,
-            "numVotes": 492,
+            "bggNumVotes": 15649,
+            "numVotes": 499,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 2,
@@ -16598,13 +17345,13 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/622410",
             "isAddition": false
         },
-        "ownersTotal": 1034,
+        "ownersTotal": 1053,
         "sellTotal": 4,
-        "buyTotal": 7,
+        "buyTotal": 5,
         "sellTotalAll": 17,
-        "buyTotalAll": 37,
+        "buyTotalAll": 38,
         "commentsTotal": 174,
-        "reportsTotal": 46,
+        "reportsTotal": 59,
         "photosTotal": 16,
         "filesTotal": 3,
         "linksTotal": 8,
@@ -16622,7 +17369,7 @@ var games = [
                 "login": "gdevse",
                 "name": "gdevse",
                 "avatarUrl": "https://s.tesera.ru/images/items/1413638,22/photo.jpg",
-                "rating": 763,
+                "rating": 769,
                 "teseraUrl": "https://tesera.ru/user/1413638"
             }
         }, {
@@ -16637,7 +17384,7 @@ var games = [
                 "login": "gdevse",
                 "name": "gdevse",
                 "avatarUrl": "https://s.tesera.ru/images/items/1413638,22/photo.jpg",
-                "rating": 763,
+                "rating": 769,
                 "teseraUrl": "https://tesera.ru/user/1413638"
             }
         }, {
@@ -16652,7 +17399,7 @@ var games = [
                 "login": "bearwolf",
                 "name": "Саша, Алёна и Кира",
                 "avatarUrl": "https://s.tesera.ru/images/items/1057406,22/photo.jpg",
-                "rating": 3735,
+                "rating": 3736,
                 "teseraUrl": "https://tesera.ru/user/1057406"
             }
         }, {
@@ -16667,7 +17414,7 @@ var games = [
                 "login": "hostel",
                 "name": "Евгений",
                 "avatarUrl": "https://s.tesera.ru/images/items/908282,22/photo.jpg",
-                "rating": 10476,
+                "rating": 10483,
                 "teseraUrl": "https://tesera.ru/user/908282"
             }
         }, {
@@ -16700,7 +17447,7 @@ var games = [
                 "login": "playstay",
                 "name": "Константин",
                 "avatarUrl": "https://s.tesera.ru/images/items/219734,22/photo.jpg",
-                "rating": 2799,
+                "rating": 2852,
                 "teseraUrl": "https://tesera.ru/user/219734"
             }
         }, {
@@ -16734,7 +17481,7 @@ var games = [
                 "login": "janlynn",
                 "name": "Анжела",
                 "avatarUrl": "https://s.tesera.ru/images/items/507388,22/photo.jpg",
-                "rating": 6474,
+                "rating": 6476,
                 "teseraUrl": "https://tesera.ru/user/507388"
             }
         }],
@@ -16749,9 +17496,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -16767,7 +17514,7 @@ var games = [
                 "login": "domik",
                 "name": "Мигель Дам",
                 "avatarUrl": "https://s.tesera.ru/images/items/1004646,22/photo.jpg",
-                "rating": 1668,
+                "rating": 1690,
                 "teseraUrl": "https://tesera.ru/user/1004646"
             }
         }, {
@@ -16799,7 +17546,7 @@ var games = [
                 "login": "tarantino",
                 "name": "Tarantino",
                 "avatarUrl": "https://s.tesera.ru/images/items/1313161,22/photo.jpg",
-                "rating": 717,
+                "rating": 718,
                 "teseraUrl": "https://tesera.ru/user/1313161"
             }
         }, {
@@ -16815,7 +17562,7 @@ var games = [
                 "login": "geekach_ua",
                 "name": "Гикач",
                 "avatarUrl": "https://s.tesera.ru/images/items/1134445,22/photo.png",
-                "rating": 3600,
+                "rating": 3621,
                 "teseraUrl": "https://tesera.ru/user/1134445"
             }
         }],
@@ -16831,13 +17578,13 @@ var games = [
             "creationDateUtc": "2009-12-23T12:18:27",
             "photoUrl": "https://s.tesera.ru/images/items/1578,3/200x200xpa/photo1.jpg",
             "year": 2005,
-            "numVotes": 708,
+            "numVotes": 710,
             "ratingUser": 6.34,
             "n10Rating": 6.32,
             "n20Rating": 6.31,
-            "bggRating": 6.16,
-            "bggGeekRating": 5.688,
-            "bggNumVotes": 842,
+            "bggRating": 6.155,
+            "bggGeekRating": 5.685,
+            "bggNumVotes": 846,
             "commentsTotal": 62,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -16854,11 +17601,11 @@ var games = [
             "year": 2012,
             "numVotes": 26,
             "ratingUser": 5.45,
-            "n10Rating": 5.38,
+            "n10Rating": 5.37,
             "n20Rating": 5.33,
-            "bggRating": 5.542,
-            "bggGeekRating": 5.507,
-            "bggNumVotes": 610,
+            "bggRating": 5.53,
+            "bggGeekRating": 5.502,
+            "bggNumVotes": 618,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -16875,12 +17622,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/883118,3/200x200xpa/photo1.jpg",
             "year": 2017,
             "numVotes": 84,
-            "ratingUser": 7.69,
-            "n10Rating": 7.42,
-            "n20Rating": 7.21,
-            "bggRating": 7.219,
-            "bggGeekRating": 6.811,
-            "bggNumVotes": 5861,
+            "ratingUser": 7.68,
+            "n10Rating": 7.41,
+            "n20Rating": 7.2,
+            "bggRating": 7.215,
+            "bggGeekRating": 6.808,
+            "bggNumVotes": 5919,
             "commentsTotal": 45,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -16895,13 +17642,13 @@ var games = [
             "creationDateUtc": "2018-06-19T21:12:50",
             "photoUrl": "https://s.tesera.ru/images/items/1272004,3/200x200xpa/photo1.png",
             "year": 2018,
-            "numVotes": 165,
-            "ratingUser": 7.42,
-            "n10Rating": 7.29,
-            "n20Rating": 7.18,
-            "bggRating": 7.428,
-            "bggGeekRating": 7.089,
-            "bggNumVotes": 8718,
+            "numVotes": 170,
+            "ratingUser": 7.43,
+            "n10Rating": 7.3,
+            "n20Rating": 7.19,
+            "bggRating": 7.425,
+            "bggGeekRating": 7.087,
+            "bggNumVotes": 8938,
             "commentsTotal": 45,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -16916,13 +17663,13 @@ var games = [
             "creationDateUtc": "2018-12-04T22:36:03",
             "photoUrl": "https://s.tesera.ru/images/items/1355715,3/200x200xpa/photo1.jpg",
             "year": 2019,
-            "numVotes": 65,
-            "ratingUser": 6.91,
+            "numVotes": 72,
+            "ratingUser": 6.89,
             "n10Rating": 6.68,
-            "n20Rating": 6.5,
-            "bggRating": 6.93,
-            "bggGeekRating": 5.971,
-            "bggNumVotes": 980,
+            "n20Rating": 6.52,
+            "bggRating": 6.92,
+            "bggGeekRating": 5.991,
+            "bggNumVotes": 1063,
             "commentsTotal": 41,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -16941,9 +17688,9 @@ var games = [
             "ratingUser": 8.19,
             "n10Rating": 7.3,
             "n20Rating": 6.82,
-            "bggRating": 7.501,
-            "bggGeekRating": 6.207,
-            "bggNumVotes": 995,
+            "bggRating": 7.497,
+            "bggGeekRating": 6.214,
+            "bggNumVotes": 1022,
             "commentsTotal": 16,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -16961,9 +17708,9 @@ var games = [
             "ratingUser": 7.1,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.272,
-            "bggGeekRating": 5.643,
-            "bggNumVotes": 151,
+            "bggRating": 7.29,
+            "bggGeekRating": 5.646,
+            "bggNumVotes": 154,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -16981,9 +17728,9 @@ var games = [
             "ratingUser": 9.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.532,
-            "bggGeekRating": 5.767,
-            "bggNumVotes": 280,
+            "bggRating": 7.541,
+            "bggGeekRating": 5.775,
+            "bggNumVotes": 290,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -17024,19 +17771,18 @@ var games = [
             "alias": "Star-Realms-HW-Box",
             "descriptionShort": "Далёкое будущее охвачено пламенем великой войны за господство над целой галактикой…Торговая Федерация давит своей развитой экономикой, коллективный рой Слизней ведёт стремительную экспансию, а милитаристская Звездная империя и прогрессивный Технокульт отправляют свои корабли на войну. Только вы сможете определить исход этого конфликта. Покорите галактику и построите свою звёздную империю!",
             "description": "<p>Далёкое будущее охвачено пламенем великой войны за господство над целой галактикой&hellip;Торговая Федерация давит своей развитой экономикой, коллективный рой Слизней ведёт стремительную экспансию, а милитаристская Звездная империя и прогрессивный Технокульт отправляют свои корабли на войну. Только вы сможете определить исход этого конфликта. Покорите галактику и построите свою звёздную империю!</p>\r\n<p>&nbsp;</p>\r\n<p>Это издание предназначено как для настоящих поклонников игры, так и для начинающих своё знакомство не только с этой игрой, но и с миром настольных игр в целом. Смотрите сами &mdash; данный набор, в своей красиво иллюстрированной подарочной коробке, содержит одну базовую игру и одно дополнение &laquo;Гамбит&raquo;, которое состоит из пяти мини-расширений. Всё это гарантирует вам огромное многообразие игрового процесса. Новичкам будет интересно освоить настольную игру, основанную на строительстве колоды. Уже знакомым с этой механикой будет просто интересно поиграть в новую игру с оригинальными механиками. А старичкам пригодится и вторая база, с помощью которой вы сможете играть уже вчетвером!</p>\r\n<p>&nbsp;</p>\r\n<h3>О базовой игре</h3>\r\n<p>&laquo;Звёздные империи&raquo; &mdash; колодостроительная игра для 2-6 человек на космическую тематику. Игрокам предстоит собрать свой флот, оборудовать базы и аванпосты и атаковать друг друга для снижения очков влияния противника. Все игроки начинают в равных условиях. Используя различные комбинации карт с уникальными свойствами, игроки сами выбирают свою стратегию во время самой партии, вырабатывают защиту от атак противника и ищут бреши в обороне противника. Можно идти разными путями, пользоваться силой, хитростью или богатством, но всем одинаково понадобятся мастерство, интуиция и хладнокровный расчёт!</p>\r\n<p>&nbsp;</p>\r\n<h3>О дополнении</h3>\r\n<p>Данный подарочный набор, как говорилось выше, включает в себя набор &laquo;Гамбит&raquo;. Данный набор содержит сразу пять мини-дополнений, причём вы сами можете выбирать, сколько и какие именно из них вы &laquo;подключите&raquo; к игровой партии. Вариативность и глубина игрового процесса с ними возрастает до невероятных высот!</p>\r\n<p>Давайте рассмотрим новинки:</p>\r\n<ul>\r\n<li>&laquo;События&raquo; &mdash; после появления карты события в торговом ряду немедленно выполняется её действие, а затем карта отправляется в утиль. Карту события нельзя купить, она никогда не попадает в вашу личную колоду;</li>\r\n<li>&laquo;Персонажи&raquo; &mdash; карты персонажей, появившиеся в торговом ряду, можно купить по тем же правилам, что и карты кораблей и баз. Однако после покупки персонаж не добавляется в ваш сброс, а сразу же разыгрывается;</li>\r\n<li>Новые уникальные корабли и базы;</li>\r\n<li>&laquo;Гамбиты&raquo; &mdash; новая механика, с картами, которые раздаются перед началом партии. Полученные карты гамбитов держатся перед игроком лицевой стороной вниз. Гамбиты не могут попасть на руку, в личную или торговую колоду. В начале игры или в любой момент своей основной фазы вы можете открыть сколько угодно лежащих перед вами гамбитов. Первичное свойство гамбита тут же вступает в силу и действует, пока эта карта лежит перед вами;</li>\r\n<li>Также в игру добавились кооперативные сценарии, в том числе два одиночных.</li>\r\n</ul>\r\n<h3></h3>\r\n<h3>Как играть</h3>\r\n<p>Каждый игрок начинает партию с личной колодой карт кораблей. Каждый ход участники разыгрывают карты с руки, тем самым совершая торговые операции, боевые действия, расширяя свои зоны влияния. Сами ходы состоят из трёх фаз (Основной, Сброса и Добора), по завершению которых, начинается новый ход.</p>\r\n<p>В основную фазу вы можете разыгрывать карты, использовать различные их свойства, совершать покупки и атаковать противника. Сами карты могут быть нескольких типов &mdash; кораблями и базами. Их действия сильно отличаются друг от друга. Свойства кораблей разыгрываются сразу, а карта лежит до конца вашего хода. Базы же не сбрасываются, а остаются лежать перед вами до тех пор, пока не будут разрушены. Более того, помимо своих свойств и бонусов, базы-аванпосты заставляют противника атаковать сначала себя, тем самым защищая ваши прочие базы и вас лично &mdash; основную цель врага.</p>\r\n<p>Карты обладают различными свойствами, которые применяются в различные фазы хода и дают вам уникальные бонусы или способности, на которых и будет построена ваша стратегия победы. С помощью карт приобретают очки боя, торговли или влияния &mdash; это ваши основные ресурсы на игру.</p>\r\n<p>Помимо этого, все карты обладают принадлежностью к определённым сторонам конфликта. Для использования этой особенности перед вами должно быть сыграно две или более карты, принадлежащие одной фракции.</p>\r\n<p>По ходу игры вы совершаете покупку карт за счёт своих очков торговли, добавляя эти карты в свою колоду, наращивая мощь и строя определённую стратегию на игру, завязанную на приобретённых картах. Очки боя же тратятся на совершение атак противника и по сути &mdash; &laquo;перекупки&raquo; баз врага. Чтобы уничтожить базу вы должны заплатить столько очков боя, сколько указано на карте в графе Оборона.</p>\r\n<p>Так ход за ходом вы расширяете свою колоду и свои возможности, разрабатываете план победы и пытаетесь отгадать стратегию противника.</p>\r\n<h3></h3>\r\n<h3>Кто победил?</h3>\r\n<p>В игре есть специальные Очки влияния &mdash; это ваш счёт или очки жизни. По базовым правилам каждый участник начинает игру с 50 очками влияния. Игрок, сумевший первым снизить влияние противника до нуля, становится победителем.</p>",
-            "modificationDateUtc": "2022-01-12T06:03:31",
+            "modificationDateUtc": "2022-02-23T16:03:25",
             "creationDateUtc": "2015-12-19T01:28:48",
             "photoUrl": "https://s.tesera.ru/images/items/662706,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/662706,3/photo2.jpg",
             "year": 2015,
-            "ratingUser": 7.71,
-            "n10Rating": 7.67,
-            "n20Rating": 7.63,
-            "ratingMy": 8.0,
-            "bggRating": 7.88,
+            "ratingUser": 7.69,
+            "n10Rating": 7.65,
+            "n20Rating": 7.61,
+            "bggRating": 7.87,
             "bggGeekRating": 5.705,
-            "bggNumVotes": 188,
-            "numVotes": 586,
+            "bggNumVotes": 195,
+            "numVotes": 601,
             "playersMin": 2,
             "playersMax": 6,
             "playersMinRecommend": 2,
@@ -17050,13 +17796,13 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/662706",
             "isAddition": false
         },
-        "ownersTotal": 1766,
+        "ownersTotal": 1813,
         "sellTotal": 4,
-        "buyTotal": 0,
+        "buyTotal": 4,
         "sellTotalAll": 12,
-        "buyTotalAll": 18,
+        "buyTotalAll": 16,
         "commentsTotal": 83,
-        "reportsTotal": 30,
+        "reportsTotal": 32,
         "photosTotal": 15,
         "filesTotal": 4,
         "linksTotal": 14,
@@ -17089,7 +17835,7 @@ var games = [
                 "login": "doomachevsky",
                 "name": "Довгаль Руслан Валерьевич",
                 "avatarUrl": "https://s.tesera.ru/images/items/88056,22/photo.jpg",
-                "rating": 7922,
+                "rating": 7935,
                 "teseraUrl": "https://tesera.ru/user/88056"
             }
         }, {
@@ -17104,7 +17850,7 @@ var games = [
                 "login": "doomachevsky",
                 "name": "Довгаль Руслан Валерьевич",
                 "avatarUrl": "https://s.tesera.ru/images/items/88056,22/photo.jpg",
-                "rating": 7922,
+                "rating": 7935,
                 "teseraUrl": "https://tesera.ru/user/88056"
             }
         }, {
@@ -17119,7 +17865,7 @@ var games = [
                 "login": "doomachevsky",
                 "name": "Довгаль Руслан Валерьевич",
                 "avatarUrl": "https://s.tesera.ru/images/items/88056,22/photo.jpg",
-                "rating": 7922,
+                "rating": 7935,
                 "teseraUrl": "https://tesera.ru/user/88056"
             }
         }, {
@@ -17134,7 +17880,7 @@ var games = [
                 "login": "doomachevsky",
                 "name": "Довгаль Руслан Валерьевич",
                 "avatarUrl": "https://s.tesera.ru/images/items/88056,22/photo.jpg",
-                "rating": 7922,
+                "rating": 7935,
                 "teseraUrl": "https://tesera.ru/user/88056"
             }
         }],
@@ -17152,7 +17898,7 @@ var games = [
                 "login": "hoxqot",
                 "name": "Алексей Кондрашов",
                 "avatarUrl": "https://s.tesera.ru/images/items/1514766,22/photo.jpg",
-                "rating": 95,
+                "rating": 98,
                 "teseraUrl": "https://tesera.ru/user/1514766"
             }
         }, {
@@ -17168,7 +17914,7 @@ var games = [
                 "login": "aisha",
                 "name": "Александра",
                 "avatarUrl": "https://s.tesera.ru/images/items/724111,22/photo.jpg",
-                "rating": 6929,
+                "rating": 7096,
                 "teseraUrl": "https://tesera.ru/user/724111"
             }
         }, {
@@ -17201,7 +17947,7 @@ var games = [
                 "login": "bobrik",
                 "name": "Яна Бебре",
                 "avatarUrl": "https://s.tesera.ru/images/items/483224,22/photo.jpg",
-                "rating": 19905,
+                "rating": 19909,
                 "teseraUrl": "https://tesera.ru/user/483224"
             }
         }],
@@ -17218,7 +17964,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -17232,9 +17978,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -17250,7 +17996,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -17266,7 +18012,7 @@ var games = [
                 "login": "crazy_murloc",
                 "name": "Банько Алексей Юрьевич",
                 "avatarUrl": "https://s.tesera.ru/images/items/1673299,22/photo.png",
-                "rating": 3238,
+                "rating": 3448,
                 "teseraUrl": "https://tesera.ru/user/1673299"
             }
         }, {
@@ -17298,13 +18044,13 @@ var games = [
             "creationDateUtc": "2010-02-01T22:15:19",
             "photoUrl": "https://s.tesera.ru/images/items/2496,3/200x200xpa/photo1.jpg",
             "year": 2008,
-            "numVotes": 990,
+            "numVotes": 1002,
             "ratingUser": 7.8,
             "n10Rating": 7.77,
             "n20Rating": 7.75,
             "bggRating": 7.61,
-            "bggGeekRating": 7.499,
-            "bggNumVotes": 81665,
+            "bggGeekRating": 7.497,
+            "bggNumVotes": 82327,
             "commentsTotal": 186,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -17319,13 +18065,13 @@ var games = [
             "creationDateUtc": "2015-04-07T22:00:33",
             "photoUrl": "https://s.tesera.ru/images/items/537400,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 208,
-            "ratingUser": 6.8,
-            "n10Rating": 6.73,
-            "n20Rating": 6.66,
-            "bggRating": 6.705,
-            "bggGeekRating": 6.237,
-            "bggNumVotes": 3019,
+            "numVotes": 213,
+            "ratingUser": 6.79,
+            "n10Rating": 6.72,
+            "n20Rating": 6.65,
+            "bggRating": 6.703,
+            "bggGeekRating": 6.232,
+            "bggNumVotes": 3044,
             "commentsTotal": 35,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -17342,14 +18088,14 @@ var games = [
             "creationDateUtc": "2013-09-12T06:05:03",
             "photoUrl": "https://s.tesera.ru/images/items/312644,3/200x200xpa/photo1.jpg",
             "year": 2013,
-            "numVotes": 931,
+            "numVotes": 945,
             "ratingUser": 7.43,
             "n10Rating": 7.41,
             "n20Rating": 7.38,
-            "bggRating": 7.579,
-            "bggGeekRating": 7.441,
-            "bggNumVotes": 38653,
-            "commentsTotal": 682,
+            "bggRating": 7.58,
+            "bggGeekRating": 7.439,
+            "bggNumVotes": 39097,
+            "commentsTotal": 687,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -17364,13 +18110,13 @@ var games = [
             "creationDateUtc": "2015-09-09T07:48:09",
             "photoUrl": "https://s.tesera.ru/images/items/606069,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 179,
-            "ratingUser": 7.7,
-            "n10Rating": 7.57,
-            "n20Rating": 7.45,
-            "bggRating": 7.846,
-            "bggGeekRating": 7.331,
-            "bggNumVotes": 6743,
+            "numVotes": 182,
+            "ratingUser": 7.67,
+            "n10Rating": 7.54,
+            "n20Rating": 7.42,
+            "bggRating": 7.842,
+            "bggGeekRating": 7.329,
+            "bggNumVotes": 6853,
             "commentsTotal": 35,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -17385,13 +18131,13 @@ var games = [
             "creationDateUtc": "2016-03-16T10:44:36",
             "photoUrl": "https://s.tesera.ru/images/items/733719,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 266,
-            "ratingUser": 7.14,
-            "n10Rating": 7.07,
-            "n20Rating": 7.0,
-            "bggRating": 7.576,
-            "bggGeekRating": 7.262,
-            "bggNumVotes": 13950,
+            "numVotes": 270,
+            "ratingUser": 7.12,
+            "n10Rating": 7.05,
+            "n20Rating": 6.99,
+            "bggRating": 7.572,
+            "bggGeekRating": 7.261,
+            "bggNumVotes": 14237,
             "commentsTotal": 175,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -17405,8 +18151,8 @@ var games = [
             "creationDateUtc": "2017-03-09T20:00:44",
             "photoUrl": "https://s.tesera.ru/images/items/953978,3/200x200xpa/photo1.jpg",
             "year": 2018,
-            "numVotes": 6,
-            "ratingUser": 8.33,
+            "numVotes": 7,
+            "ratingUser": 8.29,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
             "bggRating": 0.0,
@@ -17426,14 +18172,14 @@ var games = [
             "creationDateUtc": "2017-07-11T16:13:12",
             "photoUrl": "https://s.tesera.ru/images/items/1047903,3/200x200xpa/photo1.jpg",
             "year": 2017,
-            "numVotes": 174,
-            "ratingUser": 7.8,
+            "numVotes": 184,
+            "ratingUser": 7.81,
             "n10Rating": 7.66,
-            "n20Rating": 7.53,
-            "bggRating": 7.994,
-            "bggGeekRating": 7.101,
-            "bggNumVotes": 3330,
-            "commentsTotal": 89,
+            "n20Rating": 7.54,
+            "bggRating": 7.98,
+            "bggGeekRating": 7.106,
+            "bggNumVotes": 3449,
+            "commentsTotal": 91,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -17448,8 +18194,8 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/1908795,3/200x200xpa/photo1.jpg",
             "year": 2016,
             "numVotes": 20,
-            "ratingUser": 7.89,
-            "n10Rating": 6.99,
+            "ratingUser": 7.91,
+            "n10Rating": 7.0,
             "n20Rating": 6.54,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -17469,19 +18215,18 @@ var games = [
             "alias": "alchemists",
             "descriptionShort": "Alchemists - игра, где алхимики соревнуются в составлении различных зелий, используя дедукцию. Результаты смешивания меняются и требуют наличия цифрового приложения либо ведущего.",
             "description": "<p style=\"text-align: justify;\">Игра на тему алхимии. Игроки, в роли исследователей в магическом университете, соревнуются в составлении различных зелий, смешивая пары ингредиентов и наблюдая за получившимся результатом. Результаты смешивания меняются от партии к партии и требуют либо наличия&nbsp;цифрового приложения (iOS, Android, Windows), либо ведущего для контроля.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Цель игры &mdash;&nbsp;за 6 раундов повысить свою репутацию в стенах университета. Игроки могут получать гранты на исследования, покупать магические артефакты, продавать искателям приключений результаты экспериментов и публиковать свои теории.</p>",
-            "modificationDateUtc": "2022-01-13T12:57:06",
+            "modificationDateUtc": "2022-02-22T08:36:31",
             "creationDateUtc": "2014-09-13T03:01:48",
             "photoUrl": "https://s.tesera.ru/images/items/445087,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/445087,3/photo2.jpg",
             "year": 2014,
-            "ratingUser": 8.32,
-            "n10Rating": 8.25,
-            "n20Rating": 8.18,
-            "ratingMy": 10.0,
-            "bggRating": 7.668,
-            "bggGeekRating": 7.447,
-            "bggNumVotes": 19607,
-            "numVotes": 436,
+            "ratingUser": 8.31,
+            "n10Rating": 8.24,
+            "n20Rating": 8.17,
+            "bggRating": 7.667,
+            "bggGeekRating": 7.445,
+            "bggNumVotes": 19838,
+            "numVotes": 442,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 3,
@@ -17495,13 +18240,13 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/445087",
             "isAddition": false
         },
-        "ownersTotal": 782,
-        "sellTotal": 7,
-        "buyTotal": 0,
-        "sellTotalAll": 6,
-        "buyTotalAll": 38,
+        "ownersTotal": 803,
+        "sellTotal": 9,
+        "buyTotal": 1,
+        "sellTotalAll": 7,
+        "buyTotalAll": 37,
         "commentsTotal": 188,
-        "reportsTotal": 1,
+        "reportsTotal": 2,
         "photosTotal": 45,
         "filesTotal": 11,
         "linksTotal": 17,
@@ -17597,7 +18342,7 @@ var games = [
                 "login": "gagagames",
                 "name": "GaGa Games",
                 "avatarUrl": "https://s.tesera.ru/images/items/640766,22/photo.jpg",
-                "rating": 2886,
+                "rating": 2936,
                 "teseraUrl": "https://tesera.ru/user/640766"
             }
         }, {
@@ -17614,7 +18359,7 @@ var games = [
                 "login": "karn",
                 "name": "Karn",
                 "avatarUrl": "https://s.tesera.ru/images/items/918948,22/photo.jpg",
-                "rating": 2223,
+                "rating": 2271,
                 "teseraUrl": "https://tesera.ru/user/918948"
             }
         }, {
@@ -17631,7 +18376,7 @@ var games = [
                 "login": "karn",
                 "name": "Karn",
                 "avatarUrl": "https://s.tesera.ru/images/items/918948,22/photo.jpg",
-                "rating": 2223,
+                "rating": 2271,
                 "teseraUrl": "https://tesera.ru/user/918948"
             }
         }, {
@@ -17648,7 +18393,7 @@ var games = [
                 "login": "karn",
                 "name": "Karn",
                 "avatarUrl": "https://s.tesera.ru/images/items/918948,22/photo.jpg",
-                "rating": 2223,
+                "rating": 2271,
                 "teseraUrl": "https://tesera.ru/user/918948"
             }
         }, {
@@ -17665,7 +18410,7 @@ var games = [
                 "login": "karn",
                 "name": "Karn",
                 "avatarUrl": "https://s.tesera.ru/images/items/918948,22/photo.jpg",
-                "rating": 2223,
+                "rating": 2271,
                 "teseraUrl": "https://tesera.ru/user/918948"
             }
         }],
@@ -17682,7 +18427,7 @@ var games = [
                 "login": "bregus",
                 "name": "Андрей",
                 "avatarUrl": "https://s.tesera.ru/images/items/118120,22/photo.jpg",
-                "rating": 1899,
+                "rating": 1968,
                 "teseraUrl": "https://tesera.ru/user/118120"
             }
         }, {
@@ -17698,7 +18443,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -17712,9 +18457,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -17724,7 +18469,7 @@ var games = [
             "photoUrl": "https://desktopgames.com.ua/alhimiki.html",
             "modificationDateUtc": "2021-08-19T18:30:13",
             "creationDateUtc": "2021-08-19T18:30:12",
-            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1763, "teseraUrl": "https://tesera.ru/user/1924212"}
+            "author": {"teseraId": 1924212, "id": 59220, "login": "artistus", "name": "Artistus", "rating": 1823, "teseraUrl": "https://tesera.ru/user/1924212"}
         }, {
             "teseraId": 1826499,
             "objectType": "Game",
@@ -17773,14 +18518,14 @@ var games = [
             "creationDateUtc": "2020-06-07T13:30:09",
             "photoUrl": "https://s.tesera.ru/images/items/1688195,3/200x200xpa/photo1.jpg",
             "year": 2020,
-            "numVotes": 73,
-            "ratingUser": 7.8,
-            "n10Rating": 7.48,
-            "n20Rating": 7.24,
-            "bggRating": 8.15,
-            "bggGeekRating": 7.272,
-            "bggNumVotes": 3518,
-            "commentsTotal": 20,
+            "numVotes": 98,
+            "ratingUser": 7.65,
+            "n10Rating": 7.42,
+            "n20Rating": 7.23,
+            "bggRating": 8.14,
+            "bggGeekRating": 7.339,
+            "bggNumVotes": 4057,
+            "commentsTotal": 26,
             "commentsTotalNew": 0,
             "isAddition": false
         }],
@@ -17798,9 +18543,9 @@ var games = [
             "ratingUser": 7.4,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.597,
-            "bggGeekRating": 5.738,
-            "bggNumVotes": 230,
+            "bggRating": 7.592,
+            "bggGeekRating": 5.737,
+            "bggNumVotes": 232,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -17818,9 +18563,9 @@ var games = [
             "ratingUser": 7.56,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.635,
-            "bggGeekRating": 5.637,
-            "bggNumVotes": 128,
+            "bggRating": 7.632,
+            "bggGeekRating": 5.636,
+            "bggNumVotes": 127,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -17835,13 +18580,13 @@ var games = [
             "creationDateUtc": "2016-08-08T16:01:14",
             "photoUrl": "https://s.tesera.ru/images/items/816944,3/200x200xpa/photo1.png",
             "year": 2016,
-            "numVotes": 41,
-            "ratingUser": 8.57,
-            "n10Rating": 7.91,
-            "n20Rating": 7.46,
-            "bggRating": 8.392,
-            "bggGeekRating": 6.602,
-            "bggNumVotes": 1127,
+            "numVotes": 42,
+            "ratingUser": 8.6,
+            "n10Rating": 7.94,
+            "n20Rating": 7.49,
+            "bggRating": 8.39,
+            "bggGeekRating": 6.599,
+            "bggNumVotes": 1141,
             "commentsTotal": 32,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -17924,10 +18669,10 @@ var games = [
             "year": 2010,
             "ratingUser": 7.81,
             "n10Rating": 7.42,
-            "n20Rating": 7.14,
-            "bggRating": 7.126,
-            "bggGeekRating": 6.672,
-            "bggNumVotes": 6106,
+            "n20Rating": 7.13,
+            "bggRating": 7.123,
+            "bggGeekRating": 6.669,
+            "bggNumVotes": 6147,
             "numVotes": 58,
             "playersMin": 1,
             "playersMax": 5,
@@ -17942,11 +18687,11 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/7256",
             "isAddition": false
         },
-        "ownersTotal": 183,
+        "ownersTotal": 185,
         "sellTotal": 0,
-        "buyTotal": 1,
+        "buyTotal": 0,
         "sellTotalAll": 4,
-        "buyTotalAll": 13,
+        "buyTotalAll": 14,
         "commentsTotal": 53,
         "reportsTotal": 1,
         "photosTotal": 21,
@@ -18044,7 +18789,7 @@ var games = [
                 "login": "knaff",
                 "name": "Андрей",
                 "avatarUrl": "https://s.tesera.ru/images/items/601062,22/photo.jpg",
-                "rating": 8212,
+                "rating": 8214,
                 "teseraUrl": "https://tesera.ru/user/601062"
             }
         }, {
@@ -18060,7 +18805,7 @@ var games = [
                 "login": "kosulya",
                 "name": "Alexey Abramov",
                 "avatarUrl": "https://s.tesera.ru/images/items/34273,22/photo.jpg",
-                "rating": 10799,
+                "rating": 10938,
                 "teseraUrl": "https://tesera.ru/user/34273"
             }
         }, {
@@ -18077,7 +18822,7 @@ var games = [
                 "login": "kosulya",
                 "name": "Alexey Abramov",
                 "avatarUrl": "https://s.tesera.ru/images/items/34273,22/photo.jpg",
-                "rating": 10799,
+                "rating": 10938,
                 "teseraUrl": "https://tesera.ru/user/34273"
             }
         }, {
@@ -18094,7 +18839,7 @@ var games = [
                 "login": "blackberries",
                 "name": "Дмитрий",
                 "avatarUrl": "https://s.tesera.ru/images/items/582149,22/photo.jpg",
-                "rating": 3167,
+                "rating": 3174,
                 "teseraUrl": "https://tesera.ru/user/582149"
             }
         }, {
@@ -18111,7 +18856,7 @@ var games = [
                 "login": "kosulya",
                 "name": "Alexey Abramov",
                 "avatarUrl": "https://s.tesera.ru/images/items/34273,22/photo.jpg",
-                "rating": 10799,
+                "rating": 10938,
                 "teseraUrl": "https://tesera.ru/user/34273"
             }
         }],
@@ -18128,7 +18873,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -18160,7 +18905,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -18176,7 +18921,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }],
@@ -18195,9 +18940,9 @@ var games = [
             "ratingUser": 7.99,
             "n10Rating": 7.78,
             "n20Rating": 7.6,
-            "bggRating": 7.296,
-            "bggGeekRating": 6.993,
-            "bggNumVotes": 11453,
+            "bggRating": 7.294,
+            "bggGeekRating": 6.99,
+            "bggNumVotes": 11488,
             "commentsTotal": 85,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -18212,13 +18957,13 @@ var games = [
             "creationDateUtc": "2010-08-12T17:56:15",
             "photoUrl": "https://s.tesera.ru/images/items/7135,3/200x200xpa/photo1.jpg",
             "year": 2003,
-            "numVotes": 404,
+            "numVotes": 408,
             "ratingUser": 6.43,
             "n10Rating": 6.4,
             "n20Rating": 6.37,
-            "bggRating": 6.105,
-            "bggGeekRating": 5.836,
-            "bggNumVotes": 2636,
+            "bggRating": 6.104,
+            "bggGeekRating": 5.834,
+            "bggNumVotes": 2643,
             "commentsTotal": 386,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -18233,14 +18978,14 @@ var games = [
             "creationDateUtc": "2011-08-06T03:00:21",
             "photoUrl": "https://s.tesera.ru/images/items/56708,3/200x200xpa/photo1.jpg",
             "year": 2012,
-            "numVotes": 777,
-            "ratingUser": 8.1,
-            "n10Rating": 8.06,
-            "n20Rating": 8.03,
-            "bggRating": 7.67,
-            "bggGeekRating": 7.415,
-            "bggNumVotes": 23667,
-            "commentsTotal": 2552,
+            "numVotes": 779,
+            "ratingUser": 8.09,
+            "n10Rating": 8.05,
+            "n20Rating": 8.02,
+            "bggRating": 7.66,
+            "bggGeekRating": 7.409,
+            "bggNumVotes": 23806,
+            "commentsTotal": 2555,
             "commentsTotalNew": 0,
             "isAddition": false
         }],
@@ -18256,11 +19001,11 @@ var games = [
             "year": 2012,
             "numVotes": 13,
             "ratingUser": 7.21,
-            "n10Rating": 6.33,
+            "n10Rating": 6.32,
             "n20Rating": 0.0,
-            "bggRating": 7.393,
-            "bggGeekRating": 6.089,
-            "bggNumVotes": 870,
+            "bggRating": 7.386,
+            "bggGeekRating": 6.083,
+            "bggNumVotes": 873,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -18276,7 +19021,7 @@ var games = [
             "year": 2012,
             "numVotes": 14,
             "ratingUser": 7.54,
-            "n10Rating": 6.56,
+            "n10Rating": 6.55,
             "n20Rating": 0.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -18298,9 +19043,9 @@ var games = [
             "ratingUser": 7.44,
             "n10Rating": 6.57,
             "n20Rating": 0.0,
-            "bggRating": 7.404,
-            "bggGeekRating": 6.382,
-            "bggNumVotes": 1816,
+            "bggRating": 7.398,
+            "bggGeekRating": 6.379,
+            "bggNumVotes": 1838,
             "commentsTotal": 34,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -18364,18 +19109,17 @@ var games = [
             "alias": "lanterns-the-harvest-festival",
             "descriptionShort": "Lanterns: The Harvest Festival - игра на сбор сетов с выкладыванием тайлов. Во время своего хода игрок ставит на поле тайл к одному из соседних, получая бонус за совпадение присоединяемых граней. Затем все игроки получают карты фонарей того цвета, какой нарисован на повернутой к ним стороне выложенного тайла. Игроки получают честь (победные очки), собирая сочетания карт фонарей (три пары разных цветов, четыре одного или по одной карте всех цветов). Тот, кто соберет больше - выигрывает.",
             "description": "<p><strong>Lanterns: The Harvest Festival</strong> - игра на сбор сетов с выкладыванием тайлов.</p>\r\n<p>&nbsp;</p>\r\n<p>Во время своего хода игрок ставит на поле тайл к одному из соседних, получая бонус за совпадение присоединяемых граней. Затем&nbsp;<i>все</i> игроки получают карты фонарей того цвета, какой нарисован на повернутой к ним стороне выложенного тайла.</p>\r\n<p>&nbsp;</p>\r\n<p>Игроки получают честь (победные очки), собирая сочетания карт фонарей (три пары разных цветов, четыре одного или по одной карте всех цветов). Тот, кто соберет больше - выигрывает.</p>\r\n<p>В середине осени Crowd Games планирует запуск проекта с этой игрой на площадке \"Бумстартер\". Печать в России.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><strong><br /></strong></p>",
-            "modificationDateUtc": "2022-01-05T13:35:06",
+            "modificationDateUtc": "2022-02-07T06:37:04",
             "creationDateUtc": "2015-07-03T11:15:14",
             "photoUrl": "https://s.tesera.ru/images/items/579173,3/photo1.jpg",
             "year": 2015,
-            "ratingUser": 6.95,
-            "n10Rating": 6.88,
-            "n20Rating": 6.82,
-            "ratingMy": 6.0,
-            "bggRating": 6.902,
-            "bggGeekRating": 6.67,
-            "bggNumVotes": 10215,
-            "numVotes": 250,
+            "ratingUser": 6.93,
+            "n10Rating": 6.86,
+            "n20Rating": 6.8,
+            "bggRating": 6.9,
+            "bggGeekRating": 6.667,
+            "bggNumVotes": 10308,
+            "numVotes": 252,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 2,
@@ -18389,11 +19133,11 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/579173",
             "isAddition": false
         },
-        "ownersTotal": 641,
-        "sellTotal": 10,
-        "buyTotal": 0,
-        "sellTotalAll": 14,
-        "buyTotalAll": 7,
+        "ownersTotal": 643,
+        "sellTotal": 8,
+        "buyTotal": 1,
+        "sellTotalAll": 15,
+        "buyTotalAll": 6,
         "commentsTotal": 36,
         "reportsTotal": 1,
         "photosTotal": 9,
@@ -18413,7 +19157,7 @@ var games = [
                 "login": "snowbody",
                 "name": "Владислав",
                 "avatarUrl": "https://s.tesera.ru/images/items/10705,22/photo.jpg",
-                "rating": 29098,
+                "rating": 29261,
                 "teseraUrl": "https://tesera.ru/user/10705"
             }
         }, {
@@ -18428,7 +19172,7 @@ var games = [
                 "login": "snowbody",
                 "name": "Владислав",
                 "avatarUrl": "https://s.tesera.ru/images/items/10705,22/photo.jpg",
-                "rating": 29098,
+                "rating": 29261,
                 "teseraUrl": "https://tesera.ru/user/10705"
             }
         }, {
@@ -18443,7 +19187,7 @@ var games = [
                 "login": "bearwolf",
                 "name": "Саша, Алёна и Кира",
                 "avatarUrl": "https://s.tesera.ru/images/items/1057406,22/photo.jpg",
-                "rating": 3735,
+                "rating": 3736,
                 "teseraUrl": "https://tesera.ru/user/1057406"
             }
         }, {
@@ -18473,7 +19217,7 @@ var games = [
                 "login": "crowd",
                 "name": "CrowD",
                 "avatarUrl": "https://s.tesera.ru/images/items/515528,22/photo.png",
-                "rating": 6160,
+                "rating": 6277,
                 "teseraUrl": "https://tesera.ru/user/515528"
             }
         }],
@@ -18491,7 +19235,7 @@ var games = [
                 "login": "rouslanko",
                 "name": "Руслан",
                 "avatarUrl": "https://s.tesera.ru/images/items/569615,22/photo.jpg",
-                "rating": 9303,
+                "rating": 9325,
                 "teseraUrl": "https://tesera.ru/user/569615"
             }
         }, {
@@ -18502,7 +19246,7 @@ var games = [
             "photoUrl": "https://tesera.ru/images/items/806763/Lanterns_rulebook_2ndEdition_.pdf",
             "modificationDateUtc": "2016-07-23T13:26:40",
             "creationDateUtc": "2016-07-23T13:26:39",
-            "author": {"teseraId": 110442, "id": 2428, "login": "balury", "name": "Александр Петрунин", "rating": 3755, "teseraUrl": "https://tesera.ru/user/110442"}
+            "author": {"teseraId": 110442, "id": 2428, "login": "balury", "name": "Александр Петрунин", "rating": 3757, "teseraUrl": "https://tesera.ru/user/110442"}
         }],
         "links": [{
             "teseraId": 1987038,
@@ -18517,7 +19261,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -18531,9 +19275,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -18549,7 +19293,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -18599,10 +19343,10 @@ var games = [
             "numVotes": 105,
             "ratingUser": 5.52,
             "n10Rating": 5.49,
-            "n20Rating": 5.47,
+            "n20Rating": 5.46,
             "bggRating": 5.483,
-            "bggGeekRating": 5.443,
-            "bggNumVotes": 6251,
+            "bggGeekRating": 5.446,
+            "bggNumVotes": 6315,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -18638,14 +19382,14 @@ var games = [
             "creationDateUtc": "2013-10-03T14:09:16",
             "photoUrl": "https://s.tesera.ru/images/items/320747,3/200x200xpa/photo1.jpg",
             "year": 2014,
-            "numVotes": 700,
-            "ratingUser": 7.46,
-            "n10Rating": 7.43,
-            "n20Rating": 7.4,
+            "numVotes": 717,
+            "ratingUser": 7.45,
+            "n10Rating": 7.42,
+            "n20Rating": 7.39,
             "bggRating": 7.44,
-            "bggGeekRating": 7.323,
-            "bggNumVotes": 64916,
-            "commentsTotal": 264,
+            "bggGeekRating": 7.321,
+            "bggNumVotes": 65926,
+            "commentsTotal": 267,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -18662,9 +19406,9 @@ var games = [
             "ratingUser": 8.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 5.932,
+            "bggRating": 5.941,
             "bggGeekRating": 5.52,
-            "bggNumVotes": 120,
+            "bggNumVotes": 121,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -18679,13 +19423,13 @@ var games = [
             "creationDateUtc": "2016-05-30T08:22:51",
             "photoUrl": "https://s.tesera.ru/images/items/779449,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 229,
+            "numVotes": 231,
             "ratingUser": 7.42,
             "n10Rating": 7.33,
             "n20Rating": 7.24,
-            "bggRating": 7.08,
-            "bggGeekRating": 6.759,
-            "bggNumVotes": 7679,
+            "bggRating": 7.076,
+            "bggGeekRating": 6.758,
+            "bggNumVotes": 7780,
             "commentsTotal": 79,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -18761,10 +19505,9 @@ var games = [
             "ratingUser": 6.96,
             "n10Rating": 6.78,
             "n20Rating": 6.64,
-            "ratingMy": 7.0,
-            "bggRating": 6.1,
-            "bggGeekRating": 5.556,
-            "bggNumVotes": 184,
+            "bggRating": 6.101,
+            "bggGeekRating": 5.555,
+            "bggNumVotes": 186,
             "numVotes": 91,
             "playersMin": 2,
             "playersMax": 2,
@@ -18779,11 +19522,11 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/344248",
             "isAddition": false
         },
-        "ownersTotal": 221,
+        "ownersTotal": 226,
         "sellTotal": 1,
-        "buyTotal": 1,
-        "sellTotalAll": 7,
-        "buyTotalAll": 10,
+        "buyTotal": 0,
+        "sellTotalAll": 8,
+        "buyTotalAll": 11,
         "commentsTotal": 20,
         "reportsTotal": 0,
         "photosTotal": 10,
@@ -18818,7 +19561,7 @@ var games = [
                 "login": "hypha",
                 "name": "Денис Басыров",
                 "avatarUrl": "https://s.tesera.ru/images/items/9005,22/photo.jpg",
-                "rating": 4600,
+                "rating": 4599,
                 "teseraUrl": "https://tesera.ru/user/9005"
             }
         }, {
@@ -18833,7 +19576,7 @@ var games = [
                 "login": "patrick_verona",
                 "name": "Patrick Verona",
                 "avatarUrl": "https://s.tesera.ru/images/items/242310,22/photo.jpg",
-                "rating": 10697,
+                "rating": 10702,
                 "teseraUrl": "https://tesera.ru/user/242310"
             }
         }, {
@@ -18848,7 +19591,7 @@ var games = [
                 "login": "patrick_verona",
                 "name": "Patrick Verona",
                 "avatarUrl": "https://s.tesera.ru/images/items/242310,22/photo.jpg",
-                "rating": 10697,
+                "rating": 10702,
                 "teseraUrl": "https://tesera.ru/user/242310"
             }
         }, {
@@ -18863,7 +19606,7 @@ var games = [
                 "login": "patrick_verona",
                 "name": "Patrick Verona",
                 "avatarUrl": "https://s.tesera.ru/images/items/242310,22/photo.jpg",
-                "rating": 10697,
+                "rating": 10702,
                 "teseraUrl": "https://tesera.ru/user/242310"
             }
         }],
@@ -18880,7 +19623,7 @@ var games = [
                 "login": "razorvi_kapbito",
                 "name": "Дмитрий",
                 "avatarUrl": "https://s.tesera.ru/images/items/1406554,22/photo.png",
-                "rating": 12490,
+                "rating": 13092,
                 "teseraUrl": "https://tesera.ru/user/1406554"
             }
         }, {
@@ -18896,7 +19639,7 @@ var games = [
                 "login": "razorvi_kapbito",
                 "name": "Дмитрий",
                 "avatarUrl": "https://s.tesera.ru/images/items/1406554,22/photo.png",
-                "rating": 12490,
+                "rating": 13092,
                 "teseraUrl": "https://tesera.ru/user/1406554"
             }
         }, {
@@ -18912,7 +19655,7 @@ var games = [
                 "login": "razorvi_kapbito",
                 "name": "Дмитрий",
                 "avatarUrl": "https://s.tesera.ru/images/items/1406554,22/photo.png",
-                "rating": 12490,
+                "rating": 13092,
                 "teseraUrl": "https://tesera.ru/user/1406554"
             }
         }],
@@ -18927,9 +19670,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -18996,9 +19739,9 @@ var games = [
             "ratingUser": 7.43,
             "n10Rating": 7.09,
             "n20Rating": 6.84,
-            "bggRating": 7.092,
-            "bggGeekRating": 6.504,
-            "bggNumVotes": 3034,
+            "bggRating": 7.093,
+            "bggGeekRating": 6.502,
+            "bggNumVotes": 3062,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19013,13 +19756,13 @@ var games = [
             "creationDateUtc": "2010-01-22T09:52:00",
             "photoUrl": "https://s.tesera.ru/images/items/1983,3/200x200xpa/photo1.jpg",
             "year": 1995,
-            "numVotes": 63,
-            "ratingUser": 6.2,
-            "n10Rating": 6.06,
-            "n20Rating": 5.95,
-            "bggRating": 6.173,
-            "bggGeekRating": 5.711,
-            "bggNumVotes": 815,
+            "numVotes": 64,
+            "ratingUser": 6.14,
+            "n10Rating": 6.01,
+            "n20Rating": 5.91,
+            "bggRating": 6.172,
+            "bggGeekRating": 5.708,
+            "bggNumVotes": 821,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19034,14 +19777,14 @@ var games = [
             "creationDateUtc": "2010-07-15T23:18:01",
             "photoUrl": "https://s.tesera.ru/images/items/6177,3/200x200xpa/photo1.jpg",
             "year": 1987,
-            "numVotes": 85,
-            "ratingUser": 7.2,
-            "n10Rating": 6.99,
-            "n20Rating": 6.82,
-            "bggRating": 6.455,
-            "bggGeekRating": 6.216,
-            "bggNumVotes": 6715,
-            "commentsTotal": 8,
+            "numVotes": 88,
+            "ratingUser": 7.18,
+            "n10Rating": 6.97,
+            "n20Rating": 6.81,
+            "bggRating": 6.454,
+            "bggGeekRating": 6.214,
+            "bggNumVotes": 6781,
+            "commentsTotal": 7,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -19059,9 +19802,9 @@ var games = [
             "ratingUser": 7.75,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.54,
-            "bggGeekRating": 5.599,
-            "bggNumVotes": 181,
+            "bggRating": 6.526,
+            "bggGeekRating": 5.597,
+            "bggNumVotes": 182,
             "commentsTotal": 4,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19079,9 +19822,9 @@ var games = [
             "ratingUser": 0.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.632,
-            "bggGeekRating": 5.545,
-            "bggNumVotes": 38,
+            "bggRating": 7.687,
+            "bggGeekRating": 5.547,
+            "bggNumVotes": 39,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19122,18 +19865,17 @@ var games = [
             "alias": "Eminent-Domain",
             "descriptionShort": "",
             "description": "<p>Eminent Domain - это колодостроительная игра, в которой возможности вашей империи основаны на колоде карт Ролей. В начале игры все игроки имеют одинаковый набор карт. Каждый ход вы выбираете роль и, выполняя её, добавляете одну из этих карт ролей в свою колоду. Выполняя роль, вы можете усилить её эффект играя карты из руки, соответствующие выбранной роли. Например, чем больше в вашей империи исследований, тем лучше она занимается исследованиями, потому что в вашей колоде больше исследовательских карт.</p>",
-            "modificationDateUtc": "2022-01-12T13:10:09",
+            "modificationDateUtc": "2022-02-20T18:07:19",
             "creationDateUtc": "2011-01-21T16:36:26",
             "photoUrl": "https://s.tesera.ru/images/items/22596,3/photo1.jpg",
             "year": 2011,
             "ratingUser": 6.92,
             "n10Rating": 6.84,
             "n20Rating": 6.77,
-            "ratingMy": 8.0,
-            "bggRating": 7.02,
-            "bggGeekRating": 6.786,
-            "bggNumVotes": 9877,
-            "numVotes": 219,
+            "bggRating": 7.016,
+            "bggGeekRating": 6.782,
+            "bggNumVotes": 9927,
+            "numVotes": 220,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 3,
@@ -19147,8 +19889,8 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/22596",
             "isAddition": false
         },
-        "ownersTotal": 488,
-        "sellTotal": 4,
+        "ownersTotal": 493,
+        "sellTotal": 5,
         "buyTotal": 0,
         "sellTotalAll": 32,
         "buyTotalAll": 8,
@@ -19171,7 +19913,7 @@ var games = [
                 "login": "woland50",
                 "name": "Малащенко Владимир Владимирович",
                 "avatarUrl": "https://s.tesera.ru/images/items/960220,22/photo.jpg",
-                "rating": 1221,
+                "rating": 1242,
                 "teseraUrl": "https://tesera.ru/user/960220"
             }
         }, {
@@ -19186,7 +19928,7 @@ var games = [
                 "login": "woland50",
                 "name": "Малащенко Владимир Владимирович",
                 "avatarUrl": "https://s.tesera.ru/images/items/960220,22/photo.jpg",
-                "rating": 1221,
+                "rating": 1242,
                 "teseraUrl": "https://tesera.ru/user/960220"
             }
         }, {
@@ -19201,7 +19943,7 @@ var games = [
                 "login": "woland50",
                 "name": "Малащенко Владимир Владимирович",
                 "avatarUrl": "https://s.tesera.ru/images/items/960220,22/photo.jpg",
-                "rating": 1221,
+                "rating": 1242,
                 "teseraUrl": "https://tesera.ru/user/960220"
             }
         }, {
@@ -19216,7 +19958,7 @@ var games = [
                 "login": "woland50",
                 "name": "Малащенко Владимир Владимирович",
                 "avatarUrl": "https://s.tesera.ru/images/items/960220,22/photo.jpg",
-                "rating": 1221,
+                "rating": 1242,
                 "teseraUrl": "https://tesera.ru/user/960220"
             }
         }, {
@@ -19231,7 +19973,7 @@ var games = [
                 "login": "woland50",
                 "name": "Малащенко Владимир Владимирович",
                 "avatarUrl": "https://s.tesera.ru/images/items/960220,22/photo.jpg",
-                "rating": 1221,
+                "rating": 1242,
                 "teseraUrl": "https://tesera.ru/user/960220"
             }
         }],
@@ -19249,7 +19991,7 @@ var games = [
                 "login": "arkadij",
                 "name": "Arkadij",
                 "avatarUrl": "https://s.tesera.ru/images/items/432272,22/photo.jpg",
-                "rating": 1339,
+                "rating": 1340,
                 "teseraUrl": "https://tesera.ru/user/432272"
             }
         }, {
@@ -19282,7 +20024,7 @@ var games = [
                 "login": "deezynah",
                 "name": "Арсений Белик",
                 "avatarUrl": "https://s.tesera.ru/images/items/12993,22/photo.jpg",
-                "rating": 23877,
+                "rating": 23880,
                 "teseraUrl": "https://tesera.ru/user/12993"
             }
         }, {
@@ -19299,7 +20041,7 @@ var games = [
                 "login": "deezynah",
                 "name": "Арсений Белик",
                 "avatarUrl": "https://s.tesera.ru/images/items/12993,22/photo.jpg",
-                "rating": 23877,
+                "rating": 23880,
                 "teseraUrl": "https://tesera.ru/user/12993"
             }
         }, {
@@ -19316,7 +20058,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }],
@@ -19331,9 +20073,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -19349,7 +20091,7 @@ var games = [
                 "login": "geekach_ua",
                 "name": "Гикач",
                 "avatarUrl": "https://s.tesera.ru/images/items/1134445,22/photo.png",
-                "rating": 3600,
+                "rating": 3621,
                 "teseraUrl": "https://tesera.ru/user/1134445"
             }
         }, {
@@ -19381,7 +20123,7 @@ var games = [
                 "login": "scafandr",
                 "name": "scafandr",
                 "avatarUrl": "https://s.tesera.ru/images/items/14747,22/photo.jpg",
-                "rating": 25170,
+                "rating": 25230,
                 "teseraUrl": "https://tesera.ru/user/14747"
             }
         }, {
@@ -19412,13 +20154,13 @@ var games = [
             "creationDateUtc": "2009-08-17T22:21:17",
             "photoUrl": "https://s.tesera.ru/images/items/238,3/200x200xpa/photo1.jpg",
             "year": 2007,
-            "numVotes": 914,
+            "numVotes": 921,
             "ratingUser": 8.08,
             "n10Rating": 8.05,
             "n20Rating": 8.02,
             "bggRating": 7.76,
-            "bggGeekRating": 7.652,
-            "bggNumVotes": 48985,
+            "bggGeekRating": 7.651,
+            "bggNumVotes": 49427,
             "commentsTotal": 766,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19434,13 +20176,13 @@ var games = [
             "creationDateUtc": "2010-02-01T22:15:19",
             "photoUrl": "https://s.tesera.ru/images/items/2496,3/200x200xpa/photo1.jpg",
             "year": 2008,
-            "numVotes": 990,
+            "numVotes": 1002,
             "ratingUser": 7.8,
             "n10Rating": 7.77,
             "n20Rating": 7.75,
             "bggRating": 7.61,
-            "bggGeekRating": 7.499,
-            "bggNumVotes": 81665,
+            "bggGeekRating": 7.497,
+            "bggNumVotes": 82327,
             "commentsTotal": 186,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19457,12 +20199,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/7444,3/200x200xpa/photo1.jpg",
             "year": 2005,
             "numVotes": 52,
-            "ratingUser": 7.57,
-            "n10Rating": 7.18,
-            "n20Rating": 6.91,
+            "ratingUser": 7.56,
+            "n10Rating": 7.17,
+            "n20Rating": 6.9,
             "bggRating": 7.487,
-            "bggGeekRating": 7.253,
-            "bggNumVotes": 13286,
+            "bggGeekRating": 7.252,
+            "bggNumVotes": 13344,
             "commentsTotal": 38,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19477,12 +20219,12 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/41314,3/200x200xpa/photo1.jpg",
             "year": 2011,
             "numVotes": 49,
-            "ratingUser": 7.56,
-            "n10Rating": 7.16,
-            "n20Rating": 6.87,
+            "ratingUser": 7.61,
+            "n10Rating": 7.2,
+            "n20Rating": 6.9,
             "bggRating": 7.174,
-            "bggGeekRating": 6.676,
-            "bggNumVotes": 4067,
+            "bggGeekRating": 6.672,
+            "bggNumVotes": 4081,
             "commentsTotal": 16,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19498,14 +20240,14 @@ var games = [
             "creationDateUtc": "2013-09-12T06:05:03",
             "photoUrl": "https://s.tesera.ru/images/items/312644,3/200x200xpa/photo1.jpg",
             "year": 2013,
-            "numVotes": 931,
+            "numVotes": 945,
             "ratingUser": 7.43,
             "n10Rating": 7.41,
             "n20Rating": 7.38,
-            "bggRating": 7.579,
-            "bggGeekRating": 7.441,
-            "bggNumVotes": 38653,
-            "commentsTotal": 682,
+            "bggRating": 7.58,
+            "bggGeekRating": 7.439,
+            "bggNumVotes": 39097,
+            "commentsTotal": 687,
             "commentsTotalNew": 0,
             "isAddition": true
         }],
@@ -19523,9 +20265,9 @@ var games = [
             "ratingUser": 6.42,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.293,
-            "bggGeekRating": 5.982,
-            "bggNumVotes": 610,
+            "bggRating": 7.289,
+            "bggGeekRating": 5.978,
+            "bggNumVotes": 612,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -19543,9 +20285,9 @@ var games = [
             "ratingUser": 8.13,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.751,
-            "bggGeekRating": 6.452,
-            "bggNumVotes": 1231,
+            "bggRating": 7.749,
+            "bggGeekRating": 6.445,
+            "bggNumVotes": 1233,
             "commentsTotal": 17,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -19559,14 +20301,14 @@ var games = [
             "creationDateUtc": "2014-10-08T17:49:52",
             "photoUrl": "https://s.tesera.ru/images/items/456165,3/200x200xpa/photo1.jpg",
             "year": 2014,
-            "numVotes": 10,
-            "ratingUser": 6.88,
-            "n10Rating": 6.03,
+            "numVotes": 11,
+            "ratingUser": 6.8,
+            "n10Rating": 6.02,
             "n20Rating": 0.0,
-            "bggRating": 6.384,
-            "bggGeekRating": 5.925,
-            "bggNumVotes": 1581,
-            "commentsTotal": 4,
+            "bggRating": 6.379,
+            "bggGeekRating": 5.923,
+            "bggNumVotes": 1594,
+            "commentsTotal": 6,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -19583,9 +20325,9 @@ var games = [
             "ratingUser": 5.13,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.614,
-            "bggGeekRating": 5.832,
-            "bggNumVotes": 314,
+            "bggRating": 7.63,
+            "bggGeekRating": 5.836,
+            "bggNumVotes": 320,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -19690,10 +20432,9 @@ var games = [
             "ratingUser": 7.23,
             "n10Rating": 6.98,
             "n20Rating": 6.78,
-            "ratingMy": 7.25,
-            "bggRating": 6.982,
-            "bggGeekRating": 6.657,
-            "bggNumVotes": 8700,
+            "bggRating": 6.981,
+            "bggGeekRating": 6.653,
+            "bggNumVotes": 8744,
             "numVotes": 72,
             "playersMin": 1,
             "playersMax": 5,
@@ -19710,9 +20451,9 @@ var games = [
         },
         "ownersTotal": 184,
         "sellTotal": 0,
-        "buyTotal": 2,
+        "buyTotal": 0,
         "sellTotalAll": 12,
-        "buyTotalAll": 20,
+        "buyTotalAll": 22,
         "commentsTotal": 40,
         "reportsTotal": 0,
         "photosTotal": 2,
@@ -19747,7 +20488,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }],
@@ -19765,7 +20506,7 @@ var games = [
                 "login": "knaff",
                 "name": "Андрей",
                 "avatarUrl": "https://s.tesera.ru/images/items/601062,22/photo.jpg",
-                "rating": 8212,
+                "rating": 8214,
                 "teseraUrl": "https://tesera.ru/user/601062"
             }
         }, {
@@ -19807,7 +20548,7 @@ var games = [
                 "login": "kosulya",
                 "name": "Alexey Abramov",
                 "avatarUrl": "https://s.tesera.ru/images/items/34273,22/photo.jpg",
-                "rating": 10799,
+                "rating": 10938,
                 "teseraUrl": "https://tesera.ru/user/34273"
             }
         }, {
@@ -19833,7 +20574,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -19917,9 +20658,9 @@ var games = [
             "ratingUser": 7.46,
             "n10Rating": 7.31,
             "n20Rating": 7.18,
-            "bggRating": 6.858,
-            "bggGeekRating": 6.438,
-            "bggNumVotes": 5090,
+            "bggRating": 6.856,
+            "bggGeekRating": 6.435,
+            "bggNumVotes": 5105,
             "commentsTotal": 105,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19938,9 +20679,9 @@ var games = [
             "ratingUser": 7.99,
             "n10Rating": 7.78,
             "n20Rating": 7.6,
-            "bggRating": 7.296,
-            "bggGeekRating": 6.993,
-            "bggNumVotes": 11453,
+            "bggRating": 7.294,
+            "bggGeekRating": 6.99,
+            "bggNumVotes": 11488,
             "commentsTotal": 85,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19955,13 +20696,13 @@ var games = [
             "creationDateUtc": "2010-08-12T17:56:15",
             "photoUrl": "https://s.tesera.ru/images/items/7135,3/200x200xpa/photo1.jpg",
             "year": 2003,
-            "numVotes": 404,
+            "numVotes": 408,
             "ratingUser": 6.43,
             "n10Rating": 6.4,
             "n20Rating": 6.37,
-            "bggRating": 6.105,
-            "bggGeekRating": 5.836,
-            "bggNumVotes": 2636,
+            "bggRating": 6.104,
+            "bggGeekRating": 5.834,
+            "bggNumVotes": 2643,
             "commentsTotal": 386,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -19976,14 +20717,14 @@ var games = [
             "creationDateUtc": "2011-08-06T03:00:21",
             "photoUrl": "https://s.tesera.ru/images/items/56708,3/200x200xpa/photo1.jpg",
             "year": 2012,
-            "numVotes": 777,
-            "ratingUser": 8.1,
-            "n10Rating": 8.06,
-            "n20Rating": 8.03,
-            "bggRating": 7.67,
-            "bggGeekRating": 7.415,
-            "bggNumVotes": 23667,
-            "commentsTotal": 2552,
+            "numVotes": 779,
+            "ratingUser": 8.09,
+            "n10Rating": 8.05,
+            "n20Rating": 8.02,
+            "bggRating": 7.66,
+            "bggGeekRating": 7.409,
+            "bggNumVotes": 23806,
+            "commentsTotal": 2555,
             "commentsTotalNew": 0,
             "isAddition": false
         }],
@@ -20002,9 +20743,9 @@ var games = [
             "ratingUser": 7.29,
             "n10Rating": 7.15,
             "n20Rating": 7.03,
-            "bggRating": 6.63,
-            "bggGeekRating": 6.198,
-            "bggNumVotes": 3235,
+            "bggRating": 6.626,
+            "bggGeekRating": 6.192,
+            "bggNumVotes": 3249,
             "commentsTotal": 67,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -20022,10 +20763,10 @@ var games = [
             "numVotes": 58,
             "ratingUser": 7.81,
             "n10Rating": 7.42,
-            "n20Rating": 7.14,
-            "bggRating": 7.126,
-            "bggGeekRating": 6.672,
-            "bggNumVotes": 6106,
+            "n20Rating": 7.13,
+            "bggRating": 7.123,
+            "bggGeekRating": 6.669,
+            "bggNumVotes": 6147,
             "commentsTotal": 53,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -20044,9 +20785,9 @@ var games = [
             "ratingUser": 7.66,
             "n10Rating": 7.39,
             "n20Rating": 7.17,
-            "bggRating": 7.236,
-            "bggGeekRating": 6.744,
-            "bggNumVotes": 5852,
+            "bggRating": 7.232,
+            "bggGeekRating": 6.739,
+            "bggNumVotes": 5897,
             "commentsTotal": 43,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -20062,11 +20803,11 @@ var games = [
             "year": 2012,
             "numVotes": 13,
             "ratingUser": 7.21,
-            "n10Rating": 6.33,
+            "n10Rating": 6.32,
             "n20Rating": 0.0,
-            "bggRating": 7.393,
-            "bggGeekRating": 6.089,
-            "bggNumVotes": 870,
+            "bggRating": 7.386,
+            "bggGeekRating": 6.083,
+            "bggNumVotes": 873,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -20082,7 +20823,7 @@ var games = [
             "year": 2012,
             "numVotes": 14,
             "ratingUser": 7.54,
-            "n10Rating": 6.56,
+            "n10Rating": 6.55,
             "n20Rating": 0.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -20104,9 +20845,9 @@ var games = [
             "ratingUser": 7.44,
             "n10Rating": 6.57,
             "n20Rating": 0.0,
-            "bggRating": 7.404,
-            "bggGeekRating": 6.382,
-            "bggNumVotes": 1816,
+            "bggRating": 7.398,
+            "bggGeekRating": 6.379,
+            "bggNumVotes": 1838,
             "commentsTotal": 34,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -20182,19 +20923,18 @@ var games = [
             "alias": "Machi-Koro-Sharp",
             "descriptionShort": "Второе дополнение к игре Machi Koro. По словам разработчика, усложняет правила игры. С этим дополнением игра становится более агрессивной: транспортные компании позволяют перевозить свои предприятия в другие города, а клининговые — на время закрывать предприятия одного вида. Когда должен сработать эффект закрытого предприятия, вместо этого оно открывается.",
             "description": "<p>Второе дополнение к игре Machi Koro. По словам разработчика, усложняет правила игры.&nbsp;<span>С этим дополнением игра становится более агрессивной: транспортные компании позволяют перевозить свои предприятия в другие города, а клининговые &mdash; на время закрывать предприятия одного вида. Когда должен сработать эффект закрытого предприятия, вместо этого оно открывается.</span></p>",
-            "modificationDateUtc": "2022-01-12T11:12:45",
+            "modificationDateUtc": "2022-02-08T17:12:28",
             "creationDateUtc": "2014-06-05T19:28:16",
             "photoUrl": "https://s.tesera.ru/images/items/413707,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/413707,3/photo2.jpg",
             "year": 2014,
-            "ratingUser": 7.03,
-            "n10Rating": 6.95,
-            "n20Rating": 6.87,
-            "ratingMy": 7.75,
-            "bggRating": 6.74,
+            "ratingUser": 7.01,
+            "n10Rating": 6.93,
+            "n20Rating": 6.85,
+            "bggRating": 6.735,
             "bggGeekRating": 6.18,
-            "bggNumVotes": 2262,
-            "numVotes": 214,
+            "bggNumVotes": 2275,
+            "numVotes": 216,
             "playersMin": 2,
             "playersMax": 4,
             "playersMinRecommend": 0,
@@ -20208,7 +20948,7 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/413707",
             "isAddition": false
         },
-        "ownersTotal": 1266,
+        "ownersTotal": 1280,
         "sellTotal": 3,
         "buyTotal": 0,
         "sellTotalAll": 5,
@@ -20247,7 +20987,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -20262,7 +21002,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -20277,7 +21017,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -20292,7 +21032,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }],
@@ -20310,7 +21050,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }],
@@ -20327,7 +21067,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -20341,9 +21081,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -20359,7 +21099,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -20445,19 +21185,18 @@ var games = [
             "alias": "machi-koro",
             "descriptionShort": "В Machi Koro («Городки») игроки по очереди бросают кубики и применяют эффекты соответствующих выпавшим числам карт (т.е. зданий). Эффекты направлены на получение монет, а они нужны для расширения городка (т.е. для покупки дополнительных карт).",
             "description": "<p>В Machi Koro (&laquo;Городки&raquo;) игроки по очереди бросают кубики и применяют эффекты соответствующих выпавшим числам карт (т.е. зданий). Эффекты направлены на получение монет, а они нужны для расширения городка (т.е. для покупки дополнительных карт).</p>",
-            "modificationDateUtc": "2022-01-13T10:40:54",
+            "modificationDateUtc": "2022-02-16T16:12:05",
             "creationDateUtc": "2013-10-22T10:09:10",
             "photoUrl": "https://s.tesera.ru/images/items/328575,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/328575,3/photo2.jpg",
             "year": 2012,
-            "ratingUser": 6.79,
-            "n10Rating": 6.78,
-            "n20Rating": 6.76,
-            "ratingMy": 7.75,
-            "bggRating": 6.623,
-            "bggGeekRating": 6.518,
-            "bggNumVotes": 28471,
-            "numVotes": 1079,
+            "ratingUser": 6.78,
+            "n10Rating": 6.77,
+            "n20Rating": 6.75,
+            "bggRating": 6.62,
+            "bggGeekRating": 6.516,
+            "bggNumVotes": 28847,
+            "numVotes": 1096,
             "playersMin": 2,
             "playersMax": 5,
             "playersMinRecommend": 3,
@@ -20471,10 +21210,10 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/328575",
             "isAddition": false
         },
-        "ownersTotal": 2633,
+        "ownersTotal": 2673,
         "sellTotal": 8,
         "buyTotal": 0,
-        "sellTotalAll": 33,
+        "sellTotalAll": 34,
         "buyTotalAll": 23,
         "commentsTotal": 193,
         "reportsTotal": 42,
@@ -20525,7 +21264,7 @@ var games = [
                 "login": "mainisjustice",
                 "name": "Мердыгеев Бато",
                 "avatarUrl": "https://s.tesera.ru/images/items/749460,22/photo.jpg",
-                "rating": 5899,
+                "rating": 5964,
                 "teseraUrl": "https://tesera.ru/user/749460"
             }
         }, {
@@ -20540,7 +21279,7 @@ var games = [
                 "login": "mainisjustice",
                 "name": "Мердыгеев Бато",
                 "avatarUrl": "https://s.tesera.ru/images/items/749460,22/photo.jpg",
-                "rating": 5899,
+                "rating": 5964,
                 "teseraUrl": "https://tesera.ru/user/749460"
             }
         }, {
@@ -20573,7 +21312,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -20590,7 +21329,7 @@ var games = [
                 "login": "kenny_smarts",
                 "name": "Виталий",
                 "avatarUrl": "https://s.tesera.ru/images/items/322857,22/photo.jpg",
-                "rating": 42450,
+                "rating": 42593,
                 "teseraUrl": "https://tesera.ru/user/322857"
             }
         }, {
@@ -20607,7 +21346,7 @@ var games = [
                 "login": "kenny_smarts",
                 "name": "Виталий",
                 "avatarUrl": "https://s.tesera.ru/images/items/322857,22/photo.jpg",
-                "rating": 42450,
+                "rating": 42593,
                 "teseraUrl": "https://tesera.ru/user/322857"
             }
         }, {
@@ -20658,7 +21397,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -20672,9 +21411,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -20690,7 +21429,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -20737,14 +21476,14 @@ var games = [
             "creationDateUtc": "2009-11-03T16:05:58",
             "photoUrl": "https://s.tesera.ru/images/items/1002,3/200x200xpa/photo1.png",
             "year": 1995,
-            "numVotes": 1604,
-            "ratingUser": 7.2,
-            "n10Rating": 7.19,
-            "n20Rating": 7.18,
-            "bggRating": 7.135,
-            "bggGeekRating": 6.969,
-            "bggNumVotes": 108304,
-            "commentsTotal": 364,
+            "numVotes": 1621,
+            "ratingUser": 7.19,
+            "n10Rating": 7.18,
+            "n20Rating": 7.17,
+            "bggRating": 7.13,
+            "bggGeekRating": 6.965,
+            "bggNumVotes": 109548,
+            "commentsTotal": 367,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -20759,13 +21498,13 @@ var games = [
             "creationDateUtc": "2010-02-05T13:07:49",
             "photoUrl": "https://s.tesera.ru/images/items/2678,3/200x200xpa/photo1.jpg",
             "year": 2010,
-            "numVotes": 144,
-            "ratingUser": 7.49,
-            "n10Rating": 7.34,
-            "n20Rating": 7.21,
-            "bggRating": 6.966,
-            "bggGeekRating": 6.609,
-            "bggNumVotes": 6365,
+            "numVotes": 146,
+            "ratingUser": 7.5,
+            "n10Rating": 7.35,
+            "n20Rating": 7.22,
+            "bggRating": 6.962,
+            "bggGeekRating": 6.605,
+            "bggNumVotes": 6451,
             "commentsTotal": 59,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -20783,11 +21522,11 @@ var games = [
             "year": 2013,
             "numVotes": 124,
             "ratingUser": 6.85,
-            "n10Rating": 6.73,
+            "n10Rating": 6.72,
             "n20Rating": 6.62,
-            "bggRating": 6.71,
-            "bggGeekRating": 6.225,
-            "bggNumVotes": 2531,
+            "bggRating": 6.705,
+            "bggGeekRating": 6.219,
+            "bggNumVotes": 2548,
             "commentsTotal": 27,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -20801,13 +21540,13 @@ var games = [
             "creationDateUtc": "2015-03-26T12:16:48",
             "photoUrl": "https://s.tesera.ru/images/items/531593,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 27,
-            "ratingUser": 7.41,
-            "n10Rating": 6.81,
-            "n20Rating": 6.46,
-            "bggRating": 7.454,
-            "bggGeekRating": 6.878,
-            "bggNumVotes": 4517,
+            "numVotes": 29,
+            "ratingUser": 7.31,
+            "n10Rating": 6.76,
+            "n20Rating": 6.44,
+            "bggRating": 7.456,
+            "bggGeekRating": 6.881,
+            "bggNumVotes": 4633,
             "commentsTotal": 6,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -20825,9 +21564,9 @@ var games = [
             "ratingUser": 6.75,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.761,
-            "bggGeekRating": 6.417,
-            "bggNumVotes": 4800,
+            "bggRating": 6.756,
+            "bggGeekRating": 6.412,
+            "bggNumVotes": 4840,
             "commentsTotal": 10,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -20846,11 +21585,11 @@ var games = [
             "year": 2014,
             "numVotes": 25,
             "ratingUser": 7.4,
-            "n10Rating": 6.77,
+            "n10Rating": 6.76,
             "n20Rating": 6.41,
-            "bggRating": 7.066,
-            "bggGeekRating": 6.687,
-            "bggNumVotes": 5763,
+            "bggRating": 7.063,
+            "bggGeekRating": 6.682,
+            "bggNumVotes": 5788,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -20865,13 +21604,13 @@ var games = [
             "creationDateUtc": "2014-06-05T19:28:16",
             "photoUrl": "https://s.tesera.ru/images/items/413707,3/200x200xpa/photo1.jpg",
             "year": 2014,
-            "numVotes": 214,
-            "ratingUser": 7.03,
-            "n10Rating": 6.95,
-            "n20Rating": 6.87,
-            "bggRating": 6.74,
+            "numVotes": 216,
+            "ratingUser": 7.01,
+            "n10Rating": 6.93,
+            "n20Rating": 6.85,
+            "bggRating": 6.735,
             "bggGeekRating": 6.18,
-            "bggNumVotes": 2262,
+            "bggNumVotes": 2275,
             "commentsTotal": 41,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -20889,9 +21628,9 @@ var games = [
             "ratingUser": 7.84,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 6.668,
-            "bggGeekRating": 6.139,
-            "bggNumVotes": 2407,
+            "bggRating": 6.662,
+            "bggGeekRating": 6.135,
+            "bggNumVotes": 2439,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -20909,10 +21648,10 @@ var games = [
             "numVotes": 40,
             "ratingUser": 7.23,
             "n10Rating": 6.82,
-            "n20Rating": 6.55,
-            "bggRating": 7.03,
-            "bggGeekRating": 6.249,
-            "bggNumVotes": 1669,
+            "n20Rating": 6.54,
+            "bggRating": 7.019,
+            "bggGeekRating": 6.258,
+            "bggNumVotes": 1740,
             "commentsTotal": 18,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -20997,10 +21736,9 @@ var games = [
             "ratingUser": 7.15,
             "n10Rating": 7.1,
             "n20Rating": 7.05,
-            "ratingMy": 7.0,
-            "bggRating": 6.75,
-            "bggGeekRating": 6.568,
-            "bggNumVotes": 13377,
+            "bggRating": 6.747,
+            "bggGeekRating": 6.564,
+            "bggNumVotes": 13431,
             "numVotes": 380,
             "playersMin": 2,
             "playersMax": 4,
@@ -21015,10 +21753,10 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/25012",
             "isAddition": false
         },
-        "ownersTotal": 535,
+        "ownersTotal": 537,
         "sellTotal": 1,
         "buyTotal": 0,
-        "sellTotalAll": 18,
+        "sellTotalAll": 17,
         "buyTotalAll": 17,
         "commentsTotal": 334,
         "reportsTotal": 15,
@@ -21039,7 +21777,7 @@ var games = [
                 "login": "port",
                 "name": "Олег",
                 "avatarUrl": "https://s.tesera.ru/images/items/20015,22/photo.jpg",
-                "rating": 51062,
+                "rating": 51002,
                 "teseraUrl": "https://tesera.ru/user/20015"
             }
         }, {
@@ -21048,7 +21786,7 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/309894/1600x1200xsxy/photo.jpg",
             "creationDateUtc": "2013-09-05T03:11:34",
             "commentsTotal": 0,
-            "author": {"teseraId": 26283, "id": 416, "login": "ufimez", "name": "Музафин Ильшат Ишбирдович", "rating": 6076, "teseraUrl": "https://tesera.ru/user/26283"}
+            "author": {"teseraId": 26283, "id": 416, "login": "ufimez", "name": "Музафин Ильшат Ишбирдович", "rating": 6086, "teseraUrl": "https://tesera.ru/user/26283"}
         }, {
             "teseraId": 306588,
             "title": "Компоненты игры",
@@ -21061,7 +21799,7 @@ var games = [
                 "login": "ostap",
                 "name": "Остап",
                 "avatarUrl": "https://s.tesera.ru/images/items/47835,22/photo.jpg",
-                "rating": 8565,
+                "rating": 8566,
                 "teseraUrl": "https://tesera.ru/user/47835"
             }
         }, {
@@ -21076,7 +21814,7 @@ var games = [
                 "login": "ostap",
                 "name": "Остап",
                 "avatarUrl": "https://s.tesera.ru/images/items/47835,22/photo.jpg",
-                "rating": 8565,
+                "rating": 8566,
                 "teseraUrl": "https://tesera.ru/user/47835"
             }
         }, {
@@ -21091,7 +21829,7 @@ var games = [
                 "login": "ostap",
                 "name": "Остап",
                 "avatarUrl": "https://s.tesera.ru/images/items/47835,22/photo.jpg",
-                "rating": 8565,
+                "rating": 8566,
                 "teseraUrl": "https://tesera.ru/user/47835"
             }
         }],
@@ -21109,7 +21847,7 @@ var games = [
                 "login": "kosulya",
                 "name": "Alexey Abramov",
                 "avatarUrl": "https://s.tesera.ru/images/items/34273,22/photo.jpg",
-                "rating": 10799,
+                "rating": 10938,
                 "teseraUrl": "https://tesera.ru/user/34273"
             }
         }, {
@@ -21125,7 +21863,7 @@ var games = [
                 "login": "kosulya",
                 "name": "Alexey Abramov",
                 "avatarUrl": "https://s.tesera.ru/images/items/34273,22/photo.jpg",
-                "rating": 10799,
+                "rating": 10938,
                 "teseraUrl": "https://tesera.ru/user/34273"
             }
         }, {
@@ -21141,7 +21879,7 @@ var games = [
                 "login": "kosulya",
                 "name": "Alexey Abramov",
                 "avatarUrl": "https://s.tesera.ru/images/items/34273,22/photo.jpg",
-                "rating": 10799,
+                "rating": 10938,
                 "teseraUrl": "https://tesera.ru/user/34273"
             }
         }, {
@@ -21157,7 +21895,7 @@ var games = [
                 "login": "drudenko",
                 "name": "laughingman13",
                 "avatarUrl": "https://s.tesera.ru/images/items/596286,22/photo.jpg",
-                "rating": 976,
+                "rating": 982,
                 "teseraUrl": "https://tesera.ru/user/596286"
             }
         }, {
@@ -21174,7 +21912,7 @@ var games = [
                 "login": "darkoutx",
                 "name": "Дима",
                 "avatarUrl": "https://s.tesera.ru/images/items/563474,22/photo.jpg",
-                "rating": 3597,
+                "rating": 3648,
                 "teseraUrl": "https://tesera.ru/user/563474"
             }
         }],
@@ -21189,9 +21927,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -21223,7 +21961,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -21255,13 +21993,13 @@ var games = [
             "creationDateUtc": "2010-02-01T22:15:19",
             "photoUrl": "https://s.tesera.ru/images/items/2496,3/200x200xpa/photo1.jpg",
             "year": 2008,
-            "numVotes": 990,
+            "numVotes": 1002,
             "ratingUser": 7.8,
             "n10Rating": 7.77,
             "n20Rating": 7.75,
             "bggRating": 7.61,
-            "bggGeekRating": 7.499,
-            "bggNumVotes": 81665,
+            "bggGeekRating": 7.497,
+            "bggNumVotes": 82327,
             "commentsTotal": 186,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -21276,13 +22014,13 @@ var games = [
             "creationDateUtc": "2010-02-21T10:07:08",
             "photoUrl": "https://s.tesera.ru/images/items/3086,3/200x200xpa/photo1.jpg",
             "year": 2009,
-            "numVotes": 302,
-            "ratingUser": 7.9,
-            "n10Rating": 7.81,
-            "n20Rating": 7.73,
-            "bggRating": 7.71,
-            "bggGeekRating": 7.553,
-            "bggNumVotes": 31251,
+            "numVotes": 304,
+            "ratingUser": 7.88,
+            "n10Rating": 7.79,
+            "n20Rating": 7.71,
+            "bggRating": 7.707,
+            "bggGeekRating": 7.55,
+            "bggNumVotes": 31425,
             "commentsTotal": 33,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -21297,13 +22035,13 @@ var games = [
             "creationDateUtc": "2010-02-24T12:25:23",
             "photoUrl": "https://s.tesera.ru/images/items/3153,3/200x200xpa/photo1.jpg",
             "year": 2009,
-            "numVotes": 286,
-            "ratingUser": 7.07,
-            "n10Rating": 7.01,
-            "n20Rating": 6.95,
-            "bggRating": 6.932,
-            "bggGeekRating": 6.698,
-            "bggNumVotes": 10262,
+            "numVotes": 287,
+            "ratingUser": 7.08,
+            "n10Rating": 7.02,
+            "n20Rating": 6.96,
+            "bggRating": 6.931,
+            "bggGeekRating": 6.694,
+            "bggNumVotes": 10282,
             "commentsTotal": 213,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -21319,14 +22057,14 @@ var games = [
             "creationDateUtc": "2013-09-12T06:05:03",
             "photoUrl": "https://s.tesera.ru/images/items/312644,3/200x200xpa/photo1.jpg",
             "year": 2013,
-            "numVotes": 931,
+            "numVotes": 945,
             "ratingUser": 7.43,
             "n10Rating": 7.41,
             "n20Rating": 7.38,
-            "bggRating": 7.579,
-            "bggGeekRating": 7.441,
-            "bggNumVotes": 38653,
-            "commentsTotal": 682,
+            "bggRating": 7.58,
+            "bggGeekRating": 7.439,
+            "bggNumVotes": 39097,
+            "commentsTotal": 687,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -21343,9 +22081,9 @@ var games = [
             "ratingUser": 6.42,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.145,
-            "bggGeekRating": 6.728,
-            "bggNumVotes": 5585,
+            "bggRating": 7.14,
+            "bggGeekRating": 6.721,
+            "bggNumVotes": 5608,
             "commentsTotal": 9,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -21363,10 +22101,10 @@ var games = [
             "numVotes": 21,
             "ratingUser": 6.89,
             "n10Rating": 6.34,
-            "n20Rating": 6.06,
-            "bggRating": 6.783,
-            "bggGeekRating": 6.14,
-            "bggNumVotes": 1752,
+            "n20Rating": 6.05,
+            "bggRating": 6.781,
+            "bggGeekRating": 6.136,
+            "bggNumVotes": 1756,
             "commentsTotal": 10,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -21384,9 +22122,9 @@ var games = [
             "ratingUser": 7.68,
             "n10Rating": 6.94,
             "n20Rating": 6.54,
-            "bggRating": 7.335,
-            "bggGeekRating": 6.54,
-            "bggNumVotes": 2325,
+            "bggRating": 7.332,
+            "bggGeekRating": 6.533,
+            "bggNumVotes": 2329,
             "commentsTotal": 32,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -21406,7 +22144,7 @@ var games = [
             "n20Rating": 0.0,
             "bggRating": 6.532,
             "bggGeekRating": 5.775,
-            "bggNumVotes": 643,
+            "bggNumVotes": 644,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -21422,11 +22160,11 @@ var games = [
             "year": 2012,
             "numVotes": 11,
             "ratingUser": 7.5,
-            "n10Rating": 6.4,
+            "n10Rating": 6.39,
             "n20Rating": 0.0,
             "bggRating": 7.324,
-            "bggGeekRating": 6.16,
-            "bggNumVotes": 1002,
+            "bggGeekRating": 6.155,
+            "bggNumVotes": 1003,
             "commentsTotal": 20,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -21444,9 +22182,9 @@ var games = [
             "ratingUser": 7.3,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 5.631,
-            "bggGeekRating": 5.528,
-            "bggNumVotes": 647,
+            "bggRating": 5.64,
+            "bggGeekRating": 5.531,
+            "bggNumVotes": 651,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -21464,9 +22202,9 @@ var games = [
             "ratingUser": 7.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.441,
-            "bggGeekRating": 6.189,
-            "bggNumVotes": 959,
+            "bggRating": 7.439,
+            "bggGeekRating": 6.183,
+            "bggNumVotes": 960,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -21568,10 +22306,9 @@ var games = [
             "ratingUser": 7.67,
             "n10Rating": 7.31,
             "n20Rating": 7.04,
-            "ratingMy": 7.25,
-            "bggRating": 7.077,
-            "bggGeekRating": 6.258,
-            "bggNumVotes": 1910,
+            "bggRating": 7.079,
+            "bggGeekRating": 6.255,
+            "bggNumVotes": 1921,
             "numVotes": 59,
             "playersMin": 2,
             "playersMax": 4,
@@ -21586,10 +22323,10 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/300722",
             "isAddition": false
         },
-        "ownersTotal": 73,
-        "sellTotal": 1,
+        "ownersTotal": 75,
+        "sellTotal": 2,
         "buyTotal": 0,
-        "sellTotalAll": 6,
+        "sellTotalAll": 5,
         "buyTotalAll": 8,
         "commentsTotal": 99,
         "reportsTotal": 0,
@@ -21610,7 +22347,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -21625,7 +22362,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -21640,7 +22377,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -21655,7 +22392,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -21670,7 +22407,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }],
@@ -21688,7 +22425,7 @@ var games = [
                 "login": "mazukta",
                 "name": "Юрий",
                 "avatarUrl": "https://s.tesera.ru/images/items/112500,22/photo.jpg",
-                "rating": 1186,
+                "rating": 1189,
                 "teseraUrl": "https://tesera.ru/user/112500"
             }
         }, {
@@ -21722,7 +22459,7 @@ var games = [
                 "login": "drazhar",
                 "name": "Чебыкин Алексей",
                 "avatarUrl": "https://s.tesera.ru/images/items/6263,22/photo.jpg",
-                "rating": 2721,
+                "rating": 2744,
                 "teseraUrl": "https://tesera.ru/user/6263"
             }
         }, {
@@ -21739,7 +22476,7 @@ var games = [
                 "login": "drazhar",
                 "name": "Чебыкин Алексей",
                 "avatarUrl": "https://s.tesera.ru/images/items/6263,22/photo.jpg",
-                "rating": 2721,
+                "rating": 2744,
                 "teseraUrl": "https://tesera.ru/user/6263"
             }
         }, {
@@ -21756,7 +22493,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }],
@@ -21773,7 +22510,7 @@ var games = [
                 "login": "siar",
                 "name": "Siar",
                 "avatarUrl": "https://s.tesera.ru/images/items/490726,22/photo.jpg",
-                "rating": 30259,
+                "rating": 31684,
                 "teseraUrl": "https://tesera.ru/user/490726"
             }
         }, {
@@ -21789,7 +22526,7 @@ var games = [
                 "login": "siar",
                 "name": "Siar",
                 "avatarUrl": "https://s.tesera.ru/images/items/490726,22/photo.jpg",
-                "rating": 30259,
+                "rating": 31684,
                 "teseraUrl": "https://tesera.ru/user/490726"
             }
         }, {
@@ -21805,7 +22542,7 @@ var games = [
                 "login": "desert_witch",
                 "name": "Desert_witch",
                 "avatarUrl": "https://s.tesera.ru/images/items/263569,22/photo.jpg",
-                "rating": 64605,
+                "rating": 65475,
                 "teseraUrl": "https://tesera.ru/user/263569"
             }
         }, {
@@ -21821,7 +22558,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }],
@@ -21857,7 +22594,7 @@ var games = [
             "year": 2012,
             "numVotes": 14,
             "ratingUser": 7.54,
-            "n10Rating": 6.56,
+            "n10Rating": 6.55,
             "n20Rating": 0.0,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -21878,10 +22615,10 @@ var games = [
             "numVotes": 23,
             "ratingUser": 7.06,
             "n10Rating": 6.49,
-            "n20Rating": 6.19,
-            "bggRating": 7.464,
-            "bggGeekRating": 6.466,
-            "bggNumVotes": 2008,
+            "n20Rating": 6.18,
+            "bggRating": 7.458,
+            "bggGeekRating": 6.459,
+            "bggNumVotes": 2019,
             "commentsTotal": 115,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -21902,8 +22639,8 @@ var games = [
             "n10Rating": 7.58,
             "n20Rating": 7.39,
             "bggRating": 7.227,
-            "bggGeekRating": 6.763,
-            "bggNumVotes": 5783,
+            "bggGeekRating": 6.762,
+            "bggNumVotes": 5812,
             "commentsTotal": 136,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -21921,8 +22658,8 @@ var games = [
             "ratingUser": 7.99,
             "n10Rating": 7.47,
             "n20Rating": 7.11,
-            "bggRating": 6.647,
-            "bggGeekRating": 6.115,
+            "bggRating": 6.646,
+            "bggGeekRating": 6.114,
             "bggNumVotes": 2382,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
@@ -21981,9 +22718,9 @@ var games = [
             "ratingUser": 7.88,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.681,
+            "bggRating": 7.689,
             "bggGeekRating": 5.806,
-            "bggNumVotes": 303,
+            "bggNumVotes": 306,
             "commentsTotal": 1,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -22047,7 +22784,7 @@ var games = [
             "alias": "hive-pocket",
             "descriptionShort": "",
             "description": "<p>Компактная версия игры Hive с включёнными в комплект дополнениями Hive: The Mosquito и Hive: The Ladybug.</p>",
-            "modificationDateUtc": "2021-12-27T21:29:52",
+            "modificationDateUtc": "2022-02-19T02:18:26",
             "creationDateUtc": "2012-06-30T20:40:35",
             "photoUrl": "https://s.tesera.ru/images/items/142637,3/photo1.png",
             "photoUrl2": "https://s.tesera.ru/images/items/142637,3/photo2.jpg",
@@ -22055,10 +22792,9 @@ var games = [
             "ratingUser": 7.86,
             "n10Rating": 7.76,
             "n20Rating": 7.66,
-            "ratingMy": 9.0,
-            "bggRating": 7.699,
-            "bggGeekRating": 7.329,
-            "bggNumVotes": 9829,
+            "bggRating": 7.696,
+            "bggGeekRating": 7.328,
+            "bggNumVotes": 9993,
             "numVotes": 249,
             "playersMin": 2,
             "playersMax": 2,
@@ -22068,21 +22804,21 @@ var games = [
             "timeToLearn": 10,
             "playtimeMin": 10,
             "playtimeMax": 20,
-            "commentsTotal": 63,
+            "commentsTotal": 64,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/142637",
             "isAddition": false
         },
-        "ownersTotal": 718,
+        "ownersTotal": 729,
         "sellTotal": 2,
-        "buyTotal": 1,
-        "sellTotalAll": 4,
+        "buyTotal": 0,
+        "sellTotalAll": 3,
         "buyTotalAll": 21,
-        "commentsTotal": 63,
+        "commentsTotal": 64,
         "reportsTotal": 0,
         "photosTotal": 14,
         "filesTotal": 3,
-        "linksTotal": 4,
+        "linksTotal": 5,
         "videoExternalTotal": 0,
         "videoInternalTotal": 0,
         "photos": [{
@@ -22097,7 +22833,7 @@ var games = [
                 "login": "koin",
                 "name": "Константин",
                 "avatarUrl": "https://s.tesera.ru/images/items/569163,22/photo.jpg",
-                "rating": 7560,
+                "rating": 7644,
                 "teseraUrl": "https://tesera.ru/user/569163"
             }
         }, {
@@ -22127,7 +22863,7 @@ var games = [
                 "login": "volt",
                 "name": "Олег",
                 "avatarUrl": "https://s.tesera.ru/images/items/28779,22/photo.jpg",
-                "rating": 12678,
+                "rating": 12727,
                 "teseraUrl": "https://tesera.ru/user/28779"
             }
         }, {
@@ -22142,7 +22878,7 @@ var games = [
                 "login": "catdavinci",
                 "name": "Павел Корнеев",
                 "avatarUrl": "https://s.tesera.ru/images/items/145425,22/photo.jpg",
-                "rating": 2790,
+                "rating": 2795,
                 "teseraUrl": "https://tesera.ru/user/145425"
             }
         }, {
@@ -22157,7 +22893,7 @@ var games = [
                 "login": "catdavinci",
                 "name": "Павел Корнеев",
                 "avatarUrl": "https://s.tesera.ru/images/items/145425,22/photo.jpg",
-                "rating": 2790,
+                "rating": 2795,
                 "teseraUrl": "https://tesera.ru/user/145425"
             }
         }],
@@ -22175,7 +22911,7 @@ var games = [
                 "login": "cgcccp",
                 "name": "cgcccp",
                 "avatarUrl": "https://s.tesera.ru/images/items/214376,22/photo.jpg",
-                "rating": 4049,
+                "rating": 4050,
                 "teseraUrl": "https://tesera.ru/user/214376"
             }
         }, {
@@ -22192,7 +22928,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -22209,11 +22945,19 @@ var games = [
                 "login": "3e6p",
                 "name": "Михаил",
                 "avatarUrl": "https://s.tesera.ru/images/items/97156,22/photo.jpg",
-                "rating": 7065,
+                "rating": 7087,
                 "teseraUrl": "https://tesera.ru/user/97156"
             }
         }],
         "links": [{
+            "teseraId": 2027293,
+            "objectType": "Game",
+            "title": "Игра Hive: Pocket - обзор",
+            "photoUrl": "https://igrodol.com.ua/hive-pocket-eng",
+            "modificationDateUtc": "2022-01-31T17:36:09",
+            "creationDateUtc": "2022-01-31T17:36:08",
+            "author": {"teseraId": 1346647, "id": 37706, "login": "zipa1", "name": "Zipa", "rating": 383, "teseraUrl": "https://tesera.ru/user/1346647"}
+        }, {
             "teseraId": 1981610,
             "objectType": "Game",
             "title": "Правила игры Hive: Pocket (Улей дорожная версия)",
@@ -22226,7 +22970,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -22258,7 +23002,7 @@ var games = [
                 "login": "snowbody",
                 "name": "Владислав",
                 "avatarUrl": "https://s.tesera.ru/images/items/10705,22/photo.jpg",
-                "rating": 29098,
+                "rating": 29261,
                 "teseraUrl": "https://tesera.ru/user/10705"
             }
         }, {
@@ -22288,14 +23032,14 @@ var games = [
             "creationDateUtc": "2010-06-23T20:43:28",
             "photoUrl": "https://s.tesera.ru/images/items/5781,3/200x200xpa/photo1.jpg",
             "year": 2006,
-            "numVotes": 225,
+            "numVotes": 226,
             "ratingUser": 7.78,
             "n10Rating": 7.67,
             "n20Rating": 7.57,
-            "bggRating": 7.404,
-            "bggGeekRating": 7.136,
-            "bggNumVotes": 13831,
-            "commentsTotal": 213,
+            "bggRating": 7.399,
+            "bggGeekRating": 7.132,
+            "bggNumVotes": 13912,
+            "commentsTotal": 214,
             "commentsTotalNew": 0,
             "isAddition": true
         }],
@@ -22311,14 +23055,14 @@ var games = [
             "creationDateUtc": "2009-10-11T16:17:12",
             "photoUrl": "https://s.tesera.ru/images/items/531,3/200x200xpa/photo1.jpg",
             "year": 2001,
-            "numVotes": 453,
+            "numVotes": 458,
             "ratingUser": 7.59,
             "n10Rating": 7.54,
             "n20Rating": 7.49,
-            "bggRating": 7.324,
-            "bggGeekRating": 7.188,
-            "bggNumVotes": 31817,
-            "commentsTotal": 109,
+            "bggRating": 7.323,
+            "bggGeekRating": 7.187,
+            "bggNumVotes": 32171,
+            "commentsTotal": 116,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -22333,13 +23077,13 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/84481,3/200x200xpa/photo1.jpg",
             "year": 2010,
             "numVotes": 127,
-            "ratingUser": 7.92,
-            "n10Rating": 7.72,
-            "n20Rating": 7.55,
-            "bggRating": 7.699,
-            "bggGeekRating": 7.329,
-            "bggNumVotes": 9829,
-            "commentsTotal": 14,
+            "ratingUser": 7.91,
+            "n10Rating": 7.71,
+            "n20Rating": 7.54,
+            "bggRating": 7.696,
+            "bggGeekRating": 7.328,
+            "bggNumVotes": 9993,
+            "commentsTotal": 15,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -22356,10 +23100,10 @@ var games = [
             "numVotes": 36,
             "ratingUser": 7.65,
             "n10Rating": 7.11,
-            "n20Rating": 6.77,
-            "bggRating": 7.738,
+            "n20Rating": 6.76,
+            "bggRating": 7.737,
             "bggGeekRating": 6.717,
-            "bggNumVotes": 2151,
+            "bggNumVotes": 2181,
             "commentsTotal": 49,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -22395,10 +23139,9 @@ var games = [
             "ratingUser": 6.82,
             "n10Rating": 6.72,
             "n20Rating": 6.63,
-            "ratingMy": 7.5,
             "bggRating": 6.815,
-            "bggGeekRating": 6.48,
-            "bggNumVotes": 5257,
+            "bggGeekRating": 6.479,
+            "bggNumVotes": 5281,
             "numVotes": 151,
             "playersMin": 1,
             "playersMax": 4,
@@ -22413,10 +23156,10 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/385270",
             "isAddition": false
         },
-        "ownersTotal": 268,
-        "sellTotal": 5,
+        "ownersTotal": 269,
+        "sellTotal": 4,
         "buyTotal": 0,
-        "sellTotalAll": 20,
+        "sellTotalAll": 21,
         "buyTotalAll": 4,
         "commentsTotal": 140,
         "reportsTotal": 0,
@@ -22452,7 +23195,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -22467,7 +23210,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -22482,7 +23225,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -22497,7 +23240,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }],
@@ -22533,7 +23276,7 @@ var games = [
                 "login": "ycv",
                 "name": "Журавлёв Юрий",
                 "avatarUrl": "https://s.tesera.ru/images/items/83963,22/photo.png",
-                "rating": 3167,
+                "rating": 3165,
                 "teseraUrl": "https://tesera.ru/user/83963"
             }
         }, {
@@ -22550,7 +23293,7 @@ var games = [
                 "login": "dimazgetman",
                 "name": "Дмитрий",
                 "avatarUrl": "https://s.tesera.ru/images/items/354812,22/photo.jpg",
-                "rating": 3183,
+                "rating": 3185,
                 "teseraUrl": "https://tesera.ru/user/354812"
             }
         }, {
@@ -22567,7 +23310,7 @@ var games = [
                 "login": "ycv",
                 "name": "Журавлёв Юрий",
                 "avatarUrl": "https://s.tesera.ru/images/items/83963,22/photo.png",
-                "rating": 3167,
+                "rating": 3165,
                 "teseraUrl": "https://tesera.ru/user/83963"
             }
         }],
@@ -22584,7 +23327,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -22598,9 +23341,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -22616,7 +23359,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -22632,7 +23375,7 @@ var games = [
                 "login": "ardenis",
                 "name": "Ardenis",
                 "avatarUrl": "https://s.tesera.ru/images/items/58096,22/photo.jpg",
-                "rating": 24249,
+                "rating": 24519,
                 "teseraUrl": "https://tesera.ru/user/58096"
             }
         }, {
@@ -22648,7 +23391,7 @@ var games = [
                 "login": "geekach_ua",
                 "name": "Гикач",
                 "avatarUrl": "https://s.tesera.ru/images/items/1134445,22/photo.png",
-                "rating": 3600,
+                "rating": 3621,
                 "teseraUrl": "https://tesera.ru/user/1134445"
             }
         }],
@@ -22664,13 +23407,13 @@ var games = [
             "creationDateUtc": "2009-10-02T07:56:40",
             "photoUrl": "https://s.tesera.ru/images/items/454,3/200x200xpa/photo1.jpg",
             "year": 2003,
-            "numVotes": 247,
+            "numVotes": 248,
             "ratingUser": 6.74,
             "n10Rating": 6.68,
             "n20Rating": 6.62,
             "bggRating": 7.33,
-            "bggGeekRating": 5.537,
-            "bggNumVotes": 159,
+            "bggGeekRating": 5.538,
+            "bggNumVotes": 160,
             "commentsTotal": 45,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -22688,9 +23431,9 @@ var games = [
             "ratingUser": 8.0,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.485,
-            "bggGeekRating": 5.6,
-            "bggNumVotes": 96,
+            "bggRating": 7.501,
+            "bggGeekRating": 5.601,
+            "bggNumVotes": 97,
             "commentsTotal": 3,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -22766,7 +23509,7 @@ var games = [
             "alias": "Dungeoneer-Tomb-of-the-Lich-Lord",
             "descriptionShort": "Подземелье. Гробница повелителя мёртвых (Dungeoneer: Tomb of the Lich Lord) – игра, где участники исследуют подземелье. Условия победы – выполнить три задания первым. Другие также заинтересованы в этом, потому могут мешать своим противникам. Делают это с помощью очков риска.",
             "description": "<p>Игрокам предлагают спуститься в подземелье, которое будет постепенно выстраиваться ими во время партии, и в роли героев попытаться раньше остальных выполнить три задания. Во время исследования подземелья каждый игрок набирает очки славы и риска. Игрок может тратить очки славы, чтобы разыгрывать полезные для себя карты. А очки риска тратятся его соперниками и позволяют вводить в игру вредные для него карты.</p>",
-            "modificationDateUtc": "2022-01-12T10:51:57",
+            "modificationDateUtc": "2022-02-08T22:48:05",
             "creationDateUtc": "2010-08-12T17:56:15",
             "photoUrl": "https://s.tesera.ru/images/items/7135,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/7135,3/photo2.jpg",
@@ -22774,11 +23517,10 @@ var games = [
             "ratingUser": 6.43,
             "n10Rating": 6.4,
             "n20Rating": 6.37,
-            "ratingMy": 6.0,
-            "bggRating": 6.105,
-            "bggGeekRating": 5.836,
-            "bggNumVotes": 2636,
-            "numVotes": 404,
+            "bggRating": 6.104,
+            "bggGeekRating": 5.834,
+            "bggNumVotes": 2643,
+            "numVotes": 408,
             "playersMin": 1,
             "playersMax": 4,
             "playersMinRecommend": 2,
@@ -22792,8 +23534,8 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/7135",
             "isAddition": false
         },
-        "ownersTotal": 1269,
-        "sellTotal": 7,
+        "ownersTotal": 1286,
+        "sellTotal": 5,
         "buyTotal": 0,
         "sellTotalAll": 50,
         "buyTotalAll": 7,
@@ -22816,7 +23558,7 @@ var games = [
                 "login": "vodkodav",
                 "name": "VODKODAV",
                 "avatarUrl": "https://s.tesera.ru/images/items/436959,22/photo.png",
-                "rating": 434,
+                "rating": 446,
                 "teseraUrl": "https://tesera.ru/user/436959"
             }
         }, {
@@ -22861,7 +23603,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }, {
@@ -22876,7 +23618,7 @@ var games = [
                 "login": "oranged",
                 "name": "Александр Булгаков",
                 "avatarUrl": "https://s.tesera.ru/images/items/2499,22/photo.png",
-                "rating": 195385,
+                "rating": 195903,
                 "teseraUrl": "https://tesera.ru/user/2499"
             }
         }],
@@ -22910,7 +23652,7 @@ var games = [
                 "login": "miralok",
                 "name": "Виктор",
                 "avatarUrl": "https://s.tesera.ru/images/items/1454040,22/photo.jpg",
-                "rating": 606,
+                "rating": 659,
                 "teseraUrl": "https://tesera.ru/user/1454040"
             }
         }, {
@@ -22926,7 +23668,7 @@ var games = [
                 "login": "miralok",
                 "name": "Виктор",
                 "avatarUrl": "https://s.tesera.ru/images/items/1454040,22/photo.jpg",
-                "rating": 606,
+                "rating": 659,
                 "teseraUrl": "https://tesera.ru/user/1454040"
             }
         }, {
@@ -22943,7 +23685,7 @@ var games = [
                 "login": "miralok",
                 "name": "Виктор",
                 "avatarUrl": "https://s.tesera.ru/images/items/1454040,22/photo.jpg",
-                "rating": 606,
+                "rating": 659,
                 "teseraUrl": "https://tesera.ru/user/1454040"
             }
         }, {
@@ -22960,7 +23702,7 @@ var games = [
                 "login": "miralok",
                 "name": "Виктор",
                 "avatarUrl": "https://s.tesera.ru/images/items/1454040,22/photo.jpg",
-                "rating": 606,
+                "rating": 659,
                 "teseraUrl": "https://tesera.ru/user/1454040"
             }
         }],
@@ -22977,7 +23719,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -22991,9 +23733,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -23009,7 +23751,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -23060,9 +23802,9 @@ var games = [
             "ratingUser": 7.99,
             "n10Rating": 7.78,
             "n20Rating": 7.6,
-            "bggRating": 7.296,
-            "bggGeekRating": 6.993,
-            "bggNumVotes": 11453,
+            "bggRating": 7.294,
+            "bggGeekRating": 6.99,
+            "bggNumVotes": 11488,
             "commentsTotal": 85,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -23081,9 +23823,9 @@ var games = [
             "ratingUser": 7.23,
             "n10Rating": 6.98,
             "n20Rating": 6.78,
-            "bggRating": 6.982,
-            "bggGeekRating": 6.657,
-            "bggNumVotes": 8700,
+            "bggRating": 6.981,
+            "bggGeekRating": 6.653,
+            "bggNumVotes": 8744,
             "commentsTotal": 40,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -23098,14 +23840,14 @@ var games = [
             "creationDateUtc": "2010-05-21T09:59:55",
             "photoUrl": "https://s.tesera.ru/images/items/5093,3/200x200xpa/photo1.jpg",
             "year": 2009,
-            "numVotes": 316,
+            "numVotes": 317,
             "ratingUser": 8.0,
             "n10Rating": 7.91,
             "n20Rating": 7.83,
-            "bggRating": 7.504,
-            "bggGeekRating": 7.07,
-            "bggNumVotes": 6785,
-            "commentsTotal": 424,
+            "bggRating": 7.5,
+            "bggGeekRating": 7.064,
+            "bggNumVotes": 6805,
+            "commentsTotal": 425,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -23122,10 +23864,10 @@ var games = [
             "numVotes": 58,
             "ratingUser": 7.81,
             "n10Rating": 7.42,
-            "n20Rating": 7.14,
-            "bggRating": 7.126,
-            "bggGeekRating": 6.672,
-            "bggNumVotes": 6106,
+            "n20Rating": 7.13,
+            "bggRating": 7.123,
+            "bggGeekRating": 6.669,
+            "bggNumVotes": 6147,
             "commentsTotal": 53,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -23140,14 +23882,14 @@ var games = [
             "creationDateUtc": "2011-08-06T03:00:21",
             "photoUrl": "https://s.tesera.ru/images/items/56708,3/200x200xpa/photo1.jpg",
             "year": 2012,
-            "numVotes": 777,
-            "ratingUser": 8.1,
-            "n10Rating": 8.06,
-            "n20Rating": 8.03,
-            "bggRating": 7.67,
-            "bggGeekRating": 7.415,
-            "bggNumVotes": 23667,
-            "commentsTotal": 2552,
+            "numVotes": 779,
+            "ratingUser": 8.09,
+            "n10Rating": 8.05,
+            "n20Rating": 8.02,
+            "bggRating": 7.66,
+            "bggGeekRating": 7.409,
+            "bggNumVotes": 23806,
+            "commentsTotal": 2555,
             "commentsTotalNew": 0,
             "isAddition": false
         }],
@@ -23162,13 +23904,13 @@ var games = [
             "creationDateUtc": "2010-08-12T17:56:27",
             "photoUrl": "https://s.tesera.ru/images/items/7136,3/200x200xpa/photo1.jpg",
             "year": 2003,
-            "numVotes": 83,
-            "ratingUser": 6.67,
-            "n10Rating": 6.51,
-            "n20Rating": 6.38,
-            "bggRating": 6.31,
-            "bggGeekRating": 5.826,
-            "bggNumVotes": 1287,
+            "numVotes": 84,
+            "ratingUser": 6.69,
+            "n10Rating": 6.53,
+            "n20Rating": 6.4,
+            "bggRating": 6.306,
+            "bggGeekRating": 5.823,
+            "bggNumVotes": 1298,
             "commentsTotal": 20,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -23244,19 +23986,18 @@ var games = [
             "alias": "Forbidden-Desert-Thirst-for-Survival",
             "descriptionShort": "\"Forbidden Desert: Thirst for Survival\" — сиквел кооперативной семейной игры «Запретный остров». Игроки по-прежнему выступают в роли бравых приключенцев. Что до места событий, оно перенесено с острова в пустыню, где игрокам приходится бороться с обжигающим ветром и непостоянными песками в поисках запчастей летающей машины, погребённой в древнем городе. Игрокам предлагают постоянно меняющееся игровое поле, индвидуальный менеджмент ресурсов и уникальный метод обнаружения запчастей летающей машины.",
             "description": "<p>\"Forbidden Desert: Thirst for Survival\"&nbsp;&mdash; сиквел кооперативной семейной игры &laquo;Запретный остров&raquo;.&nbsp;Игроки по-прежнему выступают в роли бравых приключенцев. Что до места событий, оно перенесено с острова в пустыню, где&nbsp;игрокам приходится бороться с обжигающим ветром и непостоянными песками в поисках запчастей летающей машины, погребённой в древнем городе. Игрокам предлагают постоянно меняющееся игровое поле, индвидуальный менеджмент ресурсов и уникальный метод обнаружения запчастей летающей машины.</p>\r\n<p>&nbsp;</p>\r\n<p><span>Перед автором, Мэттом Ликоком, стояла задача: создать игру, похожую на предшественницу элементами, но другую по ощущениям от игрового процесса, одинаково интересную как для новичков, так и для бывалых игроков, исколесивших &laquo;Запретный остров&raquo; вдоль и поперёк.</span></p>\r\n<p>&nbsp;</p>\r\n<p><span>В продаже с весны 2013.</span></p>",
-            "modificationDateUtc": "2022-01-11T17:39:12",
+            "modificationDateUtc": "2022-02-08T14:46:33",
             "creationDateUtc": "2013-01-08T19:25:50",
             "photoUrl": "https://s.tesera.ru/images/items/206160,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/206160,3/photo2.jpg",
             "year": 2013,
-            "ratingUser": 7.24,
-            "n10Rating": 7.2,
-            "n20Rating": 7.15,
-            "ratingMy": 6.5,
-            "bggRating": 7.123,
-            "bggGeekRating": 6.989,
-            "bggNumVotes": 27245,
-            "numVotes": 450,
+            "ratingUser": 7.23,
+            "n10Rating": 7.19,
+            "n20Rating": 7.14,
+            "bggRating": 7.118,
+            "bggGeekRating": 6.985,
+            "bggNumVotes": 27579,
+            "numVotes": 455,
             "playersMin": 2,
             "playersMax": 5,
             "playersMinRecommend": 0,
@@ -23270,10 +24011,10 @@ var games = [
             "teseraUrl": "https://tesera.ru/game/206160",
             "isAddition": false
         },
-        "ownersTotal": 1172,
-        "sellTotal": 10,
-        "buyTotal": 0,
-        "sellTotalAll": 30,
+        "ownersTotal": 1190,
+        "sellTotal": 9,
+        "buyTotal": 1,
+        "sellTotalAll": 34,
         "buyTotalAll": 23,
         "commentsTotal": 187,
         "reportsTotal": 4,
@@ -23389,7 +24130,7 @@ var games = [
                 "login": "ufo",
                 "name": "UFO",
                 "avatarUrl": "https://s.tesera.ru/images/items/277920,22/photo.gif",
-                "rating": 9165,
+                "rating": 9166,
                 "teseraUrl": "https://tesera.ru/user/277920"
             }
         }, {
@@ -23405,7 +24146,7 @@ var games = [
                 "login": "reddas",
                 "name": "Reddas",
                 "avatarUrl": "https://s.tesera.ru/images/items/726406,22/photo.jpg",
-                "rating": 3707,
+                "rating": 3743,
                 "teseraUrl": "https://tesera.ru/user/726406"
             }
         }, {
@@ -23422,7 +24163,7 @@ var games = [
                 "login": "kosulya",
                 "name": "Alexey Abramov",
                 "avatarUrl": "https://s.tesera.ru/images/items/34273,22/photo.jpg",
-                "rating": 10799,
+                "rating": 10938,
                 "teseraUrl": "https://tesera.ru/user/34273"
             }
         }],
@@ -23439,7 +24180,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -23453,9 +24194,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -23518,14 +24259,14 @@ var games = [
             "creationDateUtc": "2009-09-23T08:28:04",
             "photoUrl": "https://s.tesera.ru/images/items/416,3/200x200xpa/photo1.jpg",
             "year": 2008,
-            "numVotes": 1419,
-            "ratingUser": 7.53,
-            "n10Rating": 7.51,
-            "n20Rating": 7.5,
-            "bggRating": 7.589,
-            "bggGeekRating": 7.486,
-            "bggNumVotes": 109195,
-            "commentsTotal": 630,
+            "numVotes": 1434,
+            "ratingUser": 7.52,
+            "n10Rating": 7.5,
+            "n20Rating": 7.49,
+            "bggRating": 7.584,
+            "bggGeekRating": 7.483,
+            "bggNumVotes": 110320,
+            "commentsTotal": 634,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -23539,13 +24280,13 @@ var games = [
             "creationDateUtc": "2011-12-01T10:31:37",
             "photoUrl": "https://s.tesera.ru/images/items/79035,3/200x200xpa/photo1.jpg",
             "year": 2012,
-            "numVotes": 500,
+            "numVotes": 502,
             "ratingUser": 7.43,
             "n10Rating": 7.39,
             "n20Rating": 7.34,
-            "bggRating": 7.14,
-            "bggGeekRating": 6.883,
-            "bggNumVotes": 17307,
+            "bggRating": 7.136,
+            "bggGeekRating": 6.877,
+            "bggNumVotes": 17450,
             "commentsTotal": 524,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -23560,14 +24301,14 @@ var games = [
             "creationDateUtc": "2013-08-03T16:45:07",
             "photoUrl": "https://s.tesera.ru/images/items/296979,3/200x200xpa/photo1.jpg",
             "year": 2013,
-            "numVotes": 1475,
+            "numVotes": 1499,
             "ratingUser": 8.2,
             "n10Rating": 8.18,
             "n20Rating": 8.16,
-            "bggRating": 7.783,
-            "bggGeekRating": 7.55,
-            "bggNumVotes": 31545,
-            "commentsTotal": 4802,
+            "bggRating": 7.78,
+            "bggGeekRating": 7.547,
+            "bggNumVotes": 31883,
+            "commentsTotal": 4823,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -23585,9 +24326,9 @@ var games = [
             "ratingUser": 7.27,
             "n10Rating": 7.15,
             "n20Rating": 7.04,
-            "bggRating": 7.667,
-            "bggGeekRating": 7.299,
-            "bggNumVotes": 13736,
+            "bggRating": 7.663,
+            "bggGeekRating": 7.292,
+            "bggNumVotes": 13896,
             "commentsTotal": 282,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -23602,13 +24343,13 @@ var games = [
             "creationDateUtc": "2020-08-26T08:09:22",
             "photoUrl": "https://s.tesera.ru/images/items/1730826,3/200x200xpa/photo1.png",
             "year": 2020,
-            "numVotes": 4,
-            "ratingUser": 6.75,
+            "numVotes": 9,
+            "ratingUser": 7.17,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.1,
-            "bggGeekRating": 5.871,
-            "bggNumVotes": 604,
+            "bggRating": 7.096,
+            "bggGeekRating": 5.892,
+            "bggNumVotes": 656,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -23650,7 +24391,7 @@ var games = [
             "alias": "star-realms",
             "descriptionShort": "Star Realms (Звездные империи) - колодостроительная игра с открытым противостоянием на космическую тематику. Игра похожа на Ascension, но имеет некоторые отличия.",
             "description": "<p style=\"text-align: justify;\">Колодостроительная игра с открытым противостоянием двух (четырёх/шести при использовании двух/трех копий игры) игроков на космическую тематику.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Каждый игрок вначале имеет 50 очков влияния. Игроки могут атаковать друг друга, нанося прямые повреждения. Цель игры - уменьшить очки влияния противника до нуля. Для защиты игроки могут вводить в игру космические станции, которые защищают от прямых атак на игрока, принимая на себя повреждения. В игре есть 2 типа ресурсов: деньги (для покупки карт из центрального ряда) и атаки (для нанесения вреда оппоненту).</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">Игра похожа на Ascension, но имеет некоторые отличия (например эффекты самоуничтожения карт).</p>",
-            "modificationDateUtc": "2022-01-08T20:01:29",
+            "modificationDateUtc": "2022-02-23T16:05:18",
             "creationDateUtc": "2013-09-12T06:05:03",
             "photoUrl": "https://s.tesera.ru/images/items/312644,3/photo1.jpg",
             "photoUrl2": "https://s.tesera.ru/images/items/312644,3/photo2.jpg",
@@ -23658,11 +24399,10 @@ var games = [
             "ratingUser": 7.43,
             "n10Rating": 7.41,
             "n20Rating": 7.38,
-            "ratingMy": 8.0,
-            "bggRating": 7.579,
-            "bggGeekRating": 7.441,
-            "bggNumVotes": 38653,
-            "numVotes": 931,
+            "bggRating": 7.58,
+            "bggGeekRating": 7.439,
+            "bggNumVotes": 39097,
+            "numVotes": 945,
             "playersMin": 2,
             "playersMax": 2,
             "playersMinRecommend": 2,
@@ -23671,18 +24411,18 @@ var games = [
             "timeToLearn": 5,
             "playtimeMin": 15,
             "playtimeMax": 30,
-            "commentsTotal": 682,
+            "commentsTotal": 687,
             "commentsTotalNew": 0,
             "teseraUrl": "https://tesera.ru/game/312644",
             "isAddition": false
         },
-        "ownersTotal": 1968,
-        "sellTotal": 4,
-        "buyTotal": 2,
+        "ownersTotal": 2018,
+        "sellTotal": 5,
+        "buyTotal": 1,
         "sellTotalAll": 24,
-        "buyTotalAll": 16,
-        "commentsTotal": 682,
-        "reportsTotal": 403,
+        "buyTotalAll": 18,
+        "commentsTotal": 687,
+        "reportsTotal": 407,
         "photosTotal": 11,
         "filesTotal": 6,
         "linksTotal": 25,
@@ -23700,7 +24440,7 @@ var games = [
                 "login": "iga",
                 "name": "Игорь",
                 "avatarUrl": "https://s.tesera.ru/images/items/1110775,22/photo.jpg",
-                "rating": 570,
+                "rating": 590,
                 "teseraUrl": "https://tesera.ru/user/1110775"
             }
         }, {
@@ -23715,7 +24455,7 @@ var games = [
                 "login": "likvi139",
                 "name": "Артем",
                 "avatarUrl": "https://s.tesera.ru/images/items/201796,22/photo.jpg",
-                "rating": 6515,
+                "rating": 6532,
                 "teseraUrl": "https://tesera.ru/user/201796"
             }
         }, {
@@ -23730,7 +24470,7 @@ var games = [
                 "login": "shalizhuk",
                 "name": "Сергей",
                 "avatarUrl": "https://s.tesera.ru/images/items/588687,22/photo.jpg",
-                "rating": 6379,
+                "rating": 6386,
                 "teseraUrl": "https://tesera.ru/user/588687"
             }
         }, {
@@ -23745,7 +24485,7 @@ var games = [
                 "login": "port",
                 "name": "Олег",
                 "avatarUrl": "https://s.tesera.ru/images/items/20015,22/photo.jpg",
-                "rating": 51062,
+                "rating": 51002,
                 "teseraUrl": "https://tesera.ru/user/20015"
             }
         }, {
@@ -23778,7 +24518,7 @@ var games = [
                 "login": "runner38",
                 "name": "Александр",
                 "avatarUrl": "https://s.tesera.ru/images/items/302185,22/photo.jpg",
-                "rating": 10775,
+                "rating": 11020,
                 "teseraUrl": "https://tesera.ru/user/302185"
             }
         }, {
@@ -23812,7 +24552,7 @@ var games = [
                 "login": "curtis_truffle",
                 "name": "Миша",
                 "avatarUrl": "https://s.tesera.ru/images/items/457351,22/photo.jpg",
-                "rating": 14080,
+                "rating": 14081,
                 "teseraUrl": "https://tesera.ru/user/457351"
             }
         }, {
@@ -23829,7 +24569,7 @@ var games = [
                 "login": "patrick_verona",
                 "name": "Patrick Verona",
                 "avatarUrl": "https://s.tesera.ru/images/items/242310,22/photo.jpg",
-                "rating": 10697,
+                "rating": 10702,
                 "teseraUrl": "https://tesera.ru/user/242310"
             }
         }, {
@@ -23846,7 +24586,7 @@ var games = [
                 "login": "kosulya",
                 "name": "Alexey Abramov",
                 "avatarUrl": "https://s.tesera.ru/images/items/34273,22/photo.jpg",
-                "rating": 10799,
+                "rating": 10938,
                 "teseraUrl": "https://tesera.ru/user/34273"
             }
         }],
@@ -23863,7 +24603,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -23877,9 +24617,9 @@ var games = [
                 "teseraId": 775050,
                 "id": 19031,
                 "login": "twix",
-                "name": "Twix",
+                "name": "НастольнаяИгра.ру",
                 "avatarUrl": "https://s.tesera.ru/images/items/775050,22/photo.jpg",
-                "rating": 4869,
+                "rating": 4962,
                 "teseraUrl": "https://tesera.ru/user/775050"
             }
         }, {
@@ -23895,7 +24635,7 @@ var games = [
                 "login": "niacrys",
                 "name": "Niacrys",
                 "avatarUrl": "https://s.tesera.ru/images/items/1923492,22/photo.jpg",
-                "rating": 8447,
+                "rating": 8465,
                 "teseraUrl": "https://tesera.ru/user/1923492"
             }
         }, {
@@ -23911,7 +24651,7 @@ var games = [
                 "login": "crazy_murloc",
                 "name": "Банько Алексей Юрьевич",
                 "avatarUrl": "https://s.tesera.ru/images/items/1673299,22/photo.png",
-                "rating": 3238,
+                "rating": 3448,
                 "teseraUrl": "https://tesera.ru/user/1673299"
             }
         }, {
@@ -23942,14 +24682,14 @@ var games = [
             "creationDateUtc": "2009-09-23T15:00:55",
             "photoUrl": "https://s.tesera.ru/images/items/433,3/200x200xpa/photo1.jpg",
             "year": 1993,
-            "numVotes": 498,
-            "ratingUser": 7.57,
-            "n10Rating": 7.52,
-            "n20Rating": 7.48,
-            "bggRating": 7.537,
-            "bggGeekRating": 7.37,
-            "bggNumVotes": 34457,
-            "commentsTotal": 133,
+            "numVotes": 506,
+            "ratingUser": 7.56,
+            "n10Rating": 7.51,
+            "n20Rating": 7.47,
+            "bggRating": 7.54,
+            "bggGeekRating": 7.372,
+            "bggNumVotes": 34857,
+            "commentsTotal": 134,
             "commentsTotalNew": 0,
             "isAddition": false
         }, {
@@ -23964,13 +24704,13 @@ var games = [
             "creationDateUtc": "2010-02-01T22:15:19",
             "photoUrl": "https://s.tesera.ru/images/items/2496,3/200x200xpa/photo1.jpg",
             "year": 2008,
-            "numVotes": 990,
+            "numVotes": 1002,
             "ratingUser": 7.8,
             "n10Rating": 7.77,
             "n20Rating": 7.75,
             "bggRating": 7.61,
-            "bggGeekRating": 7.499,
-            "bggNumVotes": 81665,
+            "bggGeekRating": 7.497,
+            "bggNumVotes": 82327,
             "commentsTotal": 186,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -23985,13 +24725,13 @@ var games = [
             "creationDateUtc": "2010-02-21T10:07:08",
             "photoUrl": "https://s.tesera.ru/images/items/3086,3/200x200xpa/photo1.jpg",
             "year": 2009,
-            "numVotes": 302,
-            "ratingUser": 7.9,
-            "n10Rating": 7.81,
-            "n20Rating": 7.73,
-            "bggRating": 7.71,
-            "bggGeekRating": 7.553,
-            "bggNumVotes": 31251,
+            "numVotes": 304,
+            "ratingUser": 7.88,
+            "n10Rating": 7.79,
+            "n20Rating": 7.71,
+            "bggRating": 7.707,
+            "bggGeekRating": 7.55,
+            "bggNumVotes": 31425,
             "commentsTotal": 33,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -24006,13 +24746,13 @@ var games = [
             "creationDateUtc": "2010-02-24T12:25:23",
             "photoUrl": "https://s.tesera.ru/images/items/3153,3/200x200xpa/photo1.jpg",
             "year": 2009,
-            "numVotes": 286,
-            "ratingUser": 7.07,
-            "n10Rating": 7.01,
-            "n20Rating": 6.95,
-            "bggRating": 6.932,
-            "bggGeekRating": 6.698,
-            "bggNumVotes": 10262,
+            "numVotes": 287,
+            "ratingUser": 7.08,
+            "n10Rating": 7.02,
+            "n20Rating": 6.96,
+            "bggRating": 6.931,
+            "bggGeekRating": 6.694,
+            "bggNumVotes": 10282,
             "commentsTotal": 213,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -24027,13 +24767,13 @@ var games = [
             "creationDateUtc": "2010-03-31T11:27:14",
             "photoUrl": "https://s.tesera.ru/images/items/3894,3/200x200xpa/photo1.jpg",
             "year": 2010,
-            "numVotes": 189,
-            "ratingUser": 7.7,
-            "n10Rating": 7.57,
-            "n20Rating": 7.46,
-            "bggRating": 7.028,
-            "bggGeekRating": 6.782,
-            "bggNumVotes": 12298,
+            "numVotes": 191,
+            "ratingUser": 7.69,
+            "n10Rating": 7.56,
+            "n20Rating": 7.45,
+            "bggRating": 7.026,
+            "bggGeekRating": 6.78,
+            "bggNumVotes": 12375,
             "commentsTotal": 143,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -24072,9 +24812,9 @@ var games = [
             "ratingUser": 7.32,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.734,
-            "bggGeekRating": 6.708,
-            "bggNumVotes": 2111,
+            "bggRating": 7.735,
+            "bggGeekRating": 6.706,
+            "bggNumVotes": 2120,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -24092,9 +24832,9 @@ var games = [
             "ratingUser": 7.36,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.727,
-            "bggGeekRating": 6.658,
-            "bggNumVotes": 1939,
+            "bggRating": 7.73,
+            "bggGeekRating": 6.657,
+            "bggNumVotes": 1949,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -24112,9 +24852,9 @@ var games = [
             "ratingUser": 6.93,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.15,
-            "bggGeekRating": 6.369,
-            "bggNumVotes": 2034,
+            "bggRating": 7.153,
+            "bggGeekRating": 6.371,
+            "bggNumVotes": 2046,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -24132,9 +24872,9 @@ var games = [
             "ratingUser": 6.18,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.046,
+            "bggRating": 7.047,
             "bggGeekRating": 6.313,
-            "bggNumVotes": 2001,
+            "bggNumVotes": 2010,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -24154,7 +24894,7 @@ var games = [
             "n20Rating": 0.0,
             "bggRating": 7.236,
             "bggGeekRating": 6.411,
-            "bggNumVotes": 2001,
+            "bggNumVotes": 2016,
             "commentsTotal": 2,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -24192,9 +24932,9 @@ var games = [
             "ratingUser": 6.95,
             "n10Rating": 0.0,
             "n20Rating": 0.0,
-            "bggRating": 7.077,
-            "bggGeekRating": 5.559,
-            "bggNumVotes": 69,
+            "bggRating": 7.119,
+            "bggGeekRating": 5.56,
+            "bggNumVotes": 70,
             "commentsTotal": 0,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -24209,13 +24949,13 @@ var games = [
             "creationDateUtc": "2015-04-07T22:00:33",
             "photoUrl": "https://s.tesera.ru/images/items/537400,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 208,
-            "ratingUser": 6.8,
-            "n10Rating": 6.73,
-            "n20Rating": 6.66,
-            "bggRating": 6.705,
-            "bggGeekRating": 6.237,
-            "bggNumVotes": 3019,
+            "numVotes": 213,
+            "ratingUser": 6.79,
+            "n10Rating": 6.72,
+            "n20Rating": 6.65,
+            "bggRating": 6.703,
+            "bggGeekRating": 6.232,
+            "bggNumVotes": 3044,
             "commentsTotal": 35,
             "commentsTotalNew": 0,
             "isAddition": false
@@ -24231,13 +24971,13 @@ var games = [
             "creationDateUtc": "2015-09-09T07:48:09",
             "photoUrl": "https://s.tesera.ru/images/items/606069,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 179,
-            "ratingUser": 7.7,
-            "n10Rating": 7.57,
-            "n20Rating": 7.45,
-            "bggRating": 7.846,
-            "bggGeekRating": 7.331,
-            "bggNumVotes": 6743,
+            "numVotes": 182,
+            "ratingUser": 7.67,
+            "n10Rating": 7.54,
+            "n20Rating": 7.42,
+            "bggRating": 7.842,
+            "bggGeekRating": 7.329,
+            "bggNumVotes": 6853,
             "commentsTotal": 35,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -24252,13 +24992,13 @@ var games = [
             "creationDateUtc": "2016-03-16T10:44:36",
             "photoUrl": "https://s.tesera.ru/images/items/733719,3/200x200xpa/photo1.jpg",
             "year": 2016,
-            "numVotes": 266,
-            "ratingUser": 7.14,
-            "n10Rating": 7.07,
-            "n20Rating": 7.0,
-            "bggRating": 7.576,
-            "bggGeekRating": 7.262,
-            "bggNumVotes": 13950,
+            "numVotes": 270,
+            "ratingUser": 7.12,
+            "n10Rating": 7.05,
+            "n20Rating": 6.99,
+            "bggRating": 7.572,
+            "bggGeekRating": 7.261,
+            "bggNumVotes": 14237,
             "commentsTotal": 175,
             "commentsTotalNew": 0,
             "isAddition": true
@@ -24292,10 +25032,10 @@ var games = [
             "creationDateUtc": "2016-12-11T15:21:34",
             "photoUrl": "https://s.tesera.ru/images/items/895116,3/200x200xpa/photo1.jpg",
             "year": 2015,
-            "numVotes": 73,
-            "ratingUser": 7.58,
-            "n10Rating": 7.29,
-            "n20Rating": 7.06,
+            "numVotes": 74,
+            "ratingUser": 7.61,
+            "n10Rating": 7.32,
+            "n20Rating": 7.09,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
             "bggNumVotes": 0,
@@ -24313,14 +25053,14 @@ var games = [
             "creationDateUtc": "2017-07-11T16:13:12",
             "photoUrl": "https://s.tesera.ru/images/items/1047903,3/200x200xpa/photo1.jpg",
             "year": 2017,
-            "numVotes": 174,
-            "ratingUser": 7.8,
+            "numVotes": 184,
+            "ratingUser": 7.81,
             "n10Rating": 7.66,
-            "n20Rating": 7.53,
-            "bggRating": 7.994,
-            "bggGeekRating": 7.101,
-            "bggNumVotes": 3330,
-            "commentsTotal": 89,
+            "n20Rating": 7.54,
+            "bggRating": 7.98,
+            "bggGeekRating": 7.106,
+            "bggNumVotes": 3449,
+            "commentsTotal": 91,
             "commentsTotalNew": 0,
             "isAddition": true
         }, {
@@ -24637,8 +25377,8 @@ var games = [
             "photoUrl": "https://s.tesera.ru/images/items/1908795,3/200x200xpa/photo1.jpg",
             "year": 2016,
             "numVotes": 20,
-            "ratingUser": 7.89,
-            "n10Rating": 6.99,
+            "ratingUser": 7.91,
+            "n10Rating": 7.0,
             "n20Rating": 6.54,
             "bggRating": 0.0,
             "bggGeekRating": 0.0,
@@ -24709,4 +25449,5 @@ var games = [
             "commentsTotal": 19,
             "numVotes": 0
         }]
-    }]
+    }
+]

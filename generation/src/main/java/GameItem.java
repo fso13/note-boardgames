@@ -10,6 +10,7 @@ public class GameItem {
     public String title;
     public String photoUrl;
     public String description;
+    public String descriptionShort;
     public String playersMin;
     public String playersMax;
 
@@ -20,6 +21,7 @@ public class GameItem {
                 ", title='" + title + '\'' +
                 ", photoUrl='" + photoUrl + '\'' +
                 ", description='" + description + '\'' +
+                ", descriptionShort='" + descriptionShort + '\'' +
                 ", playersMin='" + playersMin + '\'' +
                 ", playersMax='" + playersMax + '\'' +
                 '}';

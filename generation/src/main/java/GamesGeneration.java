@@ -10,6 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.Optional;
 
 /**
  * created 14/01/2022
@@ -99,7 +100,7 @@ public class GamesGeneration {
                     game.game.title,
                     game.game.photoUrl,
                     String.format("от %s до %s игроков", game.game.playersMin, "0".equals(game.game.playersMax) ? "∞" : game.game.playersMax),
-                    game.game.description.replaceAll("\r\n", "<\\br>"));
+                    Optional.ofNullable(game.game.description).orElse(game.game.descriptionShort).replaceAll("\r\n", "<\\br>"));
 
             try {
                 Files.write(Paths.get("D:\\Projects\\note-boardgames\\html\\games\\" + game.game.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
