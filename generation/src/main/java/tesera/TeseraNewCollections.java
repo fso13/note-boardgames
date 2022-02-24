@@ -1,7 +1,8 @@
 package tesera;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import game.GamesGeneration;
+import note.NotesGeneration;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -11,7 +12,12 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -21,14 +27,14 @@ import java.util.Map;
  *
  * @author Rudenko Dmitry
  */
-public class Tesera {
-    public static void main(String[] args) {
+public class TeseraNewCollections {
+    public static void main(String[] args) throws IOException {
 
+        String userDir = System.getProperties().getProperty("user.dir");
 
         RestTemplate restTemplate = new RestTemplateBuilder()
                 .rootUri("https://api.tesera.ru/v1")
                 .build();
-
 
         MappingJackson2HttpMessageConverter mappingJackson2HttpMessageConverter = new MappingJackson2HttpMessageConverter();
 
@@ -39,16 +45,27 @@ public class Tesera {
         HttpHeaders headers = new HttpHeaders();
 
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.add("Authorization", "Bearer");
+        headers.setAccept(Collections.singletonList(MediaType.parseMediaType("application/json-patch+json")));
 
-        List<Map> list1 = (List) restTemplate.exchange("/collections/base/own?Limit=50",
+        Map<String, String> auth = (Map<String, String>) restTemplate.exchange("/auth/login",
+                HttpMethod.POST,
+                new HttpEntity<>(new TeseraAuth("login", "password"), headers),
+                Object.class).getBody();
+
+        String token = auth.get("token");
+
+        headers.clear();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.add("Authorization", "Bearer " + token);
+
+        List<Map> allGamesBasedCollection = (List) restTemplate.exchange("/collections/custom/2598/gamesclear?Limit=100",
                 HttpMethod.GET,
                 new HttpEntity<>(headers),
                 Object.class).getBody();
 
 
         List<Map> games = new LinkedList<>();
-        list1.forEach(map -> {
+        allGamesBasedCollection.forEach(map -> {
 
             HttpHeaders headers2 = new HttpHeaders();
 
@@ -60,17 +77,16 @@ public class Tesera {
                     new HttpEntity<>(headers2),
                     Object.class).getBody();
             games.add(game);
-            System.out.println(((Map<?, ?>) game.get("game")).get("title"));
-            System.out.println(((Map<?, ?>) game.get("game")).get("description"));
-
         });
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            System.out.println(objectMapper.writeValueAsString(games));
 
-        } catch (JsonProcessingException e) {
+            Files.write(Paths.get(userDir + "\\js\\games.js"), ("var games =" + objectMapper.writeValueAsString(games)).getBytes(StandardCharsets.UTF_8));
+
+        } catch (IOException e) {
             e.printStackTrace();
         }
-
+        GamesGeneration.main(null);
+        NotesGeneration.main(null);
     }
 }

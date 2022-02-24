@@ -1,3 +1,5 @@
+package note;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
@@ -19,8 +21,9 @@ import java.util.stream.Collectors;
  */
 public class NotesGeneration {
     public static void main(String[] args) throws IOException {
+        String userDir = System.getProperties().getProperty("user.dir");
 
-        String list = new String(Files.readAllBytes(Paths.get("D:\\Документы\\D\\fso13\\note-boardgames\\js\\note.js")), StandardCharsets.UTF_8).replace("var notes = ", "");;
+        String list = new String(Files.readAllBytes(Paths.get(userDir + "\\js\\note.js")), StandardCharsets.UTF_8).replace("var notes = ", "");
         list = list.trim();
         JsonReader reader = new JsonReader(new StringReader(list));
         reader.setLenient(true);
@@ -115,7 +118,7 @@ public class NotesGeneration {
             String total = String.format(html, note.id, note.content.replaceAll("<.*?>", ""), note.content.replaceAll("<.*?>", ""), note.files.get(0), note.content.replaceAll("<.*?>", ""), note.title, note.content, String.join(",", note.tags), images);
 
             try {
-                Files.write(Paths.get("D:\\Документы\\D\\fso13\\note-boardgames\\html\\" + note.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
+                Files.write(Paths.get(userDir + "\\html\\" + note.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
             } catch (IOException e) {
                 e.printStackTrace();
             }

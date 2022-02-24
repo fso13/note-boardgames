@@ -1,3 +1,5 @@
+package note;
+
 import java.util.List;
 
 /**
@@ -14,7 +16,7 @@ public class Note {
 
     @Override
     public String toString() {
-        return "Note{" +
+        return "note.Note{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +

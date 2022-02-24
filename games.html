@@ -57,13 +57,16 @@
         var mainDiv = document.createElement('div');
 
         var d = '';
-        if (game.game.descriptionShort) {
-            d = game.game.descriptionShort;
-        } else {
+        if (game.game.description) {
             d = game.game.description;
+        } else {
+            d = game.game.descriptionShort;
         }
-        d = d.replace(/<(.|\n)*?>/g, '');
-
+        if (d !== '' || d !== null) {
+            d = d.replace(/<(.|\n)*?>/g, '');
+        }else {
+            d = "";
+        }
         var playersMax = "";
 
         if (game.game.playersMax === 0) {

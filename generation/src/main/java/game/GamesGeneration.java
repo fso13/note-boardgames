@@ -1,3 +1,5 @@
+package game;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
@@ -19,8 +21,9 @@ import java.util.Optional;
  */
 public class GamesGeneration {
     public static void main(String[] args) throws IOException {
+        String userDir = System.getProperties().getProperty("user.dir");
 
-        String list = new String(Files.readAllBytes(Paths.get("D:\\Projects\\note-boardgames\\js\\games.js")), StandardCharsets.UTF_8).replace("var games = ", "");
+        String list = new String(Files.readAllBytes(Paths.get(userDir + "\\js\\games.js")), StandardCharsets.UTF_8).replace("var games =", "");
         list = list.trim();
         JsonReader reader = new JsonReader(new StringReader(list));
         reader.setLenient(true);
@@ -103,7 +106,7 @@ public class GamesGeneration {
                     Optional.ofNullable(game.game.description).orElse(game.game.descriptionShort).replaceAll("\r\n", "<\\br>"));
 
             try {
-                Files.write(Paths.get("D:\\Projects\\note-boardgames\\html\\games\\" + game.game.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
+                Files.write(Paths.get(userDir + "\\html\\games\\" + game.game.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
             } catch (IOException e) {
                 e.printStackTrace();
             }

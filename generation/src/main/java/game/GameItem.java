@@ -1,3 +1,5 @@
+package game;
+
 import java.util.List;
 
 /**
@@ -16,7 +18,7 @@ public class GameItem {
 
     @Override
     public String toString() {
-        return "GameItem{" +
+        return "game.GameItem{" +
                 "id='" + id + '\'' +
                 ", title='" + title + '\'' +
                 ", photoUrl='" + photoUrl + '\'' +
