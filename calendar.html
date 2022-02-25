@@ -1,119 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta property="og:url" content="https://fso13.github.io/note-boardgames/"/>
-  <meta property="og:image" content="https://sun9-63.userapi.com/impf/c830708/v830708043/17e4dd/Ct4z70FTyNg.jpg?size=550x550&quality=96&sign=21403d15f3f6ce7b9583f03ac15e4727&type=album"/>
-  <meta property="og:image:alt" content="Бардовский университет"/>
-  <meta property="og:image:width" content="550"/>
-  <meta property="og:image:height" content="550"/>
-  <meta property="og:site_name" content="Бардовский университет"/>
-  <meta property="og:type" content="article"/>
-  <meta property="og:title" content="Бардовский университет"/>
-  <meta property="og:description" content="Бардовский университет"/>
+    <meta charset="UTF-8">
+    <meta property="og:url" content="https://fso13.github.io/note-boardgames/"/>
+    <meta property="og:image" content="https://sun9-63.userapi.com/impf/c830708/v830708043/17e4dd/Ct4z70FTyNg.jpg?size=550x550&quality=96&sign=21403d15f3f6ce7b9583f03ac15e4727&type=album"/>
+    <meta property="og:image:alt" content="Бардовский университет"/>
+    <meta property="og:image:width" content="550"/>
+    <meta property="og:image:height" content="550"/>
+    <meta property="og:site_name" content="Бардовский университет"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Бардовский университет"/>
+    <meta property="og:description" content="Бардовский университет"/>
 
-  <script
-          src="https://code.jquery.com/jquery-3.6.0.min.js"
-          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-          crossorigin="anonymous"></script>
-  </script>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    </script>
 
-  </script>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
+    </script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
 
-  <script src="js/note.js"></script>
-  <script src="js/games.js"></script>
-  <script src="js/modal.js"></script>
-  <script src="js/header.js"></script>
-  <style>
-    .truncate-text {
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-    }
+    <script src="js/note.js"></script>
+    <script src="js/games.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/header.js"></script>
+    <style>
+        .truncate-text {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+        }
 
-  </style>
+    </style>
 </head>
 
 <body translate="no">
 
 <script>
-  // $(document).ready(function () {
-  //   $('[data-bs-toggle="tooltip"]').tooltip();
-  // });
+    // $(document).ready(function () {
+    //   $('[data-bs-toggle="tooltip"]').tooltip();
+    // });
 </script>
 </body>
 <script>
-  var nav = document.createElement('div');
-  nav.className = 'flex flex-no-wrap font-mono';
-  nav.innerHTML = headerHtml;
-  nav.id = 'header';
+    var nav = document.createElement('div');
+    nav.className = 'flex flex-no-wrap font-mono';
+    nav.innerHTML = headerHtml;
+    nav.id = 'header';
 
-  document.body.appendChild(nav);
+    document.body.appendChild(nav);
 
-  var calendarEl = document.createElement('div');
-  calendarEl.className = 'p-20 flex flex-no-wrap font-mono container';
-  calendarEl.innerHTML = headerHtml;
-  calendarEl.id = 'calendar';
+    var calendarEl = document.createElement('div');
+    calendarEl.className = 'p-20 flex flex-no-wrap font-mono container';
+    calendarEl.innerHTML = headerHtml;
+    calendarEl.id = 'calendar';
 
-  document.getElementById('container').className = 'container grid';
-  document.getElementById('container').appendChild(calendarEl);
+    document.getElementById('container').className = 'container grid';
+    document.getElementById('container').appendChild(calendarEl);
 
-  document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () {
 
-    const allTags = notes.reduce((acc, note) => {
-      const noteTags = note.tags.map((tag) => ({
-        title: tag,
-        description: note.content.replaceAll("</br>", ''),
-        start: note.title.split('.').reverse().join('-'),
-        allDay: true,
-        editable: false
-      }));
+        const allTags = notes.reduce((acc, note) => {
+            const noteTags = note.tags.map((tag) => ({
+                title: tag,
+                description: note.content.replaceAll("</br>", ''),
+                start: note.title.split('.').reverse().join('-'),
+                allDay: true,
+                editable: false
+            }));
 
-      return [...acc, ...noteTags];
-    }, []);
+            return [...acc, ...noteTags];
+        }, []);
 
 
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-      timeZone: 'UTC',
-      firstDay: 1,
-      locale: 'ru',
-      initialView: 'dayGridMonth',
-      allDayText: 'Весь вечер',
-      events: allTags,
-      headerToolbar: {
-        left: "prev,next",
-        center: "title",
-        right: "dayGridMonth,timeGridWeek,timeGridDay,listYear"
-      },
-      views: {
-        dayGridMonth: {buttonText: "Месяц"},
-        timeGridWeek: {buttonText: "Неделя"},
-        timeGridDay: {buttonText: "День"},
-        listYear: {buttonText: "Игра за год"}
-      },
-      navLinks: true,
-      // eventContent: function (arg) {
-      //   return {
-      //     html: '<div data-bs-toggle="tooltip" data-bs-html="true" title="' + arg.event.extendedProps.description + '">' + arg.event.title + '</div>'
-      //   }
-      // },
-      editable: true,
-      eventDisplay: 'block',
-      eventBackgroundColor: '#2c3e50',
-      eventBorderColor: '#1a252f',
-      selectable: true
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            timeZone: 'UTC',
+            firstDay: 1,
+            locale: 'ru',
+            initialView: 'dayGridMonth',
+            allDayText: 'Весь вечер',
+            events: allTags,
+            headerToolbar: {
+                left: "prev,next",
+                center: "title",
+                right: "dayGridMonth,timeGridWeek,timeGridDay,listYear"
+            },
+            views: {
+                dayGridMonth: {buttonText: "Месяц"},
+                timeGridWeek: {buttonText: "Неделя"},
+                timeGridDay: {buttonText: "День"},
+                listYear: {buttonText: "Игра за год"}
+            },
+            navLinks: true,
+            // eventContent: function (arg) {
+            //   return {
+            //     html: '<div data-bs-toggle="tooltip" data-bs-html="true" title="' + arg.event.extendedProps.description + '">' + arg.event.title + '</div>'
+            //   }
+            // },
+            editable: true,
+            eventDisplay: 'block',
+            eventBackgroundColor: '#2c3e50',
+            eventBorderColor: '#1a252f',
+            selectable: true
+        });
+
+
+        calendar.render();
+
+
     });
-
-
-    calendar.render();
-
-
-  });
 
 </script>
 

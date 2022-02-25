@@ -7,7 +7,7 @@ package tesera;
  */
 public class AddNewGame {
 
- public String alias;
+    public String alias;
 
     public AddNewGame(String alias) {
         this.alias = alias;

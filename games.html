@@ -48,8 +48,8 @@
     document.body.appendChild(nav);
 
     games.sort(function (a, b) {
-        var textA = a.game.title.toUpperCase();
-        var textB = b.game.title.toUpperCase();
+        var textA = a.title.toUpperCase();
+        var textB = b.title.toUpperCase();
         return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
     }).forEach(function (game) {
 
@@ -57,46 +57,46 @@
         var mainDiv = document.createElement('div');
 
         var d = '';
-        if (game.game.description) {
-            d = game.game.description;
+        if (game.description) {
+            d = game.description;
         } else {
-            d = game.game.descriptionShort;
+            d = game.descriptionShort;
         }
         if (d !== '' || d !== null) {
             d = d.replace(/<(.|\n)*?>/g, '');
-        }else {
+        } else {
             d = "";
         }
         var playersMax = "";
 
-        if (game.game.playersMax === 0) {
+        if (game.playersMax === 0) {
             playersMax = "∞";
         } else {
-            playersMax = game.game.playersMax;
+            playersMax = game.playersMax;
         }
-        mainDiv.innerHTML = '<a href="/note-boardgames/html/games/' + game.game.id + '.html" ><div class="flex w-full items-center flex justify-center items-center">\n' +
+        mainDiv.innerHTML = '<a href="/note-boardgames/html/games/' + game.id + '.html" ><div class="flex w-full items-center flex justify-center items-center">\n' +
             '        <div>\n' +
             '            <div class="max-w-xs  flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">\n' +
             '                <div>\n' +
             '                    <div>\n' +
-            '                        <h4 tabindex="0" class="focus:outline-none text-center  text-gray-800 dark:text-gray-100 font-bold mb-3">' + game.game.title + '</h4>\n' +
+            '                        <h4 tabindex="0" class="focus:outline-none text-center  text-gray-800 dark:text-gray-100 font-bold mb-3">' + game.title + '</h4>\n' +
             '                    </div>\n' +
             '                    <div class="flex flex-col items-center bg-gray-600">\n' +
-            '                        <img loading="lazy" class="object-scale-down h-48 w-96 contrast-125 hue-rotate-15" height="" src="' + game.game.photoUrl + '"/>\n' +
+            '                        <img loading="lazy" class="object-scale-down h-48 w-96 contrast-125 hue-rotate-15" height="" src="' + game.photoUrl + '"/>\n' +
             '                    </div>\n' +
             '                    <div>\n' +
             '                        <p tabindex="0" class=" focus:outline-none text-lg font-medium text-gray-800 dark:text-gray-100 truncate-text">' + d + '</p>\n' +
             '                    </div>\n' +
             '                    <div>\n' +
             '                        <div class="flex items-center justify-between text-gray-800">\n' +
-            '                            <p tabindex="0" class="focus:outline-none text-sm text-sky-500 dark:text-sky-400">от ' + game.game.playersMin + ' до ' + playersMax + ' игроков</p>\n' +
+            '                            <p tabindex="0" class="focus:outline-none text-sm text-sky-500 dark:text-sky-400">от ' + game.playersMin + ' до ' + playersMax + ' игроков</p>\n' +
             '                        </div>\n' +
             '                    </div>\n' +
             '                </div>\n' +
             '            </div>\n' +
             '        </div>\n' +
             '    </div></a>' +
-            '<div class="hidden opacity-25 fixed inset-0 z-40 bg-black" id="' + game.game.id + '-backdrop"></div>';
+            '<div class="hidden opacity-25 fixed inset-0 z-40 bg-black" id="' + game.id + '-backdrop"></div>';
         mainDiv.className = 'rounded';
         document.getElementById('container').appendChild(mainDiv);
     });

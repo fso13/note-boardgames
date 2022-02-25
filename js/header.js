@@ -13,7 +13,7 @@ var headerHtml =
     '                        </svg>\n' +
     '                        <span class="text-lg font-medium ml-2 ">Игротеки</span>\n' +
     '                    </a>\n' +
-    '                    <div id="party" class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs">'+notes.length+'</div>\n' +
+    '                    <div id="party" class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs">' + notes.length + '</div>\n' +
     '                </li>\n' +
     '                <li class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">\n' +
     '                    <a href="/note-boardgames/games.html" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">\n' +
@@ -22,7 +22,7 @@ var headerHtml =
     '                        </svg>\n' +
     '                        <span class="text-lg font-medium ml-2">Игры</span>\n' +
     '                    </a>\n' +
-    '                    <div id="games" class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs">'+games.length+'</div>\n' +
+    '                    <div id="games" class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs">' + games.length + '</div>\n' +
     '                </li>\n' +
     '                <li class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">\n' +
     '                    <a href="/note-boardgames/calendar.html" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">\n' +

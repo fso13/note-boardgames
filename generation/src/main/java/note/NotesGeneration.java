@@ -32,7 +32,6 @@ public class NotesGeneration {
         }.getType();
         ArrayList<Note> notes = new Gson().fromJson(reader, listType);
 
-        System.out.println(notes);
         String html = "<!DOCTYPE html>\n" +
                 "<html lang=\"en\">\n" +
                 "<head>\n" +

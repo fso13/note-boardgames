@@ -28,11 +28,10 @@ public class GamesGeneration {
         JsonReader reader = new JsonReader(new StringReader(list));
         reader.setLenient(true);
 
-        Type listType = new TypeToken<ArrayList<Game>>() {
+        Type listType = new TypeToken<ArrayList<GameItem>>() {
         }.getType();
-        ArrayList<Game> games = new Gson().fromJson(reader, listType);
+        ArrayList<GameItem> games = new Gson().fromJson(reader, listType);
 
-        System.out.println(games);
         String html = "<!DOCTYPE html>\n" +
                 "<html lang=\"en\">\n" +
                 "<head>\n" +
@@ -95,18 +94,18 @@ public class GamesGeneration {
         games.forEach(game -> {
 
             String total = String.format(html,
-                    game.game.id,
-                    game.game.title,
-                    game.game.title,
-                    game.game.photoUrl,
-                    game.game.title,
-                    game.game.title,
-                    game.game.photoUrl,
-                    String.format("от %s до %s игроков", game.game.playersMin, "0".equals(game.game.playersMax) ? "∞" : game.game.playersMax),
-                    Optional.ofNullable(game.game.description).orElse(game.game.descriptionShort).replaceAll("\r\n", "<\\br>"));
+                    game.id,
+                    game.title,
+                    game.title,
+                    game.photoUrl,
+                    game.title,
+                    game.title,
+                    game.photoUrl,
+                    String.format("от %s до %s игроков", game.playersMin, "0".equals(game.playersMax) ? "∞" : game.playersMax),
+                    Optional.ofNullable(game.description).orElse(game.descriptionShort).replaceAll("\r\n", "<\\br>"));
 
             try {
-                Files.write(Paths.get(userDir + "\\html\\games\\" + game.game.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
+                Files.write(Paths.get(userDir + "\\html\\games\\" + game.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
             } catch (IOException e) {
                 e.printStackTrace();
             }

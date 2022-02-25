@@ -70,13 +70,15 @@ public class TeseraNewCollections {
             HttpHeaders headers2 = new HttpHeaders();
 
             headers2.setContentType(MediaType.APPLICATION_JSON);
-            headers.add("Authorization", "Bearer");
+            headers.add("Authorization", "Bearer" + token);
 
             Map game = (Map) restTemplate.exchange("/games/" + ((Map<?, ?>) (map.get("game"))).get("teseraId"),
                     HttpMethod.GET,
                     new HttpEntity<>(headers2),
                     Object.class).getBody();
-            games.add(game);
+            Map gameClear = ((Map<?, ?>) (game.get("game")));
+
+            games.add(gameClear);
         });
         try {
             ObjectMapper objectMapper = new ObjectMapper();
