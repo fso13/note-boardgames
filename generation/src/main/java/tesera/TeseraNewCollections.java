@@ -82,8 +82,12 @@ public class TeseraNewCollections {
         });
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-
-            Files.write(Paths.get(userDir + "\\js\\games.js"), ("var games =" + objectMapper.writeValueAsString(games)).getBytes(StandardCharsets.UTF_8));
+            games.sort((o1, o2) -> {
+                Double d1 = (Double) o1.get("bggRating");
+                Double d2 = (Double) o2.get("bggRating");
+                return d2.compareTo(d1);
+            });
+            Files.write(Paths.get(userDir + "\\js\\games.js"), ("var games =" + objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(games)).getBytes(StandardCharsets.UTF_8));
 
         } catch (IOException e) {
             e.printStackTrace();

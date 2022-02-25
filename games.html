@@ -47,13 +47,7 @@
 
     document.body.appendChild(nav);
 
-    games.sort(function (a, b) {
-        var textA = a.title.toUpperCase();
-        var textB = b.title.toUpperCase();
-        return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
-    }).forEach(function (game) {
-
-
+    games.forEach(function (game) {
         var mainDiv = document.createElement('div');
 
         var d = '';
