@@ -1,5 +1,24 @@
 var notes = [
     {
+        "id": 106,
+        "title": "18.03.2022",
+        "content": "Мы знатно отхватив от монстряков в начале, активизировались, собрались и выиграли первую главу, очистив город от этих, как их там... Леприконов каких-то. человекособаков короче) и я получил награду в виде камешка 🤦‍♂",
+        "tags": [
+            "BloodBorne"
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames/raw/master/img/106/0JzLCVrgM_8.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/106/2ugn4-j1lfw.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/106/CT43KsBI1yA.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/106/lETd4ijqBAM.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/106/mIT9ZyDIXig.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/106/PbnkP38fuS4.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/106/T2DoZ6rr_Kg.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/106/YMu2C-m9pzo.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/106/z09d_usCB7I.jpg"
+        ]
+    },
+    {
         "id": 105,
         "title": "05.03.2022",
         "content": "Второе столкновение с героями в Descent. Герои впали в уныние, если бы не дипломатические умения одного из героев, Властелин бы победил.</br></br> А потом попробовали уже бумажные подземелия. Очень вариантивная игра.",
