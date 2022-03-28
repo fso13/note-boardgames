@@ -1,5 +1,16 @@
 var notes = [
     {
+        "id": 108,
+        "title": "25.03.2022",
+        "content": "Пытались остановить чуму. Да же со всеми читами не смогли спасти Терринот...",
+        "tags": [
+            "Runebound",
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames/raw/master/img/108/photo_2022-03-28_11-17-06.jpg"
+        ]
+    },
+    {
         "id": 107,
         "title": "23.03.2022",
         "content": "Внеплановые сборы. Поиграли в наместника, а то давно не доставали. А потом в бумажные подземелья.",
@@ -8,10 +19,10 @@ var notes = [
             "Бумажные подземелья"
         ],
         "files": [
-            "https://github.com/fso13/note-boardgames/raw/master/img/105/photo_2022-03-25_13-17-59.jpg",
-            "https://github.com/fso13/note-boardgames/raw/master/img/105/photo_2022-03-25_13-18-14.jpg",
-            "https://github.com/fso13/note-boardgames/raw/master/img/105/photo_2022-03-25_13-18-18.jpg",
-            "https://github.com/fso13/note-boardgames/raw/master/img/105/photo_2022-03-25_13-18-21.jpg"
+            "https://github.com/fso13/note-boardgames/raw/master/img/107/photo_2022-03-25_13-17-59.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/107/photo_2022-03-25_13-18-14.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/107/photo_2022-03-25_13-18-18.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/107/photo_2022-03-25_13-18-21.jpg"
         ]
     },
     {
