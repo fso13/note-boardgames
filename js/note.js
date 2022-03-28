@@ -4,7 +4,7 @@ var notes = [
         "title": "25.03.2022",
         "content": "Пытались остановить чуму. Да же со всеми читами не смогли спасти Терринот...",
         "tags": [
-            "Runebound",
+            "Runebound"
         ],
         "files": [
             "https://github.com/fso13/note-boardgames/raw/master/img/108/photo_2022-03-28_11-17-06.jpg"
