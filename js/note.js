@@ -1,5 +1,21 @@
 var notes = [
     {
+        "id": 109,
+        "title": "01.04.2022",
+        "content": "Освежив в памяти правила, мы продолжили охоту на лекантропов. Все шло более менее хорошо, до тех пор, как не появился босс. Как оказалось мы наткнулись на опечатку в правилах. Но даже так, мы попытались затащить квест. В итоге я отгреб просто за компанию, а монстр даже не перешел во вторую фазу...</br></br>Закончили вечер партией в каркасон",
+        "tags": [
+            "BloodBorne",
+            "Каркасон"
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames/raw/master/img/109/oHOiUKX7wtM.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/109/ovSlz749DFw.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/109/s2ZwkSi9vFU.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/109/SAidLDPrhKY.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/109/yWilVEKdfaQ.jpg"
+        ]
+    },
+    {
         "id": 108,
         "title": "25.03.2022",
         "content": "Пытались остановить чуму. Да же со всеми читами не смогли спасти Терринот...",
