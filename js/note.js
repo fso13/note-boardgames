@@ -1,5 +1,27 @@
 var notes = [
     {
+        "id": 111,
+        "title": "29.04.2022",
+        "content": "Начали вечер с самой красочной игры - Холст. В первые играли не для победы, а что бы собрать интересную картину. Презентации же этих картин были отдельным представлением.</br></br>Вторая партия в Раскопки. В этот раз копать было сложнее, и шли друг за другом. Но в конце все таки вырвал победу, собрав больше сетов.</br></br>Закончили вечер несколькими партиями в сказки.",
+        "tags": [
+            "Холст",
+            "Раскопки",
+            "Similo-Сказки",
+            "Similo-Страшилки"
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames/raw/master/img/111/photo_2022-05-11_13-18-43.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/111/photo_2022-05-11_13-18-38.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/111/photo_2022-05-11_13-18-46.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/111/photo_2022-05-11_13-18-53.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/111/photo_2022-05-11_13-18-21.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/111/photo_2022-05-11_13-18-29.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/111/photo_2022-05-11_13-18-32.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/111/photo_2022-05-11_13-18-35.jpg"
+
+        ]
+    },
+    {
         "id": 110,
         "title": "15.04.2022",
         "content": "Первая партия в Раскопки. Игра затянулась на три часа, но оказалась достаточно интересной. Думаю в следующий раз будет более понятно как строить стратегии.</br></br>Закончили вечер Картографами. Прикольный ролл плейер.(144 очка)",
