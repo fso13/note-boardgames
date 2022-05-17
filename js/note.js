@@ -481,5 +481,16 @@ var notes = [
             "https://github.com/fso13/note-boardgames/raw/master/img/0/img.png",
             "https://github.com/fso13/note-boardgames/raw/master/img/0/img_1.png"
         ]
+    },
+    {
+        "id": -1,
+        "title": "04.06.2019",
+        "content": "Собрались как то поиграть в ролевки. Пофиксили баги, потестили фичи, запаслись винишком и пошли.</br></br>Персонажам пришлось переться в какие то дали, дабы отыскать огонь, доказав что они взрослые.</br></br>Герои нашли любовь, дружбу и гоблинов.</br>Даже волков покормили.</br>Но это уже другая история...",
+        "tags": [
+            "Pathfinder"
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames/raw/master/img/-1/2019-06-04 23-12-582.jpg"
+        ]
     }
 ]
