@@ -35,6 +35,7 @@ public class NotesGeneration {
         String html = "<!DOCTYPE html>\n" +
                 "<html lang=\"en\">\n" +
                 "<head>\n" +
+                "    <title>%s</title>\n" +
                 "    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"../ico.png\">\n" +
                 "    <meta charset=\"UTF-8\">\n" +
                 "    <meta property=\"og:url\" content=\"https://fso13.github.io/note-boardgames/html/%s.html\"/>\n" +
@@ -115,7 +116,7 @@ public class NotesGeneration {
 
             String images = note.files.stream().map(s -> String.format(htmlImageDiv, s)).collect(Collectors.joining());
 
-            String total = String.format(html, note.id, note.content.replaceAll("<.*?>", ""), note.content.replaceAll("<.*?>", ""), note.files.get(0), note.content.replaceAll("<.*?>", ""), note.title, note.content, String.join(",", note.tags), images);
+            String total = String.format(html, String.join(",", note.tags), note.id, note.content.replaceAll("<.*?>", ""), note.content.replaceAll("<.*?>", ""), note.files.get(0), note.content.replaceAll("<.*?>", ""), note.title, note.content, String.join(",", note.tags), images);
 
             try {
                 Files.write(Paths.get(userDir + "\\html\\" + note.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);

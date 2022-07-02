@@ -1,5 +1,23 @@
 var notes = [
     {
+        "id": 114,
+        "title": "01.07.2022",
+        "content": "Продолжили прохождение бладборна. За пол игры нашли все что нужно, реили всей компанией уйти в сон для прокачки, и уже потом ввалили босам.</br></br>Попробовали  цветрикс. Все бы хорошо, но я забыл что можно зеркалить фигуры.</br></br>Ну и завершили тремя партиями в кодовые имена.",
+        "tags": [
+            "BloodBorne",
+            "Цветрикс",
+            "Codenames"
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames/raw/master/img/114/Ltzm8HoZ56g.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/114/photo_2022-07-02_14-05-46.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/114/photo_2022-07-02_14-05-46 (2).jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/114/photo_2022-07-02_14-05-46 (3).jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/114/photo_2022-07-02_14-05-47.jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/114/photo_2022-07-02_14-05-47 (2).jpg",
+            "https://github.com/fso13/note-boardgames/raw/master/img/114/wEhvFEbOvYs.jpg"]
+    },
+    {
         "id": 113,
         "title": "10.06.2022",
         "content": "Начали вечер с Алхимиков. Чтобы не потерять очки, пришлось высказать невеверную теорию, но защитился от красного элемента. Потом, я опроверг свою же теорию) В итоге - победа.</br></br>Далее новинка, Повелитель Токио. Прикольная игра. Надо искать баланс между стоянием в городе и лечением.</br></br>Далее еще одна новика - Криптид. Две партии. Чистая логика, никакого рандома. Но наверно надо играть не в конце вечера)</br></br>Завершили вечер кодовыми именами. Мы узнали что днюха это шуба, а подъезд это Москва)",

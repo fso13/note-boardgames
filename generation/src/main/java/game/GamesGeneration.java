@@ -35,6 +35,7 @@ public class GamesGeneration {
         String html = "<!DOCTYPE html>\n" +
                 "<html lang=\"en\">\n" +
                 "<head>\n" +
+                "    <title>%s</title>\n" +
                 "    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"../../ico.png\">\n" +
                 "    <meta charset=\"UTF-8\">\n" +
                 "    <meta property=\"og:url\" content=\"https://fso13.github.io/note-boardgames/html/games/%s.html\"/>\n" +
@@ -95,6 +96,7 @@ public class GamesGeneration {
         games.forEach(game -> {
 
             String total = String.format(html,
+                    game.title,
                     game.id,
                     game.title,
                     game.title,
