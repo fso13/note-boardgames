@@ -31,6 +31,8 @@ public class TeseraNewCollections {
     public static void main(String[] args) throws IOException {
 
         String userDir = System.getProperties().getProperty("user.dir");
+        String login = System.getenv("TESSA_LOGIN");
+        String password = System.getenv("TESSA_PASSWORD");
 
         RestTemplate restTemplate = new RestTemplateBuilder()
                 .rootUri("https://api.tesera.ru/v1")
@@ -49,7 +51,7 @@ public class TeseraNewCollections {
 
         Map<String, String> auth = (Map<String, String>) restTemplate.exchange("/auth/login",
                 HttpMethod.POST,
-                new HttpEntity<>(new TeseraAuth("login", "password"), headers),
+                new HttpEntity<>(new TeseraAuth(login, password), headers),
                 Object.class).getBody();
 
         String token = auth.get("token");
@@ -87,7 +89,7 @@ public class TeseraNewCollections {
                 String d2 = (String) o2.get("title");
                 return d1.compareTo(d2);
             });
-            Files.write(Paths.get(userDir + "\\js\\games.js"), ("var games =" + objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(games)).getBytes(StandardCharsets.UTF_8));
+            Files.write(Paths.get(userDir + "\\page\\js\\games.js"), ("var games =" + objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(games)).getBytes(StandardCharsets.UTF_8));
 
         } catch (IOException e) {
             e.printStackTrace();

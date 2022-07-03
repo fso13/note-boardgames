@@ -2,21 +2,27 @@
 <html lang="en">
 <head>
     <title>Descent,Similo-Сказки,Similo-Страшилки</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../ico.png">
+    <link href="../ico.png" rel="shortcut icon" type="image/x-icon">
     <meta charset="UTF-8">
-    <meta property="og:url" content="https://fso13.github.io/note-boardgames/html/103.html"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:site_name" content="Бардовский университет"/>
-    <meta property="og:title" content="Как же давно не играл в Descent.Впервые в роли властелина.Герои выхватили от эттина, а потом и от зомби.Второй игрой вечера новинка.На стол выкладываются 12 карт сказочных персонажей. Ведущий должен с помощью карт других персонажей подсказать игрокам, какая карта была загадана.Прикольная, думаю для завершения вечера самое то."/>
-    <meta property="og:description" content="Как же давно не играл в Descent.Впервые в роли властелина.Герои выхватили от эттина, а потом и от зомби.Второй игрой вечера новинка.На стол выкладываются 12 карт сказочных персонажей. Ведущий должен с помощью карт других персонажей подсказать игрокам, какая карта была загадана.Прикольная, думаю для завершения вечера самое то."/>
-    <meta property="og:image" content="https://github.com/fso13/note-boardgames/raw/master/img/103/4754f885-bd86-4201-b07e-04e78be2a7b5.jpg"/>
-    <meta property="og:image:alt" content="Как же давно не играл в Descent.Впервые в роли властелина.Герои выхватили от эттина, а потом и от зомби.Второй игрой вечера новинка.На стол выкладываются 12 карт сказочных персонажей. Ведущий должен с помощью карт других персонажей подсказать игрокам, какая карта была загадана.Прикольная, думаю для завершения вечера самое то."/>
-    <meta property="og:image:width" content="550"/>
-    <meta property="og:image:height" content="550"/>
+    <meta content="https://fso13.github.io/note-boardgames/html/103.html" property="og:url"/>
+    <meta content="article" property="og:type"/>
+    <meta content="Бардовский университет" property="og:site_name"/>
+    <meta content="Как же давно не играл в Descent.Впервые в роли властелина.Герои выхватили от эттина, а потом и от зомби.Второй игрой вечера новинка.На стол выкладываются 12 карт сказочных персонажей. Ведущий должен с помощью карт других персонажей подсказать игрокам, какая карта была загадана.Прикольная, думаю для завершения вечера самое то."
+          property="og:title"/>
+    <meta 12 Descent.Впервые content=Как property="og:description" Ведущий а была в в вечера вечера властелина.Герои выкладываются
+          выхватили давно для должен других думаю же завершения загадана.Прикольная, зомби.Второй и играл игрой игрокам, какая
+          карт карт карта не новинка.На от от персонажей персонажей. подсказать помощью потом роли
+          с самое сказочных стол то. эттина,/>
+    <meta content="https://github.com/fso13/note-boardgames/raw/master/img/103/4754f885-bd86-4201-b07e-04e78be2a7b5.jpg"
+          property="og:image"/>
+    <meta content="Как же давно не играл в Descent.Впервые в роли властелина.Герои выхватили от эттина, а потом и от зомби.Второй игрой вечера новинка.На стол выкладываются 12 карт сказочных персонажей. Ведущий должен с помощью карт других персонажей подсказать игрокам, какая карта была загадана.Прикольная, думаю для завершения вечера самое то."
+          property="og:image:alt"/>
+    <meta content="550" property="og:image:width"/>
+    <meta content="550" property="og:image:height"/>
     <script
-            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            crossorigin="anonymous"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-            crossorigin="anonymous"></script>
+            src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
@@ -26,17 +32,6 @@
     <script src="../js/modal.js"></script>
     <script src="../js/header.js"></script>
 </head>
-<script>
-    function copyToClipboard(id, el) {
-        text = document.getElementById(id).href;
-        navigator.clipboard.writeText(text).then(function () {
-            alert("Ссылка скопированна в буффер");
-        }, function (err) {
-            console.error('Async: Could not copy text: ', err);
-        });
-
-    }
-</script>
 <body translate="no">
 
 </body>
@@ -51,22 +46,30 @@
 
     var mainDiv = document.createElement('div');
 
-    mainDiv.innerHTML =         '<div style="width: 100%; height: 100%" class="p-8  transition duration-200 ease-in-out z-10  top-0 right-0 bottom-0 left-0" id="modal">\n' +
+    mainDiv.innerHTML =
+        '<div style="width: 100%%; height: 100%%" class="p-8  transition duration-200 ease-in-out z-10  top-0 right-0 bottom-0 left-0" id="modal">\n' +
         '            <div role="alert" class="container mx-auto  flex justify-center">\n' +
         '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 pt-10 pb-8 rounded">\n' +
         '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
         '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-center ">18.02.2022</p>\n' +
-        '                        <p class="focus:outline-none text-lg font-medium ">Как же давно не играл в Descent.</br>Впервые в роли властелина.</br>Герои выхватили от эттина, а потом и от зомби.</br></br>Второй игрой вечера новинка.</br>На стол выкладываются 12 карт сказочных персонажей. Ведущий должен с помощью карт других персонажей подсказать игрокам, какая карта была загадана.</br>Прикольная, думаю для завершения вечера самое то.</p>\n' +
+        '                        <p class="focus:outline-none text-lg font-medium ">Как же давно не играл в Descent.Впервые в роли властелина.Герои выхватили от эттина, а потом и от зомби.Второй игрой вечера новинка.На стол выкладываются 12 карт сказочных персонажей. Ведущий должен с помощью карт других персонажей подсказать игрокам, какая карта была загадана.Прикольная, думаю для завершения вечера самое то.</p>\n' +
         '                    <div>\n' +
         '                    <div>\n' +
         '                        <div class="flex p-8 flex-col items-center px-4 md:px-12">\n' +
         '                            <p  class="focus:outline-none text-sm text-sky-500 dark:text-sky-400 text-center">Descent,Similo-Сказки,Similo-Страшилки</p>\n' +
-        '                        </div>                               </div>' +
-        '                      <div class="gap-x-1 gap-y-0 grid  grid-cols-3 hover:auto-rows-min">                                   <div class="gap-x-5 gap-y-5  max-w-xs  flex flex-col justify-between ">\n' +
-        '                              <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://github.com/fso13/note-boardgames/raw/master/img/103/4754f885-bd86-4201-b07e-04e78be2a7b5.jpg">\n' +
-        '                          </div>                                   <div class="gap-x-5 gap-y-5  max-w-xs  flex flex-col justify-between ">\n' +
-        '                              <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://github.com/fso13/note-boardgames/raw/master/img/103/41ce4af1-72f3-4da3-876e-d8eb81f033b3.jpg">\n' +
-        '                          </div></div>';
+        '                        </div>' +
+        '                    </div>' +
+        '                    <div class="gap-x-1 gap-y-0 grid  grid-cols-3 hover:auto-rows-min">' +
+        '                            ' +
+        '                               <div class="gap-x-5 gap-y-5  max-w-xs  flex flex-col justify-between ">\n' +
+        '                                   <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://github.com/fso13/note-boardgames/raw/master/img/103/4754f885-bd86-4201-b07e-04e78be2a7b5.jpg">\n' +
+        '                               </div>' +
+        '                           ' +
+        '                               <div class="gap-x-5 gap-y-5  max-w-xs  flex flex-col justify-between ">\n' +
+        '                                   <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://github.com/fso13/note-boardgames/raw/master/img/103/41ce4af1-72f3-4da3-876e-d8eb81f033b3.jpg">\n' +
+        '                               </div>' +
+        '                           ' +
+        '</div>';
     mainDiv.className = 'rounded';
     document.getElementById('container').className = 'container grid';
 
