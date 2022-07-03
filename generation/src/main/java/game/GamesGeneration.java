@@ -42,7 +42,7 @@ public class GamesGeneration {
 
         games.forEach(game -> {
             game.descriptions = Optional.ofNullable(game.description).orElse(game.descriptionShort).replaceAll("\r\n", "<\\br>");
-            game.players =  String.format("от %s до %s игроков", game.playersMin, "0".equals(game.playersMax) ? "∞" : game.playersMax);
+            game.players = String.format("от %s до %s игроков", game.playersMin, "0".equals(game.playersMax) ? "∞" : game.playersMax);
             String total = templateService.render(PageType.GAME, Collections.singletonMap("game", new ObjectMapper().convertValue(game, Map.class)));
 
             try {

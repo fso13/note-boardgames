@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>$note.tags</title>
+    <title>D&D</title>
     <link href="../ico.png" rel="shortcut icon" type="image/x-icon">
     <meta charset="UTF-8">
-    <meta content="https://fso13.github.io/note-boardgames/html/${note.id}.html" property="og:url"/>
+    <meta content="https://fso13.github.io/note-boardgames/html/-4.html" property="og:url"/>
     <meta content="article" property="og:type"/>
     <meta content="Бардовский университет" property="og:site_name"/>
-    <meta content="${note.content}" property="og:title"/>
-    <meta content=${note.content}/ property="og:description">
-    <meta content="${note.file0}" property="og:image"/>
-    <meta content="${note.content}" property="og:image:alt"/>
+    <meta content="Следите, где устраиваете привал." property="og:title"/>
+    <meta content=Следите, property="og:description" где привал. устраиваете/>
+    <meta content="https://github.com/fso13/note-boardgames/raw/master/img/-4/img.png" property="og:image"/>
+    <meta content="Следите, где устраиваете привал." property="og:image:alt"/>
     <meta content="550" property="og:image:width"/>
     <meta content="550" property="og:image:height"/>
     <script
@@ -45,20 +45,24 @@
         '            <div role="alert" class="container mx-auto  flex justify-center">\n' +
         '                <div class="relative w-11/12 sm:w-8/12 md:w-9/12 pt-10 pb-8 rounded">\n' +
         '                    <div class="flex flex-col items-center px-4 md:px-12">\n' +
-        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-center ">$note.title</p>\n' +
-        '                        <p class="focus:outline-none text-lg font-medium ">$note.content</p>\n' +
+        '                        <p class="pb-10 text-base sm:text-lg md:text-2xl font-bold md:leading-6 mt-6 text-center ">09.04.2021</p>\n' +
+        '                        <p class="focus:outline-none text-lg font-medium ">Следите, где устраиваете привал.</p>\n' +
         '                    <div>\n' +
         '                    <div>\n' +
         '                        <div class="flex p-8 flex-col items-center px-4 md:px-12">\n' +
-        '                            <p  class="focus:outline-none text-sm text-sky-500 dark:text-sky-400 text-center">$note.tags</p>\n' +
+        '                            <p  class="focus:outline-none text-sm text-sky-500 dark:text-sky-400 text-center">D&D</p>\n' +
         '                        </div>' +
         '                    </div>' +
         '                    <div class="gap-x-1 gap-y-0 grid  grid-cols-3 hover:auto-rows-min">' +
-        '                            #foreach ($file in $note.files)' +
+        '                            ' +
         '                               <div class="gap-x-5 gap-y-5  max-w-xs  flex flex-col justify-between ">\n' +
-        '                                   <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="${file}">\n' +
+        '                                   <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://github.com/fso13/note-boardgames/raw/master/img/-4/img.png">\n' +
         '                               </div>' +
-        '                           #end' +
+        '                           ' +
+        '                               <div class="gap-x-5 gap-y-5  max-w-xs  flex flex-col justify-between ">\n' +
+        '                                   <img class="object-scale-down h-80 w-80 p-3 contrast-125 hue-rotate-15" src="https://github.com/fso13/note-boardgames/raw/master/img/-4/img_1.png">\n' +
+        '                               </div>' +
+        '                           ' +
         '</div>';
     mainDiv.className = 'rounded';
     document.getElementById('container').className = 'container grid';

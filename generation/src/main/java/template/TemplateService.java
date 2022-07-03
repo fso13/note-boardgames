@@ -1,6 +1,5 @@
 package template;
 
-import org.apache.tomcat.util.buf.CharsetUtil;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
