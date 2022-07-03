@@ -13,6 +13,8 @@ public class GameItem {
     public String descriptionShort;
     public String playersMin;
     public String playersMax;
+    public String players;
+    public String descriptions;
 
     @Override
     public String toString() {
