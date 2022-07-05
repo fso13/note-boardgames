@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ТОП 10 игр</title>
+    <link href="ico.png" rel="shortcut icon" type="image/x-icon">
+    <meta charset="UTF-8">
+    <script
+            crossorigin="anonymous"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="js/note.js"></script>
+    <script src="js/games.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/header.js"></script>
+</head>
+
+<body translate="no">
+
+</body>
+
+<script defer>
+    var nav = document.createElement('div');
+    nav.className = 'flex flex-no-wrap font-mono';
+    nav.innerHTML = headerHtml;
+    nav.id = 'header';
+
+    document.body.appendChild(nav);
+
+    var calendarEl = document.createElement('div');
+    calendarEl.className = 'container grid';
+    calendarEl.innerHTML = '<div class="shadow-lg rounded-lg overflow-hidden">\n' +
+        '  <div class="py-2 px-2 bg-gray-50">ТОП 10 игр</div>\n' +
+        '  <canvas class="p-10" id="chartBar"></canvas>\n' +
+        '</div>';
+    calendarEl.id = 'calendar';
+
+    document.getElementById('container').className = 'container grid';
+    document.getElementById('container').appendChild(calendarEl);
+
+</script>
+
+<script>
+    const labelsBarChart = $labelsBarChart;
+    const dataBarChart = {
+        labels: labelsBarChart,
+        datasets: [
+            {
+                label: "Кол-во сыгранных партий",
+                backgroundColor: ["rgb(133, 105, 241)",
+                    "rgb(164, 101, 241)",
+                    "rgb(101, 143, 241)"],
+                borderColor: "hsl(252, 82.9%, 67.8%)",
+                data: $data,
+            },
+        ],
+    };
+
+    const configBarChart = {
+        type: "bar",
+        data: dataBarChart,
+        options: {},
+    };
+
+    var chartBar = new Chart(
+        document.getElementById("chartBar"),
+        configBarChart
+    );
+</script>
+</html>

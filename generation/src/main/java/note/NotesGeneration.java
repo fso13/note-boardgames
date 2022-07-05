@@ -26,7 +26,7 @@ public class NotesGeneration {
     public static void main(String[] args) throws IOException {
         String userDir = System.getProperties().getProperty("user.dir");
         TemplateService templateService = new TemplateService();
-        String list = new String(Files.readAllBytes(Paths.get(userDir + "\\page\\js\\note.js")), StandardCharsets.UTF_8).replace("var notes = ", "");
+        String list = new String(Files.readAllBytes(Paths.get(userDir + "\\js\\note.js")), StandardCharsets.UTF_8).replace("var notes = ", "");
         list = list.trim();
         JsonReader reader = new JsonReader(new StringReader(list));
         reader.setLenient(true);
@@ -50,7 +50,7 @@ public class NotesGeneration {
 
 
             try {
-                Files.write(Paths.get(userDir + "\\page\\html\\notes\\" + note.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
+                Files.write(Paths.get(userDir + "\\html\\" + note.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
             } catch (IOException e) {
                 e.printStackTrace();
             }

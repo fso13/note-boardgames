@@ -89,7 +89,7 @@ public class TeseraNewCollections {
                 String d2 = (String) o2.get("title");
                 return d1.compareTo(d2);
             });
-            Files.write(Paths.get(userDir + "\\page\\js\\games.js"), ("var games =" + objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(games)).getBytes(StandardCharsets.UTF_8));
+            Files.write(Paths.get(userDir + "\\js\\games.js"), ("var games =" + objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(games)).getBytes(StandardCharsets.UTF_8));
 
         } catch (IOException e) {
             e.printStackTrace();

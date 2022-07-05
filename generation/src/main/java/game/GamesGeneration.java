@@ -28,7 +28,7 @@ public class GamesGeneration {
     public static void main(String[] args) throws IOException {
         String userDir = System.getProperties().getProperty("user.dir");
 
-        String list = new String(Files.readAllBytes(Paths.get(userDir + "\\page\\js\\games.js")), StandardCharsets.UTF_8).replace("var games =", "");
+        String list = new String(Files.readAllBytes(Paths.get(userDir + "\\js\\games.js")), StandardCharsets.UTF_8).replace("var games =", "");
         list = list.trim();
         JsonReader reader = new JsonReader(new StringReader(list));
         reader.setLenient(true);
@@ -46,7 +46,7 @@ public class GamesGeneration {
             String total = templateService.render(PageType.GAME, Collections.singletonMap("game", new ObjectMapper().convertValue(game, Map.class)));
 
             try {
-                Files.write(Paths.get(userDir + "\\page\\html\\games\\" + game.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
+                Files.write(Paths.get(userDir + "\\html\\games\\" + game.id + ".html"), total.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
             } catch (IOException e) {
                 e.printStackTrace();
             }

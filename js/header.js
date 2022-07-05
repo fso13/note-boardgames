@@ -2,10 +2,12 @@ var headerHtml =
 
     '    <div style="height: 100vh;position: -webkit-sticky;position: sticky;" class="w-64  text-lg font-medium  top-0 z-50 sm:relative bg-gray-800 shadow md:h-full flex-col justify-between hidden sm:flex">\n' +
     '        <div class="px-8">\n' +
-    '            <div class="focus:outline-none h-20 w-20 mb-4 lg:mb-0 mr-4 items-center">\n' +
-    '                <img class="h-full w-full rounded-full overflow-hidden shadow items-center"  src="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg?size=100x100&quality=96&crop=20,20,503,503&ava=1" alt="Logo">\n' +
-    '            </div>\n' +
     '            <ul class="mt-12">\n' +
+    '                <li class="flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6">\n' +
+    '                   <div class="focus:outline-none h-20 w-20 mb-4 lg:mb-0 mr-4 items-center mb-6">\n' +
+    '                       <img class="h-full w-full rounded-full overflow-hidden shadow items-center"  src="https://sun9-63.userapi.com/s/v1/if1/_86rarat6d7LPOE5G6LfVegJuItSP73RjyPkwFpimEMdzEdshZG8VighmXowAFCf3YFTnvUY.jpg?size=100x100&quality=96&crop=20,20,503,503&ava=1" alt="Logo">\n' +
+    '                   </div>\n' +
+    '                </li>\n' +
     '                <li class="flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6">\n' +
     '                    <a href="/note-boardgames/index.html" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">\n' +
     '                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">' +
@@ -30,6 +32,13 @@ var headerHtml =
     '                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />\n' +
     '                       </svg>\n' +
     '                        <span class="text-lg font-medium ml-2">Календарь</span>\n' +
+    '                    </a>\n' +
+    '                </li>\n' +
+    '                <li class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">\n' +
+    '                    <a href="/note-boardgames/chart.html" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">\n' +
+    '                       <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 8 8">' +
+    '                           <path fill="currentColor" d="M.09 0C.03 0 0 .04 0 .09V4.9c0 .05.04.09.09.09H1.9c.05 0 .09-.04.09-.09V.09C1.99.03 1.95 0 1.9 0H.09zm6 0A.09.09 0 0 0 6 .09V4.9c0 .05.04.09.09.09H7.9c.05 0 .09-.04.09-.09V.09C7.99.03 7.95 0 7.9 0H6.09zm-3 2c-.06 0-.09.04-.09.09V4.9c0 .05.04.09.09.09H4.9c.05 0 .09-.04.09-.09V2.09c0-.06-.04-.09-.09-.09H3.09zM0 6v1h8V6H0z"/></svg>\n' +
+    '                        <span class="text-lg font-medium ml-2">ТОП 10</span>\n' +
     '                    </a>\n' +
     '                </li>\n' +
     '            </ul>\n' +

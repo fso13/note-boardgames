@@ -3,6 +3,7 @@ package template;
 public enum PageType {
     GAME("templates/html/game.html"),
     NOTE("templates/html/note.html"),
+    CHART("templates/html/chart.html"),
 
     ;
 
